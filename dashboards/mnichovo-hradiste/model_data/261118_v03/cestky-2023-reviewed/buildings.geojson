@@ -1,0 +1,509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-A",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.966217254136335,
+              50.51633981190157
+            ],
+            [
+              14.966363786237842,
+              50.516271109178014
+            ],
+            [
+              14.966547135236551,
+              50.51643008065782
+            ],
+            [
+              14.96640060274394,
+              50.51649878368985
+            ],
+            [
+              14.966217254136335,
+              50.51633981190157
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BD A",
+        "source_building_id": "SO 01",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "apartments",
+        "category": "apartments",
+        "source_legend_label": "Bytové domy · doložené 5 NP",
+        "color": "#4c846b",
+        "source_floor_count": 5,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": 15.54,
+        "assumed_height_m": null,
+        "height_evidence": "EXPLICIT",
+        "source_railing_top_m": 16.64,
+        "source_roof_slab_m": 14.475,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Bytový dům; přízemí obsahuje garáže a společné/zázemí, vyšší podlaží bydlení",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / A",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": 283.2,
+        "source_area_raw": "21,95 × 12,9 m = 283,2 m²",
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": true,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Doložená horní hrana atiky 15,54 m. Zábradlí 16,64 m není další podlaží ani plná hmota. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S079-p1.png",
+        "object_id": "CESTKY-2023-A",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "SO 01",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 283.15497358288735,
+        "original_area_m2": 283.15497251112606,
+        "geometry_review": "unchanged",
+        "context_only": false,
+        "model_floor_count": 5,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 15.54,
+        "height_basis": "EXPLICIT",
+        "height_source_id": "S079",
+        "height_source_page": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-B",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.966538423042612,
+              50.516618279261195
+            ],
+            [
+              14.966684955605519,
+              50.51654957614946
+            ],
+            [
+              14.966868306649584,
+              50.516708547194916
+            ],
+            [
+              14.966721773866194,
+              50.5167772505321
+            ],
+            [
+              14.966538423042612,
+              50.516618279261195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BD B",
+        "source_building_id": "SO 02",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "apartments",
+        "category": "apartments",
+        "source_legend_label": "Bytové domy · doložené 5 NP",
+        "color": "#4c846b",
+        "source_floor_count": 5,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": 15.525,
+        "assumed_height_m": null,
+        "height_evidence": "EXPLICIT",
+        "source_railing_top_m": 16.625,
+        "source_roof_slab_m": 14.475,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Bytový dům; přízemí obsahuje garáže a společné/zázemí, vyšší podlaží bydlení",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / B",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": 283.2,
+        "source_area_raw": "21,95 × 12,9 m = 283,2 m²",
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": true,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Doložená horní hrana atiky 15,525 m. Zábradlí 16,625 m není další podlaží ani plná hmota. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S078-p1.png",
+        "object_id": "CESTKY-2023-B",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "SO 02",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 283.15494160382013,
+        "original_area_m2": 283.1549405099928,
+        "geometry_review": "unchanged",
+        "context_only": false,
+        "model_floor_count": 5,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 15.525,
+        "height_basis": "EXPLICIT",
+        "height_source_id": "S078",
+        "height_source_page": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-C",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.96653425262228,
+              50.5161911939713
+            ],
+            [
+              14.966680784056498,
+              50.51612249077487
+            ],
+            [
+              14.966864133306533,
+              50.51628146174809
+            ],
+            [
+              14.966717601952736,
+              50.51635016519554
+            ],
+            [
+              14.96653425262228,
+              50.5161911939713
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BD C",
+        "source_building_id": "SO 03",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "apartments",
+        "category": "apartments",
+        "source_legend_label": "Bytové domy · doložené 5 NP",
+        "color": "#4c846b",
+        "source_floor_count": 5,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": 15.525,
+        "assumed_height_m": null,
+        "height_evidence": "EXPLICIT",
+        "source_railing_top_m": 16.625,
+        "source_roof_slab_m": 14.475,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Bytový dům; přízemí obsahuje garáže a společné/zázemí, vyšší podlaží bydlení",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / C",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": 283.2,
+        "source_area_raw": "21,95 × 12,9 m = 283,2 m²",
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": true,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Doložená horní hrana atiky 15,525 m. Zábradlí 16,625 m není další podlaží ani plná hmota. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S079-p1.png",
+        "object_id": "CESTKY-2023-C",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "SO 03",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 283.1550056889174,
+        "original_area_m2": 283.15500454749616,
+        "geometry_review": "unchanged",
+        "context_only": false,
+        "model_floor_count": 5,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 15.525,
+        "height_basis": "EXPLICIT",
+        "height_source_id": "S079",
+        "height_source_page": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-D",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.966855347027575,
+              50.51646969319784
+            ],
+            [
+              14.967001878697745,
+              50.51640098959397
+            ],
+            [
+              14.96718523021866,
+              50.51655996015216
+            ],
+            [
+              14.967038698348192,
+              50.51662866388549
+            ],
+            [
+              14.966855347027575,
+              50.51646969319784
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BD D",
+        "source_building_id": "SO 04",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "apartments",
+        "category": "apartments",
+        "source_legend_label": "Bytové domy · doložené 5 NP",
+        "color": "#4c846b",
+        "source_floor_count": 5,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": 15.525,
+        "assumed_height_m": null,
+        "height_evidence": "EXPLICIT",
+        "source_railing_top_m": 16.625,
+        "source_roof_slab_m": 14.475,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Bytový dům; přízemí obsahuje garáže a společné/zázemí, vyšší podlaží bydlení",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / D",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": 283.2,
+        "source_area_raw": "21,95 × 12,9 m = 283,2 m²",
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": true,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Doložená horní hrana atiky 15,525 m. Zábradlí 16,625 m není další podlaží ani plná hmota. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S078-p1.png",
+        "object_id": "CESTKY-2023-D",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "SO 04",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 283.15497383770384,
+        "original_area_m2": 283.15497264884857,
+        "geometry_review": "unchanged",
+        "context_only": false,
+        "model_floor_count": 5,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 15.525,
+        "height_basis": "EXPLICIT",
+        "height_source_id": "S078",
+        "height_source_page": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-GARAZ-AB",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.96640060274394,
+              50.51649878368985
+            ],
+            [
+              14.966545431354524,
+              50.51643087953779
+            ],
+            [
+              14.966683251721564,
+              50.516550375031336
+            ],
+            [
+              14.966538423042612,
+              50.516618279261195
+            ],
+            [
+              14.96640060274394,
+              50.51649878368985
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Garáže a komerce A–B",
+        "source_building_id": "GARAZ-AB",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "garage_commercial",
+        "category": "garage_commercial",
+        "source_legend_label": "Garáže a komerce · 1 NP",
+        "color": "#a89c80",
+        "source_floor_count": 1,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": 3.75,
+        "assumed_height_m": null,
+        "height_evidence": "EXPLICIT",
+        "source_railing_top_m": null,
+        "source_roof_slab_m": null,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Přízemní garáže a komerční prostory",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / GARAZ-AB",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": null,
+        "source_area_raw": null,
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": false,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Horní hrana atiky +3,750 m v S081 a S082. Terasy a střešní skladby mají rozdílné nižší kóty; model zjednodušuje obálku. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S081-p1.png",
+        "object_id": "CESTKY-2023-GARAZ-AB",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "GARAZ-AB",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 210.36689803973212,
+        "original_area_m2": 210.36689734495624,
+        "geometry_review": "unchanged",
+        "context_only": false,
+        "model_floor_count": 1,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 3.75,
+        "height_basis": "EXPLICIT",
+        "height_source_id": "S081",
+        "height_source_page": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CESTKY-2023-GARAZ-CD",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.966826199854445,
+              50.516580992198236
+            ],
+            [
+              14.966545031904202,
+              50.516336774615475
+            ],
+            [
+              14.966646937848017,
+              50.51628899480886
+            ],
+            [
+              14.966717526596165,
+              50.51635019801203
+            ],
+            [
+              14.96671995830182,
+              50.51634937850886
+            ],
+            [
+              14.966864052628427,
+              50.51628149000865
+            ],
+            [
+              14.966738451283325,
+              50.516172490811854
+            ],
+            [
+              14.966868438117647,
+              50.51611154434931
+            ],
+            [
+              14.96723603550048,
+              50.51643016195627
+            ],
+            [
+              14.967105941774927,
+              50.51649120674393
+            ],
+            [
+              14.967001893289744,
+              50.5164009828335
+            ],
+            [
+              14.966855277187957,
+              50.51646972599747
+            ],
+            [
+              14.96692899968802,
+              50.516532793129905
+            ],
+            [
+              14.966826199854445,
+              50.516580992198236
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Garáže C–D · zjednodušená výška",
+        "source_building_id": "GARAZ-CD",
+        "source_id": "S080",
+        "source_page": 1,
+        "class_id": "garage",
+        "category": "garage",
+        "source_legend_label": "Garáže · výška částečně předpoklad",
+        "color": "#a89c80",
+        "source_floor_count": 1,
+        "floor_evidence": "EXPLICIT",
+        "source_height_m": null,
+        "assumed_height_m": 3.57,
+        "height_evidence": "PROPOSED",
+        "source_railing_top_m": null,
+        "source_roof_slab_m": null,
+        "source_datum_m": 235.45,
+        "height_definition": "Horní hrana plné atiky vůči ±0,000; nejde o celkovou výšku včetně zábradlí",
+        "source_function": "Hromadné přízemní garáže a zázemí",
+        "function_evidence": "EXPLICIT",
+        "source_locator": "S080 / PDF str. 1 / C.3 / GARAZ-CD",
+        "source_revision": "Změna stavby před dokončením · 06/2023",
+        "source_area_m2": null,
+        "source_area_raw": null,
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": false,
+        "area_comparison_note": "Vnější obrys konkrétního BD versus zaokrouhlená výměra S080; garáže mají jen společnou zdrojovou bilanci.",
+        "note": "Předpoklad: jednotných 3,570 m pro celý členitý garážový díl. Kóta je doložená jen pro část střechy S081 a garáž při C v S079; ne pro každý úsek tohoto obrysu. Hmotový model do horní hrany plné atiky, bez balkónů, otvorů, zábradlí a střešních nástaveb. Kóty jsou vůči projektové ±0,000 = 235,45 m n. m. Zasazení na současný terén je pouze zobrazovací předpoklad; projektovaná niveleta terénu není rekonstruována.",
+        "evidence_status": "DERIVED",
+        "evidence_image_ref": "../research/S081-p1.png",
+        "object_id": "CESTKY-2023-GARAZ-CD",
+        "kind": "building_part",
+        "scenario_id": "cestky-2023",
+        "parent_object_id": "GARAZ-CD",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 1019.5535910648256,
+        "original_area_m2": 1019.553587002706,
+        "geometry_review": "candidate_only",
+        "context_only": false,
+        "model_floor_count": 1,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 3.57,
+        "height_basis": "PROPOSED",
+        "height_source_id": "S081",
+        "height_source_page": 1
+      }
+    }
+  ]
+}

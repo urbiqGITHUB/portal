@@ -1,0 +1,46 @@
+{
+  "basis": "EPSG:5514; parts clipped to unmodified S005; not source-stated or register areas",
+  "s005_area_m2": 209489.96941445614,
+  "sum_area_m2": 209489.9694144499,
+  "areas_m2": {
+    "A": 80021.2614192942,
+    "B": 60441.47503366843,
+    "C": 37993.73613703425,
+    "D": 10469.86673887304,
+    "roads": 20563.630085579993
+  },
+  "serialized_uncovered_m2": 1.3244454913042427e-06,
+  "serialized_outside_m2": 2.0581134890249603e-06,
+  "serialized_overlap_m2": 2.3283064365386963e-10,
+  "reference_gap_m2": 0.0,
+  "features": 156,
+  "original_review_parts": 78,
+  "changed_assignments": 92,
+  "status": "PROPOSED; human review pending",
+  "zones": [
+    {
+      "zone": "A",
+      "source_area_m2": 82000.0,
+      "source_scheme_gis_m2": 76517.63905229158,
+      "working_parcel_gis_m2": 80021.2614192942
+    },
+    {
+      "zone": "B",
+      "source_area_m2": 60000,
+      "source_scheme_gis_m2": 52712.828940613144,
+      "working_parcel_gis_m2": 60441.47503366843
+    },
+    {
+      "zone": "C",
+      "source_area_m2": 37000.0,
+      "source_scheme_gis_m2": 32473.704589705685,
+      "working_parcel_gis_m2": 37993.73613703425
+    },
+    {
+      "zone": "D",
+      "source_area_m2": 10000,
+      "source_scheme_gis_m2": 9056.971187954585,
+      "working_parcel_gis_m2": 10469.86673887304
+    }
+  ]
+}

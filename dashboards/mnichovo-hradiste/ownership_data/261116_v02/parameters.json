@@ -1,0 +1,33 @@
+{
+  "interior_buffer_m": 2,
+  "min_classified_pixels": 10,
+  "min_dominance": 0.9,
+  "min_classified_interior_coverage": 0.6,
+  "min_scope_fraction": 0.9,
+  "sensitivity_pixel_offsets": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      -1
+    ]
+  ],
+  "sensitivity_min_dominance": 0.85,
+  "selection": "Every native parcel intersecting source study mask by more than 1 m²; whole original polygon preserved.",
+  "missing_color": "unknown, never nearest-class fill",
+  "source_resolution_m_per_pixel": 1.36
+}

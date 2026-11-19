@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "inventory_id": "mh-up-zm2-sources-261118",
+  "created_at": "2026-11-18T10:50:00+01:00",
+  "scope": "Územní plán Mnichovo Hradiště, úplné znění po změně č. 2, plochy s rozdílným způsobem využití.",
+  "sources": [
+    {
+      "id": "261118_mnhradiste_up_official_page",
+      "url": "https://www.mnhradiste.cz/radnice/strategicke-dokumenty/prehled-stavu-up/mnichovo-hradiste",
+      "local_path": "../source/261118_mnhradiste_up_official_page.html",
+      "sha256": "438253ee3c536ce4692ae3d55892843756bc727df569f26ac62013eb9bf71f63",
+      "bytes": 83437,
+      "acquired_at": "2026-11-18T10:34:08.663874+01:00",
+      "role": "Oficiální identifikace platné revize, účinnosti a odkazů na dokumentaci.",
+      "authority": "Město Mnichovo Hradiště",
+      "limitation": null
+    },
+    {
+      "id": "261118_536326-v2-hlv",
+      "url": "https://www.mnhradiste.cz/data/soubory/2026/536326-v2-hlv.pdf",
+      "local_path": "../source/261118_536326-v2-hlv.pdf",
+      "sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+      "bytes": 6557070,
+      "acquired_at": "2026-11-18T09:13:52.757318+01:00",
+      "role": "Primární geometrický a legendový zdroj; hlavní výkres V2.",
+      "authority": "Oficiální zveřejněná územně plánovací dokumentace",
+      "limitation": "Vektorové PDF bez vloženého geospatial GPTS; geometrie je odvozena z PDF vrstev."
+    },
+    {
+      "id": "261118_536326-text",
+      "url": "https://www.mnhradiste.cz/data/soubory/2026/536326-text.pdf",
+      "local_path": "../source/261118_536326-text.pdf",
+      "sha256": "bcd0473556e427b5a6b029d654c2f7d9d71eb055b90fe0b3ff2fe8b337ba1d53",
+      "bytes": 1007612,
+      "acquired_at": "2026-11-18T09:13:52.642656+01:00",
+      "role": "Textová kontrola revize, terminologie a rozsahu dokumentace.",
+      "authority": "Oficiální zveřejněná územně plánovací dokumentace",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_mapserver_metadata",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer?f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_mapserver_metadata.json",
+      "sha256": "be4753c855688e94ca4712b5f27fa5063fe5053db268b5a1395c6b9c08a8637c",
+      "bytes": 23621,
+      "acquired_at": "2026-11-18T09:36:54.895432+01:00",
+      "role": "Metadata autoritativní referenční služby.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_obec_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/12/query?where=kod%3D536326&outFields=*&returnGeometry=true&outSR=5514&f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_obec_536326_epsg5514.json",
+      "sha256": "0ea2bcac27e0a9e8f75b00bfdfde61ed2470b3b43ddce1fdde6acaeea313fcda",
+      "bytes": 108932,
+      "acquired_at": "2026-11-18T09:36:55.596006+01:00",
+      "role": "Registrační reference hranice obce v EPSG:5514.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_ku_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/7/query?where=obec%3D536326&outFields=kod%2Cnazev%2Cobec%2Cplatiod&returnGeometry=true&outSR=5514&f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_ku_536326_epsg5514.json",
+      "sha256": "2b9f4d5bafdae95f0958c1bd9bc2a6de041f3000e8aefaa9ecbc5eb34e701ee2",
+      "bytes": 265083,
+      "acquired_at": "2026-11-18T09:37:49.074438+01:00",
+      "role": "Kontrola osmi katastrálních území obce.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_parcely_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/5/query",
+      "local_path": "../source/261118_cuzk_ruian_parcely_536326_epsg5514.json",
+      "sha256": "a7c495b69dddabecc4381271e898aa47607fd219537d1fdde407fb8c59dc26be",
+      "bytes": 16462732,
+      "acquired_at": "2026-11-18T10:07:20.722542+01:00",
+      "role": "Nezávislá kontrola polohy vůči 15 014 aktuálním parcelám.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": "Aktuální stav se může lišit od katastrálního podkladu výkresu k 02.01.2025."
+    },
+    {
+      "id": "261118_gepro_layers",
+      "url": "https://mnichovo-hradiste.obce.gepro.cz/MACRO/JSON/LAYERS?r=1",
+      "local_path": "../source/261118_gepro_layers.json",
+      "sha256": "ee7607cd40b6ee2e4e2f114b71617b5e55962dababcaf758d125b3c5025f851f",
+      "bytes": 24471,
+      "acquired_at": "2026-11-18T10:34:08.914756+01:00",
+      "role": "Ověření typu veřejné vrstvy městského geoportálu.",
+      "authority": "Veřejný Geoportál Mnichova Hradiště / GEPRO",
+      "limitation": "Vrstva UP_MH je rastrové WMS, nikoli veřejný vektorový download."
+    },
+    {
+      "id": "261118_gepro_nodes",
+      "url": "https://mnichovo-hradiste.obce.gepro.cz/MACRO/JSON/NODES?r=1",
+      "local_path": "../source/261118_gepro_nodes.json",
+      "sha256": "071f39675bb271610a1e634f9ee18f979cf4e4272304c786595d6bcac85ab24c",
+      "bytes": 14272,
+      "acquired_at": "2026-11-18T10:34:09.025790+01:00",
+      "role": "Ověření katalogové větve Ostatní > Územní plán > Mnichovo Hradiště.",
+      "authority": "Veřejný Geoportál Mnichova Hradiště / GEPRO",
+      "limitation": null
+    }
+  ],
+  "screened_not_used": [
+    {
+      "name": "Krajský ArcGIS – Územní plány HV",
+      "url": "https://gis.kr-stredocesky.cz/wagisas01/rest/services/USR/USR_UPN_UPD_OBEC_HLV/MapServer",
+      "reason": "Vrstva Mnichova Hradiště v katalogu odpovídá starší revizi 2022, proto nebyla použita jako geometrický zdroj pro platný stav 2026."
+    }
+  ]
+}

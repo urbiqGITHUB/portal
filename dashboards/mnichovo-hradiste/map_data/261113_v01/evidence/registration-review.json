@@ -1,0 +1,14 @@
+{
+  "reviewed_at": "2026-11-13T09:33:29+01:00",
+  "S004": "Visual overlay of ortho checked: roads, field edges, residential blocks match across panel; source boundary thickness remains limiting.",
+  "S003": "Source diagram manually traced; proof image retains source, white borders and magenta extracted polygon rings. Final geographic overlay also requires browser inspection.",
+  "S062": "17 coordinates visually checked against source table. Source drawing registration independently holds out 11 numbered points from final fit, but all are from same source, not geodetic accuracy evidence.",
+  "remaining_review": "Browser rendering and final layer/source alignment recorded in browser-qa.json after testing.",
+  "final_visual_review": {
+    "S004": "Native boundary aligns to black source stroke; roads and field boundaries align with orthophoto.",
+    "S003": "All four serialized polygon rings reviewed over source diagram, source-S003_parts_source.png and parts-source-review.png. Schematic/area mismatch retained explicitly.",
+    "S062": "All 17 serialized coordinate points and connecting line align with transformed source drawing; source-S062_water_source.png.",
+    "ui": "Desktop and 390x844 mobile screenshots inspected. Live/source/fallback z-order corrected and tested.",
+    "human_review": null
+  }
+}

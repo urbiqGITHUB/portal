@@ -1,0 +1,33 @@
+.offer-tabs{margin:0 0 18px}.offer-panel>.pricing{margin:0 0 18px}.offer-panel>.offer-grid{margin-bottom:18px}.offer-panel[hidden]{display:none!important}
+#offerCalculator{margin-top:0}
+#offerCalculator .fee-timeline{height:211px;min-width:1000px}
+#offerCalculator .fee-months{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));top:0;padding-bottom:10px}
+#offerCalculator .fee-months span{width:auto;text-align:center;direction:ltr;transform:none}
+#offerCalculator .fee-months span:after{left:100%;top:20px;height:8px}
+#offerCalculator .fee-phase{box-sizing:border-box;top:40px;transform:none;min-height:138px;height:138px;border-radius:5px 0 0 5px;padding:10px 14px;gap:4px;align-items:flex-start;color:#173a20;border:1px solid #cad2c5;border-right:3px solid #67775d;background:linear-gradient(90deg,#f3f4f1 0%,#e1e4dd 65%,#98a18e 100%);overflow:visible}
+#offerCalculator .fee-phase[aria-pressed=true]{background:linear-gradient(90deg,#eef5e6 0%,#d1e3bf 60%,#14642d 100%);border-color:#9cb58a;border-right-color:#14642d;color:#173a20}
+#offerCalculator .fee-phase[aria-pressed=false]:hover{background:linear-gradient(90deg,#f3f4f1 0%,#e1e4dd 65%,#98a18e 100%);color:#173a20}
+#offerCalculator .fee-phase:before{content:none}
+#offerCalculator .fee-phase>strong,#offerCalculator .fee-phase>span:not(.fee-milestone),#offerCalculator .fee-phase>small{background:#ffffffdc;border-radius:3px;padding:1px 4px;max-width:calc(100% - 10px);font-size:12px}
+#offerCalculator .fee-phase>strong{font:600 15px var(--heading)}
+#offerCalculator .fee-phase .fee-milestone{position:absolute;right:-3px;top:145px;white-space:nowrap;padding:0;color:#14642d;font:11px var(--heading);background:transparent}
+#offerCalculator .fee-phase[aria-pressed=false] .fee-milestone{color:#61705a}
+.fee-timeline-note,.fee-keyboard-note{font:12px/1.5 'Segoe UI',sans-serif;color:#58715d;margin:8px 0 16px}
+.fee-partner-key{display:flex;flex-wrap:wrap;gap:10px 20px;margin:15px 0 12px;font:13px var(--heading)}
+.fee-actor-0{--actor:#14642d}.fee-actor-1{--actor:#748e51}.fee-actor-2{--actor:#d9ad35}.fee-actor-3{--actor:#72869a}
+.fee-partner-key>span:before{content:'';display:inline-block;width:11px;height:11px;background:var(--actor);margin-right:7px;border-radius:2px}
+.fee-allocation-card{border:1px solid #d8e1d0;background:#fff;border-radius:8px;padding:18px 22px;margin:0 0 14px}
+.fee-allocation-card[hidden]{display:none}
+.fee-allocation-title{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}.fee-allocation-title h4{font:600 16px var(--heading);margin:0}.fee-allocation-title>span{font:11px 'Segoe UI',sans-serif;color:#58715d}.fee-allocation-title>strong{margin-left:auto;font:600 15px var(--heading)}
+.multi-budget{position:relative;height:74px;margin:2px 0;touch-action:pan-y}
+.multi-budget-rail{position:absolute;left:0;right:0;top:28px;height:18px;display:flex;border-radius:5px;overflow:hidden;background:#e9ede5}
+.budget-segment{display:block;height:100%;background:var(--actor);flex:none}
+.budget-handle{position:absolute;top:37px;transform:translate(-50%,-50%);width:28px;height:40px;min-height:40px;padding:0!important;border:2px solid #fff;border-radius:6px;background:#173a20;color:white;cursor:ew-resize;touch-action:none;box-shadow:0 1px 5px #173a2050;z-index:2;display:grid;place-items:center;font:18px 'Segoe UI',sans-serif}
+.budget-handle:hover,.budget-handle:focus-visible,.budget-handle.dragging{background:#0b3c1d;border-color:#c6d92b;color:white;z-index:5}.budget-handle:focus-visible{outline:2px solid #e58a2b;outline-offset:2px}
+.fee-partner-values{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.fee-partner-value{border-top:3px solid var(--actor);padding:9px 10px;background:#f6f8f2;border-radius:0 0 4px 4px;min-width:0}
+.fee-partner-value>span{display:block;font:12px var(--heading);margin-bottom:4px}.fee-partner-value strong{display:block;font:600 19px var(--heading);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.fee-partner-value small{display:block;font:13px 'Segoe UI',sans-serif;margin-top:4px;color:#52654c}
+.fee-partner-value.fee-actor-0{background:#eaf2df}.fee-partner-value.fee-actor-0 strong{color:#14642d}
+.fee-summary{background:#edf3e4;border:1px solid #c9d8ba;border-radius:8px;padding:18px 22px}.fee-summary h4{font:600 18px var(--heading);margin:0}.fee-summary .fee-partner-value{background:white}.fee-summary .fee-partner-value.fee-actor-0{background:#dcebc8}
+#feeTotalCheck{font:12px 'Segoe UI',sans-serif;margin:12px 0 0}
+@media(max-width:760px){.fee-allocation-card,.fee-summary{padding:14px}.fee-allocation-title{display:block}.fee-allocation-title>span,.fee-allocation-title>strong{display:block;margin:5px 0}.fee-partner-values{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.fee-partner-value strong{font-size:17px}.fee-partner-key{gap:8px 12px;font-size:11px}.offer-tabs{gap:6px}.budget-handle{width:32px;height:44px;min-height:44px}}

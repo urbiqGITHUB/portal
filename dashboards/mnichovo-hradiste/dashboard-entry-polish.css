@@ -1,0 +1,47 @@
+/* Chapter rhythm is identical in delivery and budget, and aligned with the overview. */
+#offer[data-offer-tab=budget]{padding:18px!important}
+#offer[data-offer-tab=budget] .chapter-heading{margin-bottom:18px!important}
+#offer[data-offer-tab=budget] .chapter-description{font:16px/1.5 'Segoe UI',sans-serif;margin:6px 0 0!important}
+#offerCalculator:not([data-selected-phases="4"])>.fee-allocation-grid{justify-content:flex-start;flex:0 0 auto;gap:12px}
+#offerCalculator:not([data-selected-phases="4"])>.fee-summary{margin-top:2px}
+#overview.active{padding:18px!important;max-width:none;margin:0;grid-template-rows:minmax(280px,1fr) 74px minmax(150px,.45fr);gap:10px}
+#overview .overview-intro{justify-content:flex-start}
+#overview .eyebrow{font:10px/1.4 var(--mono);letter-spacing:.04em;margin:0;color:#5d6b5f}
+#overview h2{font:700 32px/1.15 Fellix,'Segoe UI',sans-serif;margin:6px 0 12px;max-width:none}
+#overview .overview-intro>p{font:16px/1.5 'Segoe UI',sans-serif;color:#5d6b5f;max-width:1000px;margin:0}
+#overview .overview-guide{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 24px;padding-left:16px;margin:0;font:12px/1.4 'Segoe UI',sans-serif}
+#overview .overview-guide li{padding-left:0}
+#overview .overview-guide strong{font-weight:600}
+#overview .overview-lead{grid-template-columns:minmax(0,2fr) minmax(230px,1fr);grid-template-rows:minmax(150px,1fr) auto;gap:12px 24px}
+#overview .overview-evidence article{padding:10px 14px}
+#overview .overview-evidence h3{font-size:18px;margin-bottom:6px}
+#overview .overview-evidence p,#overview .overview-evidence li,#overview .overview-evidence a{font-size:11px;line-height:1.4}
+#overview .overview-evidence .doc-source-link{margin-left:12px}
+#dashboardFilesDialog{width:min(850px,94vw)!important;font:13px/1.5 'Segoe UI',sans-serif}
+#dashboardFilesDialog details{margin:8px 0}#dashboardFilesDialog summary{cursor:pointer}
+#dashboardFilesDialog .boot-file-list{font:11px/1.5 var(--mono);max-height:280px;overflow:auto;overflow-wrap:anywhere}
+@media(max-height:820px) and (min-width:761px){
+ #offerCalculator{padding:4px 12px}
+ #offerCalculator .fee-timeline{height:72px}
+ #offerCalculator>.fee-allocation-grid{gap:4px;padding:2px 0 4px}
+ #offerCalculator .fee-allocation-card{padding-block:2px}
+ #offerCalculator .fee-allocation-title{gap:0}
+ #offerCalculator .fee-summary{padding-block:4px}
+}
+@media(min-width:700px){#offer .chapter-heading{gap:5px 12px!important}}
+@media(max-width:1099px){
+ #offer[data-offer-tab=budget] .chapter-heading{margin-bottom:12px!important}
+ #overview h2{font-size:28px}
+ #overview .overview-lead{grid-template-columns:minmax(0,2fr) minmax(200px,1fr);gap:16px}
+ #overview .overview-guide{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 20px;font-size:11px}
+}
+@media(max-width:760px){
+ #offer[data-offer-tab=budget]{padding:10px!important}
+ #offer[data-offer-tab=budget] .chapter-description{font-size:13px;line-height:1.4}
+ #overview.active{display:flex;flex-direction:column;padding:10px!important;overflow:auto}
+ #overview h2{font-size:25px}
+ #overview .overview-intro>p{font-size:13px;line-height:1.4}
+ #overview .overview-lead{display:block}
+ #overview .overview-guide{grid-template-columns:1fr;font-size:12px;gap:10px;margin:14px 0}
+ #overview .overview-evidence{display:grid;grid-template-columns:1fr}
+}

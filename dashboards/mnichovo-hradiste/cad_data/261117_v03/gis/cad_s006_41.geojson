@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:4FEF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96190111581409,
+            50.516850360747675
+          ],
+          [
+            14.961927551185525,
+            50.516825358538554
+          ],
+          [
+            14.961885605862529,
+            50.51682187560338
+          ],
+          [
+            14.96190111581409,
+            50.516850360747675
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Komunikační zařízení · symboly · 4FEF",
+        "typology": "Komunikační vedení",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A082a_KOMZARIZENI_B",
+        "color": "#8b46b5",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 9.708,
+        "cad_handle": "4FEF",
+        "cad_layer": "A082a_KOMZARIZENI_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A082a_KOMZARIZENI_B · 4FEF",
+        "display_label": "Komunikační zařízení · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4FF0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961927551185525,
+            50.516825358538554
+          ],
+          [
+            14.961885605862529,
+            50.51682187560338
+          ],
+          [
+            14.96190111581409,
+            50.516850360747675
+          ],
+          [
+            14.961927551185525,
+            50.516825358538554
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Komunikační zařízení · symboly · 4FF0",
+        "typology": "Komunikační vedení",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A082a_KOMZARIZENI_B",
+        "color": "#8b46b5",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 9.708,
+        "cad_handle": "4FF0",
+        "cad_layer": "A082a_KOMZARIZENI_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A082a_KOMZARIZENI_B · 4FF0",
+        "display_label": "Komunikační zařízení · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4FF9",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96572695433007,
+            50.516005118499166
+          ],
+          [
+            14.965753387228256,
+            50.51598011542929
+          ],
+          [
+            14.965711442379341,
+            50.51597663385725
+          ],
+          [
+            14.96572695433007,
+            50.516005118499166
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Komunikační zařízení · symboly · 4FF9",
+        "typology": "Komunikační vedení",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A082a_KOMZARIZENI_B",
+        "color": "#8b46b5",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 9.708,
+        "cad_handle": "4FF9",
+        "cad_layer": "A082a_KOMZARIZENI_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A082a_KOMZARIZENI_B · 4FF9",
+        "display_label": "Komunikační zařízení · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4FFA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965753387228256,
+            50.51598011542929
+          ],
+          [
+            14.965711442379341,
+            50.51597663385725
+          ],
+          [
+            14.96572695433007,
+            50.516005118499166
+          ],
+          [
+            14.965753387228256,
+            50.51598011542929
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Komunikační zařízení · symboly · 4FFA",
+        "typology": "Komunikační vedení",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A082a_KOMZARIZENI_B",
+        "color": "#8b46b5",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 9.708,
+        "cad_handle": "4FFA",
+        "cad_layer": "A082a_KOMZARIZENI_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A082a_KOMZARIZENI_B · 4FFA",
+        "display_label": "Komunikační zařízení · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    }
+  ]
+}

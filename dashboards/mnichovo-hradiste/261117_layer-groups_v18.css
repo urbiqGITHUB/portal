@@ -1,0 +1,54 @@
+/* Layer hierarchy; scoped to the existing local map workspace. */
+#mapLayerList .map-group{border:1px solid #cdd6c5;border-radius:4px;margin:8px 0;background:#faf8ed}
+#mapLayerList .map-group>summary{padding:10px 8px;cursor:pointer;font-weight:650;background:#edf0df;overflow-wrap:anywhere}
+#mapLayerList .map-group>summary input{vertical-align:middle;margin:0 6px 0 0;accent-color:#216235}
+#mapLayerList .map-group-body{padding:0 6px 6px}
+#mapLayerList .map-group .map-group{border-left:3px solid #b4c5ac}
+#mapLayerList .map-group .map-group>summary{font-size:14px;background:#f4f4e9}
+#mapLayerList .group-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:9px 2px;border-bottom:1px solid #dce1d4}
+#mapLayerList .group-actions label{display:flex;align-items:center;gap:6px;font-size:12px}
+#mapLayerList .group-actions input[type=range]{width:78px;min-width:0;accent-color:#216235}
+#mapLayerList .group-actions output{min-width:32px;font-size:11px}
+#mapLayerList .map-layer{grid-template-columns:20px minmax(0,1fr) 15px 28px;padding:12px 0;gap:7px}
+#mapLayerList .map-layer small{overflow-wrap:anywhere}
+#mapLayerList .map-layer [data-semantic-warning]{color:#795418;font-size:11px;display:block;margin-top:5px}
+#mapLayerList .layer-appearance{grid-column:2/-1;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+#mapLayerList .layer-appearance label{font-size:11px;display:flex;align-items:center;gap:5px}
+#mapLayerList .layer-appearance input[type=range]{width:74px;min-width:0;accent-color:#216235}
+#mapLayerList .layer-appearance input[type=color]{width:28px;height:25px;min-height:0;padding:1px;border:1px solid #aab8ad;background:white}
+#mapLayerList .layer-appearance output{font-size:11px;min-width:31px}
+#mapLayerList .layer-appearance button{font-size:10px;padding:3px 5px;min-height:25px}
+#mapLayerList .layer-effective{width:100%;font-size:10px;color:#57685a}
+#mapLayerList [hidden]{display:none!important}
+.semantic-evidence{border-top:1px solid #bac7b6;margin-top:18px;padding-top:12px}
+.semantic-evidence article{padding:10px 0;border-bottom:1px solid #dae0d2}
+.semantic-evidence img{display:block;width:100%;max-width:700px;margin-top:8px}
+.semantic-evidence button,.semantic-evidence a{margin:5px 8px 5px 0;display:inline-block}
+#cadLayersDialog{width:min(1380px,95vw);max-height:90vh;padding:20px;background:#faf8ed;color:#123b32;border:1px solid #aab8ad}
+#cadLayersTable{width:100%;font-size:12px}
+#cadLayersTable th{min-width:120px;vertical-align:top}
+#cadLayersTable th input{width:100%;min-width:0}
+#cadLayersTable td{vertical-align:top;padding:10px;overflow-wrap:anywhere}
+#cadLayersTable td:first-child{min-width:200px}
+#cadLayersTable td:last-child{min-width:240px}
+#cadLayersTable button{font-size:12px}
+.live-layer-legend{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:12px}
+.live-layer-legend span:first-child{display:inline-block;flex:0 0 18px;height:12px;border:2px solid}
+
+/* v18 compact hierarchy; input controls retain their labelled hit areas. */
+#mapLayerList .map-group{margin:4px 0}
+#mapLayerList .map-group>summary{font-size:12px;line-height:1.45;padding:6px}
+#mapLayerList .map-group .map-group>summary{font-size:11.5px}
+#mapLayerList .map-group-body{padding:0 4px 4px}
+#mapLayerList .group-actions{padding:5px 2px}
+#mapLayerList .group-actions label{font-size:10px}
+#mapLayerList .map-layer{padding:7px 0;gap:5px}
+#mapLayerList .map-layer b,#mapLayerList .map-layer strong{font-size:12px}
+#mapLayerList .map-layer small,#mapLayerList .map-layer [data-semantic-warning]{font-size:10px;line-height:1.4}
+#routeReviewDialog{width:min(1300px,95vw);max-height:90vh;background:#faf8ed;color:#123b32}
+#routeReviewDialog table{font-size:12px;width:100%}
+#routeReviewDialog th{min-width:130px;vertical-align:top}
+#routeReviewDialog th input{width:100%;min-width:0}
+#routeReviewDialog td{padding:9px;vertical-align:top;min-width:150px}
+#routeReviewDialog button{font-size:12px}
+#routeReviewDialog a{display:block;margin-top:5px}

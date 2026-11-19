@@ -1,0 +1,186 @@
+[
+  {
+    "source": "S010",
+    "page": 1,
+    "source_sha256": "91fdd6a7693d908708db5d6836169a63f660188f1f82eb3124e477c090e7ff67",
+    "reference_sheet": "S018 / 1",
+    "matrix_pdf_to_reference_pdf": [
+      [
+        0.4908038341333965,
+        -9.375438012430154e-05,
+        35.405767183145045
+      ],
+      [
+        2.5617871974594206e-05,
+        0.49072850848519683,
+        -31.71020386167986
+      ]
+    ],
+    "matrix_pdf_to_epsg5514": [
+      [
+        0.5420772921591862,
+        0.00045464255192473953,
+        -698613.8491780645
+      ],
+      [
+        0.0005299828444257614,
+        -0.5419941748741717,
+        -1000300.7900155329
+      ]
+    ],
+    "label_matches": 41,
+    "label_inliers": 39,
+    "source_cadastral_vertices": 2962,
+    "shared_vertices_within_0_2pt_fraction": 0.6816340310600946,
+    "held_out_median_pdf_pt": 0.08844540351152151,
+    "held_out_p95_pdf_pt": 50.80735192256231,
+    "direct_cadastral_check": {
+      "median_m": 1.8693135709795785,
+      "p90_m": 6.50523286613112,
+      "p95_m": 12.32235956918631
+    },
+    "method": "Unique common numeric labels seed similarity; native blue cadastral vertices refine affine. Every fifth sorted source vertex held out before refinement. Conditional same-lineage check, not independent surveying.",
+    "inherited_registration": "../../cad_data/261117_v03/S018-registration-candidate.json",
+    "parcel_reference": "../../ownership_data/261116_v01/parcels.geojson",
+    "parcel_sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "absolute_accuracy_m": null
+  },
+  {
+    "source": "S011",
+    "page": 1,
+    "source_sha256": "83632aff59260da407ce0f4f059fcbe4809283d41dccc073bdbb06f8f99f1bf7",
+    "reference_sheet": "S018 / 1",
+    "matrix_pdf_to_reference_pdf": [
+      [
+        0.557256417129539,
+        -7.26551678416204e-05,
+        -51.07888950954972
+      ],
+      [
+        3.785191014916704e-05,
+        0.5571619905075926,
+        -156.3822799788919
+      ]
+    ],
+    "matrix_pdf_to_epsg5514": [
+      [
+        0.6154720756467913,
+        0.0005535123711962216,
+        -698709.5105488139
+      ],
+      [
+        0.0005920588730099184,
+        -0.6153678240265612,
+        -1000163.1920370582
+      ]
+    ],
+    "label_matches": 41,
+    "label_inliers": 39,
+    "source_cadastral_vertices": 2911,
+    "shared_vertices_within_0_2pt_fraction": 0.6901408450704225,
+    "held_out_median_pdf_pt": 0.0881318915811266,
+    "held_out_p95_pdf_pt": 55.560647869883,
+    "direct_cadastral_check": {
+      "median_m": 1.8508022784582194,
+      "p90_m": 7.874099861881564,
+      "p95_m": 12.994730330512587
+    },
+    "method": "Unique common numeric labels seed similarity; native blue cadastral vertices refine affine. Every fifth sorted source vertex held out before refinement. Conditional same-lineage check, not independent surveying.",
+    "inherited_registration": "../../cad_data/261117_v03/S018-registration-candidate.json",
+    "parcel_reference": "../../ownership_data/261116_v01/parcels.geojson",
+    "parcel_sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "absolute_accuracy_m": null
+  },
+  {
+    "source": "S013",
+    "page": 1,
+    "source_sha256": "372ecba5151675f19959e28036b800a45b45b446c8c79ab9d2a20d157d04103f",
+    "reference_sheet": "S018 / 1",
+    "matrix_pdf_to_reference_pdf": [
+      [
+        0.5929234475860556,
+        -6.997224279794989e-05,
+        -79.32824618865487
+      ],
+      [
+        -8.464399652432503e-06,
+        0.592817399931571,
+        -181.56524819325008
+      ]
+    ],
+    "matrix_pdf_to_epsg5514": [
+      [
+        0.6548651264910472,
+        0.0005970327049031708,
+        -698740.7397119864
+      ],
+      [
+        0.0006837841144525168,
+        -0.6547480894409539,
+        -1000135.410380578
+      ]
+    ],
+    "label_matches": 41,
+    "label_inliers": 39,
+    "source_cadastral_vertices": 2789,
+    "shared_vertices_within_0_2pt_fraction": 0.7160272499103622,
+    "held_out_median_pdf_pt": 0.07422588530704194,
+    "held_out_p95_pdf_pt": 50.48680286892819,
+    "direct_cadastral_check": {
+      "median_m": 1.8515733900189248,
+      "p90_m": 6.549398048535215,
+      "p95_m": 12.677165798269202
+    },
+    "method": "Unique common numeric labels seed similarity; native blue cadastral vertices refine affine. Every fifth sorted source vertex held out before refinement. Conditional same-lineage check, not independent surveying.",
+    "inherited_registration": "../../cad_data/261117_v03/S018-registration-candidate.json",
+    "parcel_reference": "../../ownership_data/261116_v01/parcels.geojson",
+    "parcel_sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "absolute_accuracy_m": null
+  },
+  {
+    "source": "S014",
+    "page": 1,
+    "source_sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936",
+    "reference_sheet": "S018 / 1",
+    "matrix_pdf_to_reference_pdf": [
+      [
+        0.5572596069883565,
+        -6.382695980911707e-05,
+        -51.08954228568912
+      ],
+      [
+        3.2464219898951824e-05,
+        0.5571627752270321,
+        -156.37722941078587
+      ]
+    ],
+    "matrix_pdf_to_epsg5514": [
+      [
+        0.6154755926162887,
+        0.0005632637394732617,
+        -698709.5223087221
+      ],
+      [
+        0.0005980130343393887,
+        -0.6153686806824213,
+        -1000163.1976273677
+      ]
+    ],
+    "label_matches": 41,
+    "label_inliers": 39,
+    "source_cadastral_vertices": 2815,
+    "shared_vertices_within_0_2pt_fraction": 0.7076376554174068,
+    "held_out_median_pdf_pt": 0.08358271377786891,
+    "held_out_p95_pdf_pt": 50.14393127995914,
+    "direct_cadastral_check": {
+      "median_m": 1.8408629499418434,
+      "p90_m": 7.61243872124279,
+      "p95_m": 12.837094024274219
+    },
+    "method": "Unique common numeric labels seed similarity; native blue cadastral vertices refine affine. Every fifth sorted source vertex held out before refinement. Conditional same-lineage check, not independent surveying.",
+    "inherited_registration": "../../cad_data/261117_v03/S018-registration-candidate.json",
+    "parcel_reference": "../../ownership_data/261116_v01/parcels.geojson",
+    "parcel_sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "absolute_accuracy_m": null
+  }
+]

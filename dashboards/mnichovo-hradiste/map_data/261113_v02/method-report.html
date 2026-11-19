@@ -1,0 +1,61 @@
+<!--
+HTML-ARTIFACT-METADATA
+title: Převod návrhu a majetkové mapy — metoda a přesnost
+created_at: 2026-11-11 16:48:04
+created_by: Codex
+updated_at: 2026-11-13T13:49:30.693008+01:00
+updated_by: Codex
+revised_by: null
+timezone: Europe/Prague
+dialogue: https://chatgpt.com/codex (generic link; exact chat URL unavailable)
+dialogue_iteration: 1
+version_id: JZM-MAP-METHOD-20261113-v02
+status: internal-draft
+purpose: Document source evidence, conversion scope, accuracy and model assumptions
+audience: Internal urbiq project team
+mode: standalone
+host_constraints: Local file or localhost HTTP; JavaScript required for workspace; PDF preview uses local page renders; optional native PDF mode depends on browser.
+sensitivity: internal
+contains.css: yes, inline local style
+contains.javascript: no
+contains.data_json: no; linked JSON evidence
+contains.external_resources: yes, official external hyperlinks only; no automatic network requests
+contains.embedded_assets: no; local sibling assets
+contains.forms: no
+contains.storage: no
+contains.browser_permissions: no
+contains.network_activity: none until following external links
+external_origins: https://ags.cuzk.gov.cz (hyperlink only)
+source_files: 93 existing conversion packages; original archive; supplied dashboard v02 and brief v01
+source_hashes: evidence/261111_source_manifest_v03.json
+review_state: technical checks recorded separately in evidence; content and human review pending
+END HTML-ARTIFACT-METADATA
+QUICK ORIENTATION: numbered SEKCE regions; prose is EDITABLE; document data is GENERATED.
+PROTECTED: source IDs, page locators, file paths and hashes must stay aligned.
+SAFE TO EDIT: labels and explanatory prose; regenerate source content with build_workspace.py.
+-->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Převod map S003 · urbiq</title><style>body{margin:0;background:#faf7ec;color:#173a20;font:16px/1.6 'Segoe UI',sans-serif}main{max-width:920px;margin:0 auto;padding:32px 22px}h1,h2{font-family:'Fellix Pro','Segoe UI',sans-serif;line-height:1.2}h1{font-size:34px}h2{font-size:23px;margin-top:32px}a{color:#14642d;text-underline-offset:3px}p,li{max-width:83ch}code{overflow-wrap:anywhere}small{color:#5d6b5f}.note{padding:18px;border-left:4px solid #c6d92b;background:white}img{max-width:100%;height:auto}details{border:1px solid #dce3d7;padding:12px;margin:12px 0}summary{cursor:pointer}a:focus-visible,summary:focus-visible{outline:3px solid #e58a2b}</style></head><body><main>
+<!-- SEKCE 01 — EDITABLE: assignment and business meaning; counts grounded in map-job.json. -->
+<small>MNICHOVO HRADIŠTĚ / S003 / STRANY 8 A 10 · 13. 11. 2026 · PRACOVNÍ PODKLAD</small><h1>Návrh a majetková mapa: co převod skutečně obsahuje</h1>
+<p>Zadáním je doplnit obě vybrané stránky do živé mapy, zachovat legendy a vyzkoušet 3D návrh se zdrojovou podlažností. Výstup umožňuje porovnávat původní list, odvozené plochy a modelovací předpoklady při přípravě rozvahy a dohod.</p>
+<p class="note">Převedeno je 96 půdorysných hmot návrhu a 21 barevných komponent majetkové mapy. Nejde o počet samostatných budov ani parcel. U 41 hmot jsou NP přečtené ze zdroje; u 55 nejsou doložené. Aktuální vlastnictví není tímto převodem ověřeno.</p>
+<p><a href="../../261113_urbiq_jihozapadni_mesto_dashboard_v06.html#view=scene">Otevřít 3D návrh</a> · <a href="../../261113_urbiq_jihozapadni_mesto_dashboard_v06.html#view=map">Otevřít mapu</a> · <a href="map-job.json">Manifest převodu</a></p>
+<!-- SEKCE 02 — PROTECTED: source identity and variant boundary. -->
+<h2>Zdroje a legendy</h2><p>Podkladem je původní <a href="../../sources/S003.pdf">S003 · zadání, 15 stran</a>; geometrie pochází výhradně ze stran 8 a 10. Zdrojové rastrové panely i kontrolní součty jsou uchované v balíčku. Použité přepisy zůstaly beze změny.</p>
+<ul><li>Strana 8: původní situační návrh 984 × 1368 px. Zachována je legenda vjezdu do podzemních garáží a podélného řezu.</li><li>Strana 10: majetkový panel 824 × 793 px a samostatný původní obrázek legendy 370 × 502 px; všech 13 kategorií je zastoupených v exportu.</li><li>S040 slouží pouze jako srovnání barevné legendy. Obsahuje jinou variantu školy / sportoviště a jiný údaj o roku. Jeho geometrie nebyla použita jako náhrada návrhu ze S003.</li></ul>
+<details><summary>Originální legenda strany 8</summary><img src="legends/S003_p8_legend.png" alt="G: vjezd do podzemních garáží; A–A′: podélný řez"></details><details><summary>Originální legenda strany 10</summary><img src="legends/S003_p10_legend.png" alt="Původní legenda třinácti majetkových kategorií"></details>
+<!-- SEKCE 03 — GENERATED: see registration records and versioned source-pixel parts. -->
+<h2>Umístění a přesnost</h2><p>Strana 8 byla registrována na katastrální kresbu ČÚZK pomocí 27 bodů v okolní existující kresbě, mimo návrhové plochy. Sedm kontrolních bodů mělo podmíněnou digitální RMSE 0,36 m. Body byly vybrány v okolí předběžného řešení; nejde o nezávislou geodetickou kontrolu ani o přesnost hranic budov.</p>
+<p>Strana 10 byla registrována vůči dříve umístěnému S004. Kontrolní RMSE je 1,63 pixelu rodičovského obrazu; nezahrnuje chybu původní registrace S004. Absolutní polohová a tematická přesnost obou vrstev zůstává nevyčíslená.</p>
+<p>Transformace pracují v EPSG:5514; výstupní GeoJSON je RFC 7946 v pořadí délka / šířka WGS84. Rastrové náhledy jsou přepočtené pro webovou mapu. Po transformaci jsou vektorové souřadnice stabilizované mřížkou 10⁻⁹ stupně (přibližně 0,1 mm); tato numerická úprava nezvyšuje skutečnou přesnost zdroje. Nevhodné zkolabované registrační modely byly odmítnuty a zaznamenány.</p>
+<h2>Jak vznikly plochy</h2><p>U návrhu byly oddělené barevné výplně, provedená vizuální kontrola a sedm ručních oprav fragmentovaných / chybějících obrysů. Podlažnost byla přepsána z popisků jednotlivých hmot. Původní pixelové obrysy, ruční opravy a opravy geometrie jsou uložené. Kategorie bydlení a vybavenosti jsou pracovní interpretace, nikoli potvrzená typologie.</p>
+<p>Majetkové plochy vycházejí z panelově specifických barevných rozsahů a původní legendy. Černé popisky a linie mohou rozdělovat výplň; komponenty proto nejsou katastrální parcely. U půdorysů mohou být zachycené vnitřní okraje výplně místo vnějšího okraje černé kresby. Výpočet ploch je orientační, nepřebíráme ho jako HPP ani jako podklad pro ocenění.</p>
+<!-- SEKCE 04 — EDITABLE: model assumptions and live-source dependencies. -->
+<h2>Co znamená 3D model</h2><p>Výška = počet NP × výška podlaží. Výchozí 3,2 m na podlaží a 2 NP u neoznačených hmot jsou nastavitelné předpoklady. Původní chybějící NP zůstává v datech null; export zapisuje zvlášť zdrojová a modelová pole. Neoznačené hmoty lze vypnout.</p>
+<p>Navazujeme na chat „Analýza a Modelace — vývoj 2D/3D prohlížečky“ a ArcGIS SceneView 4.34. Návrh je usazen relativně na <a href="https://ags.cuzk.gov.cz/arcgis/rest/services/3D/dmr5g_wm/ImageServer" target="_blank" rel="noopener">terénu ČÚZK DMR 5G</a>, s ortofotem ČÚZK. Pražské modely IPR nebyly použity. Nejde o BIM, střechy ani model současné zástavby; výškové kóty návrhu nejsou geodeticky ověřené.</p>
+<p>3D potřebuje internet a WebGL. Veřejné služby dostávají technické požadavky podle výřezu mapy, dokumenty se na ně neodesílají. Při nedostupnosti 3D je dostupný přechod na lokální 2D zdrojový podklad.</p>
+<h2>Knihovna a ověření</h2><p>Knihovna eviduje 195 obrazů včetně tří nově zpřístupněných legend. Strom zachovává složky a dokumenty. Relevance je pracovní, upravitelná a filtrovatelná; herní prvky a katalog mobiliáře jsou výchozí nízká relevance. Hodnocení se ukládá v prohlížeči a lze je exportovat. Mapa knihovny ukazuje pouze rozsahy ověřeně registrovaných listů; fotografiím se poloha neodhadovala.</p>
+<p>Sloupcové filtry a řazení jsou v záhlaví tabulek, včetně dynamicky vykreslovaných tabulek přepisu. Součástí ověření je načtení terénu, zobrazení 3D hmot, změna parametrů, export, filtry a číselné řazení, mobilní rozložení i blokovaný internet.</p>
+<p><a href="evidence/browser-qa-v06.json">Protokol prohlížeče</a> · <a href="evidence/geojson-validation-v02.json">Validace GeoJSON</a> · <a href="evidence/buildings-source-review.png">Kontrola návrhových hmot</a> · <a href="evidence/ownership-source-review.png">Kontrola majetkových ploch</a> · <a href="evidence/delivery-manifest.json">Soubory, hashe a přijaté technické výjimky</a></p>
+<p><small>Stav: pracovní návrh k lidské odborné revizi; převod vybraných panelů dokončen. Nejde o schválené ocenění, geodetický podklad ani podklad připravený pro import do Dataverse.</small></p>
+</main></body></html>

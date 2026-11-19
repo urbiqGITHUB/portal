@@ -1,0 +1,102 @@
+{
+  "id": "JZM-CADASTRE-20261116-v11",
+  "created_at": "2026-11-16T15:58:37.382187+01:00",
+  "source_document": {
+    "id": "S003",
+    "page": 10,
+    "path": "../../sources/S003.pdf",
+    "sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501"
+  },
+  "reference_sources": {
+    "service": "https://services.cuzk.gov.cz/wfs/inspire-cp-wfs.asp",
+    "crs": "EPSG:5514",
+    "bbox": [
+      -698450,
+      -1001250,
+      -697450,
+      -1000150
+    ],
+    "split_bboxes": [
+      [
+        -698450,
+        -1001250,
+        -697950,
+        -1000700
+      ],
+      [
+        -697950,
+        -1001250,
+        -697450,
+        -1000700
+      ],
+      [
+        -698450,
+        -1000700,
+        -697950,
+        -1000150
+      ],
+      [
+        -697950,
+        -1000700,
+        -697450,
+        -1000150
+      ]
+    ],
+    "quadrant_counts": [
+      144,
+      516,
+      577,
+      728
+    ],
+    "unique_count": 1814,
+    "limit": 1000,
+    "pagination": "STARTINDEX ignored by service; fetched four quadrants each below limit; deduplicated native IDs; entire polygons retained",
+    "wms_bbox": [
+      -698800,
+      -1001700,
+      -697200,
+      -999800
+    ],
+    "wms_size": [
+      2400,
+      2850
+    ],
+    "wms_layer": "KN"
+  },
+  "registration": "registration.json",
+  "legend": "legend-catalog.json",
+  "mask": "raster-mask.json",
+  "layers": [
+    "parcels.geojson",
+    "ownership-schematic.geojson"
+  ],
+  "output_crs": "OGC:CRS84",
+  "gaps": [
+    "Historical colors do not establish current ownership.",
+    "Raster contains source drawing deviations; exact parcel membership not assigned.",
+    "Absolute cadastral and source thematic accuracy not independently surveyed."
+  ],
+  "files": {
+    "automatic-controls-review.png": "a36ff833717a664dfa49b82b38e6477b71d5778ce840b55465876b57943c22e9",
+    "automatic-controls.json": "d880d8f5487ddfad973305a43ad606a44f30cb59eb809a4aa722b652351ab26f",
+    "cadastre-background.png": "7a12313d6adf0fb534ee44f9f4df2a333c6412d51b1a8c01ce9f42a18396231a",
+    "cadastre-data.js": "a013303558218039a137ce9b0963677f51676ea865d044f0fcdd4a4888762381",
+    "legend-catalog.json": "c63d99529cba7240560921d4624b61b997488b9bd2c24a7dc3a28e9682561e0f",
+    "old-alignment-parcels.png": "57f1de9c787a4603e7c0bb96ed9677e7f81b39e8499e7a988091b28a6efb7dda",
+    "ownership-colors.png": "5d72dcec8a932656835791520a7a7ab73260a62ab93e7b4cae23c29fe9c005b9",
+    "ownership-original.png": "a2812a4c592e92dc14bfb22b6391aa15a32fd616fb8ea0618f05e9c5111d6b26",
+    "ownership-schematic.geojson": "be4faadef1a5543723deadeabbbb60fdb24bc0fda038940cb1f95dae150744ff",
+    "parcels.geojson": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "quadrant-0.gml": "63fedd6e1b7fe8b59a2847e340e2375884ed8c386b0451a30d6cfdae362fa321",
+    "quadrant-1.gml": "c6a8dd680c535bdb63e7d54be29508788ddf451f128e9b9bbc880f60d2782422",
+    "quadrant-2.gml": "c17d9b7da4a83c3f5b58b8b95d9d06b2dc2e97c50ec1ef8723efdfdff52f40a1",
+    "quadrant-3.gml": "c0fe0c2b61639187b97989774040995d3c473d8f74572d6ac3351f0d9051692e",
+    "raster-mask.json": "9e9e551e84a90a259d0da2c45bc512055c89fe04dbbd4f2abfd33fa0ff34de2f",
+    "reference-km.png": "d320306b6f41121352616895c386f847f5e2ec48ac56cf425baf55b8789fe69a",
+    "registration.json": "b43efac905e8ae1a3ecab7e662c7d93feee3fbeb4d2a3fe2e5a86dab8b715338",
+    "source-legend.png": "25bfefa6874567b71c3573245158af2cbb26eea3f2397734783cb3fb1229b403",
+    "source-ownership.png": "df5a6c8c3bca935af1377453ba3159bc69fd762b1048b6e210fc622fd9ace114",
+    "wfs-capabilities.xml": "2eacc878f67517a9532f89ab9904ef4707874027bf27eac75bd2245d3a609293",
+    "wms-capabilities.xml": "821f76ad13a979a8a2cde43c518f2bd0f7eb39ae6c28f2e384bf4df886afbdd9"
+  }
+}

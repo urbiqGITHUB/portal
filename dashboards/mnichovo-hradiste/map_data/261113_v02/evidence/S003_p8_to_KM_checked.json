@@ -1,0 +1,436 @@
+{
+  "id": "S003_p8_to_KM_checked",
+  "source_id": "S003",
+  "page": 8,
+  "matrix": [
+    [
+      0.792240313565543,
+      -0.0003481824974067571,
+      641.35743600783
+    ],
+    [
+      -0.000907641591188281,
+      0.7921788467291133,
+      619.8537643971413
+    ]
+  ],
+  "reference": "reference_km.png",
+  "reference_crs": "EPSG:5514",
+  "reference_bbox": [
+    -698800,
+    -1001700,
+    -697200,
+    -999800
+  ],
+  "reference_size": [
+    2400,
+    2850
+  ],
+  "reference_request": "https://services.cuzk.gov.cz/wms/local-km-wms.asp?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=KN&STYLES=&SRS=EPSG:5514&BBOX=-698800,-1001700,-697200,-999800&WIDTH=2400&HEIGHT=2850&FORMAT=image/png&TRANSPARENT=FALSE",
+  "source_pixel_convention": "centres x right, y down",
+  "selection": "SIFT on existing linework outside excluded proposal; constrained within 5 reference px of visually checked initial SIFT similarity; ratio .95, unique targets and 30 px source spacing. Every fourth retained pair held out before final affine LS. Conditional digital checks, not independent controls.",
+  "excluded_proposal_mask": [
+    [
+      253,
+      0
+    ],
+    [
+      598,
+      190
+    ],
+    [
+      492,
+      252
+    ],
+    [
+      750,
+      459
+    ],
+    [
+      449,
+      691
+    ],
+    [
+      884,
+      1060
+    ],
+    [
+      887,
+      1105
+    ],
+    [
+      699,
+      1330
+    ],
+    [
+      30,
+      780
+    ],
+    [
+      163,
+      650
+    ],
+    [
+      200,
+      64
+    ]
+  ],
+  "controls": [
+    {
+      "id": "P8-KM-01",
+      "source_pixel": [
+        933.012939453125,
+        1042.342529296875
+      ],
+      "reference_pixel": [
+        1380.746337890625,
+        1445.06396484375
+      ],
+      "role": "check",
+      "residual_m": 0.44743014419779054
+    },
+    {
+      "id": "P8-KM-02",
+      "source_pixel": [
+        889.3751831054688,
+        230.63214111328125
+      ],
+      "reference_pixel": [
+        1345.87451171875,
+        801.74267578125
+      ],
+      "role": "fit",
+      "residual_m": 0.00396631453435655
+    },
+    {
+      "id": "P8-KM-03",
+      "source_pixel": [
+        936.4832153320312,
+        422.34844970703125
+      ],
+      "reference_pixel": [
+        1382.923583984375,
+        953.436767578125
+      ],
+      "role": "fit",
+      "residual_m": 0.16729826070850803
+    },
+    {
+      "id": "P8-KM-04",
+      "source_pixel": [
+        921.9154052734375,
+        785.7522583007812
+      ],
+      "reference_pixel": [
+        1371.3681640625,
+        1241.3685302734375
+      ],
+      "role": "fit",
+      "residual_m": 0.09395041329065716
+    },
+    {
+      "id": "P8-KM-05",
+      "source_pixel": [
+        828.2713012695312,
+        846.003662109375
+      ],
+      "reference_pixel": [
+        1297.1368408203125,
+        1288.922119140625
+      ],
+      "role": "check",
+      "residual_m": 0.2560001548103254
+    },
+    {
+      "id": "P8-KM-06",
+      "source_pixel": [
+        777.7188110351562,
+        720.1007690429688
+      ],
+      "reference_pixel": [
+        1257.508056640625,
+        1189.715576171875
+      ],
+      "role": "fit",
+      "residual_m": 0.19135373512134504
+    },
+    {
+      "id": "P8-KM-07",
+      "source_pixel": [
+        725.6525268554688,
+        756.857177734375
+      ],
+      "reference_pixel": [
+        1216.1448974609375,
+        1218.5987548828125
+      ],
+      "role": "fit",
+      "residual_m": 0.15199784138285144
+    },
+    {
+      "id": "P8-KM-08",
+      "source_pixel": [
+        860.2530517578125,
+        813.2786865234375
+      ],
+      "reference_pixel": [
+        1322.7503662109375,
+        1263.2557373046875
+      ],
+      "role": "fit",
+      "residual_m": 0.11252795899476793
+    },
+    {
+      "id": "P8-KM-09",
+      "source_pixel": [
+        794.016357421875,
+        780.950439453125
+      ],
+      "reference_pixel": [
+        1270.302490234375,
+        1237.850830078125
+      ],
+      "role": "check",
+      "residual_m": 0.11843201830218152
+    },
+    {
+      "id": "P8-KM-10",
+      "source_pixel": [
+        941.8059692382812,
+        519.9239501953125
+      ],
+      "reference_pixel": [
+        1387.2796630859375,
+        1031.03955078125
+      ],
+      "role": "fit",
+      "residual_m": 0.11409622321276307
+    },
+    {
+      "id": "P8-KM-11",
+      "source_pixel": [
+        760.9015502929688,
+        799.5709838867188
+      ],
+      "reference_pixel": [
+        1244.0584716796875,
+        1252.58349609375
+      ],
+      "role": "fit",
+      "residual_m": 0.10896694651164786
+    },
+    {
+      "id": "P8-KM-12",
+      "source_pixel": [
+        879.0153198242188,
+        471.8746032714844
+      ],
+      "reference_pixel": [
+        1336.9853515625,
+        993.1882934570312
+      ],
+      "role": "fit",
+      "residual_m": 0.4538729822552616
+    },
+    {
+      "id": "P8-KM-13",
+      "source_pixel": [
+        69.01101684570312,
+        338.809814453125
+      ],
+      "reference_pixel": [
+        696.2311401367188,
+        887.339599609375
+      ],
+      "role": "check",
+      "residual_m": 0.604794628501917
+    },
+    {
+      "id": "P8-KM-14",
+      "source_pixel": [
+        886.1776123046875,
+        595.3543090820312
+      ],
+      "reference_pixel": [
+        1343.1875,
+        1090.358154296875
+      ],
+      "role": "fit",
+      "residual_m": 0.213080926709908
+    },
+    {
+      "id": "P8-KM-15",
+      "source_pixel": [
+        854.0172119140625,
+        137.31898498535156
+      ],
+      "reference_pixel": [
+        1317.736572265625,
+        728.0316162109375
+      ],
+      "role": "fit",
+      "residual_m": 0.15647160245901784
+    },
+    {
+      "id": "P8-KM-16",
+      "source_pixel": [
+        762.4683227539062,
+        226.13668823242188
+      ],
+      "reference_pixel": [
+        1244.6373291015625,
+        797.6328735351562
+      ],
+      "role": "fit",
+      "residual_m": 0.6455342527061856
+    },
+    {
+      "id": "P8-KM-17",
+      "source_pixel": [
+        438.7639465332031,
+        73.384765625
+      ],
+      "reference_pixel": [
+        988.8792724609375,
+        677.2504272460938
+      ],
+      "role": "check",
+      "residual_m": 0.22937952018850796
+    },
+    {
+      "id": "P8-KM-18",
+      "source_pixel": [
+        151.0517578125,
+        91.19529724121094
+      ],
+      "reference_pixel": [
+        761.1383056640625,
+        691.256103515625
+      ],
+      "role": "fit",
+      "residual_m": 0.47866468371565923
+    },
+    {
+      "id": "P8-KM-19",
+      "source_pixel": [
+        790.988525390625,
+        468.99822998046875
+      ],
+      "reference_pixel": [
+        1268.6370849609375,
+        990.3627319335938
+      ],
+      "role": "fit",
+      "residual_m": 0.5641814847058502
+    },
+    {
+      "id": "P8-KM-20",
+      "source_pixel": [
+        925.5550537109375,
+        255.6416778564453
+      ],
+      "reference_pixel": [
+        1375.0753173828125,
+        821.9083251953125
+      ],
+      "role": "fit",
+      "residual_m": 0.44312698404265544
+    },
+    {
+      "id": "P8-KM-21",
+      "source_pixel": [
+        948.7109375,
+        345.02886962890625
+      ],
+      "reference_pixel": [
+        1392.67333984375,
+        892.9326171875
+      ],
+      "role": "check",
+      "residual_m": 0.4257940388478387
+    },
+    {
+      "id": "P8-KM-22",
+      "source_pixel": [
+        823.9158325195312,
+        530.1082763671875
+      ],
+      "reference_pixel": [
+        1291.8951416015625,
+        1038.33154296875
+      ],
+      "role": "fit",
+      "residual_m": 1.4266814133127184
+    },
+    {
+      "id": "P8-KM-23",
+      "source_pixel": [
+        773.9025268554688,
+        277.95953369140625
+      ],
+      "reference_pixel": [
+        1254.3997802734375,
+        839.6031494140625
+      ],
+      "role": "fit",
+      "residual_m": 0.1727423461655061
+    },
+    {
+      "id": "P8-KM-24",
+      "source_pixel": [
+        846.71875,
+        300.56854248046875
+      ],
+      "reference_pixel": [
+        1312.3089599609375,
+        857.318359375
+      ],
+      "role": "fit",
+      "residual_m": 0.18842705039649646
+    },
+    {
+      "id": "P8-KM-25",
+      "source_pixel": [
+        99.1480941772461,
+        284.9631042480469
+      ],
+      "reference_pixel": [
+        719.635986328125,
+        845.3133544921875
+      ],
+      "role": "check",
+      "residual_m": 0.17164094085543505
+    },
+    {
+      "id": "P8-KM-26",
+      "source_pixel": [
+        74.5604019165039,
+        423.33209228515625
+      ],
+      "reference_pixel": [
+        700.3633422851562,
+        956.0322875976562
+      ],
+      "role": "fit",
+      "residual_m": 0.5969166999125128
+    },
+    {
+      "id": "P8-KM-27",
+      "source_pixel": [
+        973.9444580078125,
+        415.0816955566406
+      ],
+      "reference_pixel": [
+        1414.0826416015625,
+        948.5352172851562
+      ],
+      "role": "fit",
+      "residual_m": 0.9830584548606423
+    }
+  ],
+  "fit_rmse_m": 0.4996982664490108,
+  "check_rmse_m": 0.36033885623746476,
+  "check_max_m": 0.604794628501917,
+  "absolute_accuracy_m": null,
+  "acceptance": "provisional for source-map exploration and schematic massing; no cadastral survey or precise economic measurement"
+}

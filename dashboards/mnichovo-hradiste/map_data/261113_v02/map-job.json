@@ -1,0 +1,108 @@
+{
+  "version": "JZM-SELECTED-PANELS-20261113-v02",
+  "created_at": "2026-11-13T13:53:28.441219+01:00",
+  "source_id": "S003",
+  "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+  "processed_pages": [
+    8,
+    10
+  ],
+  "reference_source": "ČÚZK KN WMS; previous S004 ortho registration",
+  "registrations": [
+    {
+      "source_page": 8,
+      "matrix_pixel_to_epsg5514": [
+        [
+          0.5281602090436953,
+          -0.00023212166493783806,
+          -698372.0950426614
+        ],
+        [
+          0.0006050943941255207,
+          -0.5281192311527422,
+          -1000213.5691762648
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "check_rmse_m": 0.36033885623746476,
+      "controls": "evidence/S003_p8_to_KM_checked.json",
+      "quality": "conditional digital linework checks; absolute and thematic accuracy unknown"
+    },
+    {
+      "source_page": 10,
+      "matrix_pixel_to_epsg5514": [
+        [
+          1.3600689028126869,
+          0.0002796717026781055,
+          -698477.0322410675
+        ],
+        [
+          0.000191154161681152,
+          -1.360059554229962,
+          -1000163.3921753645
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "check_rmse_parent_pixels": 1.6331486128907182,
+      "controls": "evidence/S003_p10_to_S004.json",
+      "quality": "conditional relative digital registration; parent error not included"
+    }
+  ],
+  "legend": "legend-catalog.json",
+  "layers": [
+    {
+      "id": "proposal_massing",
+      "label": "Návrh zástavby · S003 / 8",
+      "description": "Půdorysné hmoty a doložené NP; pracovní typologie, 3D předpoklady oddělené.",
+      "color": "#14642d",
+      "source_id": "S003",
+      "page": 8,
+      "feature_count": 96,
+      "path": "layers/proposal_massing.geojson"
+    },
+    {
+      "id": "source_ownership",
+      "label": "Majetkové kategorie · S003 / 10",
+      "description": "13 kategorií podle původní legendy; neověřuje současné vlastnictví.",
+      "color": "#b13f35",
+      "source_id": "S003",
+      "page": 10,
+      "feature_count": 21,
+      "path": "layers/source_ownership.geojson"
+    }
+  ],
+  "coverage": {
+    "massing_parts": 96,
+    "explicit_floor_counts": 41,
+    "unknown_floor_counts": 55,
+    "ownership_components": 21,
+    "ownership_legend_classes": 13
+  },
+  "rejected_registrations": [
+    "S003_p8_to_p10_2x and S040_to_p10_2x collapsed affine models; not used"
+  ],
+  "gaps": [
+    "Current ownership not verified.",
+    "Source S040 is a different variant; no geometry substituted.",
+    "Floor heights not in source; user-controlled 3D assumption.",
+    "Footprint parts are candidates, not a unique building register.",
+    "Boundary stroke and thematic digitization accuracy not calibrated."
+  ],
+  "three_d_sources": {
+    "chat": "01a1ca93-a981-7433-8e9a-066cf1d60d0d",
+    "title": "Analýza a Modelace — vývoj 2D/3D prohlížečky",
+    "existing_application": "../complex-analysis-modelling/261111_integrated_analysis_modelling_v18_v01.html",
+    "engine": "ArcGIS SceneView",
+    "terrain": "https://ags.cuzk.gov.cz/arcgis/rest/services/3D/dmr5g_wm/ImageServer",
+    "ortho": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer",
+    "excluded": "Praha IPR mesh/building layers do not cover Mnichovo Hradiště."
+  }
+}

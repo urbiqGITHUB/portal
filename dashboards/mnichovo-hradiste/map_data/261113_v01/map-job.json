@@ -1,0 +1,1730 @@
+{
+  "contract_version": "urbiq-pdf-map-job/1.0",
+  "job_id": "JZM-MAP-20261113-v01",
+  "prior_job_id": null,
+  "created_at": "2026-11-13T09:33:29+01:00",
+  "timezone": "Europe/Prague",
+  "context": {
+    "title": "Jihozápadní město · dokumenty v mapě",
+    "locality": "Mnichovo Hradiště",
+    "intended_use": "Interní zdrojově doložená mapová rešerše a porovnání s dokumenty; nikoli geodetický nebo provozní podklad.",
+    "requested_scope": "GeoJSON z dodaných map a vložení živé mapy do existujícího dashboardu.",
+    "document_revision": "Per-source; no merged design scenario.",
+    "scenario_id": null,
+    "semantic_package_ref": null
+  },
+  "readiness": {
+    "source_inventory": "93 sources indexed; detailed map coverage partial",
+    "legend_interpretation": "checked for selected exports",
+    "local_geometry": "selected classes checked",
+    "georeferencing": "selected 3 panels checked",
+    "geojson_export": "4 layers, 23 features",
+    "viewer": "32 browser checks passed: live tile decoding, 4 layers, 3 source rasters, downloads, document links, mobile, offline, file and localhost",
+    "schema_binding": "not_requested"
+  },
+  "quality_policy": {
+    "purpose_acceptance_criteria": "Traceable schematic map exploration; source raster and source-page comparison; valid WGS84 geometry; no cadastral/legal/operational claims.",
+    "registration_review_ref": "evidence/registration-review.json",
+    "absolute_accuracy_m": null,
+    "thematic_boundary_accuracy_m": null,
+    "acceptance_status": "technical review; human acceptance pending"
+  },
+  "sources": [
+    {
+      "id": "S004",
+      "path": "../../sources/S004.pdf",
+      "sha256": "3a601286e483ad6052fdbd0ab83f76078facec568c9d3963f96c91ec5aaf71c6",
+      "page_count": 1,
+      "processed_pages": [
+        1
+      ],
+      "title": "Jihozápadní město – ortofoto s vyznačením řešeného území",
+      "source_filename": "JZ_mesto_ortofoto.pdf",
+      "markdown_path": "../../documents/S004/261111_jihozapadni-mesto-s004-jz-mesto-ortofoto_extraction_v01.md"
+    },
+    {
+      "id": "S003",
+      "path": "../../sources/S003.pdf",
+      "sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+      "page_count": 15,
+      "processed_pages": [
+        6
+      ],
+      "title": "Jihozápadní město",
+      "source_filename": "2601014_zadani.pdf",
+      "markdown_path": "../../documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md"
+    },
+    {
+      "id": "S062",
+      "path": "../../sources/S062.pdf",
+      "sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+      "page_count": 1,
+      "processed_pages": [
+        1
+      ],
+      "title": "C4 SOUŘADNICE.pdf",
+      "source_filename": "C4 SOUŘADNICE.pdf",
+      "markdown_path": "../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md"
+    }
+  ],
+  "panels": [
+    {
+      "id": "S004_ortho_source",
+      "source_id": "S004",
+      "page": 1,
+      "raster": "rasters/S004_ortho_source.png"
+    },
+    {
+      "id": "S003_parts_source",
+      "source_id": "S003",
+      "page": 6,
+      "raster": "rasters/S003_parts_source.png"
+    },
+    {
+      "id": "S062_water_source",
+      "source_id": "S062",
+      "page": 1,
+      "raster": "rasters/S062_water_source.png"
+    }
+  ],
+  "reference_sources": [
+    {
+      "id": "CUZK-ORTHO",
+      "provider": "ČÚZK",
+      "request": "https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer/export?bbox=-698800,-1001700,-697200,-999800&bboxSR=5514&imageSR=5514&size=2400,2850&format=jpg&f=image",
+      "acquired_date": "2026-11-12",
+      "crs": "EPSG:5514",
+      "pixel_size_m": 0.6666666666666666,
+      "path": "evidence/reference_ortho.jpg",
+      "sha256": "ef1deef29e2dc94ab33ada3753d1145d775b79dd14f4c0695b2713adefe18cf2",
+      "absolute_accuracy_m": null,
+      "terms": "https://ags.cuzk.gov.cz/opendata/"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "REG-S004",
+      "source_id": "S004",
+      "page": 1,
+      "pixel_scale_per_pdf_point": 2,
+      "matrix_pixel_to_epsg5514": [
+        [
+          0.607558270685299,
+          7.818528440450834e-06,
+          -698464.7394500985
+        ],
+        [
+          3.452346568191084e-05,
+          -0.6073799391831898,
+          -1000159.3094620792
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "controls": "evidence/S004_ortho.json",
+      "check_rmse_m": 0.3773635150804881,
+      "check_kind": "conditional held-out SIFT, selected by preliminary RANSAC; not independent survey evidence",
+      "absolute_accuracy_m": null,
+      "thematic_uncertainty": "Boundary stroke is approximately 10 m wide on the ground; its centerline is not a surveyed parcel boundary."
+    },
+    {
+      "id": "REG-S003",
+      "source_id": "S003",
+      "page": 6,
+      "matrix_pixel_to_epsg5514": [
+        [
+          1.3596115377513602,
+          0.0003838803522352816,
+          -698478.8456892563
+        ],
+        [
+          -0.00013780921151740623,
+          -1.3592002726555668,
+          -1000160.9754165721
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "controls": "evidence/S003_to_S004.json",
+      "parent": "REG-S004",
+      "check_rmse_parent_pixels": 1.7714833819949527,
+      "check_kind": "conditional relative registration of embedded diagram to S004; not an absolute accuracy claim",
+      "absolute_accuracy_m": null,
+      "thematic_uncertainty": "Manual centerline trace of schematic white borders; several metres of stroke/interpretation uncertainty, not calibrated."
+    },
+    {
+      "id": "REG-S062",
+      "source_id": "S062",
+      "page": 1,
+      "source_pixel_scale_per_pdf_point": 1,
+      "pdf_rotation": 90,
+      "matrix_pixel_to_epsg5514": [
+        [
+          0.905804806352584,
+          -3.5118607911499566e-05,
+          -698266.5435677269
+        ],
+        [
+          -5.2802266979305864e-05,
+          -0.9056710545842179,
+          -1000732.4992984885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "check_rmse_m": 0.04044802448416409,
+      "check_max_m": 0.058566226010489414,
+      "check_kind": "Internal drawing vs printed coordinate-table consistency, not independent survey accuracy. Controls chosen by numbered point identity, before fitting.",
+      "absolute_accuracy_m": null,
+      "controls": [
+        {
+          "point_number": 1,
+          "source_render_pixel": [
+            602.1287841796875,
+            700.0799560546875
+          ],
+          "target_epsg5514": [
+            -697721.16,
+            -1001366.56
+          ],
+          "role": "fit",
+          "residual_m": 0.013578362213894185
+        },
+        {
+          "point_number": 2,
+          "source_render_pixel": [
+            556.048828125,
+            666.0
+          ],
+          "target_epsg5514": [
+            -697762.94,
+            -1001335.7
+          ],
+          "role": "check",
+          "residual_m": 0.04509113999687675
+        },
+        {
+          "point_number": 3,
+          "source_render_pixel": [
+            267.44879150390625,
+            414.239990234375
+          ],
+          "target_epsg5514": [
+            -698024.29,
+            -1001107.73
+          ],
+          "role": "fit",
+          "residual_m": 0.0527285427069157
+        },
+        {
+          "point_number": 4,
+          "source_render_pixel": [
+            187.048095703125,
+            332.8800048828125
+          ],
+          "target_epsg5514": [
+            -698097.1,
+            -1001033.95
+          ],
+          "role": "check",
+          "residual_m": 0.04694690401294227
+        },
+        {
+          "point_number": 5,
+          "source_render_pixel": [
+            187.1680908203125,
+            324.6000061035156
+          ],
+          "target_epsg5514": [
+            -698097.06,
+            -1001026.53
+          ],
+          "role": "check",
+          "residual_m": 0.058566226010489414
+        },
+        {
+          "point_number": 6,
+          "source_render_pixel": [
+            165.6881103515625,
+            300.239990234375
+          ],
+          "target_epsg5514": [
+            -698116.5,
+            -1001004.38
+          ],
+          "role": "fit",
+          "residual_m": 0.05394453984322424
+        },
+        {
+          "point_number": 7,
+          "source_render_pixel": [
+            199.528076171875,
+            266.5199890136719
+          ],
+          "target_epsg5514": [
+            -698085.8,
+            -1000973.9
+          ],
+          "role": "check",
+          "residual_m": 0.022200434594021247
+        },
+        {
+          "point_number": 8,
+          "source_render_pixel": [
+            199.6480712890625,
+            262.67999267578125
+          ],
+          "target_epsg5514": [
+            -698085.76,
+            -1000970.4
+          ],
+          "role": "check",
+          "residual_m": 0.050712476042004684
+        },
+        {
+          "point_number": 9,
+          "source_render_pixel": [
+            234.32806396484375,
+            228.239990234375
+          ],
+          "target_epsg5514": [
+            -698054.27,
+            -1000939.26
+          ],
+          "role": "fit",
+          "residual_m": 0.04607812932818399
+        },
+        {
+          "point_number": 10,
+          "source_render_pixel": [
+            243.20880126953125,
+            219.1199951171875
+          ],
+          "target_epsg5514": [
+            -698046.27,
+            -1000930.99
+          ],
+          "role": "check",
+          "residual_m": 0.032879039855419845
+        },
+        {
+          "point_number": 11,
+          "source_render_pixel": [
+            243.56878662109375,
+            218.75999450683594
+          ],
+          "target_epsg5514": [
+            -698045.93,
+            -1000930.63
+          ],
+          "role": "check",
+          "residual_m": 0.008131332972395064
+        },
+        {
+          "point_number": 12,
+          "source_render_pixel": [
+            269.8487548828125,
+            191.27999877929688
+          ],
+          "target_epsg5514": [
+            -698022.11,
+            -1000905.7
+          ],
+          "role": "fit",
+          "residual_m": 0.05128691319551408
+        },
+        {
+          "point_number": 13,
+          "source_render_pixel": [
+            273.9288330078125,
+            186.95999145507812
+          ],
+          "target_epsg5514": [
+            -698018.41,
+            -1000901.85
+          ],
+          "role": "check",
+          "residual_m": 0.018490033932664823
+        },
+        {
+          "point_number": 14,
+          "source_render_pixel": [
+            279.808837890625,
+            180.95999145507812
+          ],
+          "target_epsg5514": [
+            -698013.14,
+            -1000896.4
+          ],
+          "role": "check",
+          "residual_m": 0.042485526690080114
+        },
+        {
+          "point_number": 15,
+          "source_render_pixel": [
+            280.1688232421875,
+            180.47999572753906
+          ],
+          "target_epsg5514": [
+            -698012.79,
+            -1000896.02
+          ],
+          "role": "check",
+          "residual_m": 0.053640163342253716
+        },
+        {
+          "point_number": 16,
+          "source_render_pixel": [
+            318.08880615234375,
+            141.60000610351562
+          ],
+          "target_epsg5514": [
+            -697978.44,
+            -1000860.78
+          ],
+          "role": "fit",
+          "residual_m": 0.02745536687698535
+        },
+        {
+          "point_number": 17,
+          "source_render_pixel": [
+            345.56878662109375,
+            113.03999328613281
+          ],
+          "target_epsg5514": [
+            -697953.5,
+            -1000834.88
+          ],
+          "role": "check",
+          "residual_m": 0.03306525643499543
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "study_boundary",
+      "label": "Řešené území · P02",
+      "description": "Nativní obrys z ortofota, S004 / str. 1.",
+      "color": "#e5a82b",
+      "path": "layers/study_boundary.geojson",
+      "feature_count": 1,
+      "sha256": "7b7218604cd5fe68462389157f8d38f6ba4bd45aea6fe64f44d254f23416dfb5"
+    },
+    {
+      "id": "brief_parts",
+      "label": "Části A–D · zadání",
+      "description": "Ruční obrysy schématu; výměry a podíly města podle S003 / str. 6.",
+      "color": "#32cf8b",
+      "path": "layers/brief_parts.geojson",
+      "feature_count": 4,
+      "sha256": "000ba3651f23291e8dc48e54f8e0500395963ced092d0069e882f1d547a3b4f5"
+    },
+    {
+      "id": "water_points",
+      "label": "Vodovod · souřadnicové body",
+      "description": "17 souřadnic z tabulky S062 / str. 1; DSPS 11/2022.",
+      "color": "#59b6ff",
+      "path": "layers/water_points.geojson",
+      "feature_count": 17,
+      "sha256": "9b0f482470f92c5a75836d5d1ba8e07a8758bf3835c01964aa3f1f7273b89a3c"
+    },
+    {
+      "id": "water_route",
+      "label": "Vodovod · spojnice bodů",
+      "description": "Odvozená spojnice bodů 1–17 dle sledu ve výkresu.",
+      "color": "#59b6ff",
+      "path": "layers/water_route.geojson",
+      "feature_count": 1,
+      "sha256": "796428be2f6aab69d0c1872e6a93930322135409e08c54f6c14a0907d69dee35"
+    }
+  ],
+  "processing_runs": [
+    {
+      "script": "build_map_package.py",
+      "script_sha256": "2e0166c99998d2f1a53a30f47931d2a5c70f37d5faa9ebf549dd50ca30d681b4",
+      "registration_script": "register_study_maps.py",
+      "registration_script_sha256": "7d288386da0f205c7029d43978a152d263e6a29d527d44819d46edc3d5ee31c1",
+      "method_routing": "Native PDF strokes for P02; manual schematic white-border trace for P01; explicit coordinate transcription for water. Generic categorical raster converter not applicable to mixed map pages.",
+      "dependency_versions": {
+        "pymupdf": "2.1",
+        "opencv": "5.0.0",
+        "numpy": "2.5.4"
+      },
+      "finalization_script": "finalize_map_package.py",
+      "finalization_script_sha256": "c26fb87ad5935f60137c1c8355a43533f148d4c66dc2db1f5b185f1e0e1ba1c7"
+    }
+  ],
+  "manual_corrections": [
+    {
+      "path": "evidence/manual-traces.json",
+      "reason": "White schematic outline partly obscured by callouts and blue arrows; preserve reviewable pixel inputs."
+    }
+  ],
+  "layers": [
+    {
+      "id": "study_boundary",
+      "label": "Řešené území · P02",
+      "description": "Nativní obrys z ortofota, S004 / str. 1.",
+      "color": "#e5a82b",
+      "path": "layers/study_boundary.geojson",
+      "feature_count": 1,
+      "sha256": "7b7218604cd5fe68462389157f8d38f6ba4bd45aea6fe64f44d254f23416dfb5"
+    },
+    {
+      "id": "brief_parts",
+      "label": "Části A–D · zadání",
+      "description": "Ruční obrysy schématu; výměry a podíly města podle S003 / str. 6.",
+      "color": "#32cf8b",
+      "path": "layers/brief_parts.geojson",
+      "feature_count": 4,
+      "sha256": "000ba3651f23291e8dc48e54f8e0500395963ced092d0069e882f1d547a3b4f5"
+    },
+    {
+      "id": "water_points",
+      "label": "Vodovod · souřadnicové body",
+      "description": "17 souřadnic z tabulky S062 / str. 1; DSPS 11/2022.",
+      "color": "#59b6ff",
+      "path": "layers/water_points.geojson",
+      "feature_count": 17,
+      "sha256": "9b0f482470f92c5a75836d5d1ba8e07a8758bf3835c01964aa3f1f7273b89a3c"
+    },
+    {
+      "id": "water_route",
+      "label": "Vodovod · spojnice bodů",
+      "description": "Odvozená spojnice bodů 1–17 dle sledu ve výkresu.",
+      "color": "#59b6ff",
+      "path": "layers/water_route.geojson",
+      "feature_count": 1,
+      "sha256": "796428be2f6aab69d0c1872e6a93930322135409e08c54f6c14a0907d69dee35"
+    }
+  ],
+  "coverage": [
+    {
+      "source_id": "S001",
+      "title": "VÝZVA K PODÁNÍ NABÍDKY – Urbanistické řešení rozvojového území „Jihozápadní město“",
+      "filename": "vyzva-k-podani-nabidky-jihozapadni-mesto.pdf",
+      "total_pages": 2,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S002",
+      "title": "SMLOUVA O DÍLO – Územní studie rozvojového území „Jihozápadní město“",
+      "filename": "Smlouva o dílo_JZ město.docx",
+      "total_pages": 6,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S003",
+      "title": "Jihozápadní město",
+      "filename": "2601014_zadani.pdf",
+      "total_pages": 15,
+      "processed_pages": [
+        6
+      ],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "partial",
+      "note": "Ostatní strany nejsou tímto mapovým během zpracovány."
+    },
+    {
+      "source_id": "S004",
+      "title": "Jihozápadní město – ortofoto s vyznačením řešeného území",
+      "filename": "JZ_mesto_ortofoto.pdf",
+      "total_pages": 1,
+      "processed_pages": [
+        1
+      ],
+      "unresolved_pages": [],
+      "status": "selected_map_exported",
+      "note": "Vektory i zdrojový rastr dostupné."
+    },
+    {
+      "source_id": "S005",
+      "title": "JZ_mesto_resene_uzemi.dwg",
+      "filename": "JZ_mesto_resene_uzemi.dwg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "cad_unprocessed",
+      "note": "Dodaný DWG zůstává původním zdrojem; CAD geometrie nebyla přečtena."
+    },
+    {
+      "source_id": "S006",
+      "title": "JZ_mesto_technicka_infrasturktura.dwg",
+      "filename": "JZ_mesto_technicka_infrasturktura.dwg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "cad_unprocessed",
+      "note": "Dodaný DWG zůstává původním zdrojem; CAD geometrie nebyla přečtena."
+    },
+    {
+      "source_id": "S007",
+      "title": "SKALNÍ MĚSTO – URBANISTICKO-ARCHITEKTONICKÁ STUDIE JZ ČÁSTI MNICHOVA HRADIŠTĚ",
+      "filename": "0 TitulníStrana.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S008",
+      "title": "10 SkalniMesto.pdf",
+      "filename": "10 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S009",
+      "title": "11 Skalni Mesto.pdf",
+      "filename": "11 Skalni Mesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S010",
+      "title": "12 SkalniMesto.pdf",
+      "filename": "12 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S011",
+      "title": "13_SkalniMesto.pdf",
+      "filename": "13_SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S012",
+      "title": "14_SkalniMesto.pdf",
+      "filename": "14_SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S013",
+      "title": "15_SkalniMesto.pdf",
+      "filename": "15_SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S014",
+      "title": "16_SkalniMesto.pdf",
+      "filename": "16_SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S015",
+      "title": "18 TI Voda Kanal.pdf",
+      "filename": "18 TI Voda Kanal.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S016",
+      "title": "20 TI Plyn.pdf",
+      "filename": "20 TI Plyn.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S017",
+      "title": "TECHNICKÁ INFRASTRUKTURA – VODOVOD KANALIZACE PRO ZÓNU B",
+      "filename": "2008065-TECHNICKÁ ZPRÁVA.doc",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S018",
+      "title": "23 TI  El rozvody.pdf",
+      "filename": "23 TI  El rozvody.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S019",
+      "title": "4 Skalni Mesto.pdf",
+      "filename": "4 Skalni Mesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S020",
+      "title": "5 SkalniMesto.pdf",
+      "filename": "5 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S021",
+      "title": "6 SkalniMesto.pdf",
+      "filename": "6 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S022",
+      "title": "7 SkalniMesto.pdf",
+      "filename": "7 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S023",
+      "title": "8 SkalniMesto.pdf",
+      "filename": "8 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S024",
+      "title": "9 SkalniMesto.pdf",
+      "filename": "9 SkalniMesto.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S025",
+      "title": "SKALNÍ MĚSTO - ZÓNA B",
+      "filename": "BD_Hradiste.doc",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S026",
+      "title": "Dětská hřiště: hrací sestavy a kompletní hřiště",
+      "filename": "Detska-hriste_1.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S027",
+      "title": "Dětská hřiště - houpačky, prolézačky, skluzavky",
+      "filename": "Detska-hriste_2.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S028",
+      "title": "SVÍTIDLO PRO KOMUNIKACE A PARKY - typ IJP",
+      "filename": "DEVELOP09032009341_1.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S029",
+      "title": "Koš FOCA - městský mobiliář Urbania",
+      "filename": "Lavicka_kos.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S030",
+      "title": "SKALNÍ MĚSTO",
+      "filename": "MH zpráva UAS JZ.doc",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S031",
+      "title": "VNĚJŠÍ SILNOPROUDÉ ROZVODY",
+      "filename": "SkalniMestoEL.doc",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S032",
+      "title": "VENKOVNÍ SDĚLOVACÍ ROZVODY",
+      "filename": "SkalniMestoSdel.doc",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S033",
+      "title": "Název objektu :",
+      "filename": "STL_plynovod_popis_042008.DOC",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S034",
+      "title": "SVÍTIDLO PRO KOMUNIKACE A PARKY – TYP IJP",
+      "filename": "Verejne osvetleni.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S035",
+      "title": "Z.pdf",
+      "filename": "Z.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S036",
+      "title": "JIHOZÁPADNÍ SEKTOR – koncept rozvoje lokality",
+      "filename": "2010_JZ sektor_siadesign_černý.pdf",
+      "total_pages": 8,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S037",
+      "title": "OVĚŘOVACÍ STUDIE – JIHOZÁPADNÍ ČÁST MĚSTA MNICHOVO HRADIŠTĚ – ZÓNY A, B, C",
+      "filename": "151-BROZURA_MNICHOVO HRADISTE.pdf",
+      "total_pages": 5,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S038",
+      "title": "OVĚŘOVACÍ STUDIE – JIHOZÁPADNÍ ČÁST MĚSTA MNICHOVO HRADIŠTĚ – ZÓNY A, B, C",
+      "filename": "151-BROZURA_MNICHOVO HRADISTE.pdf",
+      "total_pages": 5,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S039",
+      "title": "ÚZEMNÍ PLÁN MNICHOVO HRADIŠTĚ – DOPRAVNÍ STUDIE",
+      "filename": "up dopravní studie.pdf",
+      "total_pages": 9,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S040",
+      "title": "210326 MH_jihozapadni_situace_texturovana_varianta skola 02.pdf",
+      "filename": "210326 MH_jihozapadni_situace_texturovana_varianta skola 02.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S041",
+      "title": "BŘEZOVÝ HÁJ – OVĚŘOVACÍ STUDIE",
+      "filename": "brezovy haj - overovaci studie_25-06-16.pdf",
+      "total_pages": 9,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S042",
+      "title": "00015099_01_SIRSI_VZTAHY.pdf",
+      "filename": "00015099_01_SIRSI_VZTAHY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S043",
+      "title": "00015099_02_VYREZ_UZEMNIHO_PLANU_OBCE.pdf",
+      "filename": "00015099_02_VYREZ_UZEMNIHO_PLANU_OBCE.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S044",
+      "title": "00015099_03_VYTAH_PODMINEK_UZEMNIHO_PLANU_OBCE.pdf",
+      "filename": "00015099_03_VYTAH_PODMINEK_UZEMNIHO_PLANU_OBCE.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S045",
+      "title": "00015099_04_HLAVNI_VYKRES.pdf",
+      "filename": "00015099_04_HLAVNI_VYKRES.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "registration_unresolved",
+      "note": "Zkušební SIFT vůči katastrálnímu podkladu: 24 shod, po prostorovém omezení 5 bodů, nedostatečné kontroly. GeoJSON nevydán. US7 je jiná studie/revize, nikoli části A–D zadání."
+    },
+    {
+      "source_id": "S046",
+      "title": "00015099_05_KOORDINACNI_VYKRES.pdf",
+      "filename": "00015099_05_KOORDINACNI_VYKRES.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S047",
+      "title": "00015099_06_ULICNI_PROFILY.pdf",
+      "filename": "00015099_06_ULICNI_PROFILY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S048",
+      "title": "00015099_07_VYKRES_DOPRAVNI_INFRASTRUKTURY.pdf",
+      "filename": "00015099_07_VYKRES_DOPRAVNI_INFRASTRUKTURY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S049",
+      "title": "00015099_08_VYKRES_TECHNICKE_INFRASTRUKTURY.pdf",
+      "filename": "00015099_08_VYKRES_TECHNICKE_INFRASTRUKTURY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S050",
+      "title": "00015099_09_PERSPEKTIVNI_NADHLEDY.pdf",
+      "filename": "00015099_09_PERSPEKTIVNI_NADHLEDY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S051",
+      "title": "00015099_10_PERSPEKTIVNI_POHLED_01.pdf",
+      "filename": "00015099_10_PERSPEKTIVNI_POHLED_01.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S052",
+      "title": "00015099_11_PERSPEKTIVNI_POHLED_02.pdf",
+      "filename": "00015099_11_PERSPEKTIVNI_POHLED_02.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S053",
+      "title": "00015099_12_PERSPEKTIVNI_POHLED_03.pdf",
+      "filename": "00015099_12_PERSPEKTIVNI_POHLED_03.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S054",
+      "title": "00015099_13_PERSPEKTIVNI_POHLED_04.pdf",
+      "filename": "00015099_13_PERSPEKTIVNI_POHLED_04.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S055",
+      "title": "00015099_14_PERSPEKTIVNI_POHLED_05.pdf",
+      "filename": "00015099_14_PERSPEKTIVNI_POHLED_05.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S056",
+      "title": "00015099_15_VEREJNE_PRISTUPNE_A_NEPRISTUPNE_PLOCHY.pdf",
+      "filename": "00015099_15_VEREJNE_PRISTUPNE_A_NEPRISTUPNE_PLOCHY.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S057",
+      "title": "ÚZEMNÍ STUDIE ÚS 7 – MNICHOVO HRADIŠTĚ",
+      "filename": "00015099_text.pdf",
+      "total_pages": 25,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S058",
+      "title": "C1.pdf",
+      "filename": "C1.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S059",
+      "title": "C2.pdf",
+      "filename": "C2.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S060",
+      "title": "C3 final.pdf",
+      "filename": "C3 final.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S061",
+      "title": "C3.pdf",
+      "filename": "C3.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S062",
+      "title": "C4 SOUŘADNICE.pdf",
+      "filename": "C4 SOUŘADNICE.pdf",
+      "total_pages": 1,
+      "processed_pages": [
+        1
+      ],
+      "unresolved_pages": [],
+      "status": "selected_map_exported",
+      "note": "Vektory i zdrojový rastr dostupné."
+    },
+    {
+      "source_id": "S063",
+      "title": "D1 11.4.23.pdf",
+      "filename": "D1 11.4.23.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S064",
+      "title": "D1.pdf",
+      "filename": "D1.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S065",
+      "title": "D2.pdf",
+      "filename": "D2.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S066",
+      "title": "D3  OPRAVA POKLOP 18.7.23.pdf",
+      "filename": "D3  OPRAVA POKLOP 18.7.23.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S067",
+      "title": "D3.pdf",
+      "filename": "D3.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S068",
+      "title": "D4.pdf",
+      "filename": "D4.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S069",
+      "title": "D5a.pdf",
+      "filename": "D5a.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S070",
+      "title": "D5b.pdf",
+      "filename": "D5b.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S071",
+      "title": "D6.pdf",
+      "filename": "D6.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S072",
+      "title": "VODOVOD ČERNÁ SILNICE VČETNĚ PROPOJENÍ V ULICI V CESTKÁCH – A. PRŮVODNÍ ZPRÁVA / B. SOUHRNNÁ TECHNICKÁ ZPRÁVA",
+      "filename": "TZ A,B.pdf",
+      "total_pages": 10,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S073",
+      "title": "VODOVOD ČERNÁ SILNICE VČETNĚ PROPOJENÍ V ULICI V CESTKÁCH – D. DOKUMENTACE OBJEKTŮ A TECH. A TECHNOLOG. ZAŘ.",
+      "filename": "TZ D.doc OPRAVA 17.5..pdf",
+      "total_pages": 15,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S074",
+      "title": "VODOVOD ČERNÁ SILNICE VČETNĚ PROPOJENÍ V ULICI V CESTKÁCH – D. DOKUMENTACE OBJEKTŮ A TECH. A TECHNOLOG. ZAŘ.",
+      "filename": "TZ D.pdf",
+      "total_pages": 14,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S075",
+      "title": "Z 1.NP sesazene_85.pdf",
+      "filename": "Z 1.NP sesazene_85.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S076",
+      "title": "Z 2.NP A_90.pdf",
+      "filename": "Z 2.NP A_90.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S077",
+      "title": "Z 2.NP B_91.pdf",
+      "filename": "Z 2.NP B_91.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S078",
+      "title": "Z pohled A_86.pdf",
+      "filename": "Z pohled A_86.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S079",
+      "title": "Z pohled B_88.pdf",
+      "filename": "Z pohled B_88.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S080",
+      "title": "Z situ C3_92.pdf",
+      "filename": "Z situ C3_92.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S081",
+      "title": "Z strecha_89.pdf",
+      "filename": "Z strecha_89.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S082",
+      "title": "Z svisly rez N_87.pdf",
+      "filename": "Z svisly rez N_87.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S083",
+      "title": "Z zaklady garaze_93.pdf",
+      "filename": "Z zaklady garaze_93.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S084",
+      "title": "SO_05-02-PODROBNÁ SITUACE_R2.pdf",
+      "filename": "SO_05-02-PODROBNÁ SITUACE_R2.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S085",
+      "title": "SO_05-03-Podélný profil_VĚTEV A.PDF",
+      "filename": "SO_05-03-Podélný profil_VĚTEV A.PDF",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S086",
+      "title": "SO_05-04-Podélný profil_VĚTEV B.PDF",
+      "filename": "SO_05-04-Podélný profil_VĚTEV B.PDF",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S087",
+      "title": "SO_05-05-Podélný profil_VĚTEV C.PDF",
+      "filename": "SO_05-05-Podélný profil_VĚTEV C.PDF",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S088",
+      "title": "SO_05-06-Charakteristické příčné řezy_R2.pdf",
+      "filename": "SO_05-06-Charakteristické příčné řezy_R2.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S089",
+      "title": "SO_05-07-Vzorový příčný řez_R2.pdf",
+      "filename": "SO_05-07-Vzorový příčný řez_R2.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S090",
+      "title": "SO_05-08-Detaily bezbariérového užívání.pdf",
+      "filename": "SO_05-08-Detaily bezbariérového užívání.pdf",
+      "total_pages": 1,
+      "processed_pages": [],
+      "unresolved_pages": [
+        1
+      ],
+      "status": "not_georeferenced",
+      "note": "Dokument je dostupný ve čtečce; jeho mapový obsah zatím není převeden do geografických souřadnic."
+    },
+    {
+      "source_id": "S091",
+      "title": "dji_fly_20260813_163122_157_1786631600774_photo_optimized.JPG",
+      "filename": "dji_fly_20260813_163122_157_1786631600774_photo_optimized.JPG",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_suitable",
+      "note": "Šikmá fotografie; není ortorektifikovaným mapovým podkladem."
+    },
+    {
+      "source_id": "S092",
+      "title": "Kopie souboru 2d78287a-a447-4f40-b807-67118678bd24.jpg",
+      "filename": "Kopie souboru 2d78287a-a447-4f40-b807-67118678bd24.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_suitable",
+      "note": "Šikmá fotografie; není ortorektifikovaným mapovým podkladem."
+    },
+    {
+      "source_id": "S093",
+      "title": "Kopie souboru e94f7511-2464-44de-9d75-c36f75ac7a56.jpg",
+      "filename": "Kopie souboru e94f7511-2464-44de-9d75-c36f75ac7a56.jpg",
+      "total_pages": null,
+      "processed_pages": [],
+      "unresolved_pages": [],
+      "status": "not_suitable",
+      "note": "Šikmá fotografie; není ortorektifikovaným mapovým podkladem."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-OTHER-SHEETS",
+      "status": "open",
+      "description": "Další studie, varianty a mapové listy v 93zdrojovém korpusu dosud nejsou plně georeferencovány ani vektorizovány. Pokrytí je po stránkách v coverage.json.",
+      "next_action": "Samostatně umístit každý plán a revizi, ověřit legendu, před exportem zkontrolovat transformační body."
+    },
+    {
+      "id": "GAP-US7",
+      "status": "open",
+      "source_id": "S045",
+      "description": "Nedostatečný počet prostorově rozložených kontrolních bodů při zkušebním automatickém přiřazení.",
+      "next_action": "Použít doložené lomové body katastru nebo nativní CAD a nezávislé kontrolní body."
+    },
+    {
+      "id": "GAP-CURRENT-STATUS",
+      "status": "open",
+      "description": "Aktuální vlastnictví, právní stav hranic a provoz/kapacita vodovodu nebyly ověřeny.",
+      "next_action": "Před použitím v ekonomických dohodách ověřit u města, katastru a správce sítě."
+    }
+  ]
+}

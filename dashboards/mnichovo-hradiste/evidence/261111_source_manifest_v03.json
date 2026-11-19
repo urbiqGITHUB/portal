@@ -1,0 +1,3833 @@
+{
+  "created_at": "2026-11-11 16:48:04",
+  "timezone": "Europe/Prague",
+  "status": "internal-draft",
+  "summary": {
+    "documents": 93,
+    "images": 192,
+    "pdfOriginals": 76,
+    "pdfPreviews": 77,
+    "reviewItems": 59,
+    "states": {
+      "complete": 49,
+      "failed": 2,
+      "partial": 15,
+      "complete_with_review": 27
+    }
+  },
+  "archive_sha256": "54a4cc83b6f1c8bb0e8643c62f43db2639001314bb78b73417316c1d3c328b42",
+  "skill_revision": "0d9efccba04397e29811e54d33961493af8c94ad",
+  "sources": [
+    {
+      "id": "S001",
+      "original": "sources/S001.pdf",
+      "source_sha256": "c296cf137775a286a41cb1fecfbde83f7952d40dc022b1ec4ce6ff0a0877e8e9",
+      "markdown": "documents/S001/261111_jihozapadni-mesto-s001-vyzva-k-podani-nabidky-jihozapadni-mesto_extraction_v01.md",
+      "markdown_sha256": "740a92c6bcaa5ff56e330af73c0b788985ace0388d33793336a67f96174d6059",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s001-vyzva-k-podani-nabidky-jihozapadni-mesto_v01\\261111_jihozapadni-mesto-s001-vyzva-k-podani-nabidky-jihozapadni-mesto_extraction_v01.md",
+      "pdf": "sources/S001.pdf",
+      "pdf_sha256": "c296cf137775a286a41cb1fecfbde83f7952d40dc022b1ec4ce6ff0a0877e8e9"
+    },
+    {
+      "id": "S002",
+      "original": "sources/S002.docx",
+      "source_sha256": "8e8467c0cee6a352b0c201efc42545812c68454d481f4141028d9d0edc417ba3",
+      "markdown": "documents/S002/261111_jihozapadni-mesto-s002-smlouva-o-dilo-jz-mesto_extraction_v01.md",
+      "markdown_sha256": "c73964bd8cbfd700d0d087b568262dd060f63d993039a8047a6bb971dcb184c6",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s002-smlouva-o-dilo-jz-mesto_v01\\261111_jihozapadni-mesto-s002-smlouva-o-dilo-jz-mesto_extraction_v01.md",
+      "pdf": "sources/S002_word_render.pdf",
+      "pdf_sha256": "d5fbc1fff427fd0b9522705e20480265909f917baa66b408c3eca0a4010e5c61"
+    },
+    {
+      "id": "S003",
+      "original": "sources/S003.pdf",
+      "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+      "markdown": "documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+      "markdown_sha256": "2aab547ad4e8f70f1f866cae61bb1a327b2b54a8e53ec7731659c39fac51f342",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s003-2601014-zadani_v01\\261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+      "pdf": "sources/S003.pdf",
+      "pdf_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501"
+    },
+    {
+      "id": "S004",
+      "original": "sources/S004.pdf",
+      "source_sha256": "3a601286e483ad6052fdbd0ab83f76078facec568c9d3963f96c91ec5aaf71c6",
+      "markdown": "documents/S004/261111_jihozapadni-mesto-s004-jz-mesto-ortofoto_extraction_v01.md",
+      "markdown_sha256": "73edd7eedf263b9e3271a91237b3eb610205924c28ff067f8bd278a84c1f84a7",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s004-jz-mesto-ortofoto_v01\\261111_jihozapadni-mesto-s004-jz-mesto-ortofoto_extraction_v01.md",
+      "pdf": "sources/S004.pdf",
+      "pdf_sha256": "3a601286e483ad6052fdbd0ab83f76078facec568c9d3963f96c91ec5aaf71c6"
+    },
+    {
+      "id": "S005",
+      "original": "sources/S005.dwg",
+      "source_sha256": "2c63a91ad928dc1af514ccd3b2c747ddba8d6475b44b5b97fd10f99deb328252",
+      "markdown": "documents/S005/261111_jihozapadni-mesto-s005-jz-mesto-resene-uzemi_extraction_v01.md",
+      "markdown_sha256": "554e6aafd0fec01a4e034eef13e38394d9ce3b19b693c9f2b1cca8aff8127fed",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s005-jz-mesto-resene-uzemi_v01\\261111_jihozapadni-mesto-s005-jz-mesto-resene-uzemi_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S006",
+      "original": "sources/S006.dwg",
+      "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+      "markdown": "documents/S006/261111_jihozapadni-mesto-s006-jz-mesto-technicka-infrasturktura_extraction_v01.md",
+      "markdown_sha256": "72295ed456266db6c7d014b2f5d3a9395e3f11ea7f89f0c1a4f693818f5a63a6",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s006-jz-mesto-technicka-infrasturktura_v01\\261111_jihozapadni-mesto-s006-jz-mesto-technicka-infrasturktura_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S007",
+      "original": "sources/S007.pdf",
+      "source_sha256": "23569b8aa7753e697d299b6f99566d3318e7e4e3886dbd129809c3139d25fd75",
+      "markdown": "documents/S007/261111_jihozapadni-mesto-s007-0-titulnistrana_extraction_v01.md",
+      "markdown_sha256": "12e4b45f2b9832eb42b39d2935c213d9e76a5afc4ef2ff01087f666a4b8f08ec",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s007-0-titulnistrana_v01\\261111_jihozapadni-mesto-s007-0-titulnistrana_extraction_v01.md",
+      "pdf": "sources/S007.pdf",
+      "pdf_sha256": "23569b8aa7753e697d299b6f99566d3318e7e4e3886dbd129809c3139d25fd75"
+    },
+    {
+      "id": "S008",
+      "original": "sources/S008.pdf",
+      "source_sha256": "ed6e55b735981074200ff2b99bdb3e31202413a523082d25762a99de33816573",
+      "markdown": "documents/S008/261111_jihozapadni-mesto-s008-10-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "77e92d5f79bd061ff3369e90f77c4fbbf4b8bf2dbe56947966bf07edb40051ba",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s008-10-skalnimesto_v01\\261111_jihozapadni-mesto-s008-10-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S008.pdf",
+      "pdf_sha256": "ed6e55b735981074200ff2b99bdb3e31202413a523082d25762a99de33816573"
+    },
+    {
+      "id": "S009",
+      "original": "sources/S009.pdf",
+      "source_sha256": "86b9d64fa4875e58b37b0586bdf484b0114202d09ecaeff4786d26c06096c8cc",
+      "markdown": "documents/S009/261111_jihozapadni-mesto-s009-11-skalni-mesto_extraction_v01.md",
+      "markdown_sha256": "56544a8df72b73e72ea40a7b4a5e4ab79ba354fc0c5b2a3fc863daf847b702c0",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s009-11-skalni-mesto_v01\\261111_jihozapadni-mesto-s009-11-skalni-mesto_extraction_v01.md",
+      "pdf": "sources/S009.pdf",
+      "pdf_sha256": "86b9d64fa4875e58b37b0586bdf484b0114202d09ecaeff4786d26c06096c8cc"
+    },
+    {
+      "id": "S010",
+      "original": "sources/S010.pdf",
+      "source_sha256": "91fdd6a7693d908708db5d6836169a63f660188f1f82eb3124e477c090e7ff67",
+      "markdown": "documents/S010/261111_jihozapadni-mesto-s010-12-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "792a96225b0b076478b6bbad9e0df6e7e02ccd38b443c80e27102d8709b7271c",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s010-12-skalnimesto_v01\\261111_jihozapadni-mesto-s010-12-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S010.pdf",
+      "pdf_sha256": "91fdd6a7693d908708db5d6836169a63f660188f1f82eb3124e477c090e7ff67"
+    },
+    {
+      "id": "S011",
+      "original": "sources/S011.pdf",
+      "source_sha256": "83632aff59260da407ce0f4f059fcbe4809283d41dccc073bdbb06f8f99f1bf7",
+      "markdown": "documents/S011/261111_jihozapadni-mesto-s011-13-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "fa0fc54f0515bbf3013c6433505b9f0fbca36ca394d5d203b3f52acaa6a68696",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s011-13-skalnimesto_v01\\261111_jihozapadni-mesto-s011-13-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S011.pdf",
+      "pdf_sha256": "83632aff59260da407ce0f4f059fcbe4809283d41dccc073bdbb06f8f99f1bf7"
+    },
+    {
+      "id": "S012",
+      "original": "sources/S012.pdf",
+      "source_sha256": "55e0815a204c27fd0c3e069b6986a2062364dd1afb531855248189f31dd43e16",
+      "markdown": "documents/S012/261111_jihozapadni-mesto-s012-14-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "36af0d8acacf23a53b134158d88dcf9583544c7840f22d0378975729b3758ac0",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s012-14-skalnimesto_v01\\261111_jihozapadni-mesto-s012-14-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S012.pdf",
+      "pdf_sha256": "55e0815a204c27fd0c3e069b6986a2062364dd1afb531855248189f31dd43e16"
+    },
+    {
+      "id": "S013",
+      "original": "sources/S013.pdf",
+      "source_sha256": "372ecba5151675f19959e28036b800a45b45b446c8c79ab9d2a20d157d04103f",
+      "markdown": "documents/S013/261111_jihozapadni-mesto-s013-15-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "4b830e26df0ece801d293f3b81cb23254877e3885c080043427448192f3ee09b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s013-15-skalnimesto_v01\\261111_jihozapadni-mesto-s013-15-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S013.pdf",
+      "pdf_sha256": "372ecba5151675f19959e28036b800a45b45b446c8c79ab9d2a20d157d04103f"
+    },
+    {
+      "id": "S014",
+      "original": "sources/S014.pdf",
+      "source_sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936",
+      "markdown": "documents/S014/261111_jihozapadni-mesto-s014-16-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "c1c1c6370c77ded8bc11200cb1b83b20bd44e7fdffb3d2d5e9835c48ad28a4fb",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s014-16-skalnimesto_v01\\261111_jihozapadni-mesto-s014-16-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S014.pdf",
+      "pdf_sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936"
+    },
+    {
+      "id": "S015",
+      "original": "sources/S015.pdf",
+      "source_sha256": "4436af38ecd675e2c3511890433a5c98e3ec73478ae83c5b8c01a364f0cd8784",
+      "markdown": "documents/S015/261111_jihozapadni-mesto-s015-18-ti-voda-kanal_extraction_v01.md",
+      "markdown_sha256": "993c64b7b0fe3e2b9dd9fb06c3ce21734920883a8be72b11d5bd4aa37b20d2f8",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s015-18-ti-voda-kanal_v01\\261111_jihozapadni-mesto-s015-18-ti-voda-kanal_extraction_v01.md",
+      "pdf": "sources/S015.pdf",
+      "pdf_sha256": "4436af38ecd675e2c3511890433a5c98e3ec73478ae83c5b8c01a364f0cd8784"
+    },
+    {
+      "id": "S016",
+      "original": "sources/S016.pdf",
+      "source_sha256": "01ea1964a4080338363d5d4dd717ccc78301041c8c7574f85c981b0c2868b599",
+      "markdown": "documents/S016/261111_jihozapadni-mesto-s016-20-ti-plyn_extraction_v01.md",
+      "markdown_sha256": "c3e9c23490fb17af3c6b7a60aa848c40be4dd4fbb24d2cc9de3a11197623d2bb",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s016-20-ti-plyn_v01\\261111_jihozapadni-mesto-s016-20-ti-plyn_extraction_v01.md",
+      "pdf": "sources/S016.pdf",
+      "pdf_sha256": "01ea1964a4080338363d5d4dd717ccc78301041c8c7574f85c981b0c2868b599"
+    },
+    {
+      "id": "S017",
+      "original": "sources/S017.doc",
+      "source_sha256": "f8649a152618029ffe51ce3c9722963f0f05f8ae54565948dc8eef24fe71d0ce",
+      "markdown": "documents/S017/261111_jihozapadni-mesto-s017-2008065-technicka-zprava_extraction_v01.md",
+      "markdown_sha256": "0e4676d6096b073c5705f37f1984365581ec93a978cc62793d9d62024ac67d2a",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s017-2008065-technicka-zprava_v01\\261111_jihozapadni-mesto-s017-2008065-technicka-zprava_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S018",
+      "original": "sources/S018.pdf",
+      "source_sha256": "b22d5a600ec9b94d5e73e797fa3eef53ebab96f3e4a37fe2740887d57da65366",
+      "markdown": "documents/S018/261111_jihozapadni-mesto-s018-23-ti-el-rozvody_extraction_v01.md",
+      "markdown_sha256": "04c834f668f25e13d94e713488d6e3a9511943bd70547b1fe99b492ba9708dab",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s018-23-ti-el-rozvody_v01\\261111_jihozapadni-mesto-s018-23-ti-el-rozvody_extraction_v01.md",
+      "pdf": "sources/S018.pdf",
+      "pdf_sha256": "b22d5a600ec9b94d5e73e797fa3eef53ebab96f3e4a37fe2740887d57da65366"
+    },
+    {
+      "id": "S019",
+      "original": "sources/S019.pdf",
+      "source_sha256": "730bc1fe8cc6724cdb3dffeb2fb5034f04bea9ce6c0098c3bb0c4933462adf1c",
+      "markdown": "documents/S019/261111_jihozapadni-mesto-s019-4-skalni-mesto_extraction_v01.md",
+      "markdown_sha256": "4cf4c76dfcb74341c11420d98fc9daa131ab5c4522c3407600702553f1392662",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s019-4-skalni-mesto_v01\\261111_jihozapadni-mesto-s019-4-skalni-mesto_extraction_v01.md",
+      "pdf": "sources/S019.pdf",
+      "pdf_sha256": "730bc1fe8cc6724cdb3dffeb2fb5034f04bea9ce6c0098c3bb0c4933462adf1c"
+    },
+    {
+      "id": "S020",
+      "original": "sources/S020.pdf",
+      "source_sha256": "1e611d92d901381377d0f6a7b168c6256745eb4ca514049e9de21f00066d093b",
+      "markdown": "documents/S020/261111_jihozapadni-mesto-s020-5-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "e04700224bcc866a8a7e3db44b63416552e4b1954714a9e63809165c9a070833",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s020-5-skalnimesto_v01\\261111_jihozapadni-mesto-s020-5-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S020.pdf",
+      "pdf_sha256": "1e611d92d901381377d0f6a7b168c6256745eb4ca514049e9de21f00066d093b"
+    },
+    {
+      "id": "S021",
+      "original": "sources/S021.pdf",
+      "source_sha256": "b9e1de7657260d3fa01caf8dea1824f2cc92e6cf696b265a734936157e4e07a6",
+      "markdown": "documents/S021/261111_jihozapadni-mesto-s021-6-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "0bf796d97376514dba3376797495a60acbbfbf9a9f4c36d91b1e4ef02cdcc85b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s021-6-skalnimesto_v01\\261111_jihozapadni-mesto-s021-6-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S021.pdf",
+      "pdf_sha256": "b9e1de7657260d3fa01caf8dea1824f2cc92e6cf696b265a734936157e4e07a6"
+    },
+    {
+      "id": "S022",
+      "original": "sources/S022.pdf",
+      "source_sha256": "6dbfddb39a84a14e99e67ccf844b1e1c14df16904977c14c17b3bbc06901fbcd",
+      "markdown": "documents/S022/261111_jihozapadni-mesto-s022-7-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "ff197a2f61d0976cc0b33484045c2493398514b23dc30c6eca34104b66acfff5",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s022-7-skalnimesto_v01\\261111_jihozapadni-mesto-s022-7-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S022.pdf",
+      "pdf_sha256": "6dbfddb39a84a14e99e67ccf844b1e1c14df16904977c14c17b3bbc06901fbcd"
+    },
+    {
+      "id": "S023",
+      "original": "sources/S023.pdf",
+      "source_sha256": "bcf5b4efe808706ece5ad34120b14b6941843e08828979ccfd1027fda2c6f5ab",
+      "markdown": "documents/S023/261111_jihozapadni-mesto-s023-8-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "bdff180095c5b1cce618c2f5402f1c2f832b7c198a8056d8ce869b061d95256a",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s023-8-skalnimesto_v01\\261111_jihozapadni-mesto-s023-8-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S023.pdf",
+      "pdf_sha256": "bcf5b4efe808706ece5ad34120b14b6941843e08828979ccfd1027fda2c6f5ab"
+    },
+    {
+      "id": "S024",
+      "original": "sources/S024.pdf",
+      "source_sha256": "ff683037116221324fb5e8ced2a09738e2278032eaf3b349a53f6c0a80639a45",
+      "markdown": "documents/S024/261111_jihozapadni-mesto-s024-9-skalnimesto_extraction_v01.md",
+      "markdown_sha256": "7b66917c93c9ed9e330c4cb0a9d07850cbd0d99e163275a2365c03aa596ed8bb",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s024-9-skalnimesto_v01\\261111_jihozapadni-mesto-s024-9-skalnimesto_extraction_v01.md",
+      "pdf": "sources/S024.pdf",
+      "pdf_sha256": "ff683037116221324fb5e8ced2a09738e2278032eaf3b349a53f6c0a80639a45"
+    },
+    {
+      "id": "S025",
+      "original": "sources/S025.doc",
+      "source_sha256": "910487a954a9fac1c33d74c82ead196ae93eb95a50e2f1ace3c18df4798594c9",
+      "markdown": "documents/S025/261111_jihozapadni-mesto-s025-bd-hradiste_extraction_v01.md",
+      "markdown_sha256": "7e42b9fcdb6799323114de6abed22656127ef82f9af3ac5e0732e923c553150c",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s025-bd-hradiste_v01\\261111_jihozapadni-mesto-s025-bd-hradiste_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S026",
+      "original": "sources/S026.jpg",
+      "source_sha256": "b4d99290809185b136332b52b5a9b8ca8ee74e758de8549a8176877e975da004",
+      "markdown": "documents/S026/261111_jihozapadni-mesto-s026-detska-hriste-1_extraction_v01.md",
+      "markdown_sha256": "fb6cbdfec527473b0275ede580488661d22d96f4da61bf392b6733457450282f",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s026-detska-hriste-1_v01\\261111_jihozapadni-mesto-s026-detska-hriste-1_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S027",
+      "original": "sources/S027.jpg",
+      "source_sha256": "359382544766d39a8c3bb6f337608e2b55d51bbe87a80205e0bf2f4e7eabf3ec",
+      "markdown": "documents/S027/261111_jihozapadni-mesto-s027-detska-hriste-2_extraction_v01.md",
+      "markdown_sha256": "da9eba61c164f5a9d40f9e01c8736e50bea1b8e80f72cda4f0a04f815b5393bc",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s027-detska-hriste-2_v01\\261111_jihozapadni-mesto-s027-detska-hriste-2_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S028",
+      "original": "sources/S028.jpg",
+      "source_sha256": "ca0296eacf207746221ff02a18450db3cb7c2e9c2c663a7363e5cc300f43c27f",
+      "markdown": "documents/S028/261111_jihozapadni-mesto-s028-develop09032009341-1_extraction_v01.md",
+      "markdown_sha256": "c3adc544ca52bff2be5fa0e8827a74332b8e2eb1a8b96a4532f76625bd0cd476",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s028-develop09032009341-1_v01\\261111_jihozapadni-mesto-s028-develop09032009341-1_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S029",
+      "original": "sources/S029.jpg",
+      "source_sha256": "6815eaa543af7adfa5c3ea06b24fd150ab05a477e8824a3431d41762f7fa9026",
+      "markdown": "documents/S029/261111_jihozapadni-mesto-s029-lavicka-kos_extraction_v01.md",
+      "markdown_sha256": "ad373f0d768ecaab1eb2a3d3d0358ec586cd3da984c61421e17f5b6626a2daa7",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s029-lavicka-kos_v01\\261111_jihozapadni-mesto-s029-lavicka-kos_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S030",
+      "original": "sources/S030.doc",
+      "source_sha256": "84dfbb9fdb580f228ca33cce8228affb31ec6e423431b1ae61d5f915588036e7",
+      "markdown": "documents/S030/261111_jihozapadni-mesto-s030-mh-zprava-uas-jz_extraction_v01.md",
+      "markdown_sha256": "89e39cfe19a02f155c2d30cf8dd1e138d257ced8902aee2208c97235e1b8d6da",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s030-mh-zprava-uas-jz_v01\\261111_jihozapadni-mesto-s030-mh-zprava-uas-jz_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S031",
+      "original": "sources/S031.doc",
+      "source_sha256": "b1d94bc6b8e42436694b5d1490e7a7ebcaa0d2971176abfddecf543321d9aff0",
+      "markdown": "documents/S031/261111_jihozapadni-mesto-s031-skalnimestoel_extraction_v01.md",
+      "markdown_sha256": "07d58e0813edce92f2989f547afd1f0c97780b5efed2abf336df377e12497f86",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s031-skalnimestoel_v01\\261111_jihozapadni-mesto-s031-skalnimestoel_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S032",
+      "original": "sources/S032.doc",
+      "source_sha256": "7fb811e778ad766b90fc255d440694b6f3a4bd0d37dc3995accd04ea392c9989",
+      "markdown": "documents/S032/261111_jihozapadni-mesto-s032-skalnimestosdel_extraction_v01.md",
+      "markdown_sha256": "45348be44ae299d22758a005b435a3db11e8730b4042abbfc451309a2523b10b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s032-skalnimestosdel_v01\\261111_jihozapadni-mesto-s032-skalnimestosdel_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S033",
+      "original": "sources/S033.doc",
+      "source_sha256": "18aceb62c19634b21bdb41f24d7eb6642667b02c6caaa2669347163b075139ae",
+      "markdown": "documents/S033/261111_jihozapadni-mesto-s033-stl-plynovod-popis-042008_extraction_v01.md",
+      "markdown_sha256": "4b22f49fa179b9d3ccdd5765ac73303e8ab00b43717f6cba87dbb821a48ff2cb",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s033-stl-plynovod-popis-042008_v01\\261111_jihozapadni-mesto-s033-stl-plynovod-popis-042008_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S034",
+      "original": "sources/S034.jpg",
+      "source_sha256": "348cf94042dfc878711b3d5a67f560c399e79734a54da15279f098ef606b957c",
+      "markdown": "documents/S034/261111_jihozapadni-mesto-s034-verejne-osvetleni_extraction_v01.md",
+      "markdown_sha256": "f536b21a823c54f27b9d4cbebff2e67b5ccdd5751f06d0324013da4dc761a688",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s034-verejne-osvetleni_v01\\261111_jihozapadni-mesto-s034-verejne-osvetleni_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S035",
+      "original": "sources/S035.pdf",
+      "source_sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936",
+      "markdown": "documents/S035/261111_jihozapadni-mesto-s035-z_extraction_v01.md",
+      "markdown_sha256": "3295f79dd3cbdb830f7cb99d523c6d5caa7d4bbd4e6e7d6e2b397b8cfc44806b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s035-z_v01\\261111_jihozapadni-mesto-s035-z_extraction_v01.md",
+      "pdf": "sources/S035.pdf",
+      "pdf_sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936"
+    },
+    {
+      "id": "S036",
+      "original": "sources/S036.pdf",
+      "source_sha256": "8e365b87280b32687a34b1603ac704308cde901db25456ba879ed559853b9fc2",
+      "markdown": "documents/S036/261111_jihozapadni-mesto-s036-2010-jz-sektor-siadesign-cerny_extraction_v01.md",
+      "markdown_sha256": "3d3bd08d89977f268266bc3671c77c4b7376cbb6bbc82663e871d2cb42991a42",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s036-2010-jz-sektor-siadesign-cerny_v01\\261111_jihozapadni-mesto-s036-2010-jz-sektor-siadesign-cerny_extraction_v01.md",
+      "pdf": "sources/S036.pdf",
+      "pdf_sha256": "8e365b87280b32687a34b1603ac704308cde901db25456ba879ed559853b9fc2"
+    },
+    {
+      "id": "S037",
+      "original": "sources/S037.pdf",
+      "source_sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d",
+      "markdown": "documents/S037/261111_jihozapadni-mesto-s037-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "markdown_sha256": "9a1ca6ba31e4875f1160ddd5241bd1b80776abe49f885be0a6ed50b2eea9ec51",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s037-151-brozura-mnichovo-hradiste_v01\\261111_jihozapadni-mesto-s037-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "pdf": "sources/S037.pdf",
+      "pdf_sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d"
+    },
+    {
+      "id": "S038",
+      "original": "sources/S038.pdf",
+      "source_sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d",
+      "markdown": "documents/S038/261111_jihozapadni-mesto-s038-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "markdown_sha256": "ed5b2529ae8c508d5caecbb2e288b4e9efa010da22a71586cc4986d6dd0f53f6",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s038-151-brozura-mnichovo-hradiste_v01\\261111_jihozapadni-mesto-s038-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "pdf": "sources/S038.pdf",
+      "pdf_sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d"
+    },
+    {
+      "id": "S039",
+      "original": "sources/S039.pdf",
+      "source_sha256": "0ed633556ad7e374a9cc555fb7e43095f594931920c21468b4a46cbfd2eebb8e",
+      "markdown": "documents/S039/261111_jihozapadni-mesto-s039-up-dopravni-studie_extraction_v01.md",
+      "markdown_sha256": "159a03b1d850c6cec730039c523a0f6b18a273fff7a6ae18d7be352fc7a05c7c",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s039-up-dopravni-studie_v01\\261111_jihozapadni-mesto-s039-up-dopravni-studie_extraction_v01.md",
+      "pdf": "sources/S039.pdf",
+      "pdf_sha256": "0ed633556ad7e374a9cc555fb7e43095f594931920c21468b4a46cbfd2eebb8e"
+    },
+    {
+      "id": "S040",
+      "original": "sources/S040.pdf",
+      "source_sha256": "04c7d61b1953eeb1e74be5d30b40791274d67a5b435a4a05e59240c210e0c3e5",
+      "markdown": "documents/S040/261111_jihozapadni-mesto-s040-210326-mh-jihozapadni-situace-texturovana-varianta-skola-02_extraction_v01.md",
+      "markdown_sha256": "76b8ab40c59d3c8948893d3f9c52e1fd1e9cf0b058aaa976fc327cc754006a6f",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s040-210326-mh-jihozapadni-situace-texturovana-varianta-skola-02_v01\\261111_jihozapadni-mesto-s040-210326-mh-jihozapadni-situace-texturovana-varianta-skola-02_extraction_v01.md",
+      "pdf": "sources/S040.pdf",
+      "pdf_sha256": "04c7d61b1953eeb1e74be5d30b40791274d67a5b435a4a05e59240c210e0c3e5"
+    },
+    {
+      "id": "S041",
+      "original": "sources/S041.pdf",
+      "source_sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9",
+      "markdown": "documents/S041/261111_jihozapadni-mesto-s041-brezovy-haj-overovaci-studie-25-06-16_extraction_v01.md",
+      "markdown_sha256": "14b5455f7f3ed06eec5469e4fa3d349169a4fe5aef8e01913f028c52228eb801",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s041-brezovy-haj-overovaci-studie-25-06-16_v01\\261111_jihozapadni-mesto-s041-brezovy-haj-overovaci-studie-25-06-16_extraction_v01.md",
+      "pdf": "sources/S041.pdf",
+      "pdf_sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9"
+    },
+    {
+      "id": "S042",
+      "original": "sources/S042.pdf",
+      "source_sha256": "c218824f6d2736157ea723645f387c6286ac59c0880d90d1c9312f1b765fe615",
+      "markdown": "documents/S042/261111_jihozapadni-mesto-s042-00015099-01-sirsi-vztahy_extraction_v01.md",
+      "markdown_sha256": "a59432351830300919b72051265dc51543647c28db5a4efe959bd26d64b2ad4e",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s042-00015099-01-sirsi-vztahy_v01\\261111_jihozapadni-mesto-s042-00015099-01-sirsi-vztahy_extraction_v01.md",
+      "pdf": "sources/S042.pdf",
+      "pdf_sha256": "c218824f6d2736157ea723645f387c6286ac59c0880d90d1c9312f1b765fe615"
+    },
+    {
+      "id": "S043",
+      "original": "sources/S043.pdf",
+      "source_sha256": "a38c28c89908a92cd59d00338dac6e70ed7a2ee18eef97c96b5764044e9db734",
+      "markdown": "documents/S043/261111_jihozapadni-mesto-s043-00015099-02-vyrez-uzemniho-planu-obce_extraction_v01.md",
+      "markdown_sha256": "84075fc8e1f55d501d8a55612c13cbbaa9b96101f8f1710a49c5c4ee3d23d329",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s043-00015099-02-vyrez-uzemniho-planu-obce_v01\\261111_jihozapadni-mesto-s043-00015099-02-vyrez-uzemniho-planu-obce_extraction_v01.md",
+      "pdf": "sources/S043.pdf",
+      "pdf_sha256": "a38c28c89908a92cd59d00338dac6e70ed7a2ee18eef97c96b5764044e9db734"
+    },
+    {
+      "id": "S044",
+      "original": "sources/S044.pdf",
+      "source_sha256": "a12c26c64a2459e2959afe118fc976ec7fd53543836c9005f007acae9d4a0221",
+      "markdown": "documents/S044/261111_jihozapadni-mesto-s044-00015099-03-vytah-podminek-uzemniho-planu-obce_extraction_v01.md",
+      "markdown_sha256": "f9c14f4be88efedc837908fa7b90d3d1ea0a55e306cde66e2711b775286083d0",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s044-00015099-03-vytah-podminek-uzemniho-planu-obce_v01\\261111_jihozapadni-mesto-s044-00015099-03-vytah-podminek-uzemniho-planu-obce_extraction_v01.md",
+      "pdf": "sources/S044.pdf",
+      "pdf_sha256": "a12c26c64a2459e2959afe118fc976ec7fd53543836c9005f007acae9d4a0221"
+    },
+    {
+      "id": "S045",
+      "original": "sources/S045.pdf",
+      "source_sha256": "96209ca0ac1fdb5689bc496556f69f22b114bb14931a95faff5b935b1c9da00a",
+      "markdown": "documents/S045/261111_jihozapadni-mesto-s045-00015099-04-hlavni-vykres_extraction_v01.md",
+      "markdown_sha256": "086e0f15e639e36434e1989a7ee7998024dcd0c53c14c9a17a10a8333ba9ff59",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s045-00015099-04-hlavni-vykres_v01\\261111_jihozapadni-mesto-s045-00015099-04-hlavni-vykres_extraction_v01.md",
+      "pdf": "sources/S045.pdf",
+      "pdf_sha256": "96209ca0ac1fdb5689bc496556f69f22b114bb14931a95faff5b935b1c9da00a"
+    },
+    {
+      "id": "S046",
+      "original": "sources/S046.pdf",
+      "source_sha256": "220e973024acf2f78ebc48d2f2ca8aa4e49e2070313d40380fc3a4b71d9dc1d6",
+      "markdown": "documents/S046/261111_jihozapadni-mesto-s046-00015099-05-koordinacni-vykres_extraction_v01.md",
+      "markdown_sha256": "73f09afbb1b9b17f9c57c5652f00e502322a31ceda7e6567748bb62fd2f465c7",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s046-00015099-05-koordinacni-vykres_v01\\261111_jihozapadni-mesto-s046-00015099-05-koordinacni-vykres_extraction_v01.md",
+      "pdf": "sources/S046.pdf",
+      "pdf_sha256": "220e973024acf2f78ebc48d2f2ca8aa4e49e2070313d40380fc3a4b71d9dc1d6"
+    },
+    {
+      "id": "S047",
+      "original": "sources/S047.pdf",
+      "source_sha256": "580d757089b961437029343955d99e3a05a93402849e7876bc8a004090967a17",
+      "markdown": "documents/S047/261111_jihozapadni-mesto-s047-00015099-06-ulicni-profily_extraction_v01.md",
+      "markdown_sha256": "dd2c3209c67aaf864826c47fc4c2355a903519279267b230a43fba1177b1eced",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s047-00015099-06-ulicni-profily_v01\\261111_jihozapadni-mesto-s047-00015099-06-ulicni-profily_extraction_v01.md",
+      "pdf": "sources/S047.pdf",
+      "pdf_sha256": "580d757089b961437029343955d99e3a05a93402849e7876bc8a004090967a17"
+    },
+    {
+      "id": "S048",
+      "original": "sources/S048.pdf",
+      "source_sha256": "c64938190efb4eb43925f6edc4c1c248aa8780f2a550dfc0b3b854b36bcfc5a4",
+      "markdown": "documents/S048/261111_jihozapadni-mesto-s048-00015099-07-vykres-dopravni-infrastruktury_extraction_v01.md",
+      "markdown_sha256": "b871c2186f6b203c636402be8e6789cceda898126bd19ff0c1ff8deef6e8b4f1",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s048-00015099-07-vykres-dopravni-infrastruktury_v01\\261111_jihozapadni-mesto-s048-00015099-07-vykres-dopravni-infrastruktury_extraction_v01.md",
+      "pdf": "sources/S048.pdf",
+      "pdf_sha256": "c64938190efb4eb43925f6edc4c1c248aa8780f2a550dfc0b3b854b36bcfc5a4"
+    },
+    {
+      "id": "S049",
+      "original": "sources/S049.pdf",
+      "source_sha256": "f6214812357b989a6e042cd23030e1b18547bc65797f067ff2b9d3f7c506eb9c",
+      "markdown": "documents/S049/261111_jihozapadni-mesto-s049-00015099-08-vykres-technicke-infrastruktury_extraction_v01.md",
+      "markdown_sha256": "cdabd4f1ea89d414a932429686f8d0bf1434220aac4a22e7b862915a2bbff291",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s049-00015099-08-vykres-technicke-infrastruktury_v01\\261111_jihozapadni-mesto-s049-00015099-08-vykres-technicke-infrastruktury_extraction_v01.md",
+      "pdf": "sources/S049.pdf",
+      "pdf_sha256": "f6214812357b989a6e042cd23030e1b18547bc65797f067ff2b9d3f7c506eb9c"
+    },
+    {
+      "id": "S050",
+      "original": "sources/S050.pdf",
+      "source_sha256": "d3022bb84fbf9705cf8f93a1ddd6c1debcdf2e71edec94cdec680613dc1fa84b",
+      "markdown": "documents/S050/261111_jihozapadni-mesto-s050-00015099-09-perspektivni-nadhledy_extraction_v01.md",
+      "markdown_sha256": "ed8a85a658f394222bd9092826d40b9ef8532cbcf68b545086da2b6eb52e3da5",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s050-00015099-09-perspektivni-nadhledy_v01\\261111_jihozapadni-mesto-s050-00015099-09-perspektivni-nadhledy_extraction_v01.md",
+      "pdf": "sources/S050.pdf",
+      "pdf_sha256": "d3022bb84fbf9705cf8f93a1ddd6c1debcdf2e71edec94cdec680613dc1fa84b"
+    },
+    {
+      "id": "S051",
+      "original": "sources/S051.pdf",
+      "source_sha256": "f0f764b0b850b1bac582b16de75de626d4746f19ddfb2f629c8531d5aaec59a7",
+      "markdown": "documents/S051/261111_jihozapadni-mesto-s051-00015099-10-perspektivni-pohled-01_extraction_v01.md",
+      "markdown_sha256": "9384d0ecb3d3fad07ae9eca34cc3d854b467d05ade9437f8d2d1a43f4589635f",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s051-00015099-10-perspektivni-pohled-01_v01\\261111_jihozapadni-mesto-s051-00015099-10-perspektivni-pohled-01_extraction_v01.md",
+      "pdf": "sources/S051.pdf",
+      "pdf_sha256": "f0f764b0b850b1bac582b16de75de626d4746f19ddfb2f629c8531d5aaec59a7"
+    },
+    {
+      "id": "S052",
+      "original": "sources/S052.pdf",
+      "source_sha256": "a6dbe91fc1debed662859b5d87fee00a684e28b6db452636a85f46415e7f43eb",
+      "markdown": "documents/S052/261111_jihozapadni-mesto-s052-00015099-11-perspektivni-pohled-02_extraction_v01.md",
+      "markdown_sha256": "dc2413e36559559e839ee2b3c9cf9e5f2f5ebf39b5a7b62841d2c1c0f4f39fc1",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s052-00015099-11-perspektivni-pohled-02_v01\\261111_jihozapadni-mesto-s052-00015099-11-perspektivni-pohled-02_extraction_v01.md",
+      "pdf": "sources/S052.pdf",
+      "pdf_sha256": "a6dbe91fc1debed662859b5d87fee00a684e28b6db452636a85f46415e7f43eb"
+    },
+    {
+      "id": "S053",
+      "original": "sources/S053.pdf",
+      "source_sha256": "6ede2da5559115c127dc706daf6f006703f6f8b4a0f21c84b037ac70a2ce5c20",
+      "markdown": "documents/S053/261111_jihozapadni-mesto-s053-00015099-12-perspektivni-pohled-03_extraction_v01.md",
+      "markdown_sha256": "cb17a38a0d615e48aad998e52b07c7fe89e439c60112328340c2a4f9e9d1d8c2",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s053-00015099-12-perspektivni-pohled-03_v01\\261111_jihozapadni-mesto-s053-00015099-12-perspektivni-pohled-03_extraction_v01.md",
+      "pdf": "sources/S053.pdf",
+      "pdf_sha256": "6ede2da5559115c127dc706daf6f006703f6f8b4a0f21c84b037ac70a2ce5c20"
+    },
+    {
+      "id": "S054",
+      "original": "sources/S054.pdf",
+      "source_sha256": "565e84f610e0b6b78e52e90c44407041aad01a9df2254ebedbf176d9ac06733d",
+      "markdown": "documents/S054/261111_jihozapadni-mesto-s054-00015099-13-perspektivni-pohled-04_extraction_v01.md",
+      "markdown_sha256": "bd6d7e02fd072d4eac96930683ffb4b217d280325b79213bd74e82aeeef7720a",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s054-00015099-13-perspektivni-pohled-04_v01\\261111_jihozapadni-mesto-s054-00015099-13-perspektivni-pohled-04_extraction_v01.md",
+      "pdf": "sources/S054.pdf",
+      "pdf_sha256": "565e84f610e0b6b78e52e90c44407041aad01a9df2254ebedbf176d9ac06733d"
+    },
+    {
+      "id": "S055",
+      "original": "sources/S055.pdf",
+      "source_sha256": "803e9b450b854d68ed3beeb72d50116aff99183cc0038dd1087e7fb8f236f9cc",
+      "markdown": "documents/S055/261111_jihozapadni-mesto-s055-00015099-14-perspektivni-pohled-05_extraction_v01.md",
+      "markdown_sha256": "41b90c88021580cfb63f7fcc6b69adda38581e7600d8d9f09e25024d51732c0b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s055-00015099-14-perspektivni-pohled-05_v01\\261111_jihozapadni-mesto-s055-00015099-14-perspektivni-pohled-05_extraction_v01.md",
+      "pdf": "sources/S055.pdf",
+      "pdf_sha256": "803e9b450b854d68ed3beeb72d50116aff99183cc0038dd1087e7fb8f236f9cc"
+    },
+    {
+      "id": "S056",
+      "original": "sources/S056.pdf",
+      "source_sha256": "3cf0203027b2bf35b03199f01d1fe7b13f450619efb3146561673381e7f13f8e",
+      "markdown": "documents/S056/261111_jihozapadni-mesto-s056-00015099-15-verejne-pristupne-a-nepristupne-plochy_extraction_v01.md",
+      "markdown_sha256": "a3a1b4fb61390d7d374e016374adc8f447ba9ec322413913540382f76f0717a7",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s056-00015099-15-verejne-pristupne-a-nepristupne-plochy_v01\\261111_jihozapadni-mesto-s056-00015099-15-verejne-pristupne-a-nepristupne-plochy_extraction_v01.md",
+      "pdf": "sources/S056.pdf",
+      "pdf_sha256": "3cf0203027b2bf35b03199f01d1fe7b13f450619efb3146561673381e7f13f8e"
+    },
+    {
+      "id": "S057",
+      "original": "sources/S057.pdf",
+      "source_sha256": "14d73e7a759e5dba94ad9338714d94e94e04faef1a84b21628c05f6bcf3d71a5",
+      "markdown": "documents/S057/261111_jihozapadni-mesto-s057-00015099-text_extraction_v01.md",
+      "markdown_sha256": "9ac63b5e1d3e7bdcd49432637b5a8adff760958ae799aed71da24cbb834b733f",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s057-00015099-text_v01\\261111_jihozapadni-mesto-s057-00015099-text_extraction_v01.md",
+      "pdf": "sources/S057.pdf",
+      "pdf_sha256": "14d73e7a759e5dba94ad9338714d94e94e04faef1a84b21628c05f6bcf3d71a5"
+    },
+    {
+      "id": "S058",
+      "original": "sources/S058.pdf",
+      "source_sha256": "1a4ffb3bc068c500fd5057e1c8b44054c00a6bf5279b34b57465dab0a575165f",
+      "markdown": "documents/S058/261111_jihozapadni-mesto-s058-c1_extraction_v01.md",
+      "markdown_sha256": "406e674679ef50664574038596c151ae7f2602fdc5b0a9fad552d48ad6dcc243",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s058-c1_v01\\261111_jihozapadni-mesto-s058-c1_extraction_v01.md",
+      "pdf": "sources/S058.pdf",
+      "pdf_sha256": "1a4ffb3bc068c500fd5057e1c8b44054c00a6bf5279b34b57465dab0a575165f"
+    },
+    {
+      "id": "S059",
+      "original": "sources/S059.pdf",
+      "source_sha256": "007f54e1bed482895bc2f5fd4bc9a89acf125d8aa1c432461cd375c842cc7c8b",
+      "markdown": "documents/S059/261111_jihozapadni-mesto-s059-c2_extraction_v01.md",
+      "markdown_sha256": "98c27f95464c32a7c0e2a39cef1f3e7aef598a59a9a7a1985d2fd052aa6b979a",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s059-c2_v01\\261111_jihozapadni-mesto-s059-c2_extraction_v01.md",
+      "pdf": "sources/S059.pdf",
+      "pdf_sha256": "007f54e1bed482895bc2f5fd4bc9a89acf125d8aa1c432461cd375c842cc7c8b"
+    },
+    {
+      "id": "S060",
+      "original": "sources/S060.pdf",
+      "source_sha256": "c6377a67676ab728c16a7fb76313be0475294966dfdcf6f7ee5a690f0153ff21",
+      "markdown": "documents/S060/261111_jihozapadni-mesto-s060-c3-final_extraction_v01.md",
+      "markdown_sha256": "e4663cbca699b952eb7d59e397836edb3fdf5a160808f93113b76bb165b394d5",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s060-c3-final_v01\\261111_jihozapadni-mesto-s060-c3-final_extraction_v01.md",
+      "pdf": "sources/S060.pdf",
+      "pdf_sha256": "c6377a67676ab728c16a7fb76313be0475294966dfdcf6f7ee5a690f0153ff21"
+    },
+    {
+      "id": "S061",
+      "original": "sources/S061.pdf",
+      "source_sha256": "c54173df7bfc8e8b1b43fb071ff656fa725d8b157017733bd8ab9cca7335ebf9",
+      "markdown": "documents/S061/261111_jihozapadni-mesto-s061-c3_extraction_v01.md",
+      "markdown_sha256": "ee5f7208c342b3fb6f0d3e7285ae53474675ca1a06b954c0db78aca04250f8bd",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s061-c3_v01\\261111_jihozapadni-mesto-s061-c3_extraction_v01.md",
+      "pdf": "sources/S061.pdf",
+      "pdf_sha256": "c54173df7bfc8e8b1b43fb071ff656fa725d8b157017733bd8ab9cca7335ebf9"
+    },
+    {
+      "id": "S062",
+      "original": "sources/S062.pdf",
+      "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+      "markdown": "documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+      "markdown_sha256": "d24e5c9190a9d8a7e0a32c5b2d96d27864ed4baebe9e24209d8748b709df32cf",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s062-c4-souradnice_v01\\261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+      "pdf": "sources/S062.pdf",
+      "pdf_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e"
+    },
+    {
+      "id": "S063",
+      "original": "sources/S063.pdf",
+      "source_sha256": "384e8ece52a8888422db15f61c202211728ec1a7619c3d1e427881af926415e3",
+      "markdown": "documents/S063/261111_jihozapadni-mesto-s063-d1-11-4-23_extraction_v01.md",
+      "markdown_sha256": "abb079348eb97b2e8d5bfcfe9eb09c3ed141e6db0fdb4f9cb702444ca1bbbb2e",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s063-d1-11-4-23_v01\\261111_jihozapadni-mesto-s063-d1-11-4-23_extraction_v01.md",
+      "pdf": "sources/S063.pdf",
+      "pdf_sha256": "384e8ece52a8888422db15f61c202211728ec1a7619c3d1e427881af926415e3"
+    },
+    {
+      "id": "S064",
+      "original": "sources/S064.pdf",
+      "source_sha256": "3497feaed30f8ac8d4371770d66a8f39bb0d0ce728bfc8e5abb11a3ac4512995",
+      "markdown": "documents/S064/261111_jihozapadni-mesto-s064-d1_extraction_v01.md",
+      "markdown_sha256": "d161922bab765b01dbd184f30194cbcb5d378ad5114a414a2f397b1b76a4b4b3",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s064-d1_v01\\261111_jihozapadni-mesto-s064-d1_extraction_v01.md",
+      "pdf": "sources/S064.pdf",
+      "pdf_sha256": "3497feaed30f8ac8d4371770d66a8f39bb0d0ce728bfc8e5abb11a3ac4512995"
+    },
+    {
+      "id": "S065",
+      "original": "sources/S065.pdf",
+      "source_sha256": "3b49b17996ad622f408ab7ac76a72d83779e5506b9d00aaa49ddb80ce08df84d",
+      "markdown": "documents/S065/261111_jihozapadni-mesto-s065-d2_extraction_v01.md",
+      "markdown_sha256": "167510abb0f2d78dab5d131f5fd6f4d1a0180a3972cf517ef8e2bcd045d76e3a",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s065-d2_v01\\261111_jihozapadni-mesto-s065-d2_extraction_v01.md",
+      "pdf": "sources/S065.pdf",
+      "pdf_sha256": "3b49b17996ad622f408ab7ac76a72d83779e5506b9d00aaa49ddb80ce08df84d"
+    },
+    {
+      "id": "S066",
+      "original": "sources/S066.pdf",
+      "source_sha256": "38b31a7f08d5c726cc1c9d2b790e53c7181e2073347f66d7225f233607f58844",
+      "markdown": "documents/S066/261111_jihozapadni-mesto-s066-d3-oprava-poklop-18-7-23_extraction_v01.md",
+      "markdown_sha256": "f21c14bd66e749c448036d356bad75b3141121076b4585b217141efe3d0dad60",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s066-d3-oprava-poklop-18-7-23_v01\\261111_jihozapadni-mesto-s066-d3-oprava-poklop-18-7-23_extraction_v01.md",
+      "pdf": "sources/S066.pdf",
+      "pdf_sha256": "38b31a7f08d5c726cc1c9d2b790e53c7181e2073347f66d7225f233607f58844"
+    },
+    {
+      "id": "S067",
+      "original": "sources/S067.pdf",
+      "source_sha256": "199e351c36173418ebb805be41cf760f481dcd7f40d2619e60b7b09a43f02f07",
+      "markdown": "documents/S067/261111_jihozapadni-mesto-s067-d3_extraction_v01.md",
+      "markdown_sha256": "e617763c24bbced7c40457a95975230a57beaf8a86a1d68aaec33b0f47903695",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s067-d3_v01\\261111_jihozapadni-mesto-s067-d3_extraction_v01.md",
+      "pdf": "sources/S067.pdf",
+      "pdf_sha256": "199e351c36173418ebb805be41cf760f481dcd7f40d2619e60b7b09a43f02f07"
+    },
+    {
+      "id": "S068",
+      "original": "sources/S068.pdf",
+      "source_sha256": "50d6cd4fb4bbb37723a275483d4bbaccc18b19753cf658943877fc23317a0bc6",
+      "markdown": "documents/S068/261111_jihozapadni-mesto-s068-d4_extraction_v01.md",
+      "markdown_sha256": "22c8924c569ff9ba270ada426bcc736ab34bfb2e5dd0ca1c6ed9f71566c55106",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s068-d4_v01\\261111_jihozapadni-mesto-s068-d4_extraction_v01.md",
+      "pdf": "sources/S068.pdf",
+      "pdf_sha256": "50d6cd4fb4bbb37723a275483d4bbaccc18b19753cf658943877fc23317a0bc6"
+    },
+    {
+      "id": "S069",
+      "original": "sources/S069.pdf",
+      "source_sha256": "93c133124e5cdbc75fa1922456fd9e55110567a2d1a3b1623246a0f17fe6a91f",
+      "markdown": "documents/S069/261111_jihozapadni-mesto-s069-d5a_extraction_v01.md",
+      "markdown_sha256": "1013baa87aba7f52ede09227bab58e6d755bb226de999a4e9da5a79f64818ad9",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s069-d5a_v01\\261111_jihozapadni-mesto-s069-d5a_extraction_v01.md",
+      "pdf": "sources/S069.pdf",
+      "pdf_sha256": "93c133124e5cdbc75fa1922456fd9e55110567a2d1a3b1623246a0f17fe6a91f"
+    },
+    {
+      "id": "S070",
+      "original": "sources/S070.pdf",
+      "source_sha256": "9757548c6346aaa10617aaf9075436ab38cce9a53467de9a75c6ee5121f2b796",
+      "markdown": "documents/S070/261111_jihozapadni-mesto-s070-d5b_extraction_v01.md",
+      "markdown_sha256": "ae38a74289b7298087fccc9600447688f683225c1962f84c65bcf5e1f225351c",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s070-d5b_v01\\261111_jihozapadni-mesto-s070-d5b_extraction_v01.md",
+      "pdf": "sources/S070.pdf",
+      "pdf_sha256": "9757548c6346aaa10617aaf9075436ab38cce9a53467de9a75c6ee5121f2b796"
+    },
+    {
+      "id": "S071",
+      "original": "sources/S071.pdf",
+      "source_sha256": "54eba3b662c40c347a683614823cecbeda9115f6ff5083608c4f70bc0971c384",
+      "markdown": "documents/S071/261111_jihozapadni-mesto-s071-d6_extraction_v01.md",
+      "markdown_sha256": "ac562b42e2a6682fd61a815e6b01262b44ce9924a711b21313f3d2fbc6e45429",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s071-d6_v01\\261111_jihozapadni-mesto-s071-d6_extraction_v01.md",
+      "pdf": "sources/S071.pdf",
+      "pdf_sha256": "54eba3b662c40c347a683614823cecbeda9115f6ff5083608c4f70bc0971c384"
+    },
+    {
+      "id": "S072",
+      "original": "sources/S072.pdf",
+      "source_sha256": "a9f38350b21714615ceeb222396667c4f691fee0378310a5be1c1ce4a4756b97",
+      "markdown": "documents/S072/261111_jihozapadni-mesto-s072-tz-a-b_extraction_v01.md",
+      "markdown_sha256": "391ed3b8265b40156de776f213a6c9f1cecddb0881ce926ca5c6c3aac69df60e",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s072-tz-a-b_v01\\261111_jihozapadni-mesto-s072-tz-a-b_extraction_v01.md",
+      "pdf": "sources/S072.pdf",
+      "pdf_sha256": "a9f38350b21714615ceeb222396667c4f691fee0378310a5be1c1ce4a4756b97"
+    },
+    {
+      "id": "S073",
+      "original": "sources/S073.pdf",
+      "source_sha256": "f34207d9b421035cb4f84fe59d9dc79d24040ddbbcd4739e6aaeb7ac4d4bdc99",
+      "markdown": "documents/S073/261111_jihozapadni-mesto-s073-tz-d-doc-oprava-17-5_extraction_v01.md",
+      "markdown_sha256": "8721c01f155f4ebcff22fcbe2e9f9e455f17d6e50127c3877d10fb588cd72266",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s073-tz-d-doc-oprava-17-5_v01\\261111_jihozapadni-mesto-s073-tz-d-doc-oprava-17-5_extraction_v01.md",
+      "pdf": "sources/S073.pdf",
+      "pdf_sha256": "f34207d9b421035cb4f84fe59d9dc79d24040ddbbcd4739e6aaeb7ac4d4bdc99"
+    },
+    {
+      "id": "S074",
+      "original": "sources/S074.pdf",
+      "source_sha256": "6841a48284a66cca661cf88630034d83834c6c86c29d181d4bc4eeb8050df476",
+      "markdown": "documents/S074/261111_jihozapadni-mesto-s074-tz-d_extraction_v01.md",
+      "markdown_sha256": "6f1861e9cdd571e470669d6c507c4a816b572ba81c53fa00fefe713f44dc2ba7",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s074-tz-d_v01\\261111_jihozapadni-mesto-s074-tz-d_extraction_v01.md",
+      "pdf": "sources/S074.pdf",
+      "pdf_sha256": "6841a48284a66cca661cf88630034d83834c6c86c29d181d4bc4eeb8050df476"
+    },
+    {
+      "id": "S075",
+      "original": "sources/S075.pdf",
+      "source_sha256": "1316294753c529189bb3810091a8f283bbc3b84b6ed8ff3693486c11868d2b94",
+      "markdown": "documents/S075/261111_jihozapadni-mesto-s075-z-1-np-sesazene-85_extraction_v01.md",
+      "markdown_sha256": "6ff8c8fd943c2a46680baa1a374285a82ba1a978b3a9880cb13d42702b358675",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s075-z-1-np-sesazene-85_v01\\261111_jihozapadni-mesto-s075-z-1-np-sesazene-85_extraction_v01.md",
+      "pdf": "sources/S075.pdf",
+      "pdf_sha256": "1316294753c529189bb3810091a8f283bbc3b84b6ed8ff3693486c11868d2b94"
+    },
+    {
+      "id": "S076",
+      "original": "sources/S076.pdf",
+      "source_sha256": "a74bf5b2c67212b9f4b247059abde86fedf762fc83fad1832e82d9a2986bdf9e",
+      "markdown": "documents/S076/261111_jihozapadni-mesto-s076-z-2-np-a-90_extraction_v01.md",
+      "markdown_sha256": "6e6b2710f1274969199dbf105d391b4d3d1f4ee89f556fdf74962a937dca6bb5",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s076-z-2-np-a-90_v01\\261111_jihozapadni-mesto-s076-z-2-np-a-90_extraction_v01.md",
+      "pdf": "sources/S076.pdf",
+      "pdf_sha256": "a74bf5b2c67212b9f4b247059abde86fedf762fc83fad1832e82d9a2986bdf9e"
+    },
+    {
+      "id": "S077",
+      "original": "sources/S077.pdf",
+      "source_sha256": "2a1d5b69f81379214c80052b7a9fb0b2862149b125283960540ef61f375c7f4a",
+      "markdown": "documents/S077/261111_jihozapadni-mesto-s077-z-2-np-b-91_extraction_v01.md",
+      "markdown_sha256": "08ab0da3be4fb4e11fa85524cb27a1569c34e4663dd72230226f02ce39a31e01",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s077-z-2-np-b-91_v01\\261111_jihozapadni-mesto-s077-z-2-np-b-91_extraction_v01.md",
+      "pdf": "sources/S077.pdf",
+      "pdf_sha256": "2a1d5b69f81379214c80052b7a9fb0b2862149b125283960540ef61f375c7f4a"
+    },
+    {
+      "id": "S078",
+      "original": "sources/S078.pdf",
+      "source_sha256": "9d73cdba7ed7e53bb3588728def98b781eda17a9cc49dfcb36d566c0b596e42d",
+      "markdown": "documents/S078/261111_jihozapadni-mesto-s078-z-pohled-a-86_extraction_v01.md",
+      "markdown_sha256": "d26c2201fbd42f3753127b9c4072115360cccb931545f32fa69dfbacf4dca558",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s078-z-pohled-a-86_v01\\261111_jihozapadni-mesto-s078-z-pohled-a-86_extraction_v01.md",
+      "pdf": "sources/S078.pdf",
+      "pdf_sha256": "9d73cdba7ed7e53bb3588728def98b781eda17a9cc49dfcb36d566c0b596e42d"
+    },
+    {
+      "id": "S079",
+      "original": "sources/S079.pdf",
+      "source_sha256": "108ba8160320024e67b816a444c57b1d3b660d0efa9d8e941afe6e332abb2924",
+      "markdown": "documents/S079/261111_jihozapadni-mesto-s079-z-pohled-b-88_extraction_v01.md",
+      "markdown_sha256": "c33383579b4222980d9a9c90b9ea1cc958cfb239ba5e5ed12c5916928c6db906",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s079-z-pohled-b-88_v01\\261111_jihozapadni-mesto-s079-z-pohled-b-88_extraction_v01.md",
+      "pdf": "sources/S079.pdf",
+      "pdf_sha256": "108ba8160320024e67b816a444c57b1d3b660d0efa9d8e941afe6e332abb2924"
+    },
+    {
+      "id": "S080",
+      "original": "sources/S080.pdf",
+      "source_sha256": "c1ffcb74a584fa8e4b930405d1209eaad97f4f24804ee89d138d56d66dd2f86f",
+      "markdown": "documents/S080/261111_jihozapadni-mesto-s080-z-situ-c3-92_extraction_v01.md",
+      "markdown_sha256": "0e46f53e700e6ce10b8ed82ff5375aa8ce8e7f8b685c5c38624dd941f5756261",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s080-z-situ-c3-92_v01\\261111_jihozapadni-mesto-s080-z-situ-c3-92_extraction_v01.md",
+      "pdf": "sources/S080.pdf",
+      "pdf_sha256": "c1ffcb74a584fa8e4b930405d1209eaad97f4f24804ee89d138d56d66dd2f86f"
+    },
+    {
+      "id": "S081",
+      "original": "sources/S081.pdf",
+      "source_sha256": "ab23f09abc98438cf2f3f9ae60413755bc9f4cc1f4e1a37c976224d8d781dcb3",
+      "markdown": "documents/S081/261111_jihozapadni-mesto-s081-z-strecha-89_extraction_v01.md",
+      "markdown_sha256": "28b63ecc194ac10c320956aaa624ceac262cb71638407c80c13909370e5ac82b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s081-z-strecha-89_v01\\261111_jihozapadni-mesto-s081-z-strecha-89_extraction_v01.md",
+      "pdf": "sources/S081.pdf",
+      "pdf_sha256": "ab23f09abc98438cf2f3f9ae60413755bc9f4cc1f4e1a37c976224d8d781dcb3"
+    },
+    {
+      "id": "S082",
+      "original": "sources/S082.pdf",
+      "source_sha256": "cb4b04181b9a7241a3313acc2325b608b31b07e6f8e7cb1dbab28e6f52a0041c",
+      "markdown": "documents/S082/261111_jihozapadni-mesto-s082-z-svisly-rez-n-87_extraction_v01.md",
+      "markdown_sha256": "df4bbed9477e561d24755fd489ff57e779775b6bb5810548e1f6fa1f0ce3eb3b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s082-z-svisly-rez-n-87_v01\\261111_jihozapadni-mesto-s082-z-svisly-rez-n-87_extraction_v01.md",
+      "pdf": "sources/S082.pdf",
+      "pdf_sha256": "cb4b04181b9a7241a3313acc2325b608b31b07e6f8e7cb1dbab28e6f52a0041c"
+    },
+    {
+      "id": "S083",
+      "original": "sources/S083.pdf",
+      "source_sha256": "5ea16b5f8e6810ffa6ebe877e60b1d9766671aafc7cb277252cb620468e7ede8",
+      "markdown": "documents/S083/261111_jihozapadni-mesto-s083-z-zaklady-garaze-93_extraction_v01.md",
+      "markdown_sha256": "02afdb964262fd85410d13ebaa26cea81cb305ad49ef751c56bbd0e70c5e84f9",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s083-z-zaklady-garaze-93_v01\\261111_jihozapadni-mesto-s083-z-zaklady-garaze-93_extraction_v01.md",
+      "pdf": "sources/S083.pdf",
+      "pdf_sha256": "5ea16b5f8e6810ffa6ebe877e60b1d9766671aafc7cb277252cb620468e7ede8"
+    },
+    {
+      "id": "S084",
+      "original": "sources/S084.pdf",
+      "source_sha256": "6ba2a37df7197e8d45d45a0f9b8bc558d17cfc7620ea9f939be6b4edb956f0ae",
+      "markdown": "documents/S084/261111_jihozapadni-mesto-s084-so-05-02-podrobna-situace-r2_extraction_v01.md",
+      "markdown_sha256": "a48bb8e57a87bcf17e2fd6855a5eccb8c68e56224152eff4ab9047a65239311b",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s084-so-05-02-podrobna-situace-r2_v01\\261111_jihozapadni-mesto-s084-so-05-02-podrobna-situace-r2_extraction_v01.md",
+      "pdf": "sources/S084.pdf",
+      "pdf_sha256": "6ba2a37df7197e8d45d45a0f9b8bc558d17cfc7620ea9f939be6b4edb956f0ae"
+    },
+    {
+      "id": "S085",
+      "original": "sources/S085.pdf",
+      "source_sha256": "2adeaee8bebd3129f4e5e4b0855b0f134206cc07c64a8da635d4c86e080d20b0",
+      "markdown": "documents/S085/261111_jihozapadni-mesto-s085-so-05-03-podelny-profil-vetev-a_extraction_v01.md",
+      "markdown_sha256": "30cb78b63740941c25e041162e080c0bbd47251e77189b939af7e1a0ae94a91f",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s085-so-05-03-podelny-profil-vetev-a_v01\\261111_jihozapadni-mesto-s085-so-05-03-podelny-profil-vetev-a_extraction_v01.md",
+      "pdf": "sources/S085.pdf",
+      "pdf_sha256": "2adeaee8bebd3129f4e5e4b0855b0f134206cc07c64a8da635d4c86e080d20b0"
+    },
+    {
+      "id": "S086",
+      "original": "sources/S086.pdf",
+      "source_sha256": "97c33635895cf0208df6fbc86e8ebc681288c312deb4250609d17bdab88bce24",
+      "markdown": "documents/S086/261111_jihozapadni-mesto-s086-so-05-04-podelny-profil-vetev-b_extraction_v01.md",
+      "markdown_sha256": "699b0ed37c8a5fe79fd8451a63bb20769f0d4bd0ad7ba2b9203e8ed6829b01ef",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s086-so-05-04-podelny-profil-vetev-b_v01\\261111_jihozapadni-mesto-s086-so-05-04-podelny-profil-vetev-b_extraction_v01.md",
+      "pdf": "sources/S086.pdf",
+      "pdf_sha256": "97c33635895cf0208df6fbc86e8ebc681288c312deb4250609d17bdab88bce24"
+    },
+    {
+      "id": "S087",
+      "original": "sources/S087.pdf",
+      "source_sha256": "54431d8ae036626f2618745f9131754c7e3664911a676a5150a62955cd19ac13",
+      "markdown": "documents/S087/261111_jihozapadni-mesto-s087-so-05-05-podelny-profil-vetev-c_extraction_v01.md",
+      "markdown_sha256": "0b205e30ce3b8299ac51c424fadc09664e7c8522e0766c5ac995469f65997716",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s087-so-05-05-podelny-profil-vetev-c_v01\\261111_jihozapadni-mesto-s087-so-05-05-podelny-profil-vetev-c_extraction_v01.md",
+      "pdf": "sources/S087.pdf",
+      "pdf_sha256": "54431d8ae036626f2618745f9131754c7e3664911a676a5150a62955cd19ac13"
+    },
+    {
+      "id": "S088",
+      "original": "sources/S088.pdf",
+      "source_sha256": "7935f7078927f115d5dbd00621fccc4f90e25ba625903be87bb067e86d63caea",
+      "markdown": "documents/S088/261111_jihozapadni-mesto-s088-so-05-06-charakteristicke-pricne-rezy-r2_extraction_v01.md",
+      "markdown_sha256": "505435c736396a37db947922631a24f804da544b19f1154075e14c98e20268fe",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s088-so-05-06-charakteristicke-pricne-rezy-r2_v01\\261111_jihozapadni-mesto-s088-so-05-06-charakteristicke-pricne-rezy-r2_extraction_v01.md",
+      "pdf": "sources/S088.pdf",
+      "pdf_sha256": "7935f7078927f115d5dbd00621fccc4f90e25ba625903be87bb067e86d63caea"
+    },
+    {
+      "id": "S089",
+      "original": "sources/S089.pdf",
+      "source_sha256": "49fe09cdd0cbd8253b50b6d19b6ff757af6eb7d69350e3a637ee83de1d255413",
+      "markdown": "documents/S089/261111_jihozapadni-mesto-s089-so-05-07-vzorovy-pricny-rez-r2_extraction_v01.md",
+      "markdown_sha256": "4a3367a7e40212d43efe0f366123f3197305d4bf17d3526711499cfe6a1e200e",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s089-so-05-07-vzorovy-pricny-rez-r2_v01\\261111_jihozapadni-mesto-s089-so-05-07-vzorovy-pricny-rez-r2_extraction_v01.md",
+      "pdf": "sources/S089.pdf",
+      "pdf_sha256": "49fe09cdd0cbd8253b50b6d19b6ff757af6eb7d69350e3a637ee83de1d255413"
+    },
+    {
+      "id": "S090",
+      "original": "sources/S090.pdf",
+      "source_sha256": "1ca322be02711663d3ddfed14e3f7666a707aef3604ed7c843d8a622642e0a8b",
+      "markdown": "documents/S090/261111_jihozapadni-mesto-s090-so-05-08-detaily-bezbarieroveho-uzivani_extraction_v01.md",
+      "markdown_sha256": "1563c65a60e1097eecca6e389e29b0db2b48f57addcecc1a17fcd07c6e016d43",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s090-so-05-08-detaily-bezbarieroveho-uzivani_v01\\261111_jihozapadni-mesto-s090-so-05-08-detaily-bezbarieroveho-uzivani_extraction_v01.md",
+      "pdf": "sources/S090.pdf",
+      "pdf_sha256": "1ca322be02711663d3ddfed14e3f7666a707aef3604ed7c843d8a622642e0a8b"
+    },
+    {
+      "id": "S091",
+      "original": "sources/S091.jpg",
+      "source_sha256": "360fe49002e5e42af430d25f5e96ffc6c169d0e6a5faa94f674fe277fb3d769b",
+      "markdown": "documents/S091/261111_jihozapadni-mesto-s091-dji-fly-20260813-163122-157-1786631600774-photo-optimized_extraction_v01.md",
+      "markdown_sha256": "8f2792d4cbf1921e6b2ee870c1d579097401f050a785ad3c3296b3ea57449d69",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s091-dji-fly-20260813-163122-157-1786631600774-photo-optimized_v01\\261111_jihozapadni-mesto-s091-dji-fly-20260813-163122-157-1786631600774-photo-optimized_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S092",
+      "original": "sources/S092.jpg",
+      "source_sha256": "715e54c48345eeccabded97c240c972277ba09f4375ee5afbf385ebb7afebade",
+      "markdown": "documents/S092/261111_jihozapadni-mesto-s092-kopie-souboru-2d78287a-a447-4f40-b807-67118678bd24_extraction_v01.md",
+      "markdown_sha256": "bc308574523dec59111c44ac25713635e0add93e83bcdfcb2b72937efe3450c2",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s092-kopie-souboru-2d78287a-a447-4f40-b807-67118678bd24_v01\\261111_jihozapadni-mesto-s092-kopie-souboru-2d78287a-a447-4f40-b807-67118678bd24_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S093",
+      "original": "sources/S093.jpg",
+      "source_sha256": "3900db234634e5f66762c52ace1da60c1519948d0b88dfdf7ee5cbdfbcd3f8d3",
+      "markdown": "documents/S093/261111_jihozapadni-mesto-s093-kopie-souboru-e94f7511-2464-44de-9d75-c36f75ac7a56_extraction_v01.md",
+      "markdown_sha256": "14918711e539099be6700d68de6dab7439e7ed3a3939be977d8d091a72650878",
+      "conversion_source": "C:\\Users\\kater\\urbiq s.r.o\\AI LAB - Documents\\General\\urbiq AI LAB light\\02_projects\\00_datamart\\05_DELIVERY\\document-converting-outputs\\261111_jihozapadni-mesto-s093-kopie-souboru-e94f7511-2464-44de-9d75-c36f75ac7a56_v01\\261111_jihozapadni-mesto-s093-kopie-souboru-e94f7511-2464-44de-9d75-c36f75ac7a56_extraction_v01.md",
+      "pdf": null,
+      "pdf_sha256": null
+    }
+  ],
+  "rights": "User-provided material for local internal review; public redistribution not established",
+  "limitations": [
+    "Conversion status is inherited; no claim of full line-by-line human review.",
+    "PDF and Markdown sync through page selector; native PDF scroll is independent.",
+    "S002 PDF is the existing Word rendering; six legacy DOC and two DWG have no PDF.",
+    "Source package Markdown is preserved byte-for-byte; original local links in downloads refer to the original workspace.",
+    "Default comparison uses original PDF page renders at 2400px; native PDF mode is optional and was not visually verified in the test browser."
+  ],
+  "assets": [
+    {
+      "path": "261111_urbiq_jihozapadni_mesto_dashboard_v03.html",
+      "bytes": 6126440,
+      "sha256": "597e319c6e23f5f69789cc1f7c2eee593c0123b0c5476b6db233868eee09dd79"
+    },
+    {
+      "path": "workspace.css",
+      "bytes": 16644,
+      "sha256": "9465031c2127506764e362e1a92eeb3a7e6270b77b333cf7af4f2f714c2ba05d"
+    },
+    {
+      "path": "workspace.js",
+      "bytes": 24971,
+      "sha256": "0553084a535b578ff1fb4c3732a43ecb3bd866043640fe040f358bb077013a34"
+    },
+    {
+      "path": "assets/urbiq_positiv_registered.svg",
+      "bytes": 4444,
+      "sha256": "105a8bed618be35f3dc9e5cb17f199a606d231f6d9d3928e59ea48e0b4a3a06c"
+    },
+    {
+      "path": "sources/261111_urbiq_jihozapadni_mesto_dashboard_v02.html",
+      "bytes": 100341,
+      "sha256": "a02cde261fdd0bc45bedc023e1e3ce97f46f01e3b097d9946357cde962d7e4c6"
+    },
+    {
+      "path": "sources/261111_urbiq_jihozapadni_mesto_evidence_v02.json",
+      "bytes": 71448,
+      "sha256": "fd5299dde2e3aa41883fad5e3e2df516e073c10671ad58fe25747eda5df7d72c"
+    },
+    {
+      "path": "sources/261111_urbiq_jihozapadni_mesto_partnersky_brief_v01.html",
+      "bytes": 31773,
+      "sha256": "04d5f74be9852fbe9956dfec274452ae9586f2e27bc217e2e4e377915c846c05"
+    },
+    {
+      "path": "sources/S001.pdf",
+      "bytes": 179666,
+      "sha256": "c296cf137775a286a41cb1fecfbde83f7952d40dc022b1ec4ce6ff0a0877e8e9"
+    },
+    {
+      "path": "sources/S002.docx",
+      "bytes": 38402,
+      "sha256": "8e8467c0cee6a352b0c201efc42545812c68454d481f4141028d9d0edc417ba3"
+    },
+    {
+      "path": "sources/S002_word_render.pdf",
+      "bytes": 216013,
+      "sha256": "d5fbc1fff427fd0b9522705e20480265909f917baa66b408c3eca0a4010e5c61"
+    },
+    {
+      "path": "sources/S003.pdf",
+      "bytes": 2626806,
+      "sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501"
+    },
+    {
+      "path": "sources/S004.pdf",
+      "bytes": 12306192,
+      "sha256": "3a601286e483ad6052fdbd0ab83f76078facec568c9d3963f96c91ec5aaf71c6"
+    },
+    {
+      "path": "sources/S005.dwg",
+      "bytes": 3796911,
+      "sha256": "2c63a91ad928dc1af514ccd3b2c747ddba8d6475b44b5b97fd10f99deb328252"
+    },
+    {
+      "path": "sources/S006.dwg",
+      "bytes": 2176011,
+      "sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f"
+    },
+    {
+      "path": "sources/S007.pdf",
+      "bytes": 459571,
+      "sha256": "23569b8aa7753e697d299b6f99566d3318e7e4e3886dbd129809c3139d25fd75"
+    },
+    {
+      "path": "sources/S008.pdf",
+      "bytes": 593768,
+      "sha256": "ed6e55b735981074200ff2b99bdb3e31202413a523082d25762a99de33816573"
+    },
+    {
+      "path": "sources/S009.pdf",
+      "bytes": 402883,
+      "sha256": "86b9d64fa4875e58b37b0586bdf484b0114202d09ecaeff4786d26c06096c8cc"
+    },
+    {
+      "path": "sources/S010.pdf",
+      "bytes": 1571477,
+      "sha256": "91fdd6a7693d908708db5d6836169a63f660188f1f82eb3124e477c090e7ff67"
+    },
+    {
+      "path": "sources/S011.pdf",
+      "bytes": 482666,
+      "sha256": "83632aff59260da407ce0f4f059fcbe4809283d41dccc073bdbb06f8f99f1bf7"
+    },
+    {
+      "path": "sources/S012.pdf",
+      "bytes": 33320,
+      "sha256": "55e0815a204c27fd0c3e069b6986a2062364dd1afb531855248189f31dd43e16"
+    },
+    {
+      "path": "sources/S013.pdf",
+      "bytes": 1503577,
+      "sha256": "372ecba5151675f19959e28036b800a45b45b446c8c79ab9d2a20d157d04103f"
+    },
+    {
+      "path": "sources/S014.pdf",
+      "bytes": 559517,
+      "sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936"
+    },
+    {
+      "path": "sources/S015.pdf",
+      "bytes": 289455,
+      "sha256": "4436af38ecd675e2c3511890433a5c98e3ec73478ae83c5b8c01a364f0cd8784"
+    },
+    {
+      "path": "sources/S016.pdf",
+      "bytes": 258377,
+      "sha256": "01ea1964a4080338363d5d4dd717ccc78301041c8c7574f85c981b0c2868b599"
+    },
+    {
+      "path": "sources/S017.doc",
+      "bytes": 32256,
+      "sha256": "f8649a152618029ffe51ce3c9722963f0f05f8ae54565948dc8eef24fe71d0ce"
+    },
+    {
+      "path": "sources/S018.pdf",
+      "bytes": 292005,
+      "sha256": "b22d5a600ec9b94d5e73e797fa3eef53ebab96f3e4a37fe2740887d57da65366"
+    },
+    {
+      "path": "sources/S019.pdf",
+      "bytes": 1066403,
+      "sha256": "730bc1fe8cc6724cdb3dffeb2fb5034f04bea9ce6c0098c3bb0c4933462adf1c"
+    },
+    {
+      "path": "sources/S020.pdf",
+      "bytes": 435451,
+      "sha256": "1e611d92d901381377d0f6a7b168c6256745eb4ca514049e9de21f00066d093b"
+    },
+    {
+      "path": "sources/S021.pdf",
+      "bytes": 273425,
+      "sha256": "b9e1de7657260d3fa01caf8dea1824f2cc92e6cf696b265a734936157e4e07a6"
+    },
+    {
+      "path": "sources/S022.pdf",
+      "bytes": 259607,
+      "sha256": "6dbfddb39a84a14e99e67ccf844b1e1c14df16904977c14c17b3bbc06901fbcd"
+    },
+    {
+      "path": "sources/S023.pdf",
+      "bytes": 1633680,
+      "sha256": "bcf5b4efe808706ece5ad34120b14b6941843e08828979ccfd1027fda2c6f5ab"
+    },
+    {
+      "path": "sources/S024.pdf",
+      "bytes": 454314,
+      "sha256": "ff683037116221324fb5e8ced2a09738e2278032eaf3b349a53f6c0a80639a45"
+    },
+    {
+      "path": "sources/S025.doc",
+      "bytes": 52224,
+      "sha256": "910487a954a9fac1c33d74c82ead196ae93eb95a50e2f1ace3c18df4798594c9"
+    },
+    {
+      "path": "sources/S026.jpg",
+      "bytes": 221554,
+      "sha256": "b4d99290809185b136332b52b5a9b8ca8ee74e758de8549a8176877e975da004"
+    },
+    {
+      "path": "sources/S027.jpg",
+      "bytes": 469260,
+      "sha256": "359382544766d39a8c3bb6f337608e2b55d51bbe87a80205e0bf2f4e7eabf3ec"
+    },
+    {
+      "path": "sources/S028.jpg",
+      "bytes": 3467100,
+      "sha256": "ca0296eacf207746221ff02a18450db3cb7c2e9c2c663a7363e5cc300f43c27f"
+    },
+    {
+      "path": "sources/S029.jpg",
+      "bytes": 416841,
+      "sha256": "6815eaa543af7adfa5c3ea06b24fd150ab05a477e8824a3431d41762f7fa9026"
+    },
+    {
+      "path": "sources/S030.doc",
+      "bytes": 45056,
+      "sha256": "84dfbb9fdb580f228ca33cce8228affb31ec6e423431b1ae61d5f915588036e7"
+    },
+    {
+      "path": "sources/S031.doc",
+      "bytes": 36864,
+      "sha256": "b1d94bc6b8e42436694b5d1490e7a7ebcaa0d2971176abfddecf543321d9aff0"
+    },
+    {
+      "path": "sources/S032.doc",
+      "bytes": 21504,
+      "sha256": "7fb811e778ad766b90fc255d440694b6f3a4bd0d37dc3995accd04ea392c9989"
+    },
+    {
+      "path": "sources/S033.doc",
+      "bytes": 14336,
+      "sha256": "18aceb62c19634b21bdb41f24d7eb6642667b02c6caaa2669347163b075139ae"
+    },
+    {
+      "path": "sources/S034.jpg",
+      "bytes": 254019,
+      "sha256": "348cf94042dfc878711b3d5a67f560c399e79734a54da15279f098ef606b957c"
+    },
+    {
+      "path": "sources/S035.pdf",
+      "bytes": 559517,
+      "sha256": "cfe0bee9b7bde0e7b18a84206fba25d14dd0dd7680d8ea3d34af91db4958f936"
+    },
+    {
+      "path": "sources/S036.pdf",
+      "bytes": 38788698,
+      "sha256": "8e365b87280b32687a34b1603ac704308cde901db25456ba879ed559853b9fc2"
+    },
+    {
+      "path": "sources/S037.pdf",
+      "bytes": 15776141,
+      "sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d"
+    },
+    {
+      "path": "sources/S038.pdf",
+      "bytes": 15776141,
+      "sha256": "2cc46108ebaa7da4393388da34af5e2bc47ca3df0e392e7303a8e12a98e3609d"
+    },
+    {
+      "path": "sources/S039.pdf",
+      "bytes": 5965186,
+      "sha256": "0ed633556ad7e374a9cc555fb7e43095f594931920c21468b4a46cbfd2eebb8e"
+    },
+    {
+      "path": "sources/S040.pdf",
+      "bytes": 40433050,
+      "sha256": "04c7d61b1953eeb1e74be5d30b40791274d67a5b435a4a05e59240c210e0c3e5"
+    },
+    {
+      "path": "sources/S041.pdf",
+      "bytes": 7306989,
+      "sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9"
+    },
+    {
+      "path": "sources/S042.pdf",
+      "bytes": 1263183,
+      "sha256": "c218824f6d2736157ea723645f387c6286ac59c0880d90d1c9312f1b765fe615"
+    },
+    {
+      "path": "sources/S043.pdf",
+      "bytes": 1486584,
+      "sha256": "a38c28c89908a92cd59d00338dac6e70ed7a2ee18eef97c96b5764044e9db734"
+    },
+    {
+      "path": "sources/S044.pdf",
+      "bytes": 176761,
+      "sha256": "a12c26c64a2459e2959afe118fc976ec7fd53543836c9005f007acae9d4a0221"
+    },
+    {
+      "path": "sources/S045.pdf",
+      "bytes": 597453,
+      "sha256": "96209ca0ac1fdb5689bc496556f69f22b114bb14931a95faff5b935b1c9da00a"
+    },
+    {
+      "path": "sources/S046.pdf",
+      "bytes": 3672888,
+      "sha256": "220e973024acf2f78ebc48d2f2ca8aa4e49e2070313d40380fc3a4b71d9dc1d6"
+    },
+    {
+      "path": "sources/S047.pdf",
+      "bytes": 652098,
+      "sha256": "580d757089b961437029343955d99e3a05a93402849e7876bc8a004090967a17"
+    },
+    {
+      "path": "sources/S048.pdf",
+      "bytes": 626222,
+      "sha256": "c64938190efb4eb43925f6edc4c1c248aa8780f2a550dfc0b3b854b36bcfc5a4"
+    },
+    {
+      "path": "sources/S049.pdf",
+      "bytes": 674277,
+      "sha256": "f6214812357b989a6e042cd23030e1b18547bc65797f067ff2b9d3f7c506eb9c"
+    },
+    {
+      "path": "sources/S050.pdf",
+      "bytes": 737593,
+      "sha256": "d3022bb84fbf9705cf8f93a1ddd6c1debcdf2e71edec94cdec680613dc1fa84b"
+    },
+    {
+      "path": "sources/S051.pdf",
+      "bytes": 1300645,
+      "sha256": "f0f764b0b850b1bac582b16de75de626d4746f19ddfb2f629c8531d5aaec59a7"
+    },
+    {
+      "path": "sources/S052.pdf",
+      "bytes": 1292050,
+      "sha256": "a6dbe91fc1debed662859b5d87fee00a684e28b6db452636a85f46415e7f43eb"
+    },
+    {
+      "path": "sources/S053.pdf",
+      "bytes": 1340119,
+      "sha256": "6ede2da5559115c127dc706daf6f006703f6f8b4a0f21c84b037ac70a2ce5c20"
+    },
+    {
+      "path": "sources/S054.pdf",
+      "bytes": 1316937,
+      "sha256": "565e84f610e0b6b78e52e90c44407041aad01a9df2254ebedbf176d9ac06733d"
+    },
+    {
+      "path": "sources/S055.pdf",
+      "bytes": 1068391,
+      "sha256": "803e9b450b854d68ed3beeb72d50116aff99183cc0038dd1087e7fb8f236f9cc"
+    },
+    {
+      "path": "sources/S056.pdf",
+      "bytes": 533966,
+      "sha256": "3cf0203027b2bf35b03199f01d1fe7b13f450619efb3146561673381e7f13f8e"
+    },
+    {
+      "path": "sources/S057.pdf",
+      "bytes": 12587670,
+      "sha256": "14d73e7a759e5dba94ad9338714d94e94e04faef1a84b21628c05f6bcf3d71a5"
+    },
+    {
+      "path": "sources/S058.pdf",
+      "bytes": 316998,
+      "sha256": "1a4ffb3bc068c500fd5057e1c8b44054c00a6bf5279b34b57465dab0a575165f"
+    },
+    {
+      "path": "sources/S059.pdf",
+      "bytes": 122357,
+      "sha256": "007f54e1bed482895bc2f5fd4bc9a89acf125d8aa1c432461cd375c842cc7c8b"
+    },
+    {
+      "path": "sources/S060.pdf",
+      "bytes": 257378,
+      "sha256": "c6377a67676ab728c16a7fb76313be0475294966dfdcf6f7ee5a690f0153ff21"
+    },
+    {
+      "path": "sources/S061.pdf",
+      "bytes": 515166,
+      "sha256": "c54173df7bfc8e8b1b43fb071ff656fa725d8b157017733bd8ab9cca7335ebf9"
+    },
+    {
+      "path": "sources/S062.pdf",
+      "bytes": 136151,
+      "sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e"
+    },
+    {
+      "path": "sources/S063.pdf",
+      "bytes": 75328,
+      "sha256": "384e8ece52a8888422db15f61c202211728ec1a7619c3d1e427881af926415e3"
+    },
+    {
+      "path": "sources/S064.pdf",
+      "bytes": 83053,
+      "sha256": "3497feaed30f8ac8d4371770d66a8f39bb0d0ce728bfc8e5abb11a3ac4512995"
+    },
+    {
+      "path": "sources/S065.pdf",
+      "bytes": 148028,
+      "sha256": "3b49b17996ad622f408ab7ac76a72d83779e5506b9d00aaa49ddb80ce08df84d"
+    },
+    {
+      "path": "sources/S066.pdf",
+      "bytes": 146434,
+      "sha256": "38b31a7f08d5c726cc1c9d2b790e53c7181e2073347f66d7225f233607f58844"
+    },
+    {
+      "path": "sources/S067.pdf",
+      "bytes": 90811,
+      "sha256": "199e351c36173418ebb805be41cf760f481dcd7f40d2619e60b7b09a43f02f07"
+    },
+    {
+      "path": "sources/S068.pdf",
+      "bytes": 204401,
+      "sha256": "50d6cd4fb4bbb37723a275483d4bbaccc18b19753cf658943877fc23317a0bc6"
+    },
+    {
+      "path": "sources/S069.pdf",
+      "bytes": 72023,
+      "sha256": "93c133124e5cdbc75fa1922456fd9e55110567a2d1a3b1623246a0f17fe6a91f"
+    },
+    {
+      "path": "sources/S070.pdf",
+      "bytes": 73028,
+      "sha256": "9757548c6346aaa10617aaf9075436ab38cce9a53467de9a75c6ee5121f2b796"
+    },
+    {
+      "path": "sources/S071.pdf",
+      "bytes": 215080,
+      "sha256": "54eba3b662c40c347a683614823cecbeda9115f6ff5083608c4f70bc0971c384"
+    },
+    {
+      "path": "sources/S072.pdf",
+      "bytes": 218088,
+      "sha256": "a9f38350b21714615ceeb222396667c4f691fee0378310a5be1c1ce4a4756b97"
+    },
+    {
+      "path": "sources/S073.pdf",
+      "bytes": 2375253,
+      "sha256": "f34207d9b421035cb4f84fe59d9dc79d24040ddbbcd4739e6aaeb7ac4d4bdc99"
+    },
+    {
+      "path": "sources/S074.pdf",
+      "bytes": 1022061,
+      "sha256": "6841a48284a66cca661cf88630034d83834c6c86c29d181d4bc4eeb8050df476"
+    },
+    {
+      "path": "sources/S075.pdf",
+      "bytes": 2276254,
+      "sha256": "1316294753c529189bb3810091a8f283bbc3b84b6ed8ff3693486c11868d2b94"
+    },
+    {
+      "path": "sources/S076.pdf",
+      "bytes": 814945,
+      "sha256": "a74bf5b2c67212b9f4b247059abde86fedf762fc83fad1832e82d9a2986bdf9e"
+    },
+    {
+      "path": "sources/S077.pdf",
+      "bytes": 834181,
+      "sha256": "2a1d5b69f81379214c80052b7a9fb0b2862149b125283960540ef61f375c7f4a"
+    },
+    {
+      "path": "sources/S078.pdf",
+      "bytes": 316631,
+      "sha256": "9d73cdba7ed7e53bb3588728def98b781eda17a9cc49dfcb36d566c0b596e42d"
+    },
+    {
+      "path": "sources/S079.pdf",
+      "bytes": 366456,
+      "sha256": "108ba8160320024e67b816a444c57b1d3b660d0efa9d8e941afe6e332abb2924"
+    },
+    {
+      "path": "sources/S080.pdf",
+      "bytes": 1980803,
+      "sha256": "c1ffcb74a584fa8e4b930405d1209eaad97f4f24804ee89d138d56d66dd2f86f"
+    },
+    {
+      "path": "sources/S081.pdf",
+      "bytes": 2186310,
+      "sha256": "ab23f09abc98438cf2f3f9ae60413755bc9f4cc1f4e1a37c976224d8d781dcb3"
+    },
+    {
+      "path": "sources/S082.pdf",
+      "bytes": 470459,
+      "sha256": "cb4b04181b9a7241a3313acc2325b608b31b07e6f8e7cb1dbab28e6f52a0041c"
+    },
+    {
+      "path": "sources/S083.pdf",
+      "bytes": 134174,
+      "sha256": "5ea16b5f8e6810ffa6ebe877e60b1d9766671aafc7cb277252cb620468e7ede8"
+    },
+    {
+      "path": "sources/S084.pdf",
+      "bytes": 1237718,
+      "sha256": "6ba2a37df7197e8d45d45a0f9b8bc558d17cfc7620ea9f939be6b4edb956f0ae"
+    },
+    {
+      "path": "sources/S085.pdf",
+      "bytes": 533633,
+      "sha256": "2adeaee8bebd3129f4e5e4b0855b0f134206cc07c64a8da635d4c86e080d20b0"
+    },
+    {
+      "path": "sources/S086.pdf",
+      "bytes": 506986,
+      "sha256": "97c33635895cf0208df6fbc86e8ebc681288c312deb4250609d17bdab88bce24"
+    },
+    {
+      "path": "sources/S087.pdf",
+      "bytes": 504167,
+      "sha256": "54431d8ae036626f2618745f9131754c7e3664911a676a5150a62955cd19ac13"
+    },
+    {
+      "path": "sources/S088.pdf",
+      "bytes": 860835,
+      "sha256": "7935f7078927f115d5dbd00621fccc4f90e25ba625903be87bb067e86d63caea"
+    },
+    {
+      "path": "sources/S089.pdf",
+      "bytes": 1347521,
+      "sha256": "49fe09cdd0cbd8253b50b6d19b6ff757af6eb7d69350e3a637ee83de1d255413"
+    },
+    {
+      "path": "sources/S090.pdf",
+      "bytes": 1034921,
+      "sha256": "1ca322be02711663d3ddfed14e3f7666a707aef3604ed7c843d8a622642e0a8b"
+    },
+    {
+      "path": "sources/S091.jpg",
+      "bytes": 4278305,
+      "sha256": "360fe49002e5e42af430d25f5e96ffc6c169d0e6a5faa94f674fe277fb3d769b"
+    },
+    {
+      "path": "sources/S092.jpg",
+      "bytes": 898992,
+      "sha256": "715e54c48345eeccabded97c240c972277ba09f4375ee5afbf385ebb7afebade"
+    },
+    {
+      "path": "sources/S093.jpg",
+      "bytes": 782763,
+      "sha256": "3900db234634e5f66762c52ace1da60c1519948d0b88dfdf7ee5cbdfbcd3f8d3"
+    },
+    {
+      "path": "documents/S001/261111_jihozapadni-mesto-s001-vyzva-k-podani-nabidky-jihozapadni-mesto_extraction_v01.md",
+      "bytes": 21078,
+      "sha256": "740a92c6bcaa5ff56e330af73c0b788985ace0388d33793336a67f96174d6059"
+    },
+    {
+      "path": "documents/S002/261111_jihozapadni-mesto-s002-smlouva-o-dilo-jz-mesto_extraction_v01.md",
+      "bytes": 40017,
+      "sha256": "c73964bd8cbfd700d0d087b568262dd060f63d993039a8047a6bb971dcb184c6"
+    },
+    {
+      "path": "documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+      "bytes": 41196,
+      "sha256": "2aab547ad4e8f70f1f866cae61bb1a327b2b54a8e53ec7731659c39fac51f342"
+    },
+    {
+      "path": "documents/S004/261111_jihozapadni-mesto-s004-jz-mesto-ortofoto_extraction_v01.md",
+      "bytes": 12665,
+      "sha256": "73edd7eedf263b9e3271a91237b3eb610205924c28ff067f8bd278a84c1f84a7"
+    },
+    {
+      "path": "documents/S005/261111_jihozapadni-mesto-s005-jz-mesto-resene-uzemi_extraction_v01.md",
+      "bytes": 11278,
+      "sha256": "554e6aafd0fec01a4e034eef13e38394d9ce3b19b693c9f2b1cca8aff8127fed"
+    },
+    {
+      "path": "documents/S006/261111_jihozapadni-mesto-s006-jz-mesto-technicka-infrasturktura_extraction_v01.md",
+      "bytes": 11337,
+      "sha256": "72295ed456266db6c7d014b2f5d3a9395e3f11ea7f89f0c1a4f693818f5a63a6"
+    },
+    {
+      "path": "documents/S007/261111_jihozapadni-mesto-s007-0-titulnistrana_extraction_v01.md",
+      "bytes": 12901,
+      "sha256": "12e4b45f2b9832eb42b39d2935c213d9e76a5afc4ef2ff01087f666a4b8f08ec"
+    },
+    {
+      "path": "documents/S008/261111_jihozapadni-mesto-s008-10-skalnimesto_extraction_v01.md",
+      "bytes": 12514,
+      "sha256": "77e92d5f79bd061ff3369e90f77c4fbbf4b8bf2dbe56947966bf07edb40051ba"
+    },
+    {
+      "path": "documents/S009/261111_jihozapadni-mesto-s009-11-skalni-mesto_extraction_v01.md",
+      "bytes": 12524,
+      "sha256": "56544a8df72b73e72ea40a7b4a5e4ab79ba354fc0c5b2a3fc863daf847b702c0"
+    },
+    {
+      "path": "documents/S010/261111_jihozapadni-mesto-s010-12-skalnimesto_extraction_v01.md",
+      "bytes": 12427,
+      "sha256": "792a96225b0b076478b6bbad9e0df6e7e02ccd38b443c80e27102d8709b7271c"
+    },
+    {
+      "path": "documents/S011/261111_jihozapadni-mesto-s011-13-skalnimesto_extraction_v01.md",
+      "bytes": 12416,
+      "sha256": "fa0fc54f0515bbf3013c6433505b9f0fbca36ca394d5d203b3f52acaa6a68696"
+    },
+    {
+      "path": "documents/S012/261111_jihozapadni-mesto-s012-14-skalnimesto_extraction_v01.md",
+      "bytes": 14741,
+      "sha256": "36af0d8acacf23a53b134158d88dcf9583544c7840f22d0378975729b3758ac0"
+    },
+    {
+      "path": "documents/S013/261111_jihozapadni-mesto-s013-15-skalnimesto_extraction_v01.md",
+      "bytes": 12427,
+      "sha256": "4b830e26df0ece801d293f3b81cb23254877e3885c080043427448192f3ee09b"
+    },
+    {
+      "path": "documents/S014/261111_jihozapadni-mesto-s014-16-skalnimesto_extraction_v01.md",
+      "bytes": 12474,
+      "sha256": "c1c1c6370c77ded8bc11200cb1b83b20bd44e7fdffb3d2d5e9835c48ad28a4fb"
+    },
+    {
+      "path": "documents/S015/261111_jihozapadni-mesto-s015-18-ti-voda-kanal_extraction_v01.md",
+      "bytes": 12807,
+      "sha256": "993c64b7b0fe3e2b9dd9fb06c3ce21734920883a8be72b11d5bd4aa37b20d2f8"
+    },
+    {
+      "path": "documents/S016/261111_jihozapadni-mesto-s016-20-ti-plyn_extraction_v01.md",
+      "bytes": 12385,
+      "sha256": "c3e9c23490fb17af3c6b7a60aa848c40be4dd4fbb24d2cc9de3a11197623d2bb"
+    },
+    {
+      "path": "documents/S017/261111_jihozapadni-mesto-s017-2008065-technicka-zprava_extraction_v01.md",
+      "bytes": 16016,
+      "sha256": "0e4676d6096b073c5705f37f1984365581ec93a978cc62793d9d62024ac67d2a"
+    },
+    {
+      "path": "documents/S018/261111_jihozapadni-mesto-s018-23-ti-el-rozvody_extraction_v01.md",
+      "bytes": 12439,
+      "sha256": "04c834f668f25e13d94e713488d6e3a9511943bd70547b1fe99b492ba9708dab"
+    },
+    {
+      "path": "documents/S019/261111_jihozapadni-mesto-s019-4-skalni-mesto_extraction_v01.md",
+      "bytes": 12523,
+      "sha256": "4cf4c76dfcb74341c11420d98fc9daa131ab5c4522c3407600702553f1392662"
+    },
+    {
+      "path": "documents/S020/261111_jihozapadni-mesto-s020-5-skalnimesto_extraction_v01.md",
+      "bytes": 12416,
+      "sha256": "e04700224bcc866a8a7e3db44b63416552e4b1954714a9e63809165c9a070833"
+    },
+    {
+      "path": "documents/S021/261111_jihozapadni-mesto-s021-6-skalnimesto_extraction_v01.md",
+      "bytes": 12412,
+      "sha256": "0bf796d97376514dba3376797495a60acbbfbf9a9f4c36d91b1e4ef02cdcc85b"
+    },
+    {
+      "path": "documents/S022/261111_jihozapadni-mesto-s022-7-skalnimesto_extraction_v01.md",
+      "bytes": 12416,
+      "sha256": "ff197a2f61d0976cc0b33484045c2493398514b23dc30c6eca34104b66acfff5"
+    },
+    {
+      "path": "documents/S023/261111_jihozapadni-mesto-s023-8-skalnimesto_extraction_v01.md",
+      "bytes": 13238,
+      "sha256": "bdff180095c5b1cce618c2f5402f1c2f832b7c198a8056d8ce869b061d95256a"
+    },
+    {
+      "path": "documents/S024/261111_jihozapadni-mesto-s024-9-skalnimesto_extraction_v01.md",
+      "bytes": 12509,
+      "sha256": "7b66917c93c9ed9e330c4cb0a9d07850cbd0d99e163275a2365c03aa596ed8bb"
+    },
+    {
+      "path": "documents/S025/261111_jihozapadni-mesto-s025-bd-hradiste_extraction_v01.md",
+      "bytes": 20910,
+      "sha256": "7e42b9fcdb6799323114de6abed22656127ef82f9af3ac5e0732e923c553150c"
+    },
+    {
+      "path": "documents/S026/261111_jihozapadni-mesto-s026-detska-hriste-1_extraction_v01.md",
+      "bytes": 18613,
+      "sha256": "fb6cbdfec527473b0275ede580488661d22d96f4da61bf392b6733457450282f"
+    },
+    {
+      "path": "documents/S027/261111_jihozapadni-mesto-s027-detska-hriste-2_extraction_v01.md",
+      "bytes": 16609,
+      "sha256": "da9eba61c164f5a9d40f9e01c8736e50bea1b8e80f72cda4f0a04f815b5393bc"
+    },
+    {
+      "path": "documents/S028/261111_jihozapadni-mesto-s028-develop09032009341-1_extraction_v01.md",
+      "bytes": 19387,
+      "sha256": "c3adc544ca52bff2be5fa0e8827a74332b8e2eb1a8b96a4532f76625bd0cd476"
+    },
+    {
+      "path": "documents/S029/261111_jihozapadni-mesto-s029-lavicka-kos_extraction_v01.md",
+      "bytes": 17487,
+      "sha256": "ad373f0d768ecaab1eb2a3d3d0358ec586cd3da984c61421e17f5b6626a2daa7"
+    },
+    {
+      "path": "documents/S030/261111_jihozapadni-mesto-s030-mh-zprava-uas-jz_extraction_v01.md",
+      "bytes": 21277,
+      "sha256": "89e39cfe19a02f155c2d30cf8dd1e138d257ced8902aee2208c97235e1b8d6da"
+    },
+    {
+      "path": "documents/S031/261111_jihozapadni-mesto-s031-skalnimestoel_extraction_v01.md",
+      "bytes": 19176,
+      "sha256": "07d58e0813edce92f2989f547afd1f0c97780b5efed2abf336df377e12497f86"
+    },
+    {
+      "path": "documents/S032/261111_jihozapadni-mesto-s032-skalnimestosdel_extraction_v01.md",
+      "bytes": 14581,
+      "sha256": "45348be44ae299d22758a005b435a3db11e8730b4042abbfc451309a2523b10b"
+    },
+    {
+      "path": "documents/S033/261111_jihozapadni-mesto-s033-stl-plynovod-popis-042008_extraction_v01.md",
+      "bytes": 16896,
+      "sha256": "4b22f49fa179b9d3ccdd5765ac73303e8ab00b43717f6cba87dbb821a48ff2cb"
+    },
+    {
+      "path": "documents/S034/261111_jihozapadni-mesto-s034-verejne-osvetleni_extraction_v01.md",
+      "bytes": 15496,
+      "sha256": "f536b21a823c54f27b9d4cbebff2e67b5ccdd5751f06d0324013da4dc761a688"
+    },
+    {
+      "path": "documents/S035/261111_jihozapadni-mesto-s035-z_extraction_v01.md",
+      "bytes": 12364,
+      "sha256": "3295f79dd3cbdb830f7cb99d523c6d5caa7d4bbd4e6e7d6e2b397b8cfc44806b"
+    },
+    {
+      "path": "documents/S036/261111_jihozapadni-mesto-s036-2010-jz-sektor-siadesign-cerny_extraction_v01.md",
+      "bytes": 31776,
+      "sha256": "3d3bd08d89977f268266bc3671c77c4b7376cbb6bbc82663e871d2cb42991a42"
+    },
+    {
+      "path": "documents/S037/261111_jihozapadni-mesto-s037-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "bytes": 15498,
+      "sha256": "9a1ca6ba31e4875f1160ddd5241bd1b80776abe49f885be0a6ed50b2eea9ec51"
+    },
+    {
+      "path": "documents/S038/261111_jihozapadni-mesto-s038-151-brozura-mnichovo-hradiste_extraction_v01.md",
+      "bytes": 15499,
+      "sha256": "ed5b2529ae8c508d5caecbb2e288b4e9efa010da22a71586cc4986d6dd0f53f6"
+    },
+    {
+      "path": "documents/S039/261111_jihozapadni-mesto-s039-up-dopravni-studie_extraction_v01.md",
+      "bytes": 35546,
+      "sha256": "159a03b1d850c6cec730039c523a0f6b18a273fff7a6ae18d7be352fc7a05c7c"
+    },
+    {
+      "path": "documents/S040/261111_jihozapadni-mesto-s040-210326-mh-jihozapadni-situace-texturovana-varianta-skola-02_extraction_v01.md",
+      "bytes": 12589,
+      "sha256": "76b8ab40c59d3c8948893d3f9c52e1fd1e9cf0b058aaa976fc327cc754006a6f"
+    },
+    {
+      "path": "documents/S041/261111_jihozapadni-mesto-s041-brezovy-haj-overovaci-studie-25-06-16_extraction_v01.md",
+      "bytes": 23981,
+      "sha256": "14b5455f7f3ed06eec5469e4fa3d349169a4fe5aef8e01913f028c52228eb801"
+    },
+    {
+      "path": "documents/S042/261111_jihozapadni-mesto-s042-00015099-01-sirsi-vztahy_extraction_v01.md",
+      "bytes": 12509,
+      "sha256": "a59432351830300919b72051265dc51543647c28db5a4efe959bd26d64b2ad4e"
+    },
+    {
+      "path": "documents/S043/261111_jihozapadni-mesto-s043-00015099-02-vyrez-uzemniho-planu-obce_extraction_v01.md",
+      "bytes": 12526,
+      "sha256": "84075fc8e1f55d501d8a55612c13cbbaa9b96101f8f1710a49c5c4ee3d23d329"
+    },
+    {
+      "path": "documents/S044/261111_jihozapadni-mesto-s044-00015099-03-vytah-podminek-uzemniho-planu-obce_extraction_v01.md",
+      "bytes": 24617,
+      "sha256": "f9c14f4be88efedc837908fa7b90d3d1ea0a55e306cde66e2711b775286083d0"
+    },
+    {
+      "path": "documents/S045/261111_jihozapadni-mesto-s045-00015099-04-hlavni-vykres_extraction_v01.md",
+      "bytes": 12512,
+      "sha256": "086e0f15e639e36434e1989a7ee7998024dcd0c53c14c9a17a10a8333ba9ff59"
+    },
+    {
+      "path": "documents/S046/261111_jihozapadni-mesto-s046-00015099-05-koordinacni-vykres_extraction_v01.md",
+      "bytes": 12557,
+      "sha256": "73f09afbb1b9b17f9c57c5652f00e502322a31ceda7e6567748bb62fd2f465c7"
+    },
+    {
+      "path": "documents/S047/261111_jihozapadni-mesto-s047-00015099-06-ulicni-profily_extraction_v01.md",
+      "bytes": 13802,
+      "sha256": "dd2c3209c67aaf864826c47fc4c2355a903519279267b230a43fba1177b1eced"
+    },
+    {
+      "path": "documents/S048/261111_jihozapadni-mesto-s048-00015099-07-vykres-dopravni-infrastruktury_extraction_v01.md",
+      "bytes": 12672,
+      "sha256": "b871c2186f6b203c636402be8e6789cceda898126bd19ff0c1ff8deef6e8b4f1"
+    },
+    {
+      "path": "documents/S049/261111_jihozapadni-mesto-s049-00015099-08-vykres-technicke-infrastruktury_extraction_v01.md",
+      "bytes": 12703,
+      "sha256": "cdabd4f1ea89d414a932429686f8d0bf1434220aac4a22e7b862915a2bbff291"
+    },
+    {
+      "path": "documents/S050/261111_jihozapadni-mesto-s050-00015099-09-perspektivni-nadhledy_extraction_v01.md",
+      "bytes": 13312,
+      "sha256": "ed8a85a658f394222bd9092826d40b9ef8532cbcf68b545086da2b6eb52e3da5"
+    },
+    {
+      "path": "documents/S051/261111_jihozapadni-mesto-s051-00015099-10-perspektivni-pohled-01_extraction_v01.md",
+      "bytes": 12836,
+      "sha256": "9384d0ecb3d3fad07ae9eca34cc3d854b467d05ade9437f8d2d1a43f4589635f"
+    },
+    {
+      "path": "documents/S052/261111_jihozapadni-mesto-s052-00015099-11-perspektivni-pohled-02_extraction_v01.md",
+      "bytes": 12831,
+      "sha256": "dc2413e36559559e839ee2b3c9cf9e5f2f5ebf39b5a7b62841d2c1c0f4f39fc1"
+    },
+    {
+      "path": "documents/S053/261111_jihozapadni-mesto-s053-00015099-12-perspektivni-pohled-03_extraction_v01.md",
+      "bytes": 12833,
+      "sha256": "cb17a38a0d615e48aad998e52b07c7fe89e439c60112328340c2a4f9e9d1d8c2"
+    },
+    {
+      "path": "documents/S054/261111_jihozapadni-mesto-s054-00015099-13-perspektivni-pohled-04_extraction_v01.md",
+      "bytes": 12827,
+      "sha256": "bd6d7e02fd072d4eac96930683ffb4b217d280325b79213bd74e82aeeef7720a"
+    },
+    {
+      "path": "documents/S055/261111_jihozapadni-mesto-s055-00015099-14-perspektivni-pohled-05_extraction_v01.md",
+      "bytes": 12831,
+      "sha256": "41b90c88021580cfb63f7fcc6b69adda38581e7600d8d9f09e25024d51732c0b"
+    },
+    {
+      "path": "documents/S056/261111_jihozapadni-mesto-s056-00015099-15-verejne-pristupne-a-nepristupne-plochy_extraction_v01.md",
+      "bytes": 12755,
+      "sha256": "a3a1b4fb61390d7d374e016374adc8f447ba9ec322413913540382f76f0717a7"
+    },
+    {
+      "path": "documents/S057/261111_jihozapadni-mesto-s057-00015099-text_extraction_v01.md",
+      "bytes": 67454,
+      "sha256": "9ac63b5e1d3e7bdcd49432637b5a8adff760958ae799aed71da24cbb834b733f"
+    },
+    {
+      "path": "documents/S058/261111_jihozapadni-mesto-s058-c1_extraction_v01.md",
+      "bytes": 15872,
+      "sha256": "406e674679ef50664574038596c151ae7f2602fdc5b0a9fad552d48ad6dcc243"
+    },
+    {
+      "path": "documents/S059/261111_jihozapadni-mesto-s059-c2_extraction_v01.md",
+      "bytes": 18733,
+      "sha256": "98c27f95464c32a7c0e2a39cef1f3e7aef598a59a9a7a1985d2fd052aa6b979a"
+    },
+    {
+      "path": "documents/S060/261111_jihozapadni-mesto-s060-c3-final_extraction_v01.md",
+      "bytes": 15874,
+      "sha256": "e4663cbca699b952eb7d59e397836edb3fdf5a160808f93113b76bb165b394d5"
+    },
+    {
+      "path": "documents/S061/261111_jihozapadni-mesto-s061-c3_extraction_v01.md",
+      "bytes": 14301,
+      "sha256": "ee5f7208c342b3fb6f0d3e7285ae53474675ca1a06b954c0db78aca04250f8bd"
+    },
+    {
+      "path": "documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+      "bytes": 20588,
+      "sha256": "d24e5c9190a9d8a7e0a32c5b2d96d27864ed4baebe9e24209d8748b709df32cf"
+    },
+    {
+      "path": "documents/S063/261111_jihozapadni-mesto-s063-d1-11-4-23_extraction_v01.md",
+      "bytes": 23691,
+      "sha256": "abb079348eb97b2e8d5bfcfe9eb09c3ed141e6db0fdb4f9cb702444ca1bbbb2e"
+    },
+    {
+      "path": "documents/S064/261111_jihozapadni-mesto-s064-d1_extraction_v01.md",
+      "bytes": 22627,
+      "sha256": "d161922bab765b01dbd184f30194cbcb5d378ad5114a414a2f397b1b76a4b4b3"
+    },
+    {
+      "path": "documents/S065/261111_jihozapadni-mesto-s065-d2_extraction_v01.md",
+      "bytes": 17981,
+      "sha256": "167510abb0f2d78dab5d131f5fd6f4d1a0180a3972cf517ef8e2bcd045d76e3a"
+    },
+    {
+      "path": "documents/S066/261111_jihozapadni-mesto-s066-d3-oprava-poklop-18-7-23_extraction_v01.md",
+      "bytes": 15584,
+      "sha256": "f21c14bd66e749c448036d356bad75b3141121076b4585b217141efe3d0dad60"
+    },
+    {
+      "path": "documents/S067/261111_jihozapadni-mesto-s067-d3_extraction_v01.md",
+      "bytes": 15842,
+      "sha256": "e617763c24bbced7c40457a95975230a57beaf8a86a1d68aaec33b0f47903695"
+    },
+    {
+      "path": "documents/S068/261111_jihozapadni-mesto-s068-d4_extraction_v01.md",
+      "bytes": 22758,
+      "sha256": "22c8924c569ff9ba270ada426bcc736ab34bfb2e5dd0ca1c6ed9f71566c55106"
+    },
+    {
+      "path": "documents/S069/261111_jihozapadni-mesto-s069-d5a_extraction_v01.md",
+      "bytes": 23244,
+      "sha256": "1013baa87aba7f52ede09227bab58e6d755bb226de999a4e9da5a79f64818ad9"
+    },
+    {
+      "path": "documents/S070/261111_jihozapadni-mesto-s070-d5b_extraction_v01.md",
+      "bytes": 22752,
+      "sha256": "ae38a74289b7298087fccc9600447688f683225c1962f84c65bcf5e1f225351c"
+    },
+    {
+      "path": "documents/S071/261111_jihozapadni-mesto-s071-d6_extraction_v01.md",
+      "bytes": 47772,
+      "sha256": "ac562b42e2a6682fd61a815e6b01262b44ce9924a711b21313f3d2fbc6e45429"
+    },
+    {
+      "path": "documents/S072/261111_jihozapadni-mesto-s072-tz-a-b_extraction_v01.md",
+      "bytes": 53476,
+      "sha256": "391ed3b8265b40156de776f213a6c9f1cecddb0881ce926ca5c6c3aac69df60e"
+    },
+    {
+      "path": "documents/S073/261111_jihozapadni-mesto-s073-tz-d-doc-oprava-17-5_extraction_v01.md",
+      "bytes": 83632,
+      "sha256": "8721c01f155f4ebcff22fcbe2e9f9e455f17d6e50127c3877d10fb588cd72266"
+    },
+    {
+      "path": "documents/S074/261111_jihozapadni-mesto-s074-tz-d_extraction_v01.md",
+      "bytes": 73938,
+      "sha256": "6f1861e9cdd571e470669d6c507c4a816b572ba81c53fa00fefe713f44dc2ba7"
+    },
+    {
+      "path": "documents/S075/261111_jihozapadni-mesto-s075-z-1-np-sesazene-85_extraction_v01.md",
+      "bytes": 23258,
+      "sha256": "6ff8c8fd943c2a46680baa1a374285a82ba1a978b3a9880cb13d42702b358675"
+    },
+    {
+      "path": "documents/S076/261111_jihozapadni-mesto-s076-z-2-np-a-90_extraction_v01.md",
+      "bytes": 16613,
+      "sha256": "6e6b2710f1274969199dbf105d391b4d3d1f4ee89f556fdf74962a937dca6bb5"
+    },
+    {
+      "path": "documents/S077/261111_jihozapadni-mesto-s077-z-2-np-b-91_extraction_v01.md",
+      "bytes": 16523,
+      "sha256": "08ab0da3be4fb4e11fa85524cb27a1569c34e4663dd72230226f02ce39a31e01"
+    },
+    {
+      "path": "documents/S078/261111_jihozapadni-mesto-s078-z-pohled-a-86_extraction_v01.md",
+      "bytes": 16050,
+      "sha256": "d26c2201fbd42f3753127b9c4072115360cccb931545f32fa69dfbacf4dca558"
+    },
+    {
+      "path": "documents/S079/261111_jihozapadni-mesto-s079-z-pohled-b-88_extraction_v01.md",
+      "bytes": 16017,
+      "sha256": "c33383579b4222980d9a9c90b9ea1cc958cfb239ba5e5ed12c5916928c6db906"
+    },
+    {
+      "path": "documents/S080/261111_jihozapadni-mesto-s080-z-situ-c3-92_extraction_v01.md",
+      "bytes": 16976,
+      "sha256": "0e46f53e700e6ce10b8ed82ff5375aa8ce8e7f8b685c5c38624dd941f5756261"
+    },
+    {
+      "path": "documents/S081/261111_jihozapadni-mesto-s081-z-strecha-89_extraction_v01.md",
+      "bytes": 16900,
+      "sha256": "28b63ecc194ac10c320956aaa624ceac262cb71638407c80c13909370e5ac82b"
+    },
+    {
+      "path": "documents/S082/261111_jihozapadni-mesto-s082-z-svisly-rez-n-87_extraction_v01.md",
+      "bytes": 15962,
+      "sha256": "df4bbed9477e561d24755fd489ff57e779775b6bb5810548e1f6fa1f0ce3eb3b"
+    },
+    {
+      "path": "documents/S083/261111_jihozapadni-mesto-s083-z-zaklady-garaze-93_extraction_v01.md",
+      "bytes": 12273,
+      "sha256": "02afdb964262fd85410d13ebaa26cea81cb305ad49ef751c56bbd0e70c5e84f9"
+    },
+    {
+      "path": "documents/S084/261111_jihozapadni-mesto-s084-so-05-02-podrobna-situace-r2_extraction_v01.md",
+      "bytes": 26257,
+      "sha256": "a48bb8e57a87bcf17e2fd6855a5eccb8c68e56224152eff4ab9047a65239311b"
+    },
+    {
+      "path": "documents/S085/261111_jihozapadni-mesto-s085-so-05-03-podelny-profil-vetev-a_extraction_v01.md",
+      "bytes": 16628,
+      "sha256": "30cb78b63740941c25e041162e080c0bbd47251e77189b939af7e1a0ae94a91f"
+    },
+    {
+      "path": "documents/S086/261111_jihozapadni-mesto-s086-so-05-04-podelny-profil-vetev-b_extraction_v01.md",
+      "bytes": 16614,
+      "sha256": "699b0ed37c8a5fe79fd8451a63bb20769f0d4bd0ad7ba2b9203e8ed6829b01ef"
+    },
+    {
+      "path": "documents/S087/261111_jihozapadni-mesto-s087-so-05-05-podelny-profil-vetev-c_extraction_v01.md",
+      "bytes": 16613,
+      "sha256": "0b205e30ce3b8299ac51c424fadc09664e7c8522e0766c5ac995469f65997716"
+    },
+    {
+      "path": "documents/S088/261111_jihozapadni-mesto-s088-so-05-06-charakteristicke-pricne-rezy-r2_extraction_v01.md",
+      "bytes": 18688,
+      "sha256": "505435c736396a37db947922631a24f804da544b19f1154075e14c98e20268fe"
+    },
+    {
+      "path": "documents/S089/261111_jihozapadni-mesto-s089-so-05-07-vzorovy-pricny-rez-r2_extraction_v01.md",
+      "bytes": 21780,
+      "sha256": "4a3367a7e40212d43efe0f366123f3197305d4bf17d3526711499cfe6a1e200e"
+    },
+    {
+      "path": "documents/S090/261111_jihozapadni-mesto-s090-so-05-08-detaily-bezbarieroveho-uzivani_extraction_v01.md",
+      "bytes": 23233,
+      "sha256": "1563c65a60e1097eecca6e389e29b0db2b48f57addcecc1a17fcd07c6e016d43"
+    },
+    {
+      "path": "documents/S091/261111_jihozapadni-mesto-s091-dji-fly-20260813-163122-157-1786631600774-photo-optimized_extraction_v01.md",
+      "bytes": 11051,
+      "sha256": "8f2792d4cbf1921e6b2ee870c1d579097401f050a785ad3c3296b3ea57449d69"
+    },
+    {
+      "path": "documents/S092/261111_jihozapadni-mesto-s092-kopie-souboru-2d78287a-a447-4f40-b807-67118678bd24_extraction_v01.md",
+      "bytes": 10994,
+      "sha256": "bc308574523dec59111c44ac25713635e0add93e83bcdfcb2b72937efe3450c2"
+    },
+    {
+      "path": "documents/S093/261111_jihozapadni-mesto-s093-kopie-souboru-e94f7511-2464-44de-9d75-c36f75ac7a56_extraction_v01.md",
+      "bytes": 10994,
+      "sha256": "14918711e539099be6700d68de6dab7439e7ed3a3939be977d8d091a72650878"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-001_p001.png",
+      "bytes": 3156449,
+      "sha256": "0b35758e3332e4992337dca152e42e3e14a2fb54649cd13ce415a5a948850135"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-002_p002.png",
+      "bytes": 2604785,
+      "sha256": "eca0dd8a33ba1a5a0a985f4538c6042aa9d4896ea6aaa19679535d62216541aa"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-003_p004.png",
+      "bytes": 805665,
+      "sha256": "c4c7d19c2ce5e810d09f82678843376dc1fa63903b29732fd949c8a061c8e745"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-004_p005.png",
+      "bytes": 2425104,
+      "sha256": "deca619ca9e2921f42c186f03eb1526b27bd8870440b4249f1fe39441c7b2a8d"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-005_p006.png",
+      "bytes": 1391743,
+      "sha256": "ce62f3e3912456f0fcd2a62806d2ecde8352c56c45617b46e1c3b6ea11a5eea2"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-006_p007.png",
+      "bytes": 1768493,
+      "sha256": "9f2e274e4a9db2906a95a8cff291a681cb240c81fb98bdd950219caa453ef0fc"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-007_p007.png",
+      "bytes": 1358514,
+      "sha256": "c2d5fcb13dab29852e547c7c837cb56696d961d1c3b522f8b9c5970aa6ec7a5f"
+    },
+    {
+      "path": "documents/S003/assets/S003_IMG-008_p008.png",
+      "bytes": 1804636,
+      "sha256": "15a334c4797decb43f814d44cc19c91355b4078876f29393d47fda5870974c52"
+    },
+    {
+      "path": "documents/S003/assets/S003_MAP-001_p010.png",
+      "bytes": 1449139,
+      "sha256": "457d600be205e789667b48bca98c03704fb0b0bd70bb47f29ece4f59977855ce"
+    },
+    {
+      "path": "documents/S004/assets/S004_MAP-001_p001.png",
+      "bytes": 6858136,
+      "sha256": "1de53ca24b245f6fcfd33ae90679304c9e0280b21e2be5bb067f14224601c1d0"
+    },
+    {
+      "path": "documents/S007/assets/S007_IMG-001_p001.png",
+      "bytes": 409149,
+      "sha256": "d7c69181030481826be479c64c5e492372ad410c9659ef43d8e2c040c68e83fa"
+    },
+    {
+      "path": "documents/S008/assets/S008_IMG-001_p001.png",
+      "bytes": 544872,
+      "sha256": "e21b30a9b0b8188115a9788f003e25f6ecf90d6fd0f31484cbe7c7282ec642a9"
+    },
+    {
+      "path": "documents/S009/assets/S009_IMG-001_p001.png",
+      "bytes": 358492,
+      "sha256": "fbb6b66a8c1d2773496b0643b7713dcb47dbfcce773f8ab165064ce0798dd621"
+    },
+    {
+      "path": "documents/S010/assets/S010_MAP-001_p001.png",
+      "bytes": 4824857,
+      "sha256": "d1f48ced678e45a26da65af2357ce3aed706c529c71d6e396c8df4c3afd3cb50"
+    },
+    {
+      "path": "documents/S011/assets/S011_MAP-001_p001.png",
+      "bytes": 3594796,
+      "sha256": "cf3c5ca50bafccb5e9c3ae8ac6cf551bcb13e09cf1a770107a8c0dcdf6bc838e"
+    },
+    {
+      "path": "documents/S013/assets/S013_MAP-001_p001.png",
+      "bytes": 4149076,
+      "sha256": "d092e3baafb795c4382a243949c0ead51b42e406827c0566f1d6f585a72f8bba"
+    },
+    {
+      "path": "documents/S014/assets/S014_MAP-001_p001.png",
+      "bytes": 3971237,
+      "sha256": "5d44d94b6bc9191c24ad2c4f7d81acbb8998ba8b27f9d956825bc49b79cd32fe"
+    },
+    {
+      "path": "documents/S015/assets/S015_MAP-001_p001.png",
+      "bytes": 1752894,
+      "sha256": "4bae012c022a401d138952499f6804f9ab753ab3ed1800aff9a9db7da5c8a568"
+    },
+    {
+      "path": "documents/S016/assets/S016_MAP-001_p001.png",
+      "bytes": 1342725,
+      "sha256": "9a60d22ee367293ec86306fd06d9ebb15207881a568b1ba758ce29aab5973b98"
+    },
+    {
+      "path": "documents/S018/assets/S018_MAP-001_p001.png",
+      "bytes": 1336025,
+      "sha256": "b4c0f54b75a5d25f8704e8bd42bc4a2077724242a2618538eace0f87a4253407"
+    },
+    {
+      "path": "documents/S019/assets/S019_IMG-001_p001.png",
+      "bytes": 963607,
+      "sha256": "570fd8ecc3f30e7bd4404d5aae6c1e61ef6d384e454b8d8d266868ace0885a4e"
+    },
+    {
+      "path": "documents/S020/assets/S020_IMG-001_p001.png",
+      "bytes": 372128,
+      "sha256": "60766bb4806b55f71bfa603195780b4bd7123508dd9162261bcab7e7796c3ba2"
+    },
+    {
+      "path": "documents/S021/assets/S021_IMG-001_p001.png",
+      "bytes": 217378,
+      "sha256": "ee97b55decb26149883e2e654bd775ca6af4638b22f3fc443d516a21d464a034"
+    },
+    {
+      "path": "documents/S022/assets/S022_IMG-001_p001.png",
+      "bytes": 208737,
+      "sha256": "9257e572ca6c4bf7d7380a4728085cce4d58f705c2b805d464b5d9da2b18d78e"
+    },
+    {
+      "path": "documents/S023/assets/S023_IMG-001_p001.png",
+      "bytes": 678949,
+      "sha256": "808c7daaca6c022370ccb4d3e4f5924e3affcd68187c51516a08bfea5a7c10cf"
+    },
+    {
+      "path": "documents/S023/assets/S023_IMG-002_p001.png",
+      "bytes": 243405,
+      "sha256": "deed2ca6358cafd90fc888cfa7150d09c65534edfcd31e5b70869a808fda1c76"
+    },
+    {
+      "path": "documents/S023/assets/S023_IMG-003_p001.png",
+      "bytes": 217563,
+      "sha256": "6bff417c783e0defbfafd49970b9d9d5f13d3726a3445c10b5b7e659f8e621cd"
+    },
+    {
+      "path": "documents/S023/assets/S023_IMG-004_p001.png",
+      "bytes": 267359,
+      "sha256": "87bb016382a339ab6ba6ca311a489b2cae5137c2cc53a1866ba61d83339420b2"
+    },
+    {
+      "path": "documents/S024/assets/S024_IMG-001_p001.png",
+      "bytes": 409149,
+      "sha256": "d7c69181030481826be479c64c5e492372ad410c9659ef43d8e2c040c68e83fa"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-001_p001.png",
+      "bytes": 94905,
+      "sha256": "a534b57dee1945138fac3ae508374808bccd488bc034d8550206f2614c60fac7"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-002_p001.png",
+      "bytes": 79946,
+      "sha256": "fb0749f81fc3c963d37d71ece7165a01cf7a7d9fa4e0f3c4e3e2756f7895e97c"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-003_p001.png",
+      "bytes": 79369,
+      "sha256": "ea3ac3f0480f6240aae8f1993f705e50dd8e8dbb548729f0c6ec05c2a861b3e3"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-004_p001.png",
+      "bytes": 98948,
+      "sha256": "1541cbffe60b47dbaa247f7e1cad70c0948c3cd454235719802e795529cbce32"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-005_p001.png",
+      "bytes": 93700,
+      "sha256": "6f59c188045248ee94054852f04c90cd6f557af5df385780c0195736a38bd3d3"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-006_p001.png",
+      "bytes": 91571,
+      "sha256": "7c949996ddf9b4b819fca51f46de6d36a835543bad28ce971f66cdfb1ccdbdeb"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-007_p001.png",
+      "bytes": 91113,
+      "sha256": "df09b76e1704202d31f8915131b7ea52899da2b7338a0cf1d59cf00f08cfc882"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-008_p001.png",
+      "bytes": 96036,
+      "sha256": "994ec57d0f9fc1a8ebf1271c3789cfdbd540e3cc9a12bc3008828b66165a1a77"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-009_p001.png",
+      "bytes": 97440,
+      "sha256": "ff119ba592aac26fab6c4055544b524f761147b7d2d51db4e786f3f8d3ff3342"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-010_p001.png",
+      "bytes": 98826,
+      "sha256": "6b4e316fecabba40bf2121cbe38e192934ef1fe83d2a2a7dbfc7ce8efc86493e"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-011_p001.png",
+      "bytes": 91228,
+      "sha256": "ba676e6b3356e8aedfd462894ac71ebb2cafd7b7d880407d8b8a9d469fb4fdca"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-012_p001.png",
+      "bytes": 100394,
+      "sha256": "880ec8275070c9a123742c834000b7a8c9f04ca49a774f13e3447621b5a989aa"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-013_p001.png",
+      "bytes": 97570,
+      "sha256": "eed4ae21b92d9c2b5bb51d147f9b5bb6dc3b0e2883cb74c7b8bfcbe553520ed1"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-014_p001.png",
+      "bytes": 94362,
+      "sha256": "103b3638a89b3046b2577e90daea46c66a991184df790800b641e5093a072ee3"
+    },
+    {
+      "path": "documents/S026/assets/S026_PHOTO-015_p001.png",
+      "bytes": 86561,
+      "sha256": "e6b02234b7b6fedf98b71702a3ed1224596dcf251005eebbc2ce7ce8db1c3c7d"
+    },
+    {
+      "path": "documents/S027/assets/S027_PHOTO-001_p001.png",
+      "bytes": 584464,
+      "sha256": "3530fc1fbd16f126e08e3fe96ce3c4a67cc5a2125d67a73d83713b1e6a0da1ef"
+    },
+    {
+      "path": "documents/S027/assets/S027_PHOTO-002_p001.png",
+      "bytes": 622114,
+      "sha256": "31355634a99021b47ce86e2175cd08537084edce13e72d6d8d12b15dc81d8d68"
+    },
+    {
+      "path": "documents/S028/assets/S028_CHART-001_p001.png",
+      "bytes": 128079,
+      "sha256": "9e8dbdf9d22fde18cbf5cf1511715cda5f7e8a296e65abfd86c1d12547a371cb"
+    },
+    {
+      "path": "documents/S028/assets/S028_DIAG-001_p001.png",
+      "bytes": 474932,
+      "sha256": "70e04da85d81e3d07dacc90fedfaf08ce9a294894b54dcdb0539192c4c056123"
+    },
+    {
+      "path": "documents/S029/assets/S029_IMG-001_p001.png",
+      "bytes": 2701,
+      "sha256": "09a7da7824a66ac0845ac687c7e0c18195e68d9c40890da8ed346b9bf8cfe0c7"
+    },
+    {
+      "path": "documents/S029/assets/S029_IMG-002_p001.png",
+      "bytes": 2804,
+      "sha256": "5b750dddfe14dc79c529a322e71a117a917a1f45e4ff706e6a8e76c6dd727a26"
+    },
+    {
+      "path": "documents/S029/assets/S029_IMG-003_p001.png",
+      "bytes": 2584,
+      "sha256": "7dc5b5d4aa2a46d8860a38d64ea8e082e7d53c101af6abb501b3e204f63c477b"
+    },
+    {
+      "path": "documents/S029/assets/S029_IMG-004_p001.png",
+      "bytes": 3100,
+      "sha256": "d118f4d346536d58c77eacad5fe6fa16fb7b5cecdbcc4c33122bf27c386ab418"
+    },
+    {
+      "path": "documents/S029/assets/S029_PHOTO-001_p001.png",
+      "bytes": 405213,
+      "sha256": "727e1268e0d0baf010ea78c44ee3690f1d9c65427a81241aa2efbcc443fee7d5"
+    },
+    {
+      "path": "documents/S029/assets/S029_PHOTO-002_p001.png",
+      "bytes": 505465,
+      "sha256": "bf9a05aeb5134efbfe89e9ca631582b10ebe2e2e3f4d19ff84dd216ae0049031"
+    },
+    {
+      "path": "documents/S034/assets/S034_PHOTO-001_p001.png",
+      "bytes": 846588,
+      "sha256": "a3d94a69c8c6d70128fb58d0f970a82c0de4a9f20f84fc50c8f57fa1f5b4b79b"
+    },
+    {
+      "path": "documents/S035/assets/S035_MAP-001_p001.png",
+      "bytes": 3971237,
+      "sha256": "5d44d94b6bc9191c24ad2c4f7d81acbb8998ba8b27f9d956825bc49b79cd32fe"
+    },
+    {
+      "path": "documents/S036/assets/S036_IMG-001_p002.png",
+      "bytes": 8670853,
+      "sha256": "90ca1f2d827742e31ac0ba112e689530485674b6fc6562ddae9ebcf8df487c3a"
+    },
+    {
+      "path": "documents/S036/assets/S036_IMG-002_p007.png",
+      "bytes": 3939782,
+      "sha256": "a4509ee92b67f598d136cc130a641abae3f535ebdcee4069cada4fc1e6167103"
+    },
+    {
+      "path": "documents/S036/assets/S036_IMG-003_p008.png",
+      "bytes": 1281011,
+      "sha256": "4d115d7e698572625ef54d63d9405efe7ce03af02b21fa1a0971c895c9bf2564"
+    },
+    {
+      "path": "documents/S036/assets/S036_MAP-001_p001.png",
+      "bytes": 4290242,
+      "sha256": "32e5a79e2cc60740ad1f7eefe393dfe1cc83b437dcb8e90df8c559341d1aad44"
+    },
+    {
+      "path": "documents/S036/assets/S036_MAP-002_p003.png",
+      "bytes": 4730992,
+      "sha256": "5d56b89aaa393c4c0f0d859d7cf01751362aca2f67a6209560f2f7b5bf31fb83"
+    },
+    {
+      "path": "documents/S036/assets/S036_MAP-003_p004.png",
+      "bytes": 8143601,
+      "sha256": "4866e9fd658a2d5e923ef3f45b9090062c0facf0933a62cc063a76628a9868c8"
+    },
+    {
+      "path": "documents/S036/assets/S036_MAP-004_p005.png",
+      "bytes": 3753053,
+      "sha256": "6cd96a714f71eeedff958dd55c272cbd805211693d2a845b9382625aa8d58293"
+    },
+    {
+      "path": "documents/S036/assets/S036_MAP-005_p006.png",
+      "bytes": 4473686,
+      "sha256": "6ff4c8d08102991c2d271bf45422dab82ad75b526b2771e3ac85c910c62ad9d4"
+    },
+    {
+      "path": "documents/S037/assets/S037_IMG-001_p001.png",
+      "bytes": 1551573,
+      "sha256": "15722d284ae7242162912c0c18068010b77d8593ddc50a9905d081fed30dd3da"
+    },
+    {
+      "path": "documents/S037/assets/S037_IMG-002_p004.png",
+      "bytes": 12115504,
+      "sha256": "f8248869658b3b7e1a276e2feb66b6fc05e2f6cbece066938a422a551cd9b333"
+    },
+    {
+      "path": "documents/S037/assets/S037_IMG-003_p005.png",
+      "bytes": 2804744,
+      "sha256": "d5d20e3b70580afd427a97cf6ccd46ee244c4d403bacd08c97ff4985ce483548"
+    },
+    {
+      "path": "documents/S037/assets/S037_IMG-004_p005.png",
+      "bytes": 2021721,
+      "sha256": "1656563e9f655303c9dabd3c2e413e1bc2a7d416cc3cbe04331f39bf64afd6bd"
+    },
+    {
+      "path": "documents/S037/assets/S037_IMG-005_p005.png",
+      "bytes": 2407540,
+      "sha256": "c3d421d4e0c641e84ea33207444443d78ea436055c6279dd17662e1ceca04228"
+    },
+    {
+      "path": "documents/S037/assets/S037_MAP-001_p002.png",
+      "bytes": 4926060,
+      "sha256": "e698df7767118b85410e7870823a7d533e2da0b66b942de27ed0b122f09946b6"
+    },
+    {
+      "path": "documents/S037/assets/S037_MAP-002_p003.png",
+      "bytes": 2451406,
+      "sha256": "ef3b7b4d90c362a6dddead52e8bf35c00b512ea01db3d43141904e6885034e18"
+    },
+    {
+      "path": "documents/S038/assets/S038_IMG-001_p001.png",
+      "bytes": 1551573,
+      "sha256": "15722d284ae7242162912c0c18068010b77d8593ddc50a9905d081fed30dd3da"
+    },
+    {
+      "path": "documents/S038/assets/S038_IMG-002_p004.png",
+      "bytes": 12115504,
+      "sha256": "f8248869658b3b7e1a276e2feb66b6fc05e2f6cbece066938a422a551cd9b333"
+    },
+    {
+      "path": "documents/S038/assets/S038_IMG-003_p005.png",
+      "bytes": 2804744,
+      "sha256": "d5d20e3b70580afd427a97cf6ccd46ee244c4d403bacd08c97ff4985ce483548"
+    },
+    {
+      "path": "documents/S038/assets/S038_IMG-004_p005.png",
+      "bytes": 2021721,
+      "sha256": "1656563e9f655303c9dabd3c2e413e1bc2a7d416cc3cbe04331f39bf64afd6bd"
+    },
+    {
+      "path": "documents/S038/assets/S038_IMG-005_p005.png",
+      "bytes": 2407540,
+      "sha256": "c3d421d4e0c641e84ea33207444443d78ea436055c6279dd17662e1ceca04228"
+    },
+    {
+      "path": "documents/S038/assets/S038_MAP-001_p002.png",
+      "bytes": 4926060,
+      "sha256": "e698df7767118b85410e7870823a7d533e2da0b66b942de27ed0b122f09946b6"
+    },
+    {
+      "path": "documents/S038/assets/S038_MAP-002_p003.png",
+      "bytes": 2451406,
+      "sha256": "ef3b7b4d90c362a6dddead52e8bf35c00b512ea01db3d43141904e6885034e18"
+    },
+    {
+      "path": "documents/S039/assets/S039_DIAG-001_p009.png",
+      "bytes": 106924,
+      "sha256": "92700f22e591c3ad9928db4e211b28aa6bc72db517b8ec5adec666a605d772ee"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-001_p004.png",
+      "bytes": 2048230,
+      "sha256": "09dcf92d5df2059847eb52d0727d9b8294380493eb508313d917a12ef05841ed"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-002_p005.png",
+      "bytes": 1580698,
+      "sha256": "a81cbcb483b6bb860657b8ee9eadb62d5638943075f852afcad0d51fffea6792"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-003_p006.png",
+      "bytes": 1079360,
+      "sha256": "5bc0c23c67df76251ccd61afcf0e754b3347b1ca4eb20002b025ec14f6dde979"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-004_p007.png",
+      "bytes": 1290111,
+      "sha256": "18045fd52f8f4661bbb20d17475f3bf92fedcdebf441e765238b1bea9c86c09d"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-005_p008.png",
+      "bytes": 1037292,
+      "sha256": "cf3a99bb9e2b79663019752f2a1e2ea6793a245158929daaa72ab52661049bc4"
+    },
+    {
+      "path": "documents/S039/assets/S039_MAP-006_p009.png",
+      "bytes": 1046829,
+      "sha256": "9d07f833f3acf133cbeb8666003472b304037aa39c470b99a9af992b48091c9b"
+    },
+    {
+      "path": "documents/S040/assets/S040_MAP-001_p001.png",
+      "bytes": 13491930,
+      "sha256": "9b64b8ea8b634b5671154074abdb882bb0fe37865f1864352395fbb78288f656"
+    },
+    {
+      "path": "documents/S041/assets/S041_IMG-001_p001.png",
+      "bytes": 738703,
+      "sha256": "5a54c3b3f46db52d41cf83073fce91502a8bea1bda6897c1b483d8cfaf87b9d2"
+    },
+    {
+      "path": "documents/S041/assets/S041_IMG-002_p005.png",
+      "bytes": 1963528,
+      "sha256": "ca2a6ed92a79d53e907869e2f5b7efa3ecc3fd397f5d65ecef3bc7528b5476de"
+    },
+    {
+      "path": "documents/S041/assets/S041_IMG-003_p006.png",
+      "bytes": 2478257,
+      "sha256": "43d40dbedf287b8fe26bdd3ed09c4c05ca4d2ac918c180d602d71fa4ba8f6226"
+    },
+    {
+      "path": "documents/S041/assets/S041_IMG-004_p008.png",
+      "bytes": 2097254,
+      "sha256": "c9a16eb2739fa0d104bb590e41103151536f3c76a518150629bc59dc71eec454"
+    },
+    {
+      "path": "documents/S041/assets/S041_IMG-005_p009.png",
+      "bytes": 2739900,
+      "sha256": "6d88b399e1bbd6ca5e8749c850c873d1b86bf905418715729b9b06f04d77f14d"
+    },
+    {
+      "path": "documents/S041/assets/S041_MAP-001_p002.png",
+      "bytes": 3717181,
+      "sha256": "24823fec7d9052d8cc10406ce26dde3e10485d6d363d4963939c711e12cfd6b1"
+    },
+    {
+      "path": "documents/S041/assets/S041_MAP-002_p003.png",
+      "bytes": 1918290,
+      "sha256": "6e239cded773d23f5382270e396156e52514a7e0b87a8e613ff6a9e73fb17399"
+    },
+    {
+      "path": "documents/S041/assets/S041_MAP-003_p004.png",
+      "bytes": 1893664,
+      "sha256": "418230dab73cfc6b24411364d029a2c8fb082df97b19dcf3abd33371d2efc32b"
+    },
+    {
+      "path": "documents/S041/assets/S041_MAP-004_p007.png",
+      "bytes": 1992676,
+      "sha256": "a860805626f9b7363a5ec35148154c9e883957a67b3fcaa47e8b62166ccd113f"
+    },
+    {
+      "path": "documents/S042/assets/S042_MAP-001_p001.png",
+      "bytes": 16577555,
+      "sha256": "c37d2cf8ca81e8d0c0a7287ca80363cbe02447f981109776a57a2e3ae2825d6f"
+    },
+    {
+      "path": "documents/S043/assets/S043_MAP-001_p001.png",
+      "bytes": 7411472,
+      "sha256": "7291f544eb0b74ce869557bcac421161da8f747de54539ea68adb637937c03ea"
+    },
+    {
+      "path": "documents/S045/assets/S045_MAP-001_p001.png",
+      "bytes": 4337238,
+      "sha256": "7e3ddf826a4ca442ddda4c2b6ddfe19c56e95554c80a1b16ace72d7bdbcdb6aa"
+    },
+    {
+      "path": "documents/S046/assets/S046_MAP-001_p001.png",
+      "bytes": 8343038,
+      "sha256": "50c6a3118bdda4876fab7f604676fe298c79c6db76bceefbda24c386f594f89f"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-001_p001.png",
+      "bytes": 95415,
+      "sha256": "c6ba78c18f57693421ff7f9ea686a483ba3d4e1aa7672eb93fd1bc1b52677061"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-002_p001.png",
+      "bytes": 97348,
+      "sha256": "4242df55b257933e092e8db39040202b820c4699aa9ae9c5bbdc1c3e08c0c9ba"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-003_p001.png",
+      "bytes": 98574,
+      "sha256": "bc6dc0cee78842738fc7577670109d5e336a815d5c9d6c9a6f893ffc56870366"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-004_p001.png",
+      "bytes": 94514,
+      "sha256": "beef089676f5cdae7a61aea89960d9968f7dc673ccc75b2d98eee33063ce35fd"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-005_p001.png",
+      "bytes": 126546,
+      "sha256": "fe6876dcc5adc146b50ebfdeba5962024263375fa64665de49994a9c224ab8f2"
+    },
+    {
+      "path": "documents/S047/assets/S047_DIAG-006_p001.png",
+      "bytes": 73974,
+      "sha256": "991467abdae0916137f0350e796a825a4d177b46f0e8a2e297d367e857db276f"
+    },
+    {
+      "path": "documents/S048/assets/S048_MAP-001_p001.png",
+      "bytes": 4597363,
+      "sha256": "07327c1c4873f25a42196b9299f896a3f0a4a7097137fb052741a7a8e2d1c66f"
+    },
+    {
+      "path": "documents/S049/assets/S049_MAP-001_p001.png",
+      "bytes": 4244916,
+      "sha256": "965601b9c93bd55971732f493182ff21f7f27059f93f6532b1c99c4f9499274a"
+    },
+    {
+      "path": "documents/S050/assets/S050_IMG-001_p001.png",
+      "bytes": 1178254,
+      "sha256": "264c58e02f8d2bd31e3047f232036d50bfdb0463f8ea3612909971ea60a6a806"
+    },
+    {
+      "path": "documents/S050/assets/S050_IMG-002_p001.png",
+      "bytes": 1087913,
+      "sha256": "49458106a155102164277ffc3a53cb41dab348f4656d41ffff181ad988529bca"
+    },
+    {
+      "path": "documents/S050/assets/S050_IMG-003_p001.png",
+      "bytes": 1156987,
+      "sha256": "430ed8b6ee0f57a12b355303426997fd47369b18d06c0ced9ed8b9181da8278f"
+    },
+    {
+      "path": "documents/S050/assets/S050_IMG-004_p001.png",
+      "bytes": 2849429,
+      "sha256": "96dfc3ff830076d53240231ad6c3ccd38ec96aef720e32048cc00af7fd1c3cb6"
+    },
+    {
+      "path": "documents/S051/assets/S051_IMG-001_p001.png",
+      "bytes": 4133598,
+      "sha256": "6a26ea2a1b6649ec05c39527537f592417016158c525a7acab4655e2dbdd9974"
+    },
+    {
+      "path": "documents/S051/assets/S051_MAP-001_p001.png",
+      "bytes": 223253,
+      "sha256": "c32990f48ecac01ec9d1e357c9029d6a07306622dce1bf31fdbfe5f382b85a00"
+    },
+    {
+      "path": "documents/S052/assets/S052_IMG-001_p001.png",
+      "bytes": 4256688,
+      "sha256": "f2329a8abad79322008ec8ad07ad839bd1730381f23abeaf17a4922e1b0e17a6"
+    },
+    {
+      "path": "documents/S052/assets/S052_MAP-001_p001.png",
+      "bytes": 223851,
+      "sha256": "0f0ce27e8ebb30efb0d268311575c37d148930be7b6ea179e43571ad55f2aece"
+    },
+    {
+      "path": "documents/S053/assets/S053_IMG-001_p001.png",
+      "bytes": 4450359,
+      "sha256": "9bbaa204a48c7d8aad2019cdb37509be873ee7ab2c09fed94a9b5a114ef6abda"
+    },
+    {
+      "path": "documents/S053/assets/S053_MAP-001_p001.png",
+      "bytes": 226039,
+      "sha256": "5844d2fc90606dd8faeb40bc34832f26f28d318722a40779e7d973922c7d5d17"
+    },
+    {
+      "path": "documents/S054/assets/S054_IMG-001_p001.png",
+      "bytes": 4236209,
+      "sha256": "f4d58e93d8c9ba59e9a58c7a350bb22378db54c0550cb938f6890f8029c2cb73"
+    },
+    {
+      "path": "documents/S054/assets/S054_MAP-001_p001.png",
+      "bytes": 222677,
+      "sha256": "7167a19724cf2e5273f33533433207731be3065aa757fecc18147fb08eff9c17"
+    },
+    {
+      "path": "documents/S055/assets/S055_IMG-001_p001.png",
+      "bytes": 1104710,
+      "sha256": "9ef44e382847a6cf74020b14e2fab1d35376725bfcf55142cc9e9105c836b0ea"
+    },
+    {
+      "path": "documents/S055/assets/S055_MAP-001_p001.png",
+      "bytes": 226027,
+      "sha256": "c23bdef54ad7883a500d2fbbc152e9eb68edeef5306073ec9d6e1e913bee2140"
+    },
+    {
+      "path": "documents/S056/assets/S056_MAP-001_p001.png",
+      "bytes": 4325782,
+      "sha256": "a62c7d18718f127055b93afe1afdcb7fb98120b089695263dd136d9e032d1aba"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-001_p010.png",
+      "bytes": 1252699,
+      "sha256": "336c70f55a3107f20aca5cc7b9534a3d2218bc3182834d4e22243b6365e78208"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-002_p012.png",
+      "bytes": 513842,
+      "sha256": "a2aeff8035e48d8dc024922e2ffe9b344c25940f6621bb16ec3d7ec477dc2c67"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-003_p014.png",
+      "bytes": 979048,
+      "sha256": "4ab2084de49e4121c4860ea754d579fc14a6630555ddf35441226c8ccf81e7c8"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-004_p014.png",
+      "bytes": 1475633,
+      "sha256": "0073beb91430744ce6ef369b6e1a76682bc6552264a50690e4a1b187e148952b"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-005_p015.png",
+      "bytes": 1129831,
+      "sha256": "0f8db6a4e93cf22020bf5f0947ee1081757460f49fbea8d6d98099588442a68a"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-006_p017.png",
+      "bytes": 1329161,
+      "sha256": "b96da654673a218c5fa857b1480681039601989bbe09ec9e97a5c8ff459fec47"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-007_p019.png",
+      "bytes": 673094,
+      "sha256": "6a2a4b3bf696a97fe63699938f48d350f085ced2eba65fa9c6f416ed87503427"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-008_p019.png",
+      "bytes": 558880,
+      "sha256": "9e88d8cc0636b08410ae18de433f3fe0aff2307d8d52a56b7d3d5feb9ecf16ee"
+    },
+    {
+      "path": "documents/S057/assets/S057_IMG-009_p023.png",
+      "bytes": 705199,
+      "sha256": "555cf5622b3ea1ab269553033f30ca9406cfad5df3c6fbf1529186aa5a7f16a8"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-001_p004.png",
+      "bytes": 3850940,
+      "sha256": "387e76fb82427cc3e496fec5f8b6fefb25500b81ee120d029bc3337ff36c7345"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-002_p007.png",
+      "bytes": 814625,
+      "sha256": "7658ddf5ad6db3cbdd86954939a222a02dc47aa9a137a95085aeac3fd06bf8f1"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-003_p008.png",
+      "bytes": 715083,
+      "sha256": "dc80672bf49f7f2c67829064565ad23ddc018277530e05f1d3d650de824323c8"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-004_p008.png",
+      "bytes": 798856,
+      "sha256": "02c9c17eb6e18af1a347e598ee1777a0f3bc2c602c492e36f3ad0eeaa10ea665"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-005_p008.png",
+      "bytes": 780606,
+      "sha256": "082b1782b359cc39165fa4d39db91b5a16e188ce607b9a3a5801d7feacbbea05"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-006_p009.png",
+      "bytes": 810930,
+      "sha256": "554561c9ab41468e0e3ab041ae41729bd21a427b0eeab1f09ede382e60e1e462"
+    },
+    {
+      "path": "documents/S057/assets/S057_PHOTO-007_p025.png",
+      "bytes": 3814444,
+      "sha256": "bed4ca63d0ee6f6ddc9e490ca8061167e59998fe124bb6176f769d704b66dd8c"
+    },
+    {
+      "path": "documents/S058/assets/S058_MAP-001_p001.png",
+      "bytes": 2011318,
+      "sha256": "8572b69bcc5b072b3ce5326121b2c5d7eb6bb7ff1267d6a61e84beefe017e7ea"
+    },
+    {
+      "path": "documents/S059/assets/S059_DIAG-001_p001.png",
+      "bytes": 26637,
+      "sha256": "c7dc16aefc67b38eb334f0ecfa2119448dd3ae227f6fbae2f0111539ed0515c1"
+    },
+    {
+      "path": "documents/S059/assets/S059_MAP-001_p001.png",
+      "bytes": 884657,
+      "sha256": "51aa4d35fcdb6ca253720475bb9d97ef6118247e6b3b816d133825227481bff8"
+    },
+    {
+      "path": "documents/S060/assets/S060_MAP-001_p001.png",
+      "bytes": 3874149,
+      "sha256": "01e8c422ea9395fa58125d71333c43256c2b0d420aba5e99de23c0f199ddfcef"
+    },
+    {
+      "path": "documents/S061/assets/S061_MAP-001_p001.png",
+      "bytes": 5861565,
+      "sha256": "d6de685730a581a9c18dd72657a8b56cf711853a24d64b374fa07caeb940637f"
+    },
+    {
+      "path": "documents/S062/assets/S062_MAP-001_p001.png",
+      "bytes": 861487,
+      "sha256": "2de0108647cfd6dd1bf17837440a2ecd69d9cd21e0c85c81f351e0ce4c3d7bae"
+    },
+    {
+      "path": "documents/S063/assets/S063_DIAG-001_p001.png",
+      "bytes": 1159318,
+      "sha256": "fee0cfc2f25e38b1578390e1d123723591d88cd5d02ba28cfbc426b14be26ed5"
+    },
+    {
+      "path": "documents/S064/assets/S064_DIAG-001_p001.png",
+      "bytes": 741293,
+      "sha256": "4eab3a242e826eb9169340adbb62a5a9eac72a97f60dbcc800545c82e9c3793e"
+    },
+    {
+      "path": "documents/S065/assets/S065_DIAG-001_p001.png",
+      "bytes": 283147,
+      "sha256": "3e0bdec88b586a0d890938e73e4ef76542d47e22ad9c31bb2c8802a3d4aedd44"
+    },
+    {
+      "path": "documents/S066/assets/S066_DIAG-001_p001.png",
+      "bytes": 1153948,
+      "sha256": "5921bd208f58d1f42ce78e20007618e82311b8a89ba9ebdcfb3044ac050a3132"
+    },
+    {
+      "path": "documents/S067/assets/S067_DIAG-001_p001.png",
+      "bytes": 622478,
+      "sha256": "4248b3e8dffe7460e557934c68711fbd3713d0c7c912cae5a13f567d22138549"
+    },
+    {
+      "path": "documents/S068/assets/S068_DIAG-001_p001.png",
+      "bytes": 201994,
+      "sha256": "6521b47474ba48aec8855c65f96761280567ed4cf8293e0a73166300a8163541"
+    },
+    {
+      "path": "documents/S069/assets/S069_DIAG-001_p001.png",
+      "bytes": 160970,
+      "sha256": "f383f6a2f767ca2c10da962af4d9bfb46f86b88e418d4a07af31bc8281e58444"
+    },
+    {
+      "path": "documents/S070/assets/S070_DIAG-001_p001.png",
+      "bytes": 132861,
+      "sha256": "0653c597ca70179782a1685327e823b5b66af0d0e924e7ebbc42cfa13977e21f"
+    },
+    {
+      "path": "documents/S071/assets/S071_DIAG-001_p001.png",
+      "bytes": 97461,
+      "sha256": "3cc36c749a30235ecae9785f3f0faad16901f14555ddd952e198b32c7a866497"
+    },
+    {
+      "path": "documents/S071/assets/S071_DIAG-002_p001.png",
+      "bytes": 82015,
+      "sha256": "4223ec920d1db18e09eaccb4def65348bbc9f71fbe530ffb79e2ed30117b044c"
+    },
+    {
+      "path": "documents/S071/assets/S071_DIAG-003_p001.png",
+      "bytes": 57184,
+      "sha256": "1d9456ac1d4add326739df1b6434fa8a90ecd7954c40999a01b5087de310a18f"
+    },
+    {
+      "path": "documents/S071/assets/S071_DIAG-004_p001.png",
+      "bytes": 222366,
+      "sha256": "2953220b8d842756db291444839c19fd213bd837fa1f59f400c6ff40eb75b791"
+    },
+    {
+      "path": "documents/S073/assets/S073_IMG-001_p005.png",
+      "bytes": 525123,
+      "sha256": "b135783ef1dc96a675d983150109efdf86a180b5e8302fcfdf7ef6f3d3b04640"
+    },
+    {
+      "path": "documents/S073/assets/S073_IMG-002_p005.png",
+      "bytes": 466330,
+      "sha256": "f76474a6ae4d20459c497a9cc7dfc2b23e1e9b4d7b1573a3e80eed56ba511c53"
+    },
+    {
+      "path": "documents/S073/assets/S073_IMG-003_p013.png",
+      "bytes": 3490329,
+      "sha256": "bb359d06cbc097b6a6cd2f8ac01b7d7543c909b637c2a6e8890646eaace0fc01"
+    },
+    {
+      "path": "documents/S073/assets/S073_IMG-004_p015.png",
+      "bytes": 30758,
+      "sha256": "bd81252c42a2fa0f488bdeb3d7e116f454d3147ebe158626ac49cd67f4d36492"
+    },
+    {
+      "path": "documents/S073/assets/S073_IMG-005_p015.png",
+      "bytes": 26228,
+      "sha256": "ad70067b2c98ffca08e72c8b9635e96542d2b65278ffa0cd49428c25123d92cb"
+    },
+    {
+      "path": "documents/S073/assets/S073_PHOTO-001_p002.png",
+      "bytes": 243691,
+      "sha256": "7fd8492753206b5712a679feb9985f7c8529b515b687ae9440601488784848e8"
+    },
+    {
+      "path": "documents/S073/assets/S073_PHOTO-002_p008.png",
+      "bytes": 1849099,
+      "sha256": "e09f534feed2fb6fa585ca2f6b82ece96085a844b7f7311f63d9a69315cd7fb9"
+    },
+    {
+      "path": "documents/S073/assets/S073_PHOTO-003_p014.png",
+      "bytes": 934161,
+      "sha256": "fe9807bfbcc359f155347bbfb5b0200ef78a322b21ea4c3ec98037198214e17f"
+    },
+    {
+      "path": "documents/S073/assets/S073_PHOTO-004_p014.png",
+      "bytes": 1135730,
+      "sha256": "8b8306830387e3bd181043a9f4249f6a838dca5822ffebe12efb7b8a8b68aead"
+    },
+    {
+      "path": "documents/S074/assets/S074_IMG-001_p005.png",
+      "bytes": 507705,
+      "sha256": "01f0df344d39a7bd45dec164181d845e70402561d097d454f02a133b336d766c"
+    },
+    {
+      "path": "documents/S074/assets/S074_IMG-002_p005.png",
+      "bytes": 443362,
+      "sha256": "51cb39487d7894466c1a70e4944407a540880955709fa56128fb4a7572194e36"
+    },
+    {
+      "path": "documents/S074/assets/S074_IMG-003_p013.png",
+      "bytes": 3103409,
+      "sha256": "95fd19e520974a265030d984e25c5813b0be16d4661b1b94613ecf4c42fae038"
+    },
+    {
+      "path": "documents/S074/assets/S074_PHOTO-001_p002.png",
+      "bytes": 280973,
+      "sha256": "cc29f3c9992413d53efb6c903b1ac30d3931a47c1f7cace52819a6e7b125af50"
+    },
+    {
+      "path": "documents/S074/assets/S074_PHOTO-002_p008.png",
+      "bytes": 1507175,
+      "sha256": "99a9931eb10adeba641d59cae9cba91b8edd942263fe95d5e972fa239e27ae9b"
+    },
+    {
+      "path": "documents/S074/assets/S074_PHOTO-003_p014.png",
+      "bytes": 847298,
+      "sha256": "3074d112978b8e88771d88cb6cdd53831595554867ebc76ea369d2523e485654"
+    },
+    {
+      "path": "documents/S074/assets/S074_PHOTO-004_p014.png",
+      "bytes": 993702,
+      "sha256": "48129897e4c68dadf6929e7ced87a62459ee474dc9e7be33baa8193cd7ca1a07"
+    },
+    {
+      "path": "documents/S075/assets/S075_DIAG-001_p001.png",
+      "bytes": 9138589,
+      "sha256": "c345578a3de6fb9da9cecffc3f6166fa6e9effc935968107c9f84c92e8e6640c"
+    },
+    {
+      "path": "documents/S075/assets/S075_DIAG-002_p001.png",
+      "bytes": 16111,
+      "sha256": "d229af2841ef21d6b2dfd551d60d0834493e30b5c571f8f9bb1baadf3d8c5870"
+    },
+    {
+      "path": "documents/S076/assets/S076_DIAG-001_p001.png",
+      "bytes": 1562238,
+      "sha256": "b17b92dd2ff1de47c31ee0c636183be132c030062f2b39fd968ced39d821ce7d"
+    },
+    {
+      "path": "documents/S077/assets/S077_DIAG-001_p001.png",
+      "bytes": 1579065,
+      "sha256": "55fba50509fbfb830c003295bdc22b776a6cc171ce89dad1fc10ead87c51a1fa"
+    },
+    {
+      "path": "documents/S078/assets/S078_DIAG-001_p001.png",
+      "bytes": 527134,
+      "sha256": "2d6d7a0a079abde2d909b258159ad361110b5ee2db4279bca3329c3b62ce035c"
+    },
+    {
+      "path": "documents/S079/assets/S079_DIAG-001_p001.png",
+      "bytes": 593938,
+      "sha256": "992828fce2821189a5de2ba9fe36279f2cd76a1eb47e1ecf18c53eb25acbb12a"
+    },
+    {
+      "path": "documents/S081/assets/S081_DIAG-001_p001.png",
+      "bytes": 2039451,
+      "sha256": "c64dfda6629bcd60e7e4f34910cde924b3b0481040b9333da9e6d4171ab37fa3"
+    },
+    {
+      "path": "documents/S082/assets/S082_DIAG-001_p001.png",
+      "bytes": 711072,
+      "sha256": "78517f25ba0a1f413f9e035cce7b5f64229121ecf0ec8d103cd219a5afe3f381"
+    },
+    {
+      "path": "documents/S083/assets/S083_DIAG-001_p001.png",
+      "bytes": 360360,
+      "sha256": "9f5a5d0591ee289e41d0852c64eba86203196fe5265031ab6e4f79a99ffc0051"
+    },
+    {
+      "path": "documents/S084/assets/S084_DIAG-001_p001.png",
+      "bytes": 96838,
+      "sha256": "1e59f4405c0d672081cf5d0aa3907c6e6c573698ea5d5fc871c66daa885f9a1e"
+    },
+    {
+      "path": "documents/S084/assets/S084_MAP-001_p001.png",
+      "bytes": 4064008,
+      "sha256": "2e3899b54179eeb16e106bb0b30d409414a10d0e9a3ba757b6c85a411990b40c"
+    },
+    {
+      "path": "documents/S085/assets/S085_DIAG-001_p001.png",
+      "bytes": 420356,
+      "sha256": "5012ca7bff104665c34f9d0b5c4163ea520dbd47abed403e303adc6c760cf75f"
+    },
+    {
+      "path": "documents/S086/assets/S086_DIAG-001_p001.png",
+      "bytes": 187717,
+      "sha256": "8e13a1192cbd47f9ba4d84b32a9297cafad7a5b33da311ab8a05fa4db054ec4f"
+    },
+    {
+      "path": "documents/S087/assets/S087_DIAG-001_p001.png",
+      "bytes": 157854,
+      "sha256": "f07ad19e95ac7eb0407b38cd76e38f8a62a9bd0bbac5480942c29fad3442a2df"
+    },
+    {
+      "path": "documents/S088/assets/S088_DIAG-001_p001.png",
+      "bytes": 586169,
+      "sha256": "088c744af768949763b8f09544d10ba6feb24a3f5af0260cc3e240aceae77c99"
+    },
+    {
+      "path": "documents/S089/assets/S089_DIAG-001_p001.png",
+      "bytes": 1065719,
+      "sha256": "219f5bc5754ac3bf63545e70a6fa75feff2a9501ba6910c20ed2649b3021aa44"
+    },
+    {
+      "path": "documents/S090/assets/S090_DIAG-001_p001.png",
+      "bytes": 542480,
+      "sha256": "95b86e7a54a73689c41e695fce32d06361382b81ef496995a6faa6e2b823efb1"
+    },
+    {
+      "path": "documents/S091/assets/S091_PHOTO-001_p001.jpg",
+      "bytes": 4278305,
+      "sha256": "360fe49002e5e42af430d25f5e96ffc6c169d0e6a5faa94f674fe277fb3d769b"
+    },
+    {
+      "path": "documents/S092/assets/S092_PHOTO-001_p001.jpg",
+      "bytes": 898992,
+      "sha256": "715e54c48345eeccabded97c240c972277ba09f4375ee5afbf385ebb7afebade"
+    },
+    {
+      "path": "documents/S093/assets/S093_PHOTO-001_p001.jpg",
+      "bytes": 782763,
+      "sha256": "3900db234634e5f66762c52ace1da60c1519948d0b88dfdf7ee5cbdfbcd3f8d3"
+    },
+    {
+      "path": "previews/S001/p001.jpg",
+      "bytes": 690501,
+      "sha256": "af8b4be48506a4fdfdad58e5440b7840c608721e5d728d0a810dab623eaf60bc"
+    },
+    {
+      "path": "previews/S001/p002.jpg",
+      "bytes": 526136,
+      "sha256": "4fcbc80813df59f3ddaccfac267260f508235e98cd065c260577dadfe73206ae"
+    },
+    {
+      "path": "previews/S002/p001.jpg",
+      "bytes": 281820,
+      "sha256": "e876d64a0fcdd8efd0cc7048199a7105c9ce5a883ed9bf3bb71da812aea622ef"
+    },
+    {
+      "path": "previews/S002/p002.jpg",
+      "bytes": 755551,
+      "sha256": "b427c703e40b34cb28b04b34a4b6cbba7d0d259f300167a180d6a952360c9a1f"
+    },
+    {
+      "path": "previews/S002/p003.jpg",
+      "bytes": 623446,
+      "sha256": "c96dabcccf629d1d36a54563d7dd76e601caac14cabee702fc38709418bc82d7"
+    },
+    {
+      "path": "previews/S002/p004.jpg",
+      "bytes": 537174,
+      "sha256": "143d71a8c5976d27dd3a9e711895eaf1541b3bfb1374d9a13ed60edcd038927c"
+    },
+    {
+      "path": "previews/S002/p005.jpg",
+      "bytes": 642405,
+      "sha256": "0a743dad8486d0b20e11c4603764d1b5f45b7712ff7fe1f59481d8095f8aa87f"
+    },
+    {
+      "path": "previews/S002/p006.jpg",
+      "bytes": 527846,
+      "sha256": "b2f1d216ec834766eb048d1f5f734b4c32e8bf7a3acc28bb8f032784c016d542"
+    },
+    {
+      "path": "previews/S003/p001.jpg",
+      "bytes": 640361,
+      "sha256": "14f0eae82c479de55797013afe415b2bf1fc3a64675cc35f2e1f8eda16eaa9b2"
+    },
+    {
+      "path": "previews/S003/p002.jpg",
+      "bytes": 568785,
+      "sha256": "bcecbb1964947656a1d90cbb6db02eaa4ab9cb41f494a3b9a133d0b6fc100665"
+    },
+    {
+      "path": "previews/S003/p003.jpg",
+      "bytes": 214805,
+      "sha256": "dcf618669af43566b84725ef9a4895301fe69108a6c344e23780ce86096d1d80"
+    },
+    {
+      "path": "previews/S003/p004.jpg",
+      "bytes": 486959,
+      "sha256": "2dba0ec7eb653e78396a513fb8a8586be5f13ca023a326beebed7feadd9f671c"
+    },
+    {
+      "path": "previews/S003/p005.jpg",
+      "bytes": 508810,
+      "sha256": "309e4357df6ea9f1e98374c2e66f8a5df2ca6ae5e68437398b0024fdcbeea452"
+    },
+    {
+      "path": "previews/S003/p006.jpg",
+      "bytes": 626497,
+      "sha256": "df7cb70887b68e29d5cded934780ee9d11b2ac837ff1d5b0aa833a8b6fd4ef2b"
+    },
+    {
+      "path": "previews/S003/p007.jpg",
+      "bytes": 700975,
+      "sha256": "0fba9bb44c960cd7501a618521e379655a2f392d580190cee399a000e611661d"
+    },
+    {
+      "path": "previews/S003/p008.jpg",
+      "bytes": 567749,
+      "sha256": "a3e21175deb0f5a233e82a7a99fb7475291be2e04777e7b3b46fff1d195f8cc0"
+    },
+    {
+      "path": "previews/S003/p009.jpg",
+      "bytes": 183679,
+      "sha256": "39c794617ad4d23e06e4cb5f31e53a52b94406f7207678192ef8b82b13c20b43"
+    },
+    {
+      "path": "previews/S003/p010.jpg",
+      "bytes": 526784,
+      "sha256": "4a8f0a56e992534202ddb4ed226b125bc6aa4952a9cc67cc78807049fc6dd1de"
+    },
+    {
+      "path": "previews/S003/p011.jpg",
+      "bytes": 583119,
+      "sha256": "f1a6938438f1c8c597051b37564ec9ea75be5e7cdf14adf98df8040edd633dd0"
+    },
+    {
+      "path": "previews/S003/p012.jpg",
+      "bytes": 558358,
+      "sha256": "83a525e2cb6884a156f603739efccb8f27f23b66bc629b5a25b581261fe12da0"
+    },
+    {
+      "path": "previews/S003/p013.jpg",
+      "bytes": 71886,
+      "sha256": "1dd905ad9be8b5d8f1a31968d19fd53c83a5c0e0601cf9fab468f5d5f55150da"
+    },
+    {
+      "path": "previews/S003/p014.jpg",
+      "bytes": 430790,
+      "sha256": "8b469ed4e254848383307a0e5754a2ece71a64c0fc4bd121137f3eb37c5c103f"
+    },
+    {
+      "path": "previews/S003/p015.jpg",
+      "bytes": 268757,
+      "sha256": "2821e65d9d4cd34b263adce2f620c63b68eb61664d48aacf9a75ad8d19d3802b"
+    },
+    {
+      "path": "previews/S004/p001.jpg",
+      "bytes": 855994,
+      "sha256": "6fd581b12b59660bd50abf09659bf7000f5d12d46e1a7f279e3b36534a65201c"
+    },
+    {
+      "path": "previews/S007/p001.jpg",
+      "bytes": 313775,
+      "sha256": "4e3511c6342062d541914260b9ac74ab1e95e83d55045d34fa64e6e87a6aebcc"
+    },
+    {
+      "path": "previews/S008/p001.jpg",
+      "bytes": 343308,
+      "sha256": "e0d5af18db00cec413f07fce5c1ea8e115d559e0492b8d35454663a3d1422c68"
+    },
+    {
+      "path": "previews/S009/p001.jpg",
+      "bytes": 313403,
+      "sha256": "0967e44c392dbfb7df852b82d1e8ed45d8673d7e6d1ffc6dc8b214457fb1dc53"
+    },
+    {
+      "path": "previews/S010/p001.jpg",
+      "bytes": 631373,
+      "sha256": "5e119ab038639a4283372b7556ae9fa0328511be806ba751b51c9f2e70e0216a"
+    },
+    {
+      "path": "previews/S011/p001.jpg",
+      "bytes": 524937,
+      "sha256": "7b92df8f4529024c3638ba70eac6c8fe2364842d82332da33d6ddda9638a2815"
+    },
+    {
+      "path": "previews/S012/p001.jpg",
+      "bytes": 530646,
+      "sha256": "a7365a6e798a85c848d54a29b68fce3acef5fccd356750a9aa2609b8d859aca0"
+    },
+    {
+      "path": "previews/S013/p001.jpg",
+      "bytes": 545710,
+      "sha256": "49b080f065b1d74901ef01c177954b16b8952f3ec29b15e95a44b4d82ea8041e"
+    },
+    {
+      "path": "previews/S014/p001.jpg",
+      "bytes": 567512,
+      "sha256": "10ebc1df93c9d5c58fd28d54645d9c18c8fb17811f46a5c64885a3e99ec86346"
+    },
+    {
+      "path": "previews/S015/p001.jpg",
+      "bytes": 775689,
+      "sha256": "c8e1bf04fc121feb00d51b759e0e5dd9327b742ac38d9a67bf55607624bbb98f"
+    },
+    {
+      "path": "previews/S016/p001.jpg",
+      "bytes": 587631,
+      "sha256": "4c9839a7a8151953566b382231d319a77b22486d6ff0140cdd735943e447511e"
+    },
+    {
+      "path": "previews/S018/p001.jpg",
+      "bytes": 579775,
+      "sha256": "43e1df26cfaea3b93928ab107f40cb7a80319d88b3f2b035736232f35a6110f5"
+    },
+    {
+      "path": "previews/S019/p001.jpg",
+      "bytes": 475302,
+      "sha256": "ac8a0b53fff22646e698057cf9084743a504daf9cf048dea643cfd387d162b75"
+    },
+    {
+      "path": "previews/S020/p001.jpg",
+      "bytes": 288024,
+      "sha256": "835f202d358ba9e733f708a755473ff59cae83ad363fd5fffe8a2aa10c9c51c4"
+    },
+    {
+      "path": "previews/S021/p001.jpg",
+      "bytes": 270466,
+      "sha256": "0577beaf63b7dd06165eea73a18604e565e966f32b5887184f6b343165cb6436"
+    },
+    {
+      "path": "previews/S022/p001.jpg",
+      "bytes": 268494,
+      "sha256": "cb4a6e05499d06d709d9ce51220b763b28e3e1ddf5877294db1f45afa1d412ee"
+    },
+    {
+      "path": "previews/S023/p001.jpg",
+      "bytes": 428969,
+      "sha256": "55ecd5c1917fe17ce618c6fe13d16dcb1f002b6c09f516976990540df910c52a"
+    },
+    {
+      "path": "previews/S024/p001.jpg",
+      "bytes": 346372,
+      "sha256": "1fb730f37259e637b4c7c8c4088f89f8eb70cf31f494f82c1cb258bf6ccc9f96"
+    },
+    {
+      "path": "previews/S035/p001.jpg",
+      "bytes": 567512,
+      "sha256": "10ebc1df93c9d5c58fd28d54645d9c18c8fb17811f46a5c64885a3e99ec86346"
+    },
+    {
+      "path": "previews/S036/p001.jpg",
+      "bytes": 676080,
+      "sha256": "641c96ba179f4f023c17e4a3e07045b02ceedae38a1ed952e4fc38ecdb441940"
+    },
+    {
+      "path": "previews/S036/p002.jpg",
+      "bytes": 1167014,
+      "sha256": "b3353daf0808c1921123b135505ceca8fff3093620e3501f6c966b66f5dc8e57"
+    },
+    {
+      "path": "previews/S036/p003.jpg",
+      "bytes": 898156,
+      "sha256": "9820d72507aa8ab6cb35978a1729039b3d7728b7e067b46c113b055a7021b4ed"
+    },
+    {
+      "path": "previews/S036/p004.jpg",
+      "bytes": 1213815,
+      "sha256": "67824bb7e5cc9a1d8d5c7294c31184982fa04062c1085492aff33dbe518a3353"
+    },
+    {
+      "path": "previews/S036/p005.jpg",
+      "bytes": 1263202,
+      "sha256": "26a77d44067889834c44b4bc2be5d6e633d21b98b163b9abadf799d3a22350b0"
+    },
+    {
+      "path": "previews/S036/p006.jpg",
+      "bytes": 1184250,
+      "sha256": "0cef7b1f12b8d8f67fce1d9eb165cd2c371b9af956e7a87e1b61fde0b3c806d4"
+    },
+    {
+      "path": "previews/S036/p007.jpg",
+      "bytes": 687151,
+      "sha256": "6d05f9b677460098b8e818c108fa8c51105c3cbd2d581e74496f314177c3db7d"
+    },
+    {
+      "path": "previews/S036/p008.jpg",
+      "bytes": 609008,
+      "sha256": "1274fe7868825a43fc6c74f86c3f2cdb339cfe69abab7f7f59c64897a90aa7ae"
+    },
+    {
+      "path": "previews/S037/p001.jpg",
+      "bytes": 236014,
+      "sha256": "bff20449356136c2c5a79b46cb40a7d8d24a3075f60a8aeeed821f02326a7c15"
+    },
+    {
+      "path": "previews/S037/p002.jpg",
+      "bytes": 1202172,
+      "sha256": "5da155b8cd4111610cde18d33ab3d149f0b75415c8cb065a658cfd0fd5875d4c"
+    },
+    {
+      "path": "previews/S037/p003.jpg",
+      "bytes": 1080237,
+      "sha256": "46bd452fa45dbca02a4e773e92175f9f1ba70591dc163ca0beec5ec95ef943b9"
+    },
+    {
+      "path": "previews/S037/p004.jpg",
+      "bytes": 819073,
+      "sha256": "16570e8ed5d5bc19d651ae743d0fe3c8b26695f7087bde5473f433195fecd40c"
+    },
+    {
+      "path": "previews/S037/p005.jpg",
+      "bytes": 640859,
+      "sha256": "8c39643a4f9d2a29e2d3084f8beadccf753b952201c0f46fb5eb7204eaf26ea2"
+    },
+    {
+      "path": "previews/S038/p001.jpg",
+      "bytes": 236014,
+      "sha256": "bff20449356136c2c5a79b46cb40a7d8d24a3075f60a8aeeed821f02326a7c15"
+    },
+    {
+      "path": "previews/S038/p002.jpg",
+      "bytes": 1202172,
+      "sha256": "5da155b8cd4111610cde18d33ab3d149f0b75415c8cb065a658cfd0fd5875d4c"
+    },
+    {
+      "path": "previews/S038/p003.jpg",
+      "bytes": 1080237,
+      "sha256": "46bd452fa45dbca02a4e773e92175f9f1ba70591dc163ca0beec5ec95ef943b9"
+    },
+    {
+      "path": "previews/S038/p004.jpg",
+      "bytes": 819073,
+      "sha256": "16570e8ed5d5bc19d651ae743d0fe3c8b26695f7087bde5473f433195fecd40c"
+    },
+    {
+      "path": "previews/S038/p005.jpg",
+      "bytes": 640859,
+      "sha256": "8c39643a4f9d2a29e2d3084f8beadccf753b952201c0f46fb5eb7204eaf26ea2"
+    },
+    {
+      "path": "previews/S039/p001.jpg",
+      "bytes": 222014,
+      "sha256": "877ffee4a984c6479ac92e708fdb72e41a61780c49348bc4afd6da720da8bd98"
+    },
+    {
+      "path": "previews/S039/p002.jpg",
+      "bytes": 191484,
+      "sha256": "6697e623eec2da5d98f78890631395f7d08ef5b6efc695c39a1a67dad9bc98ee"
+    },
+    {
+      "path": "previews/S039/p003.jpg",
+      "bytes": 1045833,
+      "sha256": "4c437568ac000d1c8c8c58fb679cef08c5f35a5aaae67f9881bb8f694fefe8ec"
+    },
+    {
+      "path": "previews/S039/p004.jpg",
+      "bytes": 1163345,
+      "sha256": "de7d4f434bd55477c4a7e447482236ae4fa5c2bd1a596debae7d24ed002349c8"
+    },
+    {
+      "path": "previews/S039/p005.jpg",
+      "bytes": 776825,
+      "sha256": "15507ad3d1bf04c21eb102f1b2f402ba112969169fdd342a32373f557d51333c"
+    },
+    {
+      "path": "previews/S039/p006.jpg",
+      "bytes": 598087,
+      "sha256": "b4768f0b3ae1fc95f3ba4728f337a07049d8d6bb97207a6b45b66483d1a21cf1"
+    },
+    {
+      "path": "previews/S039/p007.jpg",
+      "bytes": 685468,
+      "sha256": "8d77ab372aa14266da0ebcfc3ed3ddaf94cb3af7c878964f72b29ee65e990ed4"
+    },
+    {
+      "path": "previews/S039/p008.jpg",
+      "bytes": 486178,
+      "sha256": "19af6660662a82e2ab592c185318565c5a961d3781012ad5e5de95833a6ab7ee"
+    },
+    {
+      "path": "previews/S039/p009.jpg",
+      "bytes": 662420,
+      "sha256": "c5c28e7bb88ea22912350c673a27d8c87a56746e91053d013e3a5a5948955bbc"
+    },
+    {
+      "path": "previews/S040/p001.jpg",
+      "bytes": 1013585,
+      "sha256": "d1d442ea15677f8bf66e4a26f84c76100942345d76b176e787d15cf52146bb75"
+    },
+    {
+      "path": "previews/S041/p001.jpg",
+      "bytes": 176247,
+      "sha256": "e5f2b451a8c2039c1715e07783015e955c95e214ad54fd01f50ebb5894b4591f"
+    },
+    {
+      "path": "previews/S041/p002.jpg",
+      "bytes": 756777,
+      "sha256": "56b8b2f1d1181f41d0a82072037c8432f6b177adca265ff53f9335fe4b16d1a3"
+    },
+    {
+      "path": "previews/S041/p003.jpg",
+      "bytes": 634669,
+      "sha256": "8a74d4104d4710a851c2554b89683eb542cfeaec3bc990cebb55daddf06ad456"
+    },
+    {
+      "path": "previews/S041/p004.jpg",
+      "bytes": 765755,
+      "sha256": "127127ace3a99287c28867ebe142074304a17c41f16de2cd740045715405603b"
+    },
+    {
+      "path": "previews/S041/p005.jpg",
+      "bytes": 348475,
+      "sha256": "16c3eef1666a2d705b6707968aab40f23b764a2e44030f97c008849e507ae8cb"
+    },
+    {
+      "path": "previews/S041/p006.jpg",
+      "bytes": 427119,
+      "sha256": "009ec2e7a62f343694cf917cd70a3f7671a74fe9c29a1766077ab1c1a1656842"
+    },
+    {
+      "path": "previews/S041/p007.jpg",
+      "bytes": 765214,
+      "sha256": "ea2930d44dde240047cc53dbbf8600a20920e36e355b33de7275a7618bca7c79"
+    },
+    {
+      "path": "previews/S041/p008.jpg",
+      "bytes": 366364,
+      "sha256": "d5ea9aa675c3a2fe67d749a8fb32bbca89ec61f755311f8a8635b884a2710ca0"
+    },
+    {
+      "path": "previews/S041/p009.jpg",
+      "bytes": 453228,
+      "sha256": "f1dc817c5791119a3e62d40a24197b48b35ff64788301a707fb4015f86a4247f"
+    },
+    {
+      "path": "previews/S042/p001.jpg",
+      "bytes": 906193,
+      "sha256": "5b076b4ca4687627d9ff0f0aee01dded49960c90825619992148b5490fcdcaf4"
+    },
+    {
+      "path": "previews/S043/p001.jpg",
+      "bytes": 1179478,
+      "sha256": "e86f0f52a5e78909e3f6a36c156f4ae8ddd1822264a7f6809d5f6f4f357208ec"
+    },
+    {
+      "path": "previews/S044/p001.jpg",
+      "bytes": 888596,
+      "sha256": "8065511b5363eddecd9c41109872d2d84e356fe36575d9ed16360d1469860aaf"
+    },
+    {
+      "path": "previews/S045/p001.jpg",
+      "bytes": 730741,
+      "sha256": "d37a2468acc93423a0b18e0fa57c7bd491344ddda545768657e447225dbb82e8"
+    },
+    {
+      "path": "previews/S046/p001.jpg",
+      "bytes": 970191,
+      "sha256": "4782b54b1ed14e49fdd055e230fce6dc578ab98edb7b339bee74f3b2145d4344"
+    },
+    {
+      "path": "previews/S047/p001.jpg",
+      "bytes": 361054,
+      "sha256": "c1715192310202ca662f917e1f94f056289c1e31555fc292dbf604530de214cf"
+    },
+    {
+      "path": "previews/S048/p001.jpg",
+      "bytes": 754876,
+      "sha256": "df28227089d2e1a7a2297ba028ae09ff169acf9bd8bbfea27963f9677828dda8"
+    },
+    {
+      "path": "previews/S049/p001.jpg",
+      "bytes": 749211,
+      "sha256": "47f8a2417e45e94215d500c181374c42d1c99662718466b87611f5e3e79ce118"
+    },
+    {
+      "path": "previews/S050/p001.jpg",
+      "bytes": 402929,
+      "sha256": "96d68d6afbeaee9ef2774e4119b89a8362f8633f661252f32031ac80651ffe57"
+    },
+    {
+      "path": "previews/S051/p001.jpg",
+      "bytes": 626782,
+      "sha256": "7d5fe59eb1e4ab7a716ce37b35d463ba53cd90b5979c69f80f9fd1c14cdd3213"
+    },
+    {
+      "path": "previews/S052/p001.jpg",
+      "bytes": 571119,
+      "sha256": "9c7b524b1b442e657b12feba5c040bcf85f063fda78ca6f33ae561858a06d02f"
+    },
+    {
+      "path": "previews/S053/p001.jpg",
+      "bytes": 666729,
+      "sha256": "a93ef71a88f5fb130b7ca96162ebefc51c61543b20260ef8a9f479b0335131d4"
+    },
+    {
+      "path": "previews/S054/p001.jpg",
+      "bytes": 651934,
+      "sha256": "93b0d15dec2eaf14358eac4b9dd8e05c792186f066d62dc1f42998649ded8aec"
+    },
+    {
+      "path": "previews/S055/p001.jpg",
+      "bytes": 503424,
+      "sha256": "d2122e82ad4f4c74449b7d54362e41f739ac748ddc2c8aa630c811c0c9c2b21a"
+    },
+    {
+      "path": "previews/S056/p001.jpg",
+      "bytes": 728747,
+      "sha256": "46aa764bbd303a87b4278aee1a300561c6c0ed265f55e80181f2ec1b03cda78a"
+    },
+    {
+      "path": "previews/S057/p001.jpg",
+      "bytes": 309466,
+      "sha256": "fba727bb627a0b5f5893e6467afbc661f84c625fa36773c8a62e541958618f14"
+    },
+    {
+      "path": "previews/S057/p002.jpg",
+      "bytes": 207686,
+      "sha256": "a3c6e67fa9de7f62ef1f01f8ade050dd55d028e41531fe1ba6122bf0d2d1066c"
+    },
+    {
+      "path": "previews/S057/p003.jpg",
+      "bytes": 286911,
+      "sha256": "e7d3fdbf8a3694bf8ede92b5cf4c00239c46bd59bcfd0d6433692a298ab79162"
+    },
+    {
+      "path": "previews/S057/p004.jpg",
+      "bytes": 321724,
+      "sha256": "8a445e7fad5ee18920ce91a39f1440e7fce1d8ebffc6dee8684789f72bf6ed3e"
+    },
+    {
+      "path": "previews/S057/p005.jpg",
+      "bytes": 570726,
+      "sha256": "3028f88ed2e681aa4c9bfa86ff9a7ea912c3dac574171e7c102be79b125894fa"
+    },
+    {
+      "path": "previews/S057/p006.jpg",
+      "bytes": 560536,
+      "sha256": "f8e368acb327f9803b36470658483036e338266539aa714a403cd17ba2ba84f4"
+    },
+    {
+      "path": "previews/S057/p007.jpg",
+      "bytes": 500649,
+      "sha256": "69315de9f906ee4575734341251959c076b28f13c2e3ee3f71de53acabc0fb5f"
+    },
+    {
+      "path": "previews/S057/p008.jpg",
+      "bytes": 468431,
+      "sha256": "c82c4441f05ea66fa7902e5ed09280ba04f3d42174dfee49cfb800ce609d885c"
+    },
+    {
+      "path": "previews/S057/p009.jpg",
+      "bytes": 296127,
+      "sha256": "5f874534d20e4db667729f199051667588a95a31e1ec967a4b4346297a28fa33"
+    },
+    {
+      "path": "previews/S057/p010.jpg",
+      "bytes": 673304,
+      "sha256": "f31ebe2dda1b8cdac572c49c4528c8f25415c48f8480ae9185d43db593a9c609"
+    },
+    {
+      "path": "previews/S057/p011.jpg",
+      "bytes": 583107,
+      "sha256": "e3baef4c85284043daf0923566636b87999bfb8963cd0d912450a00b7cb7c881"
+    },
+    {
+      "path": "previews/S057/p012.jpg",
+      "bytes": 509968,
+      "sha256": "fae92d066882b20969d38b0dd79de654de02453c14ea0378eafdaa1b8870e1e5"
+    },
+    {
+      "path": "previews/S057/p013.jpg",
+      "bytes": 503134,
+      "sha256": "d8e7de8063ca6c6d3b42ee5b8b033339694d1e7fe07b3de33ab54d7b97121734"
+    },
+    {
+      "path": "previews/S057/p014.jpg",
+      "bytes": 684746,
+      "sha256": "f3bfec85f92d24a9d0bd20b00bd54841b175c42f79d96908b6c2fd46253a6d6c"
+    },
+    {
+      "path": "previews/S057/p015.jpg",
+      "bytes": 430455,
+      "sha256": "44a39c676fc63d5e607e6dc2a1d6c81207fbf4ff6c486f660c4472806bda3db3"
+    },
+    {
+      "path": "previews/S057/p016.jpg",
+      "bytes": 188616,
+      "sha256": "8573e8946dc0140db2ed930dd05786fe1ebe4394879249ef6993478583c5824a"
+    },
+    {
+      "path": "previews/S057/p017.jpg",
+      "bytes": 473881,
+      "sha256": "e996449c11655fbbff67ae801412c60ee1e4263ef4c13e7c523ce55dac15af89"
+    },
+    {
+      "path": "previews/S057/p018.jpg",
+      "bytes": 323982,
+      "sha256": "b71a221e457ff3dcb0c9494a1fcd3a048aaf0aab0dc8edb0ef5af9b83de73b36"
+    },
+    {
+      "path": "previews/S057/p019.jpg",
+      "bytes": 431381,
+      "sha256": "35cf6a84263382bf450f6d98141d6e4c2af628a85ce7c6fea35b6ef7c368e9fa"
+    },
+    {
+      "path": "previews/S057/p020.jpg",
+      "bytes": 604566,
+      "sha256": "4942b37c370899a815fd059c53038bd76796f5ac2bcca1f344971e4daeb24ece"
+    },
+    {
+      "path": "previews/S057/p021.jpg",
+      "bytes": 471827,
+      "sha256": "e44a908478521f31488b8aea632f86dde6d43b0f065a2cd8b22d364ce23f2971"
+    },
+    {
+      "path": "previews/S057/p022.jpg",
+      "bytes": 453498,
+      "sha256": "5b203fa8343a62dc6017514e114060986c4b3972203a40e5550ea2befe555223"
+    },
+    {
+      "path": "previews/S057/p023.jpg",
+      "bytes": 428498,
+      "sha256": "ba8f54bd33327b6b5f381ac85b77bcdcf92135ba6dc343884426b911a10c8d62"
+    },
+    {
+      "path": "previews/S057/p024.jpg",
+      "bytes": 380643,
+      "sha256": "c5da34563615b7bda151d33b430aaa6a59502ede1b1bb3eadff252d2ab77bc33"
+    },
+    {
+      "path": "previews/S057/p025.jpg",
+      "bytes": 316220,
+      "sha256": "3b7ebda1a7968b264658acc5bbf29bfe7e4bbfa3753937a82cf3e6d60ef80f88"
+    },
+    {
+      "path": "previews/S058/p001.jpg",
+      "bytes": 691677,
+      "sha256": "3abd8af56b760b70c624e0aaf9ca4b7cd4753f20f16eb2dfbcfd16a3c43726b7"
+    },
+    {
+      "path": "previews/S059/p001.jpg",
+      "bytes": 545255,
+      "sha256": "f0e0d1504316a0badd05802c01f5be469759fe804dcbe09ec8e33ec5bf0efcc5"
+    },
+    {
+      "path": "previews/S060/p001.jpg",
+      "bytes": 611253,
+      "sha256": "b73901a6cca954890232e1379dcd43c35e88b0291b74578b064794a5224116ae"
+    },
+    {
+      "path": "previews/S061/p001.jpg",
+      "bytes": 520178,
+      "sha256": "fd2f3233ff1869675196396bde2f4305f5c6ff55beda190f9cd59d2c773ffbfb"
+    },
+    {
+      "path": "previews/S062/p001.jpg",
+      "bytes": 635673,
+      "sha256": "233b6d02e20f9a1758626952715aeb2fd94645f8258b8ff5b5547fa609c63210"
+    },
+    {
+      "path": "previews/S063/p001.jpg",
+      "bytes": 314733,
+      "sha256": "610aaccc24edb19af54e51fcbaba7b5e226ca8eed119d2fd88306b2cef47d07f"
+    },
+    {
+      "path": "previews/S064/p001.jpg",
+      "bytes": 315604,
+      "sha256": "3233db94aae407e8d6e7428effe940fd3a1dba942c82397cf59ac681e645e4bd"
+    },
+    {
+      "path": "previews/S065/p001.jpg",
+      "bytes": 421540,
+      "sha256": "50ce2c9676dc83edc94138be1e48d3b09d6b46955ecfd66f9e847580837e7ddc"
+    },
+    {
+      "path": "previews/S066/p001.jpg",
+      "bytes": 259776,
+      "sha256": "b6c3caf152a3b74f1fc064a102cfd9522dd9a8af12f66df51cae4db0c40aca77"
+    },
+    {
+      "path": "previews/S067/p001.jpg",
+      "bytes": 173171,
+      "sha256": "9c9aee80e0956abab6a907412d008ae01024cd96f183dbfdb58c9cfe3b9a7dea"
+    },
+    {
+      "path": "previews/S068/p001.jpg",
+      "bytes": 431929,
+      "sha256": "8b9b74875854ffe9b1d544a4bc67d9fd1599b66020d5d37d05a381001022b707"
+    },
+    {
+      "path": "previews/S069/p001.jpg",
+      "bytes": 440345,
+      "sha256": "a450250cdb13d2ff26eac45b7990362dc00c4cb5dd7d85870c6ffa5392e06a69"
+    },
+    {
+      "path": "previews/S070/p001.jpg",
+      "bytes": 479504,
+      "sha256": "b70766f1c42d327667e0ad71f9abc04c0378f0828d9969749384d6b8229efbe0"
+    },
+    {
+      "path": "previews/S071/p001.jpg",
+      "bytes": 372204,
+      "sha256": "f9b856771c229b9c2ba0095c4188aaccbefb15276cc099493deeba221c4c131e"
+    },
+    {
+      "path": "previews/S072/p001.jpg",
+      "bytes": 397562,
+      "sha256": "0e03d63ecc767ed0869840a62129b49728699873d81eacf636cbefec925cf02b"
+    },
+    {
+      "path": "previews/S072/p002.jpg",
+      "bytes": 986509,
+      "sha256": "ee45d5e57715a2cc123797677aa4c92dca3b567c3b6584df1731b657a2e6075e"
+    },
+    {
+      "path": "previews/S072/p003.jpg",
+      "bytes": 610548,
+      "sha256": "f1ab3785b6fb3cb169f44ee858aeb34cca67c2ce3dd209264817a25109a5e2f5"
+    },
+    {
+      "path": "previews/S072/p004.jpg",
+      "bytes": 669847,
+      "sha256": "9d0e1ba8e6d639e29a5780f961fc99c66a1b800c821d16c515a483e2b6a9acf7"
+    },
+    {
+      "path": "previews/S072/p005.jpg",
+      "bytes": 722768,
+      "sha256": "4ed1547092eef1c7400ab61668880424b344ee6aa5bc3f6ec7e222db3dd58669"
+    },
+    {
+      "path": "previews/S072/p006.jpg",
+      "bytes": 892669,
+      "sha256": "f9e9306ca2a39a4335438634dc1cd0b85bc32d2add74b911dd0998ccd8189c2f"
+    },
+    {
+      "path": "previews/S072/p007.jpg",
+      "bytes": 813394,
+      "sha256": "977e6ce1d890ecec0c58266efbdea0574e97cc1837861175ffa0a456fe3c4898"
+    },
+    {
+      "path": "previews/S072/p008.jpg",
+      "bytes": 926490,
+      "sha256": "bff62a7aa43d251e73b0170acc192abeef5cbc4bc80bc62834ef4ace59f7f12a"
+    },
+    {
+      "path": "previews/S072/p009.jpg",
+      "bytes": 692281,
+      "sha256": "14675b939432ab9b18bf59beeaa521fcd5a3257418a86db58af74ab8c325cfac"
+    },
+    {
+      "path": "previews/S072/p010.jpg",
+      "bytes": 433683,
+      "sha256": "6b0db8918673712c47a1fc71cbb07cd7309acab5bf6683e79f983ab2ad8f6177"
+    },
+    {
+      "path": "previews/S073/p001.jpg",
+      "bytes": 145918,
+      "sha256": "1d3ba014349cb25d5bc49efb5c57751d5a8c6d8c8791b42127445142ed7dfb7b"
+    },
+    {
+      "path": "previews/S073/p002.jpg",
+      "bytes": 626101,
+      "sha256": "8f34b8a70969aff150bfe1e235784a1054b5e2b8e3ea3246c6aaf7867f266a79"
+    },
+    {
+      "path": "previews/S073/p003.jpg",
+      "bytes": 848836,
+      "sha256": "ceea2e795f732fe744997e28dc2a6111b6b6fe773bc3acac3ce9a03582e9cbd3"
+    },
+    {
+      "path": "previews/S073/p004.jpg",
+      "bytes": 627370,
+      "sha256": "7929d68f2cd22476b6112dfdafc56cd87d8d7d342c0f163b1ad09e35d638fd27"
+    },
+    {
+      "path": "previews/S073/p005.jpg",
+      "bytes": 490027,
+      "sha256": "c7284174292af495ede40183b857f361b4e5622d04af436a638bb3ed24ac3dce"
+    },
+    {
+      "path": "previews/S073/p006.jpg",
+      "bytes": 880600,
+      "sha256": "e3f9101123ec24fe08449ddfaeb0dd6f795eea14a5b5c9bc94b3efbb370d25de"
+    },
+    {
+      "path": "previews/S073/p007.jpg",
+      "bytes": 978919,
+      "sha256": "624181c53773e2fe0aecb19bbc8834adcfa8db73bf8a9675827913b78898e102"
+    },
+    {
+      "path": "previews/S073/p008.jpg",
+      "bytes": 559011,
+      "sha256": "767551a1d45d25e4cc6e51283b2147fb40e020ca61c628fdedce264551234f95"
+    },
+    {
+      "path": "previews/S073/p009.jpg",
+      "bytes": 738187,
+      "sha256": "e922c7a6430f762430cd42eeae27a31962717ef776cde2170b42c2539898a41d"
+    },
+    {
+      "path": "previews/S073/p010.jpg",
+      "bytes": 662946,
+      "sha256": "62d4a6a9f622b556101968f63dcad5fed1562cf231e41e26002b9f3db61960fa"
+    },
+    {
+      "path": "previews/S073/p011.jpg",
+      "bytes": 717015,
+      "sha256": "00ab1b1883ef5dd58f09268dddd94366cacbba1d323ba9b65c4834679eea9966"
+    },
+    {
+      "path": "previews/S073/p012.jpg",
+      "bytes": 558764,
+      "sha256": "92f7dcb92c571ccbc6775d1926fad59a557f157a32255078712dd779fb30c3a4"
+    },
+    {
+      "path": "previews/S073/p013.jpg",
+      "bytes": 478737,
+      "sha256": "c9ae79af2c23d636f2e4981ac0193ba0280c3b167fc1d0dafff5f75eb6a999b5"
+    },
+    {
+      "path": "previews/S073/p014.jpg",
+      "bytes": 430705,
+      "sha256": "8262fd757119e322eadb40c7c98da6b152cc3b3242dbe459445c760a47c89a11"
+    },
+    {
+      "path": "previews/S073/p015.jpg",
+      "bytes": 396343,
+      "sha256": "a2b41e12d667c10a01d9b404d7c871dbf90356f55f36daa7befaea9a6d10eb37"
+    },
+    {
+      "path": "previews/S074/p001.jpg",
+      "bytes": 168403,
+      "sha256": "00ad7b60a2fbcf0b2e05082cefd05687ada36bc1b0f61ec8d8b2bdfd07bdc52d"
+    },
+    {
+      "path": "previews/S074/p002.jpg",
+      "bytes": 724772,
+      "sha256": "0d7e71a8914d91e5607d02602e685c7513ee8d341d544f0f7906b86bdf8f623d"
+    },
+    {
+      "path": "previews/S074/p003.jpg",
+      "bytes": 859352,
+      "sha256": "67b5f9e907e73ff79208f9c832a328fc55be7f4855afa3537ee963749070c901"
+    },
+    {
+      "path": "previews/S074/p004.jpg",
+      "bytes": 743172,
+      "sha256": "71f8705c280a42ba71f8e9ed0fa824e98a7c3ec5b35766ec1ec45050f7f53fd5"
+    },
+    {
+      "path": "previews/S074/p005.jpg",
+      "bytes": 492672,
+      "sha256": "27e12b65f150cf0383fd1d38b06624691d8cb680cc607903632a586924cca92b"
+    },
+    {
+      "path": "previews/S074/p006.jpg",
+      "bytes": 886943,
+      "sha256": "73efcfa8742e0ff954023a4969c95c63e4dc49f02b33e640250e6207ff53e06a"
+    },
+    {
+      "path": "previews/S074/p007.jpg",
+      "bytes": 982946,
+      "sha256": "4c28fe77584b25b2fb6236ac154079144530b31df57eaa095f52c7d304770b4c"
+    },
+    {
+      "path": "previews/S074/p008.jpg",
+      "bytes": 563722,
+      "sha256": "efdc0257de0f9225eb12476468b27635b680b5d6c6d639bfa8676f3bcb03cbd9"
+    },
+    {
+      "path": "previews/S074/p009.jpg",
+      "bytes": 738438,
+      "sha256": "a908e4feb876d3e11a782d5465af637a03048b42e7b24196c42f5260eae9a8de"
+    },
+    {
+      "path": "previews/S074/p010.jpg",
+      "bytes": 670800,
+      "sha256": "fce71af499750fc1cebca81d4e2cdbf896e49b1c3afa34b78fed57c634a6f0fd"
+    },
+    {
+      "path": "previews/S074/p011.jpg",
+      "bytes": 707166,
+      "sha256": "bf676d1a5c65eb79845dc643463f2954de46dd84005903c864f06d8bf12386d3"
+    },
+    {
+      "path": "previews/S074/p012.jpg",
+      "bytes": 510128,
+      "sha256": "eeb9e91fc0af3177a1e3d9d394bbf247925f1f53a9e1d4ff9eccab79c90f9f09"
+    },
+    {
+      "path": "previews/S074/p013.jpg",
+      "bytes": 480275,
+      "sha256": "385707a5bf904c21d2b6964eb340358fdedb36d9c0b1cae798891c47ff74b8fe"
+    },
+    {
+      "path": "previews/S074/p014.jpg",
+      "bytes": 423854,
+      "sha256": "27c22372bb8295cf8fa7b701d77fe07f336122f242b99c5c59f4a46284fecd48"
+    },
+    {
+      "path": "previews/S075/p001.jpg",
+      "bytes": 862213,
+      "sha256": "2a47b4154b4ccf6a828ff9805d3d9c906e575053a16caa047bc3ac6c464f5e51"
+    },
+    {
+      "path": "previews/S076/p001.jpg",
+      "bytes": 821255,
+      "sha256": "b58bfffb6390525019acf6e30585d42ca268540ea7b6b246a836d34586311e24"
+    },
+    {
+      "path": "previews/S077/p001.jpg",
+      "bytes": 816042,
+      "sha256": "071f32ec687b68b529f00fbf3e9499b6ae41d6e45fff42abf94a1dd5aa23d1c3"
+    },
+    {
+      "path": "previews/S078/p001.jpg",
+      "bytes": 260799,
+      "sha256": "2d4ef39e9206b6f1af865d489479bae51bcddf5d7dd7a5e8e471137e9725b894"
+    },
+    {
+      "path": "previews/S079/p001.jpg",
+      "bytes": 271005,
+      "sha256": "f10d40732d603ff33014a5a5a1b15771589daea7ac4397f4eb292e4c9bf33638"
+    },
+    {
+      "path": "previews/S080/p001.jpg",
+      "bytes": 1130239,
+      "sha256": "0d16e827aad78fb766ee2e25d55facaaa1a234c3e3fd9d30a2e6bad110016e4a"
+    },
+    {
+      "path": "previews/S081/p001.jpg",
+      "bytes": 538935,
+      "sha256": "0ba30ccf5e3dd2fd5a984047b7f55434281db7c504b130e3c91e22d3ada2358a"
+    },
+    {
+      "path": "previews/S082/p001.jpg",
+      "bytes": 432661,
+      "sha256": "f9e5279d91616af469cf89a8219a61ff0110a48d12d4ce86379253e5945ca6d7"
+    },
+    {
+      "path": "previews/S083/p001.jpg",
+      "bytes": 326939,
+      "sha256": "881c7ae92a85a787fe9e6ef592762dc8904555dbab04a70a1a48dbbb69a6d539"
+    },
+    {
+      "path": "previews/S084/p001.jpg",
+      "bytes": 509443,
+      "sha256": "3b0e7a6e5fe97abe2542448cfcd3beea7f087e0320b27540b9537731b286b073"
+    },
+    {
+      "path": "previews/S085/p001.jpg",
+      "bytes": 261995,
+      "sha256": "a54125d095d4eb3db4e0520837dc48c598ad929888229e08238e26133b359247"
+    },
+    {
+      "path": "previews/S086/p001.jpg",
+      "bytes": 397252,
+      "sha256": "21daab71279009dae9ead7ec6e2fbfd3152e47cd7cf39b959d45fbaa4fb8c799"
+    },
+    {
+      "path": "previews/S087/p001.jpg",
+      "bytes": 377926,
+      "sha256": "b925d2a1eb43cd53528b321d12b627d19919d509dc7bac85e28a4fb9fa4faa09"
+    },
+    {
+      "path": "previews/S088/p001.jpg",
+      "bytes": 424544,
+      "sha256": "cf426c88658b398af6584283ff2142bb2326697e7bc7e5abdfb0da1b3249f004"
+    },
+    {
+      "path": "previews/S089/p001.jpg",
+      "bytes": 322644,
+      "sha256": "8cdec5d3bce8e7e1ff532c2948e6b4adb736bac0f4b260a1252a159e0f9521f8"
+    },
+    {
+      "path": "previews/S090/p001.jpg",
+      "bytes": 475836,
+      "sha256": "aa09017d7175f9ceb7aa106d8255a89695b78547f04335c60a9f32dd39c546b2"
+    }
+  ],
+  "pdf_previews": "evidence/261111_pdf_previews_v01.json"
+}

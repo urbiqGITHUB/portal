@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:261A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961060097164136,
+            50.51691424366732
+          ],
+          [
+            14.961486951024918,
+            50.516814700561106
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Velmi vysoké napětí (VVN) · 261A",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L_VVN",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 32.235,
+        "cad_handle": "261A",
+        "cad_layer": "A073_ELVED_L_VVN",
+        "cad_entity_type": "LINE",
+        "previous_name": "A073_ELVED_L_VVN · 261A",
+        "display_label": "Velmi vysoké napětí (VVN)",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05",
+          "E09",
+          "E10"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:261C",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.958913628855754,
+            50.517182013385856
+          ],
+          [
+            14.961060097164136,
+            50.51691424366732
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Velmi vysoké napětí (VVN) · 261C",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L_VVN",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 155.119,
+        "cad_handle": "261C",
+        "cad_layer": "A073_ELVED_L_VVN",
+        "cad_entity_type": "LINE",
+        "previous_name": "A073_ELVED_L_VVN · 261C",
+        "display_label": "Velmi vysoké napětí (VVN)",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05",
+          "E09",
+          "E10"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    }
+  ]
+}

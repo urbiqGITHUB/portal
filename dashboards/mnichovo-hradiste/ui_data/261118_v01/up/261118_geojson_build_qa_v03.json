@@ -1,0 +1,1107 @@
+{
+  "generated_at": "2026-11-18T09:43:29.274893+00:00",
+  "source_pdf_sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+  "reference_boundary_sha256": "0ea2bcac27e0a9e8f75b00bfdfde61ed2470b3b43ddce1fdde6acaeea313fcda",
+  "reference_parcels_sha256": "a7c495b69dddabecc4381271e898aa47607fd219537d1fdde407fb8c59dc26be",
+  "cache_reused": true,
+  "affine_pdf_to_epsg5514": [
+    1.7638888888888888,
+    0.0,
+    0.0,
+    -1.7638888888888888,
+    -699998.8966666668,
+    -995530.1772222221
+  ],
+  "source_boundary_area_m2": 34309258.13687232,
+  "reference_boundary_area_m2": 34310224.06889796,
+  "source_reference_symmetric_difference_m2": 2534.9854884261417,
+  "feature_count": 62,
+  "status_feature_counts": {
+    "stabilizovana": 32,
+    "navrhova": 25,
+    "uzemni_rezerva": 5
+  },
+  "status_area_m2": {
+    "stabilizovana": 31996666.874,
+    "navrhova": 2099211.02,
+    "uzemni_rezerva": 163909.81
+  },
+  "sum_feature_area_m2": 34259787.70483952,
+  "union_coverage_area_m2": 34088900.29850003,
+  "coverage_pct_of_source_boundary": 99.35773068163351,
+  "gap_area_m2": 221083.16977545508,
+  "overlap_area_m2": 170887.40633948892,
+  "ambiguous_semantic_area_m2": 689636.419449858,
+  "ambiguous_semantic_pct_of_source_boundary": 2.0100592577625647,
+  "processing": [
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zp",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.392,
+        0.529,
+        0.0
+      ],
+      "raw_parts": 31,
+      "kept_parts": 26,
+      "dropped_parts": 3,
+      "dropped_area_m2": 1.2320763889003883,
+      "area_before_simplification_m2": 29336.451950010705,
+      "area_after_simplification_m2": 29342.390650010948,
+      "simplification_area_delta_m2": 5.938700000242534
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-lu",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.416,
+        0.69,
+        0.522
+      ],
+      "raw_parts": 205,
+      "kept_parts": 188,
+      "dropped_parts": 4,
+      "dropped_area_m2": 1.6801041667036285,
+      "area_before_simplification_m2": 3112725.0389500065,
+      "area_after_simplification_m2": 3112914.458849943,
+      "simplification_area_delta_m2": 189.41989993629977
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-wt",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.42,
+        0.922,
+        1.0
+      ],
+      "raw_parts": 232,
+      "kept_parts": 210,
+      "dropped_parts": 4,
+      "dropped_area_m2": 0.627238888894967,
+      "area_before_simplification_m2": 611349.1785500589,
+      "area_after_simplification_m2": 611466.5161500784,
+      "simplification_area_delta_m2": 117.3376000195276
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zk",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.51,
+        0.667,
+        0.0
+      ],
+      "raw_parts": 395,
+      "kept_parts": 357,
+      "dropped_parts": 8,
+      "dropped_area_m2": 3.3847378541875504,
+      "area_before_simplification_m2": 1669110.567250104,
+      "area_after_simplification_m2": 1669431.381150156,
+      "simplification_area_delta_m2": 320.81390005210415
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zs",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.529,
+        0.733,
+        0.333
+      ],
+      "raw_parts": 294,
+      "kept_parts": 271,
+      "dropped_parts": 15,
+      "dropped_area_m2": 4.614686111221833,
+      "area_before_simplification_m2": 235658.30124999746,
+      "area_after_simplification_m2": 235631.45035002465,
+      "simplification_area_delta_m2": -26.850899972807383
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zo",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.576,
+        1.0,
+        0.576
+      ],
+      "raw_parts": 61,
+      "kept_parts": 61,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 89405.05385000845,
+      "area_after_simplification_m2": 89412.33690002272,
+      "simplification_area_delta_m2": 7.283050014273613
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-wh",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.592,
+        0.953,
+        1.0
+      ],
+      "raw_parts": 5,
+      "kept_parts": 5,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 15681.704699993907,
+      "area_after_simplification_m2": 15675.76789998946,
+      "simplification_area_delta_m2": -5.936800004446923
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-hu",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.627,
+        0.627,
+        0.725
+      ],
+      "raw_parts": 7,
+      "kept_parts": 6,
+      "dropped_parts": 1,
+      "dropped_area_m2": 0.2240138888954597,
+      "area_before_simplification_m2": 14404.792499995996,
+      "area_after_simplification_m2": 14412.574299999189,
+      "simplification_area_delta_m2": 7.781800003192984
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zz",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.627,
+        0.863,
+        0.431
+      ],
+      "raw_parts": 30,
+      "kept_parts": 29,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 42177.22469999335,
+      "area_after_simplification_m2": 42212.88214999902,
+      "simplification_area_delta_m2": 35.657450005674036
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vl",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.686,
+        0.69,
+        0.69
+      ],
+      "raw_parts": 31,
+      "kept_parts": 29,
+      "dropped_parts": 2,
+      "dropped_area_m2": 1.8593152778199964,
+      "area_before_simplification_m2": 465570.27305002656,
+      "area_after_simplification_m2": 465531.6578500413,
+      "simplification_area_delta_m2": -38.61519998527365
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-sc",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.706,
+        0.392,
+        0.431
+      ],
+      "raw_parts": 80,
+      "kept_parts": 60,
+      "dropped_parts": 18,
+      "dropped_area_m2": 7.078838889059564,
+      "area_before_simplification_m2": 110058.33779999705,
+      "area_after_simplification_m2": 110039.6626499907,
+      "simplification_area_delta_m2": -18.67515000635467
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-du-dd",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.725,
+        0.412,
+        0.686
+      ],
+      "raw_parts": 37,
+      "kept_parts": 32,
+      "dropped_parts": 1,
+      "dropped_area_m2": 0.6048375000177417,
+      "area_before_simplification_m2": 166556.65324999185,
+      "area_after_simplification_m2": 166509.25430000256,
+      "simplification_area_delta_m2": -47.398949989292305
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vz",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.745,
+        0.725,
+        0.569
+      ],
+      "raw_parts": 9,
+      "kept_parts": 9,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 54596.624199996375,
+      "area_after_simplification_m2": 54583.70070000373,
+      "simplification_area_delta_m2": -12.92349999264843
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-sm",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "raw_parts": 415,
+      "kept_parts": 339,
+      "dropped_parts": 49,
+      "dropped_area_m2": 14.281258769664078,
+      "area_before_simplification_m2": 1266473.3599000508,
+      "area_after_simplification_m2": 1266311.324650116,
+      "simplification_area_delta_m2": -162.03524993476458
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vd",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.8,
+        0.816,
+        0.816
+      ],
+      "raw_parts": 50,
+      "kept_parts": 45,
+      "dropped_parts": 4,
+      "dropped_area_m2": 2.8449763889107387,
+      "area_before_simplification_m2": 224408.12040000103,
+      "area_after_simplification_m2": 224420.19780000448,
+      "simplification_area_delta_m2": 12.077400003443472
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-oh",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.804,
+        0.765,
+        0.588
+      ],
+      "raw_parts": 4,
+      "kept_parts": 4,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 22281.91595000497,
+      "area_after_simplification_m2": 22284.99530000858,
+      "simplification_area_delta_m2": 3.0793500036124897
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ok",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.824,
+        0.157,
+        0.431
+      ],
+      "raw_parts": 17,
+      "kept_parts": 17,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 29589.835999991996,
+      "area_after_simplification_m2": 29590.4729499909,
+      "simplification_area_delta_m2": 0.6369499989050382
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ox",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.824,
+        0.275,
+        0.471
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 1514.466386880928,
+      "area_after_simplification_m2": 1517.3285812244715,
+      "simplification_area_delta_m2": 2.8621943435434787
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-tw-te",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.824,
+        0.737,
+        0.831
+      ],
+      "raw_parts": 46,
+      "kept_parts": 40,
+      "dropped_parts": 5,
+      "dropped_area_m2": 0.9856611110907411,
+      "area_before_simplification_m2": 68877.85665000645,
+      "area_after_simplification_m2": 68879.94955000721,
+      "simplification_area_delta_m2": 2.0929000007599825
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ov",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.863,
+        0.314,
+        0.549
+      ],
+      "raw_parts": 55,
+      "kept_parts": 44,
+      "dropped_parts": 5,
+      "dropped_area_m2": 1.299280555630629,
+      "area_before_simplification_m2": 188856.88450000677,
+      "area_after_simplification_m2": 188855.632400022,
+      "simplification_area_delta_m2": -1.252099984762026
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-bh",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.878,
+        0.086,
+        0.086
+      ],
+      "raw_parts": 32,
+      "kept_parts": 24,
+      "dropped_parts": 4,
+      "dropped_area_m2": 1.7025055555931745,
+      "area_before_simplification_m2": 76457.60129999499,
+      "area_after_simplification_m2": 76466.47414998885,
+      "simplification_area_delta_m2": 8.872849993858836
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-dx",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.894,
+        0.741,
+        1.0
+      ],
+      "raw_parts": 173,
+      "kept_parts": 164,
+      "dropped_parts": 2,
+      "dropped_area_m2": 0.7168444445024367,
+      "area_before_simplification_m2": 413874.44720003416,
+      "area_after_simplification_m2": 413843.46179996437,
+      "simplification_area_delta_m2": -30.985400069796015
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-mu.r",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.898,
+        1.0,
+        0.698
+      ],
+      "raw_parts": 6,
+      "kept_parts": 5,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 7568.3488499985415,
+      "area_after_simplification_m2": 7565.281399995335,
+      "simplification_area_delta_m2": -3.0674500032064316
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-rz",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.922,
+        0.914,
+        0.059
+      ],
+      "raw_parts": 13,
+      "kept_parts": 10,
+      "dropped_parts": 1,
+      "dropped_area_m2": 0.3569225737292827,
+      "area_before_simplification_m2": 78186.09319998282,
+      "area_after_simplification_m2": 78192.20789998285,
+      "simplification_area_delta_m2": 6.114700000034645
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ro",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.941,
+        0.941,
+        0.02
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 9088.759749999404,
+      "area_after_simplification_m2": 9099.044649999158,
+      "simplification_area_delta_m2": 10.28489999975318
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-dl",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "raw_parts": 36,
+      "kept_parts": 33,
+      "dropped_parts": 2,
+      "dropped_area_m2": 1.4112875002754866,
+      "area_before_simplification_m2": 605291.636499981,
+      "area_after_simplification_m2": 605269.0183500063,
+      "simplification_area_delta_m2": -22.61814997473266
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-pu-px",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        0.98,
+        0.961,
+        0.922
+      ],
+      "raw_parts": 99,
+      "kept_parts": 97,
+      "dropped_parts": 3,
+      "dropped_area_m2": 0.3808236111222818,
+      "area_before_simplification_m2": 447573.7433499806,
+      "area_after_simplification_m2": 447650.58329985564,
+      "simplification_area_delta_m2": 76.83994987502228
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-bv",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "raw_parts": 450,
+      "kept_parts": 420,
+      "dropped_parts": 14,
+      "dropped_area_m2": 5.01791111117206,
+      "area_before_simplification_m2": 1201429.0982999853,
+      "area_after_simplification_m2": 1201437.092700039,
+      "simplification_area_delta_m2": 7.994400053750724
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ds",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        1.0,
+        0.863,
+        0.686
+      ],
+      "raw_parts": 26,
+      "kept_parts": 26,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 895401.3440999214,
+      "area_after_simplification_m2": 895425.5893499622,
+      "simplification_area_delta_m2": 24.245250040781684
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ri",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        1.0,
+        0.902,
+        0.0
+      ],
+      "raw_parts": 6,
+      "kept_parts": 4,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 937.2340000029957,
+      "area_after_simplification_m2": 939.4145000024193,
+      "simplification_area_delta_m2": 2.1804999994236596
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-au",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        1.0,
+        0.976,
+        0.776
+      ],
+      "raw_parts": 704,
+      "kept_parts": 613,
+      "dropped_parts": 18,
+      "dropped_area_m2": 8.105942569755323,
+      "area_before_simplification_m2": 19749063.560199723,
+      "area_after_simplification_m2": 19749286.757849928,
+      "simplification_area_delta_m2": 223.19765020534396
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-os",
+      "source_layer": "A-Prostor-G",
+      "source_rgb": [
+        1.0,
+        1.0,
+        0.49
+      ],
+      "raw_parts": 28,
+      "kept_parts": 26,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 92451.14089999713,
+      "area_after_simplification_m2": 92468.01335000157,
+      "simplification_area_delta_m2": 16.87245000443363
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zp",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.392,
+        0.529,
+        0.0
+      ],
+      "raw_parts": 3,
+      "kept_parts": 3,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 78679.91719999281,
+      "area_after_simplification_m2": 78708.3111999867,
+      "simplification_area_delta_m2": 28.39399999388843
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-lu",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.416,
+        0.69,
+        0.522
+      ],
+      "raw_parts": 23,
+      "kept_parts": 23,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 159577.1363999899,
+      "area_after_simplification_m2": 159549.97214997138,
+      "simplification_area_delta_m2": -27.164250018511666
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-wt",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.42,
+        0.922,
+        1.0
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 22269.436050006003,
+      "area_after_simplification_m2": 22285.443750001803,
+      "simplification_area_delta_m2": 16.007699995800067
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zo",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.576,
+        1.0,
+        0.576
+      ],
+      "raw_parts": 47,
+      "kept_parts": 42,
+      "dropped_parts": 2,
+      "dropped_area_m2": 1.232076388900388,
+      "area_before_simplification_m2": 106967.30269999208,
+      "area_after_simplification_m2": 106944.61144995659,
+      "simplification_area_delta_m2": -22.691250035495614
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-hu",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.627,
+        0.627,
+        0.725
+      ],
+      "raw_parts": 13,
+      "kept_parts": 12,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 125807.97065001662,
+      "area_after_simplification_m2": 125810.46285000246,
+      "simplification_area_delta_m2": 2.4921999858343042
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zz",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.627,
+        0.863,
+        0.431
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 40200.47590115221,
+      "area_after_simplification_m2": 40188.13646944478,
+      "simplification_area_delta_m2": -12.339431707434414
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vx",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.655,
+        0.655,
+        0.655
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 8224.101681994413,
+      "area_after_simplification_m2": 8220.234455558548,
+      "simplification_area_delta_m2": -3.8672264358647226
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vl",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.686,
+        0.69,
+        0.69
+      ],
+      "raw_parts": 7,
+      "kept_parts": 7,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 156275.0913499737,
+      "area_after_simplification_m2": 156296.95805000782,
+      "simplification_area_delta_m2": 21.866700034122914
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-sc",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.706,
+        0.392,
+        0.431
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 3704.858928382443,
+      "area_after_simplification_m2": 3700.619838893736,
+      "simplification_area_delta_m2": -4.239089488707123
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vz",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.745,
+        0.725,
+        0.569
+      ],
+      "raw_parts": 3,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 79520.86579999962,
+      "area_after_simplification_m2": 79523.67269999637,
+      "simplification_area_delta_m2": 2.8068999967508717
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-sm",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "raw_parts": 24,
+      "kept_parts": 17,
+      "dropped_parts": 2,
+      "dropped_area_m2": 0.1121313965943325,
+      "area_before_simplification_m2": 251815.6635999976,
+      "area_after_simplification_m2": 251876.22739998525,
+      "simplification_area_delta_m2": 60.56379998763441
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vd",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.8,
+        0.816,
+        0.816
+      ],
+      "raw_parts": 12,
+      "kept_parts": 10,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 134511.86355000304,
+      "area_after_simplification_m2": 134534.5550000196,
+      "simplification_area_delta_m2": 22.69145001657307
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ok",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.824,
+        0.157,
+        0.431
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 13392.056400000794,
+      "area_after_simplification_m2": 13399.404750004165,
+      "simplification_area_delta_m2": 7.348350003370797
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ox",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.824,
+        0.275,
+        0.471
+      ],
+      "raw_parts": 7,
+      "kept_parts": 7,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 92736.25955001547,
+      "area_after_simplification_m2": 92764.68934999945,
+      "simplification_area_delta_m2": 28.42979998397641
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-tw-te",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.824,
+        0.737,
+        0.831
+      ],
+      "raw_parts": 23,
+      "kept_parts": 23,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 2279.4059999976084,
+      "area_after_simplification_m2": 2273.5875999970367,
+      "simplification_area_delta_m2": -5.818400000571728
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ov",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.863,
+        0.314,
+        0.549
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 50429.414000003526,
+      "area_after_simplification_m2": 50433.37500001331,
+      "simplification_area_delta_m2": 3.9610000097818556
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-mu.r",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.898,
+        1.0,
+        0.698
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 44640.87049999692,
+      "area_after_simplification_m2": 44660.18399998838,
+      "simplification_area_delta_m2": 19.313499991461867
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-rz",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.922,
+        0.914,
+        0.059
+      ],
+      "raw_parts": 3,
+      "kept_parts": 3,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 56639.5352500078,
+      "area_after_simplification_m2": 56634.120499965466,
+      "simplification_area_delta_m2": -5.414750042335072
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-dl",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.969,
+        0.918,
+        1.0
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 3198.3582986082124,
+      "area_after_simplification_m2": 3204.5186805565204,
+      "simplification_area_delta_m2": 6.160381948307986
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-dl-2",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "raw_parts": 2,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 225725.7425999863,
+      "area_after_simplification_m2": 225721.7261499845,
+      "simplification_area_delta_m2": -4.016450001799967
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-pu-px",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        0.98,
+        0.961,
+        0.922
+      ],
+      "raw_parts": 3,
+      "kept_parts": 3,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 4332.137449998982,
+      "area_after_simplification_m2": 4323.04469999552,
+      "simplification_area_delta_m2": -9.092750003462243
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-bx",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "raw_parts": 10,
+      "kept_parts": 10,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 56971.77329998643,
+      "area_after_simplification_m2": 56971.803149989995,
+      "simplification_area_delta_m2": 0.029850003564206418
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-bv",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "raw_parts": 47,
+      "kept_parts": 46,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 327087.7553000087,
+      "area_after_simplification_m2": 327118.628200003,
+      "simplification_area_delta_m2": 30.87289999431232
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-au",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        1.0,
+        0.976,
+        0.776
+      ],
+      "raw_parts": 1,
+      "kept_parts": 1,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 1117.470883331159,
+      "area_after_simplification_m2": 1119.5766138864187,
+      "simplification_area_delta_m2": 2.105730555259697
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-os",
+      "source_layer": "A-Prostor-GNA",
+      "source_rgb": [
+        1.0,
+        1.0,
+        0.49
+      ],
+      "raw_parts": 14,
+      "kept_parts": 12,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 52915.044400010505,
+      "area_after_simplification_m2": 52947.156450025475,
+      "simplification_area_delta_m2": 32.11205001497001
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-dd",
+      "source_layer": "JO rezerva",
+      "source_rgb": [
+        0.725,
+        0.412,
+        0.686
+      ],
+      "raw_parts": 5,
+      "kept_parts": 4,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 67652.83654999411,
+      "area_after_simplification_m2": 67666.44904997859,
+      "simplification_area_delta_m2": 13.612499984476017
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-sm",
+      "source_layer": "JO rezerva",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "raw_parts": 10,
+      "kept_parts": 7,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 25165.598900036435,
+      "area_after_simplification_m2": 25176.852750024904,
+      "simplification_area_delta_m2": 11.253849988468573
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-dl",
+      "source_layer": "JO rezerva",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "raw_parts": 7,
+      "kept_parts": 5,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 33735.80324997392,
+      "area_after_simplification_m2": 33748.17574994398,
+      "simplification_area_delta_m2": 12.372499970057106
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-bv",
+      "source_layer": "JO rezerva",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "raw_parts": 7,
+      "kept_parts": 2,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 12990.137499999426,
+      "area_after_simplification_m2": 13021.376649989117,
+      "simplification_area_delta_m2": 31.239149989691214
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-ds",
+      "source_layer": "JO rezerva",
+      "source_rgb": [
+        1.0,
+        0.863,
+        0.686
+      ],
+      "raw_parts": 12,
+      "kept_parts": 5,
+      "dropped_parts": 0,
+      "dropped_area_m2": 0,
+      "area_before_simplification_m2": 24300.0289499948,
+      "area_after_simplification_m2": 24296.95574998829,
+      "simplification_area_delta_m2": -3.0732000065108878
+    }
+  ],
+  "extract_stats": {
+    "drawing_count": 358631,
+    "filled_path_count": 70017,
+    "polygon_piece_count": 128663,
+    "unsupported_items": {},
+    "empty_paths": 2062,
+    "groups": {
+      "A-Prostor-G:(1.0, 0.976, 0.776)": 21165,
+      "A-Prostor-G:(0.416, 0.69, 0.522)": 4056,
+      "A-Prostor-G:(0.51, 0.667, 0.0)": 6982,
+      "A-Prostor-G:(0.784, 0.549, 0.588)": 11557,
+      "A-Prostor-G:(0.592, 0.953, 1.0)": 455,
+      "A-Prostor-G:(0.894, 0.741, 1.0)": 10689,
+      "A-Prostor-G:(0.98, 0.961, 0.922)": 18743,
+      "A-Prostor-G:(1.0, 0.863, 0.686)": 9670,
+      "A-Prostor-G:(0.529, 0.733, 0.333)": 4148,
+      "A-Prostor-G:(0.576, 1.0, 0.576)": 1603,
+      "A-Prostor-G:(1.0, 0.667, 0.059)": 8207,
+      "A-Prostor-G:(0.627, 0.863, 0.431)": 352,
+      "A-Prostor-G:(0.392, 0.529, 0.0)": 479,
+      "A-Prostor-G:(0.863, 0.314, 0.549)": 981,
+      "A-Prostor-G:(0.42, 0.922, 1.0)": 6104,
+      "A-Prostor-G:(0.745, 0.725, 0.569)": 188,
+      "A-Prostor-G:(0.627, 0.627, 0.725)": 89,
+      "A-Prostor-G:(0.686, 0.69, 0.69)": 631,
+      "A-Prostor-G:(0.8, 0.816, 0.816)": 953,
+      "A-Prostor-G:(0.824, 0.737, 0.831)": 476,
+      "A-Prostor-G:(0.706, 0.392, 0.431)": 1806,
+      "A-Prostor-G:(0.922, 0.914, 0.059)": 283,
+      "A-Prostor-G:(1.0, 0.902, 0.0)": 33,
+      "A-Prostor-G:(0.898, 1.0, 0.698)": 74,
+      "A-Prostor-G:(1.0, 1.0, 0.49)": 600,
+      "A-Prostor-G:(0.824, 0.157, 0.431)": 282,
+      "A-Prostor-G:(0.804, 0.765, 0.588)": 91,
+      "A-Prostor-G:(0.824, 0.275, 0.471)": 21,
+      "A-Prostor-G:(0.725, 0.412, 0.686)": 1336,
+      "A-Prostor-G:(0.969, 0.922, 1.0)": 1049,
+      "A-Prostor-G:(0.878, 0.086, 0.086)": 513,
+      "A-Prostor-G:(0.941, 0.941, 0.02)": 77,
+      "A-Prostor-GNA:(0.686, 0.69, 0.69)": 259,
+      "A-Prostor-GNA:(1.0, 0.0, 0.0)": 209,
+      "A-Prostor-GNA:(1.0, 0.667, 0.059)": 1632,
+      "A-Prostor-GNA:(0.706, 0.392, 0.431)": 50,
+      "A-Prostor-GNA:(0.655, 0.655, 0.655)": 26,
+      "A-Prostor-GNA:(0.42, 0.922, 1.0)": 177,
+      "A-Prostor-GNA:(0.784, 0.549, 0.588)": 671,
+      "A-Prostor-GNA:(0.969, 0.918, 1.0)": 8,
+      "A-Prostor-GNA:(0.392, 0.529, 0.0)": 166,
+      "A-Prostor-GNA:(0.8, 0.816, 0.816)": 346,
+      "A-Prostor-GNA:(0.745, 0.725, 0.569)": 74,
+      "A-Prostor-GNA:(0.824, 0.275, 0.471)": 167,
+      "A-Prostor-GNA:(0.627, 0.627, 0.725)": 343,
+      "A-Prostor-GNA:(0.824, 0.737, 0.831)": 102,
+      "A-Prostor-GNA:(0.416, 0.69, 0.522)": 601,
+      "A-Prostor-GNA:(1.0, 1.0, 0.49)": 217,
+      "A-Prostor-GNA:(0.922, 0.914, 0.059)": 116,
+      "A-Prostor-GNA:(0.969, 0.922, 1.0)": 153,
+      "A-Prostor-GNA:(0.898, 1.0, 0.698)": 142,
+      "A-Prostor-GNA:(0.627, 0.863, 0.431)": 57,
+      "A-Prostor-GNA:(0.863, 0.314, 0.549)": 26,
+      "A-Prostor-GNA:(0.824, 0.157, 0.431)": 119,
+      "A-Prostor-GNA:(0.576, 1.0, 0.576)": 1427,
+      "A-Prostor-GNA:(1.0, 0.976, 0.776)": 35,
+      "A-Prostor-GNA:(0.98, 0.961, 0.922)": 77,
+      "JO HRU:(0.698, 0.698, 0.698)": 6501,
+      "JO rezerva:(0.725, 0.412, 0.686)": 266,
+      "JO rezerva:(1.0, 0.863, 0.686)": 368,
+      "JO rezerva:(0.784, 0.549, 0.588)": 301,
+      "JO rezerva:(0.969, 0.922, 1.0)": 176,
+      "JO rezerva:(1.0, 0.667, 0.059)": 158
+    }
+  },
+  "limitations": [
+    "GeoJSON je odvozen z vektorového PDF, nikoli z původní autorské GIS databáze.",
+    "PU/PX, DU/DD a TW/TE nelze spolehlivě rozlišit, protože sdílejí shodnou mapovou výplň.",
+    "Kontrola parcel porovnává katastrální podklad výkresu z 02.01.2025 s aktuálním RÚIAN; jednotlivé změny jsou očekávatelné."
+  ]
+}

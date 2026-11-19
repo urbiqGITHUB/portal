@@ -1,0 +1,137 @@
+{
+  "layers": [
+    {
+      "id": "study_boundary",
+      "label": "Řešené území · P02",
+      "description": "Nativní obrys z ortofota, S004 / str. 1.",
+      "color": "#e5a82b",
+      "path": "layers/study_boundary.geojson",
+      "feature_count": 1,
+      "sha256": "7b7218604cd5fe68462389157f8d38f6ba4bd45aea6fe64f44d254f23416dfb5"
+    },
+    {
+      "id": "brief_parts",
+      "label": "Části A–D · zadání",
+      "description": "Ruční obrysy schématu; výměry a podíly města podle S003 / str. 6.",
+      "color": "#32cf8b",
+      "path": "layers/brief_parts.geojson",
+      "feature_count": 4,
+      "sha256": "000ba3651f23291e8dc48e54f8e0500395963ced092d0069e882f1d547a3b4f5"
+    },
+    {
+      "id": "water_points",
+      "label": "Vodovod · souřadnicové body",
+      "description": "17 souřadnic z tabulky S062 / str. 1; DSPS 11/2022.",
+      "color": "#59b6ff",
+      "path": "layers/water_points.geojson",
+      "feature_count": 17,
+      "sha256": "9b0f482470f92c5a75836d5d1ba8e07a8758bf3835c01964aa3f1f7273b89a3c"
+    },
+    {
+      "id": "water_route",
+      "label": "Vodovod · spojnice bodů",
+      "description": "Odvozená spojnice bodů 1–17 dle sledu ve výkresu.",
+      "color": "#59b6ff",
+      "path": "layers/water_route.geojson",
+      "feature_count": 1,
+      "sha256": "796428be2f6aab69d0c1872e6a93930322135409e08c54f6c14a0907d69dee35"
+    }
+  ],
+  "source_rasters": [
+    {
+      "path": "rasters/S004_ortho_source.png",
+      "bounds": [
+        [
+          50.513146838357414,
+          14.95838193428073
+        ],
+        [
+          50.52352392676521,
+          14.975407301905118
+        ]
+      ],
+      "sha256": "dd927d041001f5f2cd72cb18f6f0dc2a82d2f5ec3fd5c1baad85c07f56c071dd",
+      "resampling": "bilinear; source via EPSG5514 to EPSG3857; transparent outside source rectangle",
+      "id": "S004_ortho_source",
+      "source_id": "S004",
+      "page": 1,
+      "label": "P02 · ortofoto s hranicí"
+    },
+    {
+      "path": "rasters/S003_parts_source.png",
+      "bounds": [
+        [
+          50.51261336870221,
+          14.95818771780482
+        ],
+        [
+          50.52353900303917,
+          14.975896976073235
+        ]
+      ],
+      "sha256": "34b8d2d17b587f56a2aceeeefdddf6f65727f923d5daccf8515104bbad212eda",
+      "resampling": "bilinear; source via EPSG5514 to EPSG3857; transparent outside source rectangle",
+      "id": "S003_parts_source",
+      "source_id": "S003",
+      "page": 6,
+      "label": "Zadání · schéma A–D"
+    },
+    {
+      "path": "rasters/S062_water_source.png",
+      "bounds": [
+        [
+          50.51058719048478,
+          14.962197189904538
+        ],
+        [
+          50.51863617324295,
+          14.978667433043512
+        ]
+      ],
+      "sha256": "448e41116f107407fb9c2182126c8dcc8996e1170f3400444a51a093ce260b2d",
+      "resampling": "bilinear; source via EPSG5514 to EPSG3857; transparent outside source rectangle",
+      "id": "S062_water_source",
+      "source_id": "S062",
+      "page": 1,
+      "label": "Vodovod · souřadnicový výkres"
+    }
+  ],
+  "fallback": {
+    "path": "rasters/reference_ortho_offline.png",
+    "bounds": [
+      [
+        50.50813836456567,
+        14.953044268551002
+      ],
+      [
+        50.52693292732992,
+        14.978873918690214
+      ]
+    ],
+    "sha256": "d5c969fa640df7242100477da32936e14b1547761c89df58386a693a69405dd2",
+    "resampling": "bilinear; source via EPSG5514 to EPSG3857; transparent outside source rectangle",
+    "label": "Lokální referenční ortofoto ČÚZK · staženo 12. 11. 2026",
+    "date_of_imagery": "not independently established"
+  },
+  "unresolved_classes": [
+    {
+      "id": "GAP-OTHER-SHEETS",
+      "status": "open",
+      "description": "Další studie, varianty a mapové listy v 93zdrojovém korpusu dosud nejsou plně georeferencovány ani vektorizovány. Pokrytí je po stránkách v coverage.json.",
+      "next_action": "Samostatně umístit každý plán a revizi, ověřit legendu, před exportem zkontrolovat transformační body."
+    },
+    {
+      "id": "GAP-US7",
+      "status": "open",
+      "source_id": "S045",
+      "description": "Nedostatečný počet prostorově rozložených kontrolních bodů při zkušebním automatickém přiřazení.",
+      "next_action": "Použít doložené lomové body katastru nebo nativní CAD a nezávislé kontrolní body."
+    },
+    {
+      "id": "GAP-CURRENT-STATUS",
+      "status": "open",
+      "description": "Aktuální vlastnictví, právní stav hranic a provoz/kapacita vodovodu nebyly ověřeny.",
+      "next_action": "Před použitím v ekonomických dohodách ověřit u města, katastru a správce sítě."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+(()=>{'use strict';for(const s of JZM_EXPLORER.scenarios){const p=JZM_ADDITIONAL_MODELS[s.id];if(!p)continue;s.gap='';s.geometry_path=p.base+'buildings.geojson';s.note=p.field_evidence.floors.reason+' Původní autorské kapacity jsou níže zachované samostatně. Měřené plochy nejsou přizpůsobeny tabulce zdroje.';}})();

@@ -1,0 +1,609 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:2850",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97243823150268,
+            50.51459393129406
+          ],
+          [
+            14.972161775881,
+            50.514614423708096
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 2850",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 19.74,
+        "cad_handle": "2850",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2851",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972603480292554,
+            50.51651295262561
+          ],
+          [
+            14.972535370695912,
+            50.5162000706999
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 2851",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 35.138,
+        "cad_handle": "2851",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2859",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97260092649413,
+            50.51618121239311
+          ],
+          [
+            14.972816955319308,
+            50.51616005777476
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 2859",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 15.501,
+        "cad_handle": "2859",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4116",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972742353087742,
+            50.51583648403469
+          ],
+          [
+            14.97271598555106,
+            50.51571553787106
+          ],
+          [
+            14.972691514100935,
+            50.51560481175319
+          ],
+          [
+            14.972675905419973,
+            50.51552800077696
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4116",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 34.637,
+        "cad_handle": "4116",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4117",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972675905419973,
+            50.51552800077696
+          ],
+          [
+            14.972649650700761,
+            50.51541277523227
+          ],
+          [
+            14.97262268230884,
+            50.51529268570875
+          ],
+          [
+            14.972601751957725,
+            50.515198752605386
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4117",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 37.0,
+        "cad_handle": "4117",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4118",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972601751957725,
+            50.515198752605386
+          ],
+          [
+            14.97256425853298,
+            50.515027113386644
+          ],
+          [
+            14.972536142636825,
+            50.51489731908146
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4118",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 33.852,
+        "cad_handle": "4118",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4119",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972536142636825,
+            50.51489731908146
+          ],
+          [
+            14.972513290503489,
+            50.514800960115146
+          ],
+          [
+            14.972489876675699,
+            50.51472268572504
+          ],
+          [
+            14.97243823150268,
+            50.51459393129406
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4119",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 34.488,
+        "cad_handle": "4119",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:411A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972161775881,
+            50.514614423708096
+          ],
+          [
+            14.972156376004492,
+            50.514587232273485
+          ],
+          [
+            14.972141979312726,
+            50.514501002751445
+          ],
+          [
+            14.97213052905621,
+            50.51441148204693
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 411A",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 22.686,
+        "cad_handle": "411A",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:411B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97213052905621,
+            50.51441148204693
+          ],
+          [
+            14.97209403743223,
+            50.514326230036566
+          ],
+          [
+            14.972056248550464,
+            50.51425918290334
+          ],
+          [
+            14.971984430294514,
+            50.51411851057246
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 411B",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 34.211,
+        "cad_handle": "411B",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:411C",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.971984430294514,
+            50.51411851057246
+          ],
+          [
+            14.971912474225398,
+            50.51400429828396
+          ],
+          [
+            14.971848913662905,
+            50.51390329289663
+          ],
+          [
+            14.971796925305183,
+            50.513822919786634
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 411C",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 35.469,
+        "cad_handle": "411C",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:411D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.971796925305183,
+            50.513822919786634
+          ],
+          [
+            14.971735424605479,
+            50.513731332085065
+          ],
+          [
+            14.97166022803924,
+            50.51361349643018
+          ],
+          [
+            14.971592667537871,
+            50.5135098019178
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 411D",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 37.724,
+        "cad_handle": "411D",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4124",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972535370695912,
+            50.5162000706999
+          ],
+          [
+            14.972534124972166,
+            50.516189451294764
+          ],
+          [
+            14.972546901901044,
+            50.51618815401542
+          ],
+          [
+            14.97254931504863,
+            50.5161993235305
+          ],
+          [
+            14.972604404747191,
+            50.51619482730184
+          ],
+          [
+            14.97260092649413,
+            50.51618121239311
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4124",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 8.83,
+        "cad_handle": "4124",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:4126",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972816955319308,
+            50.51616005777476
+          ],
+          [
+            14.972807768417395,
+            50.51613400282277
+          ],
+          [
+            14.972754625950136,
+            50.51588156071904
+          ],
+          [
+            14.972742353087742,
+            50.51583648403469
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A073_ELVED_L · 4126",
+        "typology": "Elektro",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A073_ELVED_L",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 36.392,
+        "cad_handle": "4126",
+        "cad_layer": "A073_ELVED_L",
+        "cad_entity_type": "LWPOLYLINE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!--
+HTML-ARTIFACT-METADATA
+title: Jihozápadní město · metoda mapového převodu
+created_at: 2026-11-13T09:55:46+01:00
+created_by: Codex
+updated_at: 2026-11-13T09:55:46+01:00
+updated_by: Codex
+revised_by: null
+timezone: Europe/Prague
+dialogue: local Codex desktop chat; exact URL unavailable
+dialogue_iteration: 8
+version_id: JZM-MAP-20261113-v01
+status: internal-draft
+purpose: Method, coverage and accuracy of three source map panels
+audience: urbiq project team
+mode: standalone
+host_constraints: local file or HTTP; no JavaScript
+sensitivity: internal
+contains.css: yes, local inline
+contains.javascript: no
+contains.data_json: no
+contains.external_resources: no
+contains.embedded_assets: no
+contains.forms: no
+contains.storage: no
+contains.browser_permissions: no
+contains.network_activity: no automatic remote requests
+external_origins: links only https://ags.cuzk.gov.cz and https://leafletjs.com
+source_files: map-job.json; S003 page 6; S004 page 1; S062 page 1
+source_hashes: map-job.json
+review_state: structural, geometric and visual checks; browser evidence separate; human review pending
+END HTML-ARTIFACT-METADATA
+QUICK ORIENTATION: SEKCE 01 method; SEKCE 02 outputs; SEKCE 03 limits.
+EDITABLE: explanatory text. PROTECTED: source IDs and accuracy definitions.
+-->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Metoda mapového převodu · urbiq</title><style>
+body{max-width:920px;margin:40px auto;padding:0 24px;color:#173a20;background:#faf7ec;font:15px/1.6 'Segoe UI',sans-serif}h1,h2,h3{font-family:Fellix,'Segoe UI',sans-serif;line-height:1.2}h1{font-size:32px}h2{font-size:23px;margin-top:32px}a{color:#14642d}table{border-collapse:collapse;width:100%;background:#fff}th,td{padding:12px;text-align:left;border-bottom:1px solid #dce3d7}small{color:#5d6b5f}.note{padding:18px;border-left:4px solid #ecc83f;background:#fff}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}a:focus-visible{outline:3px solid #e58a2b}@media(max-width:600px){body{margin:20px auto;padding:0 16px}td,th{padding:8px;font-size:12px}}
+</style></head><body><a href="../../261113_urbiq_jihozapadni_mesto_dashboard_v04.html#view=map">← Dokumenty v mapě</a><p><small>URBIQ / MNICHOVO HRADIŠTĚ / 13. 11. 2026</small></p><h1>Od zdrojového výkresu k ověřitelné geometrii</h1><p>První mapový balíček převádí tři listy z dokumentové pracovny. Obsahuje 4 vrstvy a 23 prvků. Ostatní mapy a studie nejsou tímto během dokončeny; <a href="coverage.json">evidence pokrytí</a> uvádí všech 93 zdrojů a nezpracované stránky.</p>
+<!-- SEKCE 01 — EDITABLE: methodology. PROTECTED: source identities. -->
+<h2>Co se skutečně převádělo</h2><ol><li><b>Hranice území · S004, strana 1.</b> Z PDF se převzalo 64 nativních úseček silného černého obrysu, které tvoří jeden uzavřený polygon. Nešlo o automatické rozpoznání černých pixelů. Umístění vychází z registrace zdrojového ortofota na referenční ortofoto ČÚZK.</li><li><b>Části A–D · S003, strana 6.</b> Ručně se digitalizovaly středy bílých schematických hranic na původním vloženém obrázku. Modré šipky ani odkazové čáry se nepovažovaly za hranice. Geografické umístění je navázáno na ověřenou registraci obrázku vůči S004. Soubor <a href="evidence/manual-traces.json">ručních vstupů</a> uchovává všechny vrcholy v pixelech.</li><li><b>Vodovod · S062, strana 1.</b> Vizuálně se přepsalo 17 souřadnicových dvojic Y, X v S-JTSK. Do EPSG:5514 byly převedeny jako x = −Y, y = −X. Spojnice zachovává sled bodů 1–17 ve výkresu; není síťovým modelem. Datum DSPS 11/2022 je vytištěno ve výkresu, přestože složka archivu uvádí 2023.</li></ol>
+<h2>Jak je doloženo umístění</h2><p>Výpočty proběhly v metrickém systému EPSG:5514. GeoJSON používá WGS84 v pořadí zeměpisná délka, šířka dle RFC 7946. Zdrojové rastry jsou přepočteny do EPSG:3857 pro zobrazení v Leafletu; nejde o prosté přitažení obrázku mezi dva rohy.</p><ul><li><b>Ortofoto S004:</b> kontrolní RMSE přibližně 0,38 m. Jde o podmíněně odložené digitální shody SIFT po předvýběru RANSAC, nikoli o nezávislou geodetickou kontrolu. Metrická velikost referenčního pixelu je 0,667 m.</li><li><b>Schéma S003:</b> kontrolní RMSE 1,77 pixelu rodičovského renderu S004 (zhruba 1,1 m relativního lícování). Nezahrnuje nejistotu reference, ručního obrysu ani schematického návrhu.</li><li><b>Výkres S062:</b> 6 bodů pro výpočet, 11 pro kontrolu. Vnitřní soulad výkresu s jeho vlastní tabulkou má RMSE 0,04 m. Toto číslo není přesností vodovodu v terénu; přepis souřadnic pro GeoJSON tuto obrázkovou transformaci vůbec nepotřebuje.</li></ul><p class="note"><b>Absolutní polohová přesnost nebyla určena.</b> Černá čára hranice S004 má v terénním měřítku přibližně 10 m na šířku. U A–D navíc působí šířka bílých čar, ruční interpretace a schematické zjednodušení. Vektory slouží k orientaci a práci se zdroji, ne k vytyčování, výpočtu ceny parcel nebo určení vlastnictví.</p>
+<!-- SEKCE 02 — GENERATED: layer catalog. -->
+<h2>Výstupy a kontrola</h2><table><thead><tr><th>Vrstva</th><th>Prvky</th><th>Soubor</th></tr></thead><tbody><tr><td>Řešené území · P02</td><td>1</td><td><a href="layers/study_boundary.geojson" download>GeoJSON ↓</a></td></tr><tr><td>Části A–D · zadání</td><td>4</td><td><a href="layers/brief_parts.geojson" download>GeoJSON ↓</a></td></tr><tr><td>Vodovod · souřadnicové body</td><td>17</td><td><a href="layers/water_points.geojson" download>GeoJSON ↓</a></td></tr><tr><td>Vodovod · spojnice bodů</td><td>1</td><td><a href="layers/water_route.geojson" download>GeoJSON ↓</a></td></tr></tbody></table><p><a href="map-job.json">Manifest včetně hashů, transformací a mezer</a> · <a href="layer-catalog.json">Katalog vrstev a rastrů</a> · <a href="evidence/geojson-validation-final.json">Validace geometrie</a> · <a href="evidence/browser-qa.json">Ověření prohlížečky</a></p><p>Ke každému prvku se zachovává zdroj, strana, metoda, revize a stav doložení. Polygonové kružnice jsou uzavřené a orientované dle RFC 7946. Plochy odvozené z digitalizace se ukládají jen jako kontrola, odděleně od textových výměr zadání.</p><p>Vnitřní obrysy částí po digitalizaci dávají přibližně 7,65 / 5,27 / 3,25 / 0,91 ha. Popisky zadání uvádějí 8,2 / 6 / 3,7 / 1 ha. Rozdíl nebyl uměle vyrovnán: zdrojová výměra může mít jiný rozsah než bílý obrys schématu. Pro ekonomickou rozvahu je nutné stanovit závazné členění a výměry.</p><figure><img src="evidence/parts-source-review.png" alt="Původní schéma A–D s magentovými obrysy ručně digitalizovaných bílých hranic"><figcaption>Kontrolní překryv všech čtyř obrysů nad původním schématem S003 / 6.</figcaption></figure>
+<!-- SEKCE 03 — EDITABLE: limits and handoff. -->
+<h2>Otevřené body</h2><p>Studie US7, rezidenční studie a jejich revize se neslučují do jednoho současného návrhu. Zkušební automatické umístění S045 vůči katastrálnímu podkladu poskytlo po prostorovém omezení jen 5 vhodných shod; na obhajitelnou fitovací a kontrolní sadu to nestačilo. Geografický export tohoto listu proto nevznikl. DWG ani šikmé fotografie nebyly vydávány za umístěné mapové vrstvy.</p><p>Podíly města 56 / 100 / 0 / 0 % jsou údaje popisků zadání. Současné vlastnictví, právní účinky studií, provoz a kapacita sítě zůstávají neověřené. K přípravě konkrétních dohod je nutné jejich ověření.</p><h2>Provoz mapy a opakování</h2><p>Leaflet 1.9.4 je uložen lokálně. Živá mapa používá veřejné dlaždice <a href="https://ags.cuzk.gov.cz/opendata/">ČÚZK</a>. Místní referenční ortofoto stažené 12. 11. 2026 je pod živými dlaždicemi jako záloha; jeho datum snímkování nebylo samostatně ověřeno. Vypnutí živého podkladu zastaví nové požadavky na dlaždice. Dokumenty se na mapovou službu neposílají.</p><p>Skripty <code>build_map_package.py</code>, <code>register_study_maps.py</code> a evidované ruční vstupy jsou součástí důkazů. Opakování v pracovním projektu: <code>python -X utf8 build_map_package.py --out &lt;nový adresář&gt;</code>; závislosti jsou evidované v manifestu, knihovny jsou v <code>tmp/map_dependencies</code>. Dřívější výstupy se nepřepisují.</p><p><b>Opakovatelný pokyn:</b> „Přidej do mapy další konkrétní list a revizi. Uchovej zdroj i legendu, zdokumentuj umístění a kontrolní body, odděl explicitní údaje od interpretace a ověř GeoJSON nad původním rastrem. Neověřenou geometrii ponech jako lokální kandidát.“</p><p><small>Technické kontroly nejsou lidské schválení ani potvrzení aktuálnosti zdrojových údajů.</small></p></body></html>

@@ -1,0 +1,1396 @@
+{
+  "selected_parcels": 102,
+  "selection_threshold": 0.5,
+  "selection": [
+    {
+      "native_id": "CP.80612135010",
+      "parcel_number": "1992/344",
+      "source_overlap_m2": 571.73,
+      "parcel_geometry_area_m2": 571.73,
+      "source_overlap_fraction": 0.9999999999999998,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952606207",
+      "parcel_number": "1992/203",
+      "source_overlap_m2": 639.472,
+      "parcel_geometry_area_m2": 639.472,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952604207",
+      "parcel_number": "1992/201",
+      "source_overlap_m2": 1135.852,
+      "parcel_geometry_area_m2": 1135.852,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159643010",
+      "parcel_number": "1992/371",
+      "source_overlap_m2": 15.162,
+      "parcel_geometry_area_m2": 15.162,
+      "source_overlap_fraction": 0.9999999999999999,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159634010",
+      "parcel_number": "1992/366",
+      "source_overlap_m2": 1055.261,
+      "parcel_geometry_area_m2": 1055.261,
+      "source_overlap_fraction": 1.0000000000000004,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159635010",
+      "parcel_number": "1992/372",
+      "source_overlap_m2": 15.904,
+      "parcel_geometry_area_m2": 15.904,
+      "source_overlap_fraction": 0.9999999999999999,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159637010",
+      "parcel_number": "1992/374",
+      "source_overlap_m2": 13.982,
+      "parcel_geometry_area_m2": 13.982,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159636010",
+      "parcel_number": "1992/373",
+      "source_overlap_m2": 14.022,
+      "parcel_geometry_area_m2": 14.022,
+      "source_overlap_fraction": 0.9999999999999999,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159633010",
+      "parcel_number": "1992/365",
+      "source_overlap_m2": 774.611,
+      "parcel_geometry_area_m2": 774.611,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159638010",
+      "parcel_number": "1992/375",
+      "source_overlap_m2": 15.586,
+      "parcel_geometry_area_m2": 15.586,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952605207",
+      "parcel_number": "1992/202",
+      "source_overlap_m2": 3055.692,
+      "parcel_geometry_area_m2": 3055.692,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952601207",
+      "parcel_number": "1992/198",
+      "source_overlap_m2": 347.139,
+      "parcel_geometry_area_m2": 347.139,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952603207",
+      "parcel_number": "1992/200",
+      "source_overlap_m2": 53.16,
+      "parcel_geometry_area_m2": 53.16,
+      "source_overlap_fraction": 0.9999999999999981,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101020207",
+      "parcel_number": "2446/3",
+      "source_overlap_m2": 2712.696,
+      "parcel_geometry_area_m2": 15300.038,
+      "source_overlap_fraction": 0.17729998305204764,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2100189207",
+      "parcel_number": "1992/1",
+      "source_overlap_m2": 5454.27,
+      "parcel_geometry_area_m2": 5454.27,
+      "source_overlap_fraction": 1.0000000000000004,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952518207",
+      "parcel_number": "2446/15",
+      "source_overlap_m2": 2.42,
+      "parcel_geometry_area_m2": 19.989,
+      "source_overlap_fraction": 0.12107610653693965,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.80612136010",
+      "parcel_number": "1992/342",
+      "source_overlap_m2": 634.211,
+      "parcel_geometry_area_m2": 634.211,
+      "source_overlap_fraction": 0.9999999999999998,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2811736207",
+      "parcel_number": "1992/164",
+      "source_overlap_m2": 0.017,
+      "parcel_geometry_area_m2": 911.414,
+      "source_overlap_fraction": 1.908103098951798e-05,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2181412207",
+      "parcel_number": "1992/95",
+      "source_overlap_m2": 49194.56,
+      "parcel_geometry_area_m2": 49218.303,
+      "source_overlap_fraction": 0.999517595997199,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.48647545010",
+      "parcel_number": "2446/17",
+      "source_overlap_m2": 11.961,
+      "parcel_geometry_area_m2": 1092.714,
+      "source_overlap_fraction": 0.010945941267152441,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.3016488207",
+      "parcel_number": "2797/12",
+      "source_overlap_m2": 235.175,
+      "parcel_geometry_area_m2": 2959.942,
+      "source_overlap_fraction": 0.07945254519225721,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2797745207",
+      "parcel_number": "1992/158",
+      "source_overlap_m2": 688.039,
+      "parcel_geometry_area_m2": 697.554,
+      "source_overlap_fraction": 0.9863605968648955,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2797744207",
+      "parcel_number": "1992/157",
+      "source_overlap_m2": 281.106,
+      "parcel_geometry_area_m2": 290.811,
+      "source_overlap_fraction": 0.9666250245368474,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952602207",
+      "parcel_number": "1992/199",
+      "source_overlap_m2": 1093.571,
+      "parcel_geometry_area_m2": 1093.571,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2833108207",
+      "parcel_number": "1992/188",
+      "source_overlap_m2": 11212.676,
+      "parcel_geometry_area_m2": 11232.057,
+      "source_overlap_fraction": 0.9982745777288636,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2797746207",
+      "parcel_number": "1992/159",
+      "source_overlap_m2": 565.695,
+      "parcel_geometry_area_m2": 565.695,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2736954207",
+      "parcel_number": "2446/7",
+      "source_overlap_m2": 205.907,
+      "parcel_geometry_area_m2": 3098.566,
+      "source_overlap_fraction": 0.06645249122989001,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.80612137010",
+      "parcel_number": "1992/345",
+      "source_overlap_m2": 40.919,
+      "parcel_geometry_area_m2": 40.919,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159640010",
+      "parcel_number": "1992/367",
+      "source_overlap_m2": 7.267,
+      "parcel_geometry_area_m2": 7.267,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159641010",
+      "parcel_number": "1992/369",
+      "source_overlap_m2": 14.168,
+      "parcel_geometry_area_m2": 14.168,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159642010",
+      "parcel_number": "1992/370",
+      "source_overlap_m2": 14.07,
+      "parcel_geometry_area_m2": 14.07,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.100159639010",
+      "parcel_number": "1992/368",
+      "source_overlap_m2": 14.385,
+      "parcel_geometry_area_m2": 14.385,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952577207",
+      "parcel_number": "1992/212",
+      "source_overlap_m2": 7.818,
+      "parcel_geometry_area_m2": 361.991,
+      "source_overlap_fraction": 0.021596798289893707,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952579207",
+      "parcel_number": "1992/214",
+      "source_overlap_m2": 1432.19,
+      "parcel_geometry_area_m2": 1432.19,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952578207",
+      "parcel_number": "1992/213",
+      "source_overlap_m2": 589.775,
+      "parcel_geometry_area_m2": 589.775,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.60416086010",
+      "parcel_number": "1993/9",
+      "source_overlap_m2": 28.595,
+      "parcel_geometry_area_m2": 169.893,
+      "source_overlap_fraction": 0.16830948465093457,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2563989207",
+      "parcel_number": "1993/5",
+      "source_overlap_m2": 123.771,
+      "parcel_geometry_area_m2": 171.998,
+      "source_overlap_fraction": 0.7196067340999402,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.65792108010",
+      "parcel_number": "1992/323",
+      "source_overlap_m2": 83.258,
+      "parcel_geometry_area_m2": 166.814,
+      "source_overlap_fraction": 0.49910688360586564,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.60416087010",
+      "parcel_number": "1993/10",
+      "source_overlap_m2": 142.198,
+      "parcel_geometry_area_m2": 623.674,
+      "source_overlap_fraction": 0.22799997124700963,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.65792119010",
+      "parcel_number": "1992/325",
+      "source_overlap_m2": 19.727,
+      "parcel_geometry_area_m2": 19.727,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952550207",
+      "parcel_number": "1993/8",
+      "source_overlap_m2": 75.744,
+      "parcel_geometry_area_m2": 75.744,
+      "source_overlap_fraction": 0.9999999999999997,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952582207",
+      "parcel_number": "1993/6",
+      "source_overlap_m2": 65.423,
+      "parcel_geometry_area_m2": 65.423,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.60416083010",
+      "parcel_number": "1993/13",
+      "source_overlap_m2": 84.939,
+      "parcel_geometry_area_m2": 88.025,
+      "source_overlap_fraction": 0.964939829114917,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.60416081010",
+      "parcel_number": "1993/11",
+      "source_overlap_m2": 10.108,
+      "parcel_geometry_area_m2": 10.108,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.60416082010",
+      "parcel_number": "1993/12",
+      "source_overlap_m2": 70.83,
+      "parcel_geometry_area_m2": 70.83,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.60416084010",
+      "parcel_number": "1993/14",
+      "source_overlap_m2": 5.832,
+      "parcel_geometry_area_m2": 18.303,
+      "source_overlap_fraction": 0.3186200781588391,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.55652748010",
+      "parcel_number": "1992/303",
+      "source_overlap_m2": 1490.778,
+      "parcel_geometry_area_m2": 1624.953,
+      "source_overlap_fraction": 0.9174285536414175,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100269207",
+      "parcel_number": "1992/83",
+      "source_overlap_m2": 52.588,
+      "parcel_geometry_area_m2": 168.774,
+      "source_overlap_fraction": 0.3115854882517028,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2100280207",
+      "parcel_number": "1993/2",
+      "source_overlap_m2": 4103.714,
+      "parcel_geometry_area_m2": 4351.764,
+      "source_overlap_fraction": 0.9430000995961275,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100266207",
+      "parcel_number": "1992/79",
+      "source_overlap_m2": 4125.87,
+      "parcel_geometry_area_m2": 4125.87,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100282207",
+      "parcel_number": "1993/4",
+      "source_overlap_m2": 21.797,
+      "parcel_geometry_area_m2": 22.191,
+      "source_overlap_fraction": 0.9822352066423985,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100281207",
+      "parcel_number": "1993/3",
+      "source_overlap_m2": 4188.173,
+      "parcel_geometry_area_m2": 4188.173,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952581207",
+      "parcel_number": "1992/216",
+      "source_overlap_m2": 185.093,
+      "parcel_geometry_area_m2": 185.093,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792107010",
+      "parcel_number": "1992/322",
+      "source_overlap_m2": 34.363,
+      "parcel_geometry_area_m2": 2687.295,
+      "source_overlap_fraction": 0.012787372248651136,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100274207",
+      "parcel_number": "1992/88",
+      "source_overlap_m2": 22.77,
+      "parcel_geometry_area_m2": 504.797,
+      "source_overlap_fraction": 0.04510658515014331,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792115010",
+      "parcel_number": "1992/319",
+      "source_overlap_m2": 602.399,
+      "parcel_geometry_area_m2": 1158.031,
+      "source_overlap_fraction": 0.5201926469908122,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2100275207",
+      "parcel_number": "1992/89",
+      "source_overlap_m2": 8.027,
+      "parcel_geometry_area_m2": 47.092,
+      "source_overlap_fraction": 0.17045834399569051,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.65792118010",
+      "parcel_number": "1992/324",
+      "source_overlap_m2": 82.691,
+      "parcel_geometry_area_m2": 82.691,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792109010",
+      "parcel_number": "1992/326",
+      "source_overlap_m2": 6.055,
+      "parcel_geometry_area_m2": 6.055,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100268207",
+      "parcel_number": "1992/82",
+      "source_overlap_m2": 8.377,
+      "parcel_geometry_area_m2": 8.377,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792116010",
+      "parcel_number": "1992/320",
+      "source_overlap_m2": 111.884,
+      "parcel_geometry_area_m2": 124.4,
+      "source_overlap_fraction": 0.8993928971737238,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792114010",
+      "parcel_number": "1992/314",
+      "source_overlap_m2": 503.347,
+      "parcel_geometry_area_m2": 503.347,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952614207",
+      "parcel_number": "1992/211",
+      "source_overlap_m2": 49.941,
+      "parcel_geometry_area_m2": 49.941,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.65792120010",
+      "parcel_number": "1992/313",
+      "source_overlap_m2": 6.778,
+      "parcel_geometry_area_m2": 6.778,
+      "source_overlap_fraction": 0.9999999999999986,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.55652749010",
+      "parcel_number": "1992/304",
+      "source_overlap_m2": 1053.377,
+      "parcel_geometry_area_m2": 1053.377,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952580207",
+      "parcel_number": "1992/215",
+      "source_overlap_m2": 1937.215,
+      "parcel_geometry_area_m2": 1937.215,
+      "source_overlap_fraction": 0.9999999999999999,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952612207",
+      "parcel_number": "1992/209",
+      "source_overlap_m2": 251.449,
+      "parcel_geometry_area_m2": 251.449,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952613207",
+      "parcel_number": "1992/210",
+      "source_overlap_m2": 3832.136,
+      "parcel_geometry_area_m2": 3832.136,
+      "source_overlap_fraction": 1.0000000000000004,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952610207",
+      "parcel_number": "1992/207",
+      "source_overlap_m2": 2222.684,
+      "parcel_geometry_area_m2": 2222.684,
+      "source_overlap_fraction": 1.0000000000000004,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952607207",
+      "parcel_number": "1992/204",
+      "source_overlap_m2": 2348.219,
+      "parcel_geometry_area_m2": 2348.219,
+      "source_overlap_fraction": 0.9999999999999997,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100279207",
+      "parcel_number": "1993/1",
+      "source_overlap_m2": 6448.482,
+      "parcel_geometry_area_m2": 6527.54,
+      "source_overlap_fraction": 0.9878885534578582,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.78282374010",
+      "parcel_number": "1992/338",
+      "source_overlap_m2": 10.425,
+      "parcel_geometry_area_m2": 323.437,
+      "source_overlap_fraction": 0.032233180561479294,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.80612134010",
+      "parcel_number": "1992/343",
+      "source_overlap_m2": 135.007,
+      "parcel_geometry_area_m2": 135.007,
+      "source_overlap_fraction": 0.9999999999999996,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994362010",
+      "parcel_number": "1992/351",
+      "source_overlap_m2": 13.977,
+      "parcel_geometry_area_m2": 13.977,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994363010",
+      "parcel_number": "1992/352",
+      "source_overlap_m2": 13.933,
+      "parcel_geometry_area_m2": 13.933,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994361010",
+      "parcel_number": "1992/350",
+      "source_overlap_m2": 13.894,
+      "parcel_geometry_area_m2": 13.894,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994357010",
+      "parcel_number": "1992/349",
+      "source_overlap_m2": 13.902,
+      "parcel_geometry_area_m2": 13.902,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994356010",
+      "parcel_number": "1992/348",
+      "source_overlap_m2": 13.949,
+      "parcel_geometry_area_m2": 13.949,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994365010",
+      "parcel_number": "1992/354",
+      "source_overlap_m2": 13.969,
+      "parcel_geometry_area_m2": 13.969,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994366010",
+      "parcel_number": "1992/355",
+      "source_overlap_m2": 13.886,
+      "parcel_geometry_area_m2": 13.886,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952609207",
+      "parcel_number": "1992/206",
+      "source_overlap_m2": 13.474,
+      "parcel_geometry_area_m2": 13.474,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994368010",
+      "parcel_number": "1992/356",
+      "source_overlap_m2": 13.886,
+      "parcel_geometry_area_m2": 13.886,
+      "source_overlap_fraction": 0.9999999999999999,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994369010",
+      "parcel_number": "1992/357",
+      "source_overlap_m2": 13.977,
+      "parcel_geometry_area_m2": 13.977,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994370010",
+      "parcel_number": "1992/358",
+      "source_overlap_m2": 13.942,
+      "parcel_geometry_area_m2": 13.942,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994371010",
+      "parcel_number": "1992/359",
+      "source_overlap_m2": 14.209,
+      "parcel_geometry_area_m2": 14.209,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2952608207",
+      "parcel_number": "1992/205",
+      "source_overlap_m2": 164.361,
+      "parcel_geometry_area_m2": 164.361,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994364010",
+      "parcel_number": "1992/353",
+      "source_overlap_m2": 13.933,
+      "parcel_geometry_area_m2": 13.933,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.49078046010",
+      "parcel_number": "1992/279",
+      "source_overlap_m2": 7.045,
+      "parcel_geometry_area_m2": 359.685,
+      "source_overlap_fraction": 0.019586988798949323,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2797104207",
+      "parcel_number": "1992/161",
+      "source_overlap_m2": 233.443,
+      "parcel_geometry_area_m2": 873.958,
+      "source_overlap_fraction": 0.26710956547121845,
+      "selected": false,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2952611207",
+      "parcel_number": "1992/208",
+      "source_overlap_m2": 4342.775,
+      "parcel_geometry_area_m2": 4342.775,
+      "source_overlap_fraction": 0.9999999999999996,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.49078045010",
+      "parcel_number": "1992/280",
+      "source_overlap_m2": 6.662,
+      "parcel_geometry_area_m2": 678.268,
+      "source_overlap_fraction": 0.009822481141315856,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2569836207",
+      "parcel_number": "1992/116",
+      "source_overlap_m2": 282.554,
+      "parcel_geometry_area_m2": 282.554,
+      "source_overlap_fraction": 1.0000000000000004,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994367010",
+      "parcel_number": "1992/363",
+      "source_overlap_m2": 19.033,
+      "parcel_geometry_area_m2": 19.033,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994359010",
+      "parcel_number": "1992/361",
+      "source_overlap_m2": 12.718,
+      "parcel_geometry_area_m2": 12.718,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994360010",
+      "parcel_number": "1992/362",
+      "source_overlap_m2": 12.692,
+      "parcel_geometry_area_m2": 12.692,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2569834207",
+      "parcel_number": "1992/115",
+      "source_overlap_m2": 14.14,
+      "parcel_geometry_area_m2": 14.14,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2833106207",
+      "parcel_number": "1992/186",
+      "source_overlap_m2": 27.168,
+      "parcel_geometry_area_m2": 1368.064,
+      "source_overlap_fraction": 0.0198583666745249,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.88994358010",
+      "parcel_number": "1992/360",
+      "source_overlap_m2": 12.854,
+      "parcel_geometry_area_m2": 12.854,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2811734207",
+      "parcel_number": "1992/162",
+      "source_overlap_m2": 0.214,
+      "parcel_geometry_area_m2": 915.805,
+      "source_overlap_fraction": 0.00023385616215917384,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2569833207",
+      "parcel_number": "1992/114",
+      "source_overlap_m2": 282.088,
+      "parcel_geometry_area_m2": 282.088,
+      "source_overlap_fraction": 0.9999999999999998,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2569837207",
+      "parcel_number": "1992/117",
+      "source_overlap_m2": 748.701,
+      "parcel_geometry_area_m2": 922.176,
+      "source_overlap_fraction": 0.8118847483316539,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2311013207",
+      "parcel_number": "1992/113",
+      "source_overlap_m2": 879.701,
+      "parcel_geometry_area_m2": 917.048,
+      "source_overlap_fraction": 0.9592747789042985,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2811735207",
+      "parcel_number": "1992/163",
+      "source_overlap_m2": 0.172,
+      "parcel_geometry_area_m2": 923.937,
+      "source_overlap_fraction": 0.00018643566090338393,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951725207",
+      "parcel_number": "2627/165",
+      "source_overlap_m2": 5823.22,
+      "parcel_geometry_area_m2": 6079.719,
+      "source_overlap_fraction": 0.9578105721785279,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951761207",
+      "parcel_number": "2627/162",
+      "source_overlap_m2": 7539.397,
+      "parcel_geometry_area_m2": 7680.731,
+      "source_overlap_fraction": 0.9815988836581281,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951760207",
+      "parcel_number": "2627/161",
+      "source_overlap_m2": 521.14,
+      "parcel_geometry_area_m2": 752.097,
+      "source_overlap_fraction": 0.6929159208931869,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2951726207",
+      "parcel_number": "2627/166",
+      "source_overlap_m2": 1048.839,
+      "parcel_geometry_area_m2": 1111.911,
+      "source_overlap_fraction": 0.9432757525243033,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951729207",
+      "parcel_number": "2627/169",
+      "source_overlap_m2": 2216.141,
+      "parcel_geometry_area_m2": 2467.585,
+      "source_overlap_fraction": 0.8981011332487444,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101595207",
+      "parcel_number": "2628/89",
+      "source_overlap_m2": 11218.402,
+      "parcel_geometry_area_m2": 11683.073,
+      "source_overlap_fraction": 0.9602270078057346,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101829207",
+      "parcel_number": "2707/1",
+      "source_overlap_m2": 712.474,
+      "parcel_geometry_area_m2": 712.474,
+      "source_overlap_fraction": 1.0000000000000027,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100249207",
+      "parcel_number": "1992/62",
+      "source_overlap_m2": 9.266,
+      "parcel_geometry_area_m2": 137.991,
+      "source_overlap_fraction": 0.06715064728434275,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100250207",
+      "parcel_number": "1992/63",
+      "source_overlap_m2": 9.182,
+      "parcel_geometry_area_m2": 134.301,
+      "source_overlap_fraction": 0.06837002285579871,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100251207",
+      "parcel_number": "1992/64",
+      "source_overlap_m2": 9.103,
+      "parcel_geometry_area_m2": 139.661,
+      "source_overlap_fraction": 0.06518049842448907,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100254207",
+      "parcel_number": "1992/67",
+      "source_overlap_m2": 8.868,
+      "parcel_geometry_area_m2": 137.002,
+      "source_overlap_fraction": 0.06472949563701746,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100206207",
+      "parcel_number": "1992/18",
+      "source_overlap_m2": 18.247,
+      "parcel_geometry_area_m2": 464.254,
+      "source_overlap_fraction": 0.03930351156176625,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101750207",
+      "parcel_number": "2659",
+      "source_overlap_m2": 1346.176,
+      "parcel_geometry_area_m2": 1346.176,
+      "source_overlap_fraction": 0.9999999999999944,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100248207",
+      "parcel_number": "1992/61",
+      "source_overlap_m2": 9.214,
+      "parcel_geometry_area_m2": 133.025,
+      "source_overlap_fraction": 0.06926582277668819,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100214207",
+      "parcel_number": "1992/26",
+      "source_overlap_m2": 3502.605,
+      "parcel_geometry_area_m2": 3502.605,
+      "source_overlap_fraction": 1.0,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101366207",
+      "parcel_number": "2627/1",
+      "source_overlap_m2": 11674.753,
+      "parcel_geometry_area_m2": 11674.753,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100255207",
+      "parcel_number": "1992/68",
+      "source_overlap_m2": 8.582,
+      "parcel_geometry_area_m2": 141.077,
+      "source_overlap_fraction": 0.06083062360814978,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100460207",
+      "parcel_number": "2089/27",
+      "source_overlap_m2": 7.587,
+      "parcel_geometry_area_m2": 126.073,
+      "source_overlap_fraction": 0.060176860336365955,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100253207",
+      "parcel_number": "1992/66",
+      "source_overlap_m2": 8.936,
+      "parcel_geometry_area_m2": 140.556,
+      "source_overlap_fraction": 0.06357973286980136,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100252207",
+      "parcel_number": "1992/65",
+      "source_overlap_m2": 9.015,
+      "parcel_geometry_area_m2": 136.764,
+      "source_overlap_fraction": 0.06591669090139356,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.54076237010",
+      "parcel_number": "1992/301",
+      "source_overlap_m2": 4484.98,
+      "parcel_geometry_area_m2": 4581.632,
+      "source_overlap_fraction": 0.9789045394238962,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100456207",
+      "parcel_number": "2089/23",
+      "source_overlap_m2": 5.91,
+      "parcel_geometry_area_m2": 126.525,
+      "source_overlap_fraction": 0.046707160731184645,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100455207",
+      "parcel_number": "2089/22",
+      "source_overlap_m2": 5.506,
+      "parcel_geometry_area_m2": 125.657,
+      "source_overlap_fraction": 0.04381767403902997,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100454207",
+      "parcel_number": "2089/21",
+      "source_overlap_m2": 5.746,
+      "parcel_geometry_area_m2": 133.226,
+      "source_overlap_fraction": 0.04312687306964914,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100507207",
+      "parcel_number": "2089/74",
+      "source_overlap_m2": 3.28,
+      "parcel_geometry_area_m2": 95.343,
+      "source_overlap_fraction": 0.034405509776802276,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100458207",
+      "parcel_number": "2089/25",
+      "source_overlap_m2": 6.761,
+      "parcel_geometry_area_m2": 129.611,
+      "source_overlap_fraction": 0.05216686943370791,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.54076239010",
+      "parcel_number": "2627/174",
+      "source_overlap_m2": 30.149,
+      "parcel_geometry_area_m2": 44.716,
+      "source_overlap_fraction": 0.6742418898284889,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2951650207",
+      "parcel_number": "2658/40",
+      "source_overlap_m2": 7.316,
+      "parcel_geometry_area_m2": 195.609,
+      "source_overlap_fraction": 0.037400084548291336,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101681207",
+      "parcel_number": "2630/24",
+      "source_overlap_m2": 45.771,
+      "parcel_geometry_area_m2": 473.956,
+      "source_overlap_fraction": 0.09657275121280771,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101018207",
+      "parcel_number": "2446/1",
+      "source_overlap_m2": 299.99,
+      "parcel_geometry_area_m2": 7152.975,
+      "source_overlap_fraction": 0.04193925737021235,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101500207",
+      "parcel_number": "2627/143",
+      "source_overlap_m2": 634.044,
+      "parcel_geometry_area_m2": 941.441,
+      "source_overlap_fraction": 0.6734828671857072,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.2100433207",
+      "parcel_number": "2088",
+      "source_overlap_m2": 1.3,
+      "parcel_geometry_area_m2": 1131.521,
+      "source_overlap_fraction": 0.001149290172697347,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100508207",
+      "parcel_number": "2090",
+      "source_overlap_m2": 1.111,
+      "parcel_geometry_area_m2": 2295.306,
+      "source_overlap_fraction": 0.0004840138603021939,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100461207",
+      "parcel_number": "2089/28",
+      "source_overlap_m2": 15.607,
+      "parcel_geometry_area_m2": 172.215,
+      "source_overlap_fraction": 0.0906275925243187,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100459207",
+      "parcel_number": "2089/26",
+      "source_overlap_m2": 7.166,
+      "parcel_geometry_area_m2": 126.269,
+      "source_overlap_fraction": 0.05674958766978366,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100213207",
+      "parcel_number": "1992/25",
+      "source_overlap_m2": 6.107,
+      "parcel_geometry_area_m2": 531.85,
+      "source_overlap_fraction": 0.011482932293761858,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100457207",
+      "parcel_number": "2089/24",
+      "source_overlap_m2": 6.374,
+      "parcel_geometry_area_m2": 128.682,
+      "source_overlap_fraction": 0.04953596189077917,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2100487207",
+      "parcel_number": "2089/54",
+      "source_overlap_m2": 6.858,
+      "parcel_geometry_area_m2": 352.393,
+      "source_overlap_fraction": 0.019460195460077583,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951730207",
+      "parcel_number": "2627/170",
+      "source_overlap_m2": 8481.319,
+      "parcel_geometry_area_m2": 8651.304,
+      "source_overlap_fraction": 0.9803514977460388,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2101678207",
+      "parcel_number": "2630/21",
+      "source_overlap_m2": 423.128,
+      "parcel_geometry_area_m2": 720.63,
+      "source_overlap_fraction": 0.5871641946999381,
+      "selected": true,
+      "review_flag": "source_crosses_parcel"
+    },
+    {
+      "native_id": "CP.82550243010",
+      "parcel_number": "2627/177",
+      "source_overlap_m2": 105.851,
+      "parcel_geometry_area_m2": 2491.806,
+      "source_overlap_fraction": 0.04247973100511739,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2833107207",
+      "parcel_number": "1992/187",
+      "source_overlap_m2": 632.144,
+      "parcel_geometry_area_m2": 632.144,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.3016489207",
+      "parcel_number": "2797/13",
+      "source_overlap_m2": 76.924,
+      "parcel_geometry_area_m2": 88.865,
+      "source_overlap_fraction": 0.8656270335040551,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.3016517207",
+      "parcel_number": "2797/10",
+      "source_overlap_m2": 6.692,
+      "parcel_geometry_area_m2": 1229.314,
+      "source_overlap_fraction": 0.0054437027557739165,
+      "selected": false,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951728207",
+      "parcel_number": "2627/168",
+      "source_overlap_m2": 366.668,
+      "parcel_geometry_area_m2": 366.668,
+      "source_overlap_fraction": 1.0000000000000013,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951727207",
+      "parcel_number": "2627/167",
+      "source_overlap_m2": 9303.789,
+      "parcel_geometry_area_m2": 9303.789,
+      "source_overlap_fraction": 1.0000000000000002,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951763207",
+      "parcel_number": "2627/164",
+      "source_overlap_m2": 5442.469,
+      "parcel_geometry_area_m2": 5442.469,
+      "source_overlap_fraction": 0.9999999999999994,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.2951762207",
+      "parcel_number": "2627/163",
+      "source_overlap_m2": 9776.464,
+      "parcel_geometry_area_m2": 9776.464,
+      "source_overlap_fraction": 0.9999999999999998,
+      "selected": true,
+      "review_flag": null
+    },
+    {
+      "native_id": "CP.24504124010",
+      "parcel_number": "2797/16",
+      "source_overlap_m2": 25.976,
+      "parcel_geometry_area_m2": 5013.959,
+      "source_overlap_fraction": 0.005180817853254952,
+      "selected": false,
+      "review_flag": null
+    }
+  ],
+  "source_area_m2": 209818.33392977642,
+  "corrected_area_m2": 208978.57935001087,
+  "area_change_m2": -839.7545797655475,
+  "area_change_percent": -0.400229362247535,
+  "source_to_new_boundary_m": {
+    "median": 1.6413235798820651,
+    "p95": 11.019521976717956,
+    "max": 17.625874051277396
+  },
+  "new_boundary_to_native_line_max_m": 7.942007153214715e-11,
+  "parts": [
+    {
+      "area_m2": 208964.1480500109
+    },
+    {
+      "area_m2": 6.054750000050757
+    },
+    {
+      "area_m2": 8.37654999992838
+    }
+  ],
+  "acceptance": "Parcel-aligned working interpretation. Whole parcel selection is explicit and reviewable; no claim of official scope confirmation."
+}

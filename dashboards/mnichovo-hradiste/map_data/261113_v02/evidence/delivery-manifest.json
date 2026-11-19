@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-11-13T13:55:27.069594+01:00",
+  "status": "internal draft; technical QA complete in linked reports; human source/content review pending",
+  "previous_dashboard": {
+    "path": "261113_urbiq_jihozapadni_mesto_dashboard_v05.html",
+    "sha256": "653f0a32cde40f4344dd96c39058ee1557f29965432a418b48ead92052ce7020",
+    "preserved": true
+  },
+  "source": {
+    "S003_pdf_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+    "S040_pdf_sha256": "04c7d61b1953eeb1e74be5d30b40791274d67a5b435a4a05e59240c210e0c3e5"
+  },
+  "local_resource_check": {
+    "missing": [],
+    "image_assets": 195,
+    "documents": 93
+  },
+  "files": [
+    {
+      "path": "261113_urbiq_jihozapadni_mesto_dashboard_v06.html",
+      "bytes": 6150273,
+      "sha256": "8de722a2c002d4c7917215772ff73964efbba252b20694b254360db3a6f42ab4"
+    },
+    {
+      "path": "261113_document-catalog_v06.js",
+      "bytes": 14711,
+      "sha256": "aefa17d0102f14fdfa24492a7c9b74ce5919e54d4385bd3280ee81914ea660d6"
+    },
+    {
+      "path": "261113_library-panel_v06.js",
+      "bytes": 9556,
+      "sha256": "f1bae34300bb517ce135e0c5d2d234a76f6f693b82c3c4e53e2237367b74c860"
+    },
+    {
+      "path": "261113_project-map_v06.js",
+      "bytes": 13010,
+      "sha256": "7a4df042e9b9bd360c1486c220fbcf344d5d3018537d74e2b0845a059af9e53d"
+    },
+    {
+      "path": "261113_scene-panel_v06.js",
+      "bytes": 6402,
+      "sha256": "20dbed819d4c0775a9b6c05fefd18325aaf9b3de6766fd45d4a9d222bd93958f"
+    },
+    {
+      "path": "261113_table-headers_v06.js",
+      "bytes": 3313,
+      "sha256": "65444cd1efe59826a7883781f7756ec418d1e8a8ea4a3066d01f533d81735e42"
+    },
+    {
+      "path": "261113_workspace_v06.js",
+      "bytes": 25641,
+      "sha256": "ca3dfdf10d3431bd56a9dd5143b54313ac069d4c72d0470818524ee26f13a077"
+    },
+    {
+      "path": "261113_workspace-extension_v06.css",
+      "bytes": 7489,
+      "sha256": "9ab15fe7198cf5e9ddd059b6e90560c1275367ad20289172dc32c4faa7c508e0"
+    },
+    {
+      "path": "map_data/261113_v02/layer-catalog.json",
+      "bytes": 6586,
+      "sha256": "125f778e230bc036203da70de1731ff9672c44ca50c51dd3fe11d62490316ddd"
+    },
+    {
+      "path": "map_data/261113_v02/legend-catalog.json",
+      "bytes": 4280,
+      "sha256": "4ea88dd684397b59ff40d107933d5215ae41a4e9e96b19b47d226ffabf2b176a"
+    },
+    {
+      "path": "map_data/261113_v02/map-job.json",
+      "bytes": 3509,
+      "sha256": "ab6e7abc5deb77277daebe7f3bebe0543ef289a5de2917f60814abad3f1c55ea"
+    },
+    {
+      "path": "map_data/261113_v02/new-map-data.json",
+      "bytes": 547362,
+      "sha256": "ec1e8f8f8307163e8cbc4fe0c8c6dc28695e84a4c24b8acf549a69fe31868d8e"
+    },
+    {
+      "path": "map_data/261113_v02/map-data.js",
+      "bytes": 284310,
+      "sha256": "e3167306b4d4a63b3d751f1979ac90a8c3f4a69e2644fd1514e93c94a21e23af"
+    },
+    {
+      "path": "map_data/261113_v02/method-report.html",
+      "bytes": 9237,
+      "sha256": "2fe56fb7290dbd7733d5eb8aacfa057463cfe197ba749cc55a84af020a6c87ef"
+    },
+    {
+      "path": "map_data/261113_v02/layers/proposal_massing.geojson",
+      "bytes": 254369,
+      "sha256": "08a15ffb7e8e40894ff726db0eddc4a881c2c6c5142f7e2615b884e129cbaa96"
+    },
+    {
+      "path": "map_data/261113_v02/layers/source_ownership.geojson",
+      "bytes": 181347,
+      "sha256": "dd03b837a2fd40b23c421a9a368a44e4951003350ba0d869f00f23992bd56c6d"
+    },
+    {
+      "path": "map_data/261113_v02/legends/S003_p10_legend.png",
+      "bytes": 27696,
+      "sha256": "25bfefa6874567b71c3573245158af2cbb26eea3f2397734783cb3fb1229b403"
+    },
+    {
+      "path": "map_data/261113_v02/legends/S003_p8_legend.png",
+      "bytes": 11830,
+      "sha256": "83e11c52e3e4b247cb0852f8728b8808cebf6ee614cc1d5c40563380aadbc8c0"
+    },
+    {
+      "path": "map_data/261113_v02/legends/S040_comparison_legend.png",
+      "bytes": 62322,
+      "sha256": "0b7045743016e3bdc532172b4c08047ac67449757e7cd4cbe03da6fc10dd137c"
+    },
+    {
+      "path": "map_data/261113_v02/rasters/S003_p10_source.png",
+      "bytes": 754580,
+      "sha256": "610efb35d919f10b9894d1a3b6c0e854aea019198b83b6ef3f523b172577248c"
+    },
+    {
+      "path": "map_data/261113_v02/rasters/S003_p8_source.png",
+      "bytes": 1411942,
+      "sha256": "22c316ec1a36017c97a04017a42b6cc9bd171e8975fd6037cb7f753c299210fa"
+    },
+    {
+      "path": "assets/261113_S003_LEGEND_p008.png",
+      "bytes": 11830,
+      "sha256": "83e11c52e3e4b247cb0852f8728b8808cebf6ee614cc1d5c40563380aadbc8c0"
+    },
+    {
+      "path": "assets/261113_S003_LEGEND_p010.png",
+      "bytes": 27696,
+      "sha256": "25bfefa6874567b71c3573245158af2cbb26eea3f2397734783cb3fb1229b403"
+    },
+    {
+      "path": "assets/261113_S040_LEGEND_COMPARISON_p001.png",
+      "bytes": 62322,
+      "sha256": "0b7045743016e3bdc532172b4c08047ac67449757e7cd4cbe03da6fc10dd137c"
+    },
+    {
+      "path": "catalog_data/261113_v02/catalog-data.js",
+      "bytes": 206518,
+      "sha256": "b63bd31fee8f683aac4dda74939a9d16759dfa2f1530390ad30baf4ad4922003"
+    },
+    {
+      "path": "catalog_data/261113_v02/document-catalog.json",
+      "bytes": 242931,
+      "sha256": "1da674f7286894ec3578a0ef8e77cdfd53ebe6080a39fb30843753f18d422fc1"
+    }
+  ],
+  "skills": {
+    "C:\\Users\\kater\\.agents\\skills\\urbiq-skills\\urbiq-spatial-study-transform\\SKILL.md": "5e646fec3b9b7f2b249ffa00ea7ee9ab00e436672ea08d6e14945ec6eb727669",
+    "C:\\Users\\kater\\.codex\\skills\\raster-map-vectorizer\\SKILL.md": "6b2b8c3203e0987de2da21f24bd1cb7dc71d10daff90558e8f04152b769b8a83",
+    "C:\\Users\\kater\\.codex\\skills\\editable-html-artifacts\\SKILL.md": "d6110677a7de95f5b5c2c19ad0e58777f31f657fac3ed25854c7ab593e74aba0"
+  },
+  "accepted_technical_exceptions": [
+    {
+      "owner": "Codex implementation review; not human approval",
+      "scope": "ArcGIS SDK 4.34 dynamic AMD loader only on explicit scene navigation",
+      "reason": "Required live 3D rendering; version pinned; original documents stay local; failed loading offers local 2D fallback; CDN SDK cannot use one stable SRI for its full dynamic module graph",
+      "origins": [
+        "https://js.arcgis.com",
+        "https://ags.cuzk.gov.cz",
+        "https://ags.cuzk.cz"
+      ],
+      "privacy": "Service receives IP and map requests; no document uploads; no analytics added",
+      "publication": "not assessed; internal draft only"
+    },
+    {
+      "scope": "localStorage",
+      "reason": "User-requested editable relevance retained locally; downloadable JSON backup; no cookies"
+    }
+  ],
+  "verification": {
+    "browser": "evidence/browser-qa-v06.json",
+    "final_geometry_smoke": "evidence/final-smoke-v06.json",
+    "geojson": "evidence/geojson-validation-v02.json",
+    "html": "evidence/html-audit-v06.json",
+    "method_html": "evidence/method-html-audit.json"
+  },
+  "known_limits": [
+    "Geometry is digitized candidate data, not surveyed footprints or a parcel register.",
+    "S040 variant differs: geometry is never substituted.",
+    "Source floor count missing on 55 of 96 parts.",
+    "3D heights are explicit adjustable assumptions.",
+    "Independent absolute registration accuracy unknown."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "validator": "urbiq-map-geojson/1.0",
+  "generated_at": "2026-11-13T12:53:37.832554+00:00",
+  "status": "passed",
+  "limitation": "Checks structure, coordinates, extents and planar geometry only. Does not prove georeferencing accuracy, semantic classification, source completeness or network connectivity. Does not repair or rewrite source data. Validate combined exports separately from their individual layers to avoid expected duplicate IDs. Antimeridian topology is not normalized.",
+  "options": {
+    "expected_bbox": [
+      14.94,
+      50.5,
+      15.0,
+      50.54
+    ],
+    "required_properties": [
+      "source_id",
+      "source_page",
+      "source_sha256"
+    ]
+  },
+  "summary": {
+    "files": 2,
+    "features": 117,
+    "errors": 0
+  },
+  "input_issues": [],
+  "files": [
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v02\\layers\\proposal_massing.geojson",
+      "features": 96,
+      "geometry_types": {
+        "Polygon": 96
+      },
+      "bbox": [
+        14.961260263,
+        50.516297722,
+        14.967049834,
+        50.521739521
+      ],
+      "issues": []
+    },
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v02\\layers\\source_ownership.geojson",
+      "features": 21,
+      "geometry_types": {
+        "Polygon": 16,
+        "MultiPolygon": 5
+      },
+      "bbox": [
+        14.960952876,
+        50.514627941,
+        14.972311621,
+        50.521949489
+      ],
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "cycle_id": "mh-up-zm2-calibration-261118-v03",
+  "prior_cycle_id": null,
+  "operation": "initial",
+  "readiness": "provisional",
+  "dependency_review_path": "261118_dependency_review_v03.json",
+  "baseline": {
+    "reference_snapshot_id": null,
+    "reference_sha256": null,
+    "layers": []
+  },
+  "reference": {
+    "status": "available",
+    "snapshot_id": "cuzk-ruian-536326-20261118",
+    "provider": "ČÚZK / RÚIAN ArcGIS REST",
+    "acquired_at": "2026-11-18T10:07:20.722542+01:00",
+    "checked_at": "2026-11-18T10:50:00+01:00",
+    "native_parcels_path": "../source/261118_cuzk_ruian_parcely_536326_epsg5514.json",
+    "sha256": "a7c495b69dddabecc4381271e898aa47607fd219537d1fdde407fb8c59dc26be",
+    "crs": "EPSG:5514",
+    "extent": [
+      -699397.21,
+      -1004844.58,
+      -691691.11,
+      -995664.01
+    ],
+    "coverage_verified": true,
+    "metadata_path": "../source/261118_cuzk_ruian_mapserver_metadata.json",
+    "reason": null
+  },
+  "layers": [
+    {
+      "id": "mnichovo-hradiste-up-zm2-rzv",
+      "artifact_path": "../output/261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+      "sha256": "88396745a45ee197a4b7369cfef6ac1d707467c7e1e92f2e3e5e4db24395a22d",
+      "source_id": "mnhradiste-536326-v2-hlv-20251114",
+      "source_path": "../source/261118_536326-v2-hlv.pdf",
+      "source_sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+      "role": "derived_geographic_plan_layer",
+      "scenario_id": "up-zm2-effective-2026-01-30",
+      "reference_snapshot_id": "cuzk-ruian-536326-20261118",
+      "depends_on": [],
+      "calibration": {
+        "status": "checked",
+        "evidence": [
+          "261118_registration_probe.json",
+          "261118_parcel_alignment_check.json",
+          "261118_geojson_validation_v03.json"
+        ],
+        "reason": null,
+        "prior_cycle_id": null
+      }
+    }
+  ],
+  "removed_layers": [],
+  "changes": [],
+  "pair_checks": []
+}

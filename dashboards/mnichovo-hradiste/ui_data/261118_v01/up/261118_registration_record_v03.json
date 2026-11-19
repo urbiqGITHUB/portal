@@ -1,0 +1,96 @@
+{
+  "registration_id": "mh-up-zm2-v2-to-epsg5514-v03",
+  "source_sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+  "source_coordinate_space": "PDF page points, PyMuPDF top-left origin, page 5051 × 5357 pt",
+  "coordinate_convention": "x right; y down; affine output x_EPSG5514 = a*x+xoff, y_EPSG5514 = e*y+yoff",
+  "target_crs": "EPSG:5514",
+  "reference": {
+    "provider": "ČÚZK / RÚIAN",
+    "municipality_code": 536326,
+    "boundary_path": "../source/261118_cuzk_ruian_obec_536326_epsg5514.json",
+    "boundary_sha256": "0ea2bcac27e0a9e8f75b00bfdfde61ed2470b3b43ddce1fdde6acaeea313fcda",
+    "parcels_path": "../source/261118_cuzk_ruian_parcely_536326_epsg5514.json",
+    "parcels_sha256": "a7c495b69dddabecc4381271e898aa47607fd219537d1fdde407fb8c59dc26be",
+    "parcel_feature_count": 15014
+  },
+  "check_independence": {
+    "solve": "Affine translation was solved by centering the plan boundary on the ČÚZK municipality boundary at fixed 1:5000 scale.",
+    "independent_check": "18 348 sampled PDF parcel-line midpoints were compared with current RÚIAN parcel rings and were not used to solve the transform."
+  },
+  "transform": {
+    "kind": "affine",
+    "shapely_parameters": [
+      1.7638888888888888,
+      0.0,
+      0.0,
+      -1.7638888888888888,
+      -699998.8966666668,
+      -995530.1772222221
+    ],
+    "scale_m_per_pdf_point": 1.7638888888888888,
+    "rotation_degrees": 0.0
+  },
+  "quality_metrics": {
+    "boundary_source_to_target": {
+      "count": 3430,
+      "mean_m": 0.06548650416866682,
+      "median_m": 0.05719521210649076,
+      "p95_m": 0.1515732456136541,
+      "max_m": 0.22767081977802728,
+      "rmse_m": 0.08007613603690986
+    },
+    "boundary_target_to_source": {
+      "count": 1488,
+      "mean_m": 0.06452036542536438,
+      "median_m": 0.05493035404121757,
+      "p95_m": 0.1490866633757179,
+      "max_m": 0.21234144533686633,
+      "rmse_m": 0.07932627383478547
+    },
+    "boundary_hausdorff_m": 0.2276708198129483,
+    "boundary_symmetric_difference_m2": 2534.9854884261417,
+    "parcel_check": {
+      "count": 18348,
+      "mean_m": 0.06374700754530536,
+      "median_m": 0.04311750799320997,
+      "p75_m": 0.07263597121237407,
+      "p90_m": 0.10118466765197907,
+      "p95_m": 0.11825857752291309,
+      "p99_m": 0.14921946503056444,
+      "max_m": 116.39461514458382,
+      "rmse_m": 0.9127389165846617,
+      "within_0_5_m_pct": 99.78199258774798,
+      "within_1_m_pct": 99.81469369958579,
+      "within_2_m_pct": 99.8800959232614,
+      "within_5_m_pct": 99.9563985175496
+    }
+  },
+  "control_points": [
+    {
+      "id": "extent-nw",
+      "type": "extent_constraint",
+      "source_pdf_xy": [
+        341.16,
+        75.92
+      ],
+      "transformed_epsg5514_xy": [
+        -699397.1283333335,
+        -995664.0916666666
+      ],
+      "note": "North-west extent constraint; not a surveyed ground control point."
+    },
+    {
+      "id": "extent-se",
+      "type": "extent_constraint",
+      "source_pdf_xy": [
+        4709.88,
+        5280.56
+      ],
+      "transformed_epsg5514_xy": [
+        -691691.1916666669,
+        -1004844.4983333332
+      ],
+      "note": "South-east extent constraint; not a surveyed ground control point."
+    }
+  ]
+}

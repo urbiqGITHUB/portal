@@ -1,0 +1,284 @@
+{
+  "layers": [
+    {
+      "id": "proposal_massing",
+      "label": "Návrh zástavby · S003 / 8",
+      "description": "Půdorysné hmoty a doložené NP; pracovní typologie, 3D předpoklady oddělené.",
+      "color": "#14642d",
+      "source_id": "S003",
+      "page": 8,
+      "feature_count": 96,
+      "path": "layers/proposal_massing.geojson"
+    },
+    {
+      "id": "source_ownership",
+      "label": "Majetkové kategorie · S003 / 10",
+      "description": "13 kategorií podle původní legendy; neověřuje současné vlastnictví.",
+      "color": "#b13f35",
+      "source_id": "S003",
+      "page": 10,
+      "feature_count": 21,
+      "path": "layers/source_ownership.geojson"
+    }
+  ],
+  "source_rasters": [
+    {
+      "path": "rasters/S003_p8_source.png",
+      "bounds": [
+        [
+          50.51544790559044,
+          14.959776244638324
+        ],
+        [
+          50.52249731220925,
+          14.968352844657066
+        ]
+      ],
+      "sha256": "22c316ec1a36017c97a04017a42b6cc9bd171e8975fd6037cb7f753c299210fa",
+      "resampling": "bilinear EPSG5514 -> EPSG3857, pixel-center convention",
+      "id": "S003_p8_source",
+      "source_id": "S003",
+      "page": 8,
+      "label": "Zadání · návrh zástavby / 8"
+    },
+    {
+      "path": "rasters/S003_p10_source.png",
+      "bounds": [
+        [
+          50.51259987594053,
+          14.958217478571314
+        ],
+        [
+          50.52351611337255,
+          14.97585307035287
+        ]
+      ],
+      "sha256": "610efb35d919f10b9894d1a3b6c0e854aea019198b83b6ef3f523b172577248c",
+      "resampling": "bilinear EPSG5514 -> EPSG3857, pixel-center convention",
+      "id": "S003_p10_source",
+      "source_id": "S003",
+      "page": 10,
+      "label": "Zadání · majetková mapa / 10"
+    }
+  ],
+  "legend": {
+    "ownership": [
+      {
+        "id": "city",
+        "label": "město Mnichovo Hradiště",
+        "color": "#b13f35",
+        "legend_rgb": [
+          177,
+          63,
+          53
+        ],
+        "legend_hsv": [
+          2.0,
+          179.0,
+          177.0
+        ]
+      },
+      {
+        "id": "region",
+        "label": "Středočeský kraj",
+        "color": "#86bdb3",
+        "legend_rgb": [
+          134,
+          189,
+          179
+        ],
+        "legend_hsv": [
+          85.0,
+          74.0,
+          189.0
+        ]
+      },
+      {
+        "id": "stavokombinat",
+        "label": "Stavokombinát INVEST s.r.o",
+        "color": "#a768a7",
+        "legend_rgb": [
+          167,
+          104,
+          167
+        ],
+        "legend_hsv": [
+          150.0,
+          96.0,
+          167.0
+        ]
+      },
+      {
+        "id": "state",
+        "label": "Česká republika",
+        "color": "#eb907b",
+        "legend_rgb": [
+          235,
+          144,
+          123
+        ],
+        "legend_hsv": [
+          6.0,
+          122.0,
+          235.0
+        ]
+      },
+      {
+        "id": "lidl",
+        "label": "Lidl Česká Republika",
+        "color": "#bb9d90",
+        "legend_rgb": [
+          187,
+          157,
+          144
+        ],
+        "legend_hsv": [
+          9.0,
+          59.0,
+          187.0
+        ]
+      },
+      {
+        "id": "lv867",
+        "label": "LV 867 - 2 vlastníci",
+        "color": "#b8b866",
+        "legend_rgb": [
+          184,
+          184,
+          102
+        ],
+        "legend_hsv": [
+          30.0,
+          114.0,
+          184.0
+        ]
+      },
+      {
+        "id": "lv316",
+        "label": "LV 316 - 1 vlastník",
+        "color": "#ccdae6",
+        "legend_rgb": [
+          204,
+          218,
+          230
+        ],
+        "legend_hsv": [
+          104.0,
+          29.0,
+          230.0
+        ]
+      },
+      {
+        "id": "lv3689",
+        "label": "LV 3689 - 5 vlastníků",
+        "color": "#abcbab",
+        "legend_rgb": [
+          171,
+          203,
+          171
+        ],
+        "legend_hsv": [
+          60.0,
+          40.0,
+          203.0
+        ]
+      },
+      {
+        "id": "lv2460",
+        "label": "LV 2460 - 1 vlastník",
+        "color": "#e09462",
+        "legend_rgb": [
+          224,
+          148,
+          98
+        ],
+        "legend_hsv": [
+          12.0,
+          143.0,
+          224.0
+        ]
+      },
+      {
+        "id": "lv3170",
+        "label": "LV 3170 - 1 vlastník",
+        "color": "#d4d4fe",
+        "legend_rgb": [
+          212,
+          212,
+          254
+        ],
+        "legend_hsv": [
+          120.0,
+          42.0,
+          254.0
+        ]
+      },
+      {
+        "id": "lv115",
+        "label": "LV 115 - 1 vlastník",
+        "color": "#689cb4",
+        "legend_rgb": [
+          104,
+          156,
+          180
+        ],
+        "legend_hsv": [
+          99.0,
+          108.0,
+          180.0
+        ]
+      },
+      {
+        "id": "lv623",
+        "label": "LV 623 - 1 vlastník",
+        "color": "#fefe80",
+        "legend_rgb": [
+          254,
+          254,
+          128
+        ],
+        "legend_hsv": [
+          30.0,
+          126.0,
+          254.0
+        ]
+      },
+      {
+        "id": "lv2040",
+        "label": "LV 2040 - 3 vlastníci",
+        "color": "#e668a7",
+        "legend_rgb": [
+          230,
+          104,
+          167
+        ],
+        "legend_hsv": [
+          165.0,
+          140.0,
+          230.0
+        ]
+      }
+    ],
+    "proposal": {
+      "own_legend": "legends/S003_p8_legend.png",
+      "own_symbols": [
+        {
+          "symbol": "G",
+          "meaning": "vjezd do podzemních garáží"
+        },
+        {
+          "symbol": "A–A′",
+          "meaning": "označení podélného řezu"
+        }
+      ],
+      "functional_interpretation": {
+        "houses": "Rodinné / řadové domy — pracovní klasifikace",
+        "apartments": "Bytová hmota — pracovní klasifikace",
+        "civic": "Vybavenost / smíšená hmota — pracovní klasifikace"
+      },
+      "comparison_source": "S040 / 1",
+      "comparison_legend": "legends/S040_comparison_legend.png",
+      "conflict": "S040 is dated 2021 in filename/metadata and shows a school; S003/8 is labelled 2022 and shows clubhouse + tennis. Geometry is taken only from S003/8. Comparison colours are a proposed interpretation, not a proven shared revision."
+    }
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "object_id": "S041-V1-BUILDING-01",
+    "source_sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9",
+    "geometry": {
+      "source": "S041",
+      "page": 4,
+      "locator": "Native dark-grey fill with red outline/hatch; NAVRHOVANÝ OBJEKT in legend",
+      "status": "DERIVED"
+    },
+    "floors": {
+      "value": 1,
+      "status": "PROPOSED",
+      "sources": [
+        {
+          "source_id": "S041",
+          "page": 3,
+          "locator": "Kapacity ověřovací studie / příslušná varianta"
+        },
+        {
+          "source_id": "S041",
+          "page": 6,
+          "locator": "Jednopodlažní vizualizace"
+        }
+      ],
+      "reason": "Nativní půdorys situace. Modelová výška 3 m na podlaží, nikoli doložená stavební výška. 1 NP je interpretace vizualizací str. 5–6 a rovnosti HPP a zastavěné plochy, nikoli přímo napsaný počet NP."
+    },
+    "height": {
+      "value_m": 3,
+      "status": "PROPOSED",
+      "method": "Common comparison profile 3 m per floor; not source building height"
+    },
+    "function": {
+      "value": "Prodejna",
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 3
+    },
+    "footprint_area": {
+      "value_m2": 2000,
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 4
+    },
+    "hpp": {
+      "value_m2": 2000,
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 3,
+      "comparison": "Footprint × NP is a separate approximation. Unknown upper-storey extent prevents an independent HPP verification."
+    }
+  },
+  {
+    "object_id": "S041-V2-BUILDING-01",
+    "source_sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9",
+    "geometry": {
+      "source": "S041",
+      "page": 7,
+      "locator": "Native dark-grey fill with red outline/hatch; NAVRHOVANÝ OBJEKT in legend",
+      "status": "DERIVED"
+    },
+    "floors": {
+      "value": 2,
+      "status": "EXPLICIT",
+      "sources": [
+        {
+          "source_id": "S041",
+          "page": 3,
+          "locator": "Kapacity ověřovací studie / příslušná varianta"
+        },
+        {
+          "source_id": "S041",
+          "page": 7,
+          "locator": "1NP prodejní plocha; 2NP administrativa"
+        }
+      ],
+      "reason": "Nativní půdorys situace. Modelová výška 3 m na podlaží, nikoli doložená stavební výška. Doložena funkce v 1. a 2. NP. Přesný rozsah horního podlaží ani nižšího zásobovacího přístavku není samostatně doložen; model jednotně extruduje celý půdorys do 2 NP."
+    },
+    "height": {
+      "value_m": 6,
+      "status": "PROPOSED",
+      "method": "Common comparison profile 3 m per floor; not source building height"
+    },
+    "function": {
+      "value": "1. NP prodejna; 2. NP administrativa",
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 3
+    },
+    "footprint_area": {
+      "value_m2": 1275,
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 7
+    },
+    "hpp": {
+      "value_m2": 2475,
+      "status": "EXPLICIT",
+      "source": "S041",
+      "page": 3,
+      "comparison": "Footprint × NP is a separate approximation. Unknown upper-storey extent prevents an independent HPP verification."
+    }
+  }
+]

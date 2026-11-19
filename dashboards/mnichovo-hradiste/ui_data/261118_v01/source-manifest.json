@@ -1,0 +1,86 @@
+[
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\output\\261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+    "local_path": "ui_data/261118_v01/up/261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+    "sha256": "88396745a45ee197a4b7369cfef6ac1d707467c7e1e92f2e3e5e4db24395a22d",
+    "size_bytes": 2237637
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\output\\261118_mnichovo-hradiste-up-zm2-tridy_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_mnichovo-hradiste-up-zm2-tridy_v03.json",
+    "sha256": "dc6eb25d23a5b08a7b925d227e7a396fc44314501fc1272059997ea78e1a9506",
+    "size_bytes": 27130
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_calibration_check_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_calibration_check_v03.json",
+    "sha256": "a63247163ddfa2bacd381b2e311a685132300aab2ffe1de3357c6074ff60213c",
+    "size_bytes": 427
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_calibration_cycle_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_calibration_cycle_v03.json",
+    "sha256": "db1028f5af26936e2edf6055c2a119a42a802d7f55e1694fe236d367aa0a8f83",
+    "size_bytes": 2039
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_dependency_review_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_dependency_review_v03.json",
+    "sha256": "6fac3d7725c635d96919b51e6b386e32db3044cbc06ec8725504daf06f2fa5f2",
+    "size_bytes": 1264
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_geojson_build_qa_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_geojson_build_qa_v03.json",
+    "sha256": "1e9df49b917a43d42769ea637c91ef431ccc18c72c109afec27997fe17466f8c",
+    "size_bytes": 33893
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_geojson_validation_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_geojson_validation_v03.json",
+    "sha256": "0e9c53dcf373ca3481be2419147ea77ea8496e412c075afcfb28f2f389dfe570",
+    "size_bytes": 1285
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_layer_catalog_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_layer_catalog_v03.json",
+    "sha256": "8982a2d1ae548751d29b9b44013e5d72a576ef0e3a0a266ed3a22b6ecb03dee1",
+    "size_bytes": 1750
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_map_job_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_map_job_v03.json",
+    "sha256": "2e577467898d0f56451f5d894dd23e63b8d67171e79c6e7c13a283e3f75d5702",
+    "size_bytes": 37278
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_registration_record_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_registration_record_v03.json",
+    "sha256": "1030169755e8a3d76d443005f7563d585f8a8d4ebb18dcdf1c20140e497be31e",
+    "size_bytes": 3346
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_source_inventory_v03.json",
+    "local_path": "ui_data/261118_v01/up/261118_source_inventory_v03.json",
+    "sha256": "632d3fa213dc228cf43d2048b263e88ab663eebacdc0c350d185dd6acbb45254",
+    "size_bytes": 5930
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\qa\\261118_parcel_alignment_check.json",
+    "local_path": "ui_data/261118_v01/up/261118_parcel_alignment_check.json",
+    "sha256": "c55dc0c66c64e9280f0974c6da575a6a3b2989d00150ccb4231028e53d9cab16",
+    "size_bytes": 1425
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\source\\261118_536326-v2-hlv.pdf",
+    "local_path": "sources/S094.pdf",
+    "sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+    "size_bytes": 6557070
+  },
+  {
+    "original_path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\source\\261118_536326-text.pdf",
+    "local_path": "sources/S095.pdf",
+    "sha256": "bcd0473556e427b5a6b029d654c2f7d9d71eb055b90fe0b3ff2fe8b337ba1d53",
+    "size_bytes": 1007612
+  }
+]

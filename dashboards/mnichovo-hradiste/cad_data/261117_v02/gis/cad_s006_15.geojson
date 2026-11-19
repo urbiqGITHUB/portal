@@ -1,0 +1,2440 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:22EF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966712224354536,
+            50.51687606257948
+          ],
+          [
+            14.966692441346165,
+            50.51688520887562
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 22EF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 1.733,
+        "cad_handle": "22EF",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 22EF",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23CF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965583077523501,
+            50.51872856835134
+          ],
+          [
+            14.965585163288992,
+            50.51873019197995
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23CF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.233,
+        "cad_handle": "23CF",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23CF",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23D3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964894319075995,
+            50.518988155047
+          ],
+          [
+            14.964899360131506,
+            50.518992018447534
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23D3",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.559,
+        "cad_handle": "23D3",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23D3",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23D7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96488970137131,
+            50.52129471966635
+          ],
+          [
+            14.964895477461424,
+            50.52129637762816
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23D7",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.449,
+        "cad_handle": "23D7",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23D7",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23D8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964969318913889,
+            50.518959296148374
+          ],
+          [
+            14.964974481593021,
+            50.518963260297774
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23D8",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.573,
+        "cad_handle": "23D8",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23D8",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23EF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965547167842029,
+            50.51869621500925
+          ],
+          [
+            14.965552288335417,
+            50.518701082199705
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23EF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.652,
+        "cad_handle": "23EF",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23EF",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23F3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966088770530273,
+            50.51850337398558
+          ],
+          [
+            14.966090479855644,
+            50.51850614490057
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23F3",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.331,
+        "cad_handle": "23F3",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23F3",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23F6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966053432382466,
+            50.518471702843094
+          ],
+          [
+            14.966058856543437,
+            50.518475779301255
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23F6",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.595,
+        "cad_handle": "23F6",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23F6",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23F7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96547330056592,
+            50.51872788792489
+          ],
+          [
+            14.965477636719346,
+            50.518732418047364
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23F7",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.59,
+        "cad_handle": "23F7",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23F7",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23F9",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96496185357884,
+            50.52126589609993
+          ],
+          [
+            14.964963315439357,
+            50.52127336064559
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23F9",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.837,
+        "cad_handle": "23F9",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23F9",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:23FE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965507684557856,
+            50.518760749257005
+          ],
+          [
+            14.965510378428522,
+            50.518762876644544
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 23FE",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.304,
+        "cad_handle": "23FE",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 23FE",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2406",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965770696006393,
+            50.518600811973755
+          ],
+          [
+            14.965807566331788,
+            50.518633335630355
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 2406",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 4.464,
+        "cad_handle": "2406",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 2406",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:243D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965765399272886,
+            50.51859611147968
+          ],
+          [
+            14.965770696006393,
+            50.518600811973755
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 243D",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.644,
+        "cad_handle": "243D",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 243D",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35EF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.967105279974863,
+            50.51664668500518
+          ],
+          [
+            14.96713633015819,
+            50.51667428312548
+          ],
+          [
+            14.967137759840861,
+            50.51667703081998
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35EF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 4.1,
+        "cad_handle": "35EF",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35EF",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35F4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966791338112207,
+            50.51683956650802
+          ],
+          [
+            14.96678552781469,
+            50.51684225728198
+          ],
+          [
+            14.966780823648604,
+            50.51684440525929
+          ],
+          [
+            14.966763568969395,
+            50.516852310890116
+          ],
+          [
+            14.966746454103472,
+            50.51686022812243
+          ],
+          [
+            14.966729339231842,
+            50.51686814535223
+          ],
+          [
+            14.966712224354536,
+            50.51687606257948
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35F4",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 6.926,
+        "cad_handle": "35F4",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35F4",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35F5",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96658346608356,
+            50.51618626619093
+          ],
+          [
+            14.96657936920778,
+            50.51618683273565
+          ],
+          [
+            14.966537931479479,
+            50.51620524186607
+          ],
+          [
+            14.966485875944016,
+            50.516228299810706
+          ],
+          [
+            14.966433941974978,
+            50.516251458482884
+          ],
+          [
+            14.966381868138333,
+            50.516274605527585
+          ],
+          [
+            14.966329794251122,
+            50.516297752549214
+          ],
+          [
+            14.966295078298227,
+            50.516313183884115
+          ],
+          [
+            14.966260344122178,
+            50.516328704355004
+          ],
+          [
+            14.966225628124272,
+            50.51634413566936
+          ],
+          [
+            14.96622085117859,
+            50.516346640209576
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35F5",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 31.324,
+        "cad_handle": "35F5",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35F5",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35F7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96622085117859,
+            50.516346640209576
+          ],
+          [
+            14.966216633501839,
+            50.51634919116826
+          ],
+          [
+            14.966202241435504,
+            50.51635561182307
+          ],
+          [
+            14.966185023237557,
+            50.51636333907758
+          ],
+          [
+            14.966167665216638,
+            50.51637105472492
+          ],
+          [
+            14.966150447007518,
+            50.5163787819744
+          ],
+          [
+            14.966133088975385,
+            50.51638649761656
+          ],
+          [
+            14.966115730937611,
+            50.51639421325621
+          ],
+          [
+            14.966111397425191,
+            50.51639593868551
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35F7",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 9.509,
+        "cad_handle": "35F7",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35F7",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35F8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.967137759840861,
+            50.51667703081998
+          ],
+          [
+            14.967132497306597,
+            50.516681217574344
+          ],
+          [
+            14.967115680399676,
+            50.51668906892131
+          ],
+          [
+            14.967098687270061,
+            50.51669708695496
+          ],
+          [
+            14.96708157251545,
+            50.51670500423619
+          ],
+          [
+            14.967064457755141,
+            50.51671292151491
+          ],
+          [
+            14.96704746460843,
+            50.5167209395411
+          ],
+          [
+            14.96703033163734,
+            50.51672894596116
+          ],
+          [
+            14.96701319866048,
+            50.51673695237877
+          ],
+          [
+            14.966996223696075,
+            50.516744881251235
+          ],
+          [
+            14.966979090707778,
+            50.51675288766379
+          ],
+          [
+            14.96696324005967,
+            50.51676018458696
+          ],
+          [
+            14.966945845622407,
+            50.51676807864081
+          ],
+          [
+            14.966928730816955,
+            50.51677599589975
+          ],
+          [
+            14.966911318168552,
+            50.516783979094825
+          ],
+          [
+            14.966894045333142,
+            50.51679197389115
+          ],
+          [
+            14.96687638943489,
+            50.51679975558069
+          ],
+          [
+            14.966859481445171,
+            50.516808052622494
+          ],
+          [
+            14.966842086973296,
+            50.516815946661
+          ],
+          [
+            14.966824795914865,
+            50.51682403059346
+          ],
+          [
+            14.96680736503166,
+            50.51683210291941
+          ],
+          [
+            14.966796060477217,
+            50.51683732938388
+          ],
+          [
+            14.966791338112207,
+            50.51683956650802
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35F8",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 30.527,
+        "cad_handle": "35F8",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35F8",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35FA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966600084572372,
+            50.51619888690136
+          ],
+          [
+            14.966587600209191,
+            50.51618760653116
+          ],
+          [
+            14.96658346608356,
+            50.51618626619093
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 35FA",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 1.865,
+        "cad_handle": "35FA",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 35FA",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3603",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965008121728314,
+            50.518990711282036
+          ],
+          [
+            14.965012175865944,
+            50.51898896268207
+          ],
+          [
+            14.965040858481418,
+            50.518975931770754
+          ],
+          [
+            14.965069820730704,
+            50.51896292406442
+          ],
+          [
+            14.965098120248319,
+            50.51894968002919
+          ],
+          [
+            14.965128364897556,
+            50.51893596284207
+          ],
+          [
+            14.965131786912306,
+            50.51893452439831
+          ],
+          [
+            14.965135403362833,
+            50.51893283012239
+          ],
+          [
+            14.965141195803557,
+            50.518930228576984
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3603",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 11.591,
+        "cad_handle": "3603",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3603",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3630",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964935396250063,
+            50.51902166278729
+          ],
+          [
+            14.964941329316362,
+            50.51902115803359
+          ],
+          [
+            14.964948702068716,
+            50.51901778109948
+          ],
+          [
+            14.964978314688405,
+            50.51900437411042
+          ],
+          [
+            14.96500606735333,
+            50.51899171930087
+          ],
+          [
+            14.965008121728314,
+            50.518990711282036
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3630",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 6.248,
+        "cad_handle": "3630",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3630",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3739",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964895477461424,
+            50.52129637762816
+          ],
+          [
+            14.964960024682764,
+            50.5213173280873
+          ],
+          [
+            14.964969096314237,
+            50.5213202568025
+          ],
+          [
+            14.964972610309951,
+            50.521320457808486
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3739",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 6.108,
+        "cad_handle": "3739",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3739",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:373D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964963315439357,
+            50.52127336064559
+          ],
+          [
+            14.9649674159919,
+            50.52131386200789
+          ],
+          [
+            14.964969096314237,
+            50.5213202568025
+          ],
+          [
+            14.964972610309951,
+            50.521320457808486
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 373D",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.486,
+        "cad_handle": "373D",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 373D",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3741",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961967507865062,
+            50.52199959725084
+          ],
+          [
+            14.96195733974447,
+            50.521970014649916
+          ],
+          [
+            14.961938416143935,
+            50.52195683936597
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3741",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.356,
+        "cad_handle": "3741",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3741",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:374A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965477636719346,
+            50.518732418047364
+          ],
+          [
+            14.965479656271855,
+            50.51873575866388
+          ],
+          [
+            14.965480142756382,
+            50.518736161670134
+          ],
+          [
+            14.965506401333124,
+            50.51875937355195
+          ],
+          [
+            14.965507684557856,
+            50.518760749257005
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 374A",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.816,
+        "cad_handle": "374A",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 374A",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3762",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965552288335417,
+            50.518701082199705
+          ],
+          [
+            14.965555535702022,
+            50.518703980781886
+          ],
+          [
+            14.965557098574877,
+            50.51870537969726
+          ],
+          [
+            14.965581794297488,
+            50.51872719264713
+          ],
+          [
+            14.965583077523501,
+            50.51872856835134
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3762",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.758,
+        "cad_handle": "3762",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3762",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:37C0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964899360131506,
+            50.518992018447534
+          ],
+          [
+            14.9649022426168,
+            50.51899461479111
+          ],
+          [
+            14.96493060501698,
+            50.519019361294404
+          ],
+          [
+            14.964935396250063,
+            50.51902166278729
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 37C0",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 4.189,
+        "cad_handle": "37C0",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 37C0",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:37E3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964974481593021,
+            50.518963260297774
+          ],
+          [
+            14.964978519086692,
+            50.51896577119639
+          ],
+          [
+            14.964981681224165,
+            50.51896839075023
+          ],
+          [
+            14.965006923724456,
+            50.51898961461564
+          ],
+          [
+            14.965008121728314,
+            50.518990711282036
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 37E3",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.879,
+        "cad_handle": "37E3",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 37E3",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:37F2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966058856543437,
+            50.518475779301255
+          ],
+          [
+            14.966061471823537,
+            50.51847898803503
+          ],
+          [
+            14.966062323175393,
+            50.51847969329174
+          ],
+          [
+            14.966087803346774,
+            50.51850184320406
+          ],
+          [
+            14.966088770530273,
+            50.51850337398558
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 37F2",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.74,
+        "cad_handle": "37F2",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 37F2",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:380F",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.970194963436324,
+            50.51603865007287
+          ],
+          [
+            14.970190345748104,
+            50.51604316240429
+          ],
+          [
+            14.970188280151936,
+            50.51604562006348
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 380F",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.909,
+        "cad_handle": "380F",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 380F",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3813",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.969791634366544,
+            50.51623835525005
+          ],
+          [
+            14.969796401623586,
+            50.51624147046862
+          ],
+          [
+            14.969802883084105,
+            50.516244546598166
+          ],
+          [
+            14.9698128121361,
+            50.51624954057969
+          ],
+          [
+            14.969829046448174,
+            50.516257777381576
+          ],
+          [
+            14.969845894619677,
+            50.51626579314219
+          ],
+          [
+            14.969862828032946,
+            50.51627408794106
+          ],
+          [
+            14.96986938227795,
+            50.516276807479706
+          ],
+          [
+            14.969873309642507,
+            50.516277767916165
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3813",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 7.284,
+        "cad_handle": "3813",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3813",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:381B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.969941614658037,
+            50.51613258291959
+          ],
+          [
+            14.969946472882981,
+            50.516135252398165
+          ],
+          [
+            14.96995338625291,
+            50.516138998948044
+          ],
+          [
+            14.969969165708434,
+            50.51614946440109
+          ],
+          [
+            14.969983084423598,
+            50.51615859694082
+          ],
+          [
+            14.969989877174108,
+            50.51616432791863
+          ],
+          [
+            14.969992418816659,
+            50.51616580797732
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 381B",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.173,
+        "cad_handle": "381B",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 381B",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3822",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.969924970631451,
+            50.51613192726606
+          ],
+          [
+            14.969935250091055,
+            50.51613241749641
+          ],
+          [
+            14.969941614658037,
+            50.51613258291959
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3822",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 1.183,
+        "cad_handle": "3822",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3822",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3826",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.970102265086634,
+            50.51596895044869
+          ],
+          [
+            14.970098310095349,
+            50.51597369907046
+          ],
+          [
+            14.970087915060029,
+            50.51598561917096
+          ],
+          [
+            14.97007767803024,
+            50.51599746172371
+          ],
+          [
+            14.970068285629562,
+            50.516008649101316
+          ],
+          [
+            14.970064141964535,
+            50.51601292878758
+          ],
+          [
+            14.970063558771283,
+            50.51601369630877
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3826",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.685,
+        "cad_handle": "3826",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3826",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3835",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96978937512797,
+            50.51622991808191
+          ],
+          [
+            14.969790143238061,
+            50.516234514625665
+          ],
+          [
+            14.969791634366544,
+            50.51623835525005
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3835",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.954,
+        "cad_handle": "3835",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3835",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3838",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.970188280151936,
+            50.51604562006348
+          ],
+          [
+            14.970184312698454,
+            50.51604973306016
+          ],
+          [
+            14.970174075678997,
+            50.516061575620974
+          ],
+          [
+            14.970163996665303,
+            50.51607334063407
+          ],
+          [
+            14.970154707700933,
+            50.516084717911866
+          ],
+          [
+            14.970151755350704,
+            50.51608873381359
+          ],
+          [
+            14.970150066081777,
+            50.51609004416319
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 3838",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.641,
+        "cad_handle": "3838",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 3838",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:384D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.970104955992827,
+            50.51596482220118
+          ],
+          [
+            14.970104099899816,
+            50.51596692692505
+          ],
+          [
+            14.970102265086634,
+            50.51596895044869
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Splašková kanalizace · 384D",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_SPLAS",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.502,
+        "cad_handle": "384D",
+        "cad_layer": "A070_KANAL_L_SPLAS",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_SPLAS · 384D",
+        "display_label": "Splašková kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    }
+  ]
+}

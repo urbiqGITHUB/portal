@@ -1,0 +1,16 @@
+{
+  "cycle_id": "mh-up-zm2-calibration-261118-v03",
+  "structural_status": "passed",
+  "files_checked": true,
+  "readiness": "provisional",
+  "layers": 1,
+  "changed_layers": [
+    "mnichovo-hradiste-up-zm2-rzv"
+  ],
+  "affected_layers": [
+    "mnichovo-hradiste-up-zm2-rzv"
+  ],
+  "errors": [],
+  "gaps": [],
+  "limits": "Bookkeeping only. Does not verify spatial accuracy, source truth or legal ownership."
+}

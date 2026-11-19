@@ -1,0 +1,83 @@
+{
+  "validator": "urbiq-map-geojson/1.0",
+  "generated_at": "2026-11-13T08:59:18.358925+00:00",
+  "status": "passed",
+  "limitation": "Checks structure, coordinates, extents and planar geometry only. Does not prove georeferencing accuracy, semantic classification, source completeness or network connectivity. Does not repair or rewrite source data. Validate combined exports separately from their individual layers to avoid expected duplicate IDs. Antimeridian topology is not normalized.",
+  "options": {
+    "expected_bbox": [
+      14.94,
+      50.5,
+      14.99,
+      50.54
+    ],
+    "required_properties": [
+      "source_id",
+      "source_page",
+      "method"
+    ]
+  },
+  "summary": {
+    "files": 4,
+    "features": 23,
+    "errors": 0
+  },
+  "input_issues": [],
+  "files": [
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v01\\layers\\brief_parts.geojson",
+      "features": 4,
+      "geometry_types": {
+        "Polygon": 4
+      },
+      "bbox": [
+        14.960956397733467,
+        50.51468388505591,
+        14.972048189274254,
+        50.521825939136725
+      ],
+      "issues": []
+    },
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v01\\layers\\study_boundary.geojson",
+      "features": 1,
+      "geometry_types": {
+        "Polygon": 1
+      },
+      "bbox": [
+        14.960849539865961,
+        50.514621318763204,
+        14.972299570311266,
+        50.521974221002594
+      ],
+      "issues": []
+    },
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v01\\layers\\water_points.geojson",
+      "features": 17,
+      "geometry_types": {
+        "Point": 17
+      },
+      "bbox": [
+        14.964790027976585,
+        50.51236571917031,
+        14.970976331451038,
+        50.51683592066733
+      ],
+      "issues": []
+    },
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\Power-Platform\\spatial-module\\project-mnichovo-hradiste\\261111_document_workspace_v03\\map_data\\261113_v01\\layers\\water_route.geojson",
+      "features": 1,
+      "geometry_types": {
+        "LineString": 1
+      },
+      "bbox": [
+        14.964790027976585,
+        50.51236571917031,
+        14.970976331451038,
+        50.51683592066733
+      ],
+      "issues": []
+    }
+  ]
+}

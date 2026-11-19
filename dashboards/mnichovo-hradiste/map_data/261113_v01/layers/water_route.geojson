@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vodovod · spojnice bodů",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "JZM-S062-ROUTE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.970976331451038,
+            50.51236571917031
+          ],
+          [
+            14.970336079821042,
+            50.51259236449535
+          ],
+          [
+            14.966267351010247,
+            50.51432141665022
+          ],
+          [
+            14.965115090799976,
+            50.514894639204115
+          ],
+          [
+            14.965102143911112,
+            50.51496083204986
+          ],
+          [
+            14.964790027976585,
+            50.515135728215235
+          ],
+          [
+            14.965163774956018,
+            50.515443076374034
+          ],
+          [
+            14.965157963358973,
+            50.51547432393697
+          ],
+          [
+            14.965541559467894,
+            50.515788471351016
+          ],
+          [
+            14.965638359153496,
+            50.51587147955831
+          ],
+          [
+            14.965642457630642,
+            50.51587508340235
+          ],
+          [
+            14.965930123637634,
+            50.51612496837831
+          ],
+          [
+            14.965974848348438,
+            50.5161635835097
+          ],
+          [
+            14.966038612211106,
+            50.516218283984855
+          ],
+          [
+            14.966042814163098,
+            50.51622207771166
+          ],
+          [
+            14.966458947879127,
+            50.516576090939424
+          ],
+          [
+            14.966760516710293,
+            50.51683592066733
+          ]
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-ROUTE",
+        "name": "Vodovod Černá silnice – V Cestkách",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "sequence of explicit source coordinates; connecting route visually checked on original",
+        "evidence_status": "DERIVED",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Spojnice bodů 1–17. Není kompletní síť ani ověření kapacity, topologie nebo provozu.",
+        "source_revision": "DSPS 11/2022",
+        "source_point_ids": [
+          "JZM-S062-P01",
+          "JZM-S062-P02",
+          "JZM-S062-P03",
+          "JZM-S062-P04",
+          "JZM-S062-P05",
+          "JZM-S062-P06",
+          "JZM-S062-P07",
+          "JZM-S062-P08",
+          "JZM-S062-P09",
+          "JZM-S062-P10",
+          "JZM-S062-P11",
+          "JZM-S062-P12",
+          "JZM-S062-P13",
+          "JZM-S062-P14",
+          "JZM-S062-P15",
+          "JZM-S062-P16",
+          "JZM-S062-P17"
+        ],
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    }
+  ]
+}

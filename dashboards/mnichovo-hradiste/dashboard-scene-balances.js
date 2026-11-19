@@ -1,0 +1,32 @@
+/* Read-only balances from the same model parts used by dashboard-scene.js. */
+(()=>{'use strict';
+const n=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;},scene=document.getElementById('scene'),windows=document.getElementById('comparisonWindows');
+const workspace=n('div',undefined,'scene-balance-workspace');windows.before(workspace);workspace.append(windows);
+const rail=n('div',undefined,'scene-balance-rail'),toggle=n('button');toggle.id='sceneBalancesToggle';toggle.type='button';toggle.setAttribute('aria-controls','sceneBalances');toggle.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3v17h17M8 16v-5m5 5V6m5 10V9"/></svg>';rail.append(toggle);
+const panel=n('aside',undefined,'scene-balance-panel');panel.id='sceneBalances';panel.setAttribute('aria-labelledby','sceneBalancesTitle');const title=n('h3','Bilance vybraných návrhů');title.id='sceneBalancesTitle';panel.append(title);
+const content=n('div',undefined,'scene-balance-content');content.id='sceneBalanceContent';panel.append(content);workspace.append(rail,panel);
+let opened=false,last=null;try{opened=sessionStorage.getItem('urbiq-mh-scene-balances')==='open';}catch{}
+function show(on){opened=on;workspace.classList.toggle('balances-open',on);panel.hidden=!on;toggle.title=on?'Skrýt bilance 3D návrhů':'Zobrazit bilance 3D návrhů';toggle.setAttribute('aria-label',toggle.title);toggle.setAttribute('aria-expanded',String(on));try{sessionStorage.setItem('urbiq-mh-scene-balances',on?'open':'closed');}catch{}if(on)render();SceneBalanceData.resize();}
+toggle.onclick=()=>show(!opened);panel.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();show(false);toggle.focus();}};
+const fmt=x=>Number(x).toLocaleString('cs-CZ',{maximumFractionDigits:1}),pct=(a,b)=>b?Number(a/b*100).toLocaleString('cs-CZ',{maximumFractionDigits:1})+' %':'—';
+function calculate(s){const groups=new Map();let missing=0;for(const p of s.parts){if(!Number.isFinite(p.area)||!Number.isFinite(p.floors)){missing++;continue;}const key=p.floors+'-'+p.explicit;if(!groups.has(key))groups.set(key,{floors:p.floors,explicit:p.explicit,area:0,floorArea:0,count:0});const g=groups.get(key);g.area+=p.area;g.floorArea+=p.area*p.floors;g.count++;}const rows=[...groups.values()].sort((a,b)=>a.floors-b.floors||Number(b.explicit)-Number(a.explicit)),area=rows.reduce((v,g)=>v+g.area,0),floorArea=rows.reduce((v,g)=>v+g.floorArea,0),assumed=rows.filter(g=>!g.explicit).reduce((v,g)=>v+g.floorArea,0),floors=[...new Set(rows.map(g=>g.floors))];return {...s,rows,area,floorArea,assumed,missing,floorRange:!floors.length?'—':floors.length===1?String(floors[0]):floors[0]+'–'+floors.at(-1)};}
+function cell(row,text,value){const c=n('td',text);if(value!==undefined)c.dataset.sortValue=value;row.append(c);return c;}
+function table(labels){const t=n('table',undefined,'scene-balance-table'),h=t.createTHead().insertRow();labels.forEach(x=>h.append(n('th',x)));t.createTBody();return t;}
+function enhance(t){window.DashboardTables?.enhance(t);}
+function render(){const data=SceneBalanceData.read();if(data.valid)last={...data,scenarios:data.scenarios.map(calculate)};if(!opened)return;content.replaceChildren();if(!data.valid)content.append(n('p','Neplatné nastavení: zobrazené bilance odpovídají posledním platným hodnotám. Opravte vstupy v nastavení 3D.','scene-balance-warning'));if(!last?.scenarios.length){content.append(n('p','Vyberte návrhy na kartách. V překryvném pohledu se návrhy s krytím 0 % do bilancí nezahrnují.'));return;}
+content.append(n('p','Každý řádek je samostatný návrh / varianta. Okolní zástavba se nezapočítává.','scene-balance-note'));
+const summary=table(['Návrh / varianta','Zastavěná plocha¹ · m²','NP','Orientační podlažní plocha² · m²']);summary.id='sceneBalanceSummary';
+for(const s of last.scenarios){const tr=summary.tBodies[0].insertRow();tr.dataset.balanceScenario=s.id;const label=cell(tr,'');label.append(n('strong',s.project),n('span',s.label),n('small',s.date));cell(tr,fmt(s.area),s.area);cell(tr,s.floorRange);cell(tr,fmt(s.floorArea),s.floorArea);}
+content.append(summary);enhance(summary);
+content.append(n('p','¹ Součet digitalizovaných půdorysných částí modelu: pracovní odhad zastavěné plochy, nikoli ověřená výměra. Případné překryvy částí se nesjednocují. ² Půdorys × modelové NP: orientační plocha, nikoli ověřená HPP nebo prodejní plocha.','scene-balance-note'));
+for(const s of last.scenarios){const details=n('details',undefined,'scene-floor-breakdown');details.open=true;const head=n('summary',s.project+' · '+s.label);details.append(head);const t=table(['Podlažnost / doklad','Půdorys m²','Podlažní plocha m²','% plochy návrhu']);
+for(const g of s.rows){const tr=t.tBodies[0].insertRow();cell(tr,g.floors+' NP · '+(g.explicit?'doložené NP':'předpoklad'));cell(tr,fmt(g.area),g.area);cell(tr,fmt(g.floorArea),g.floorArea);cell(tr,pct(g.area,s.area),s.area?g.area/s.area:0);}
+const total=t.createTFoot().insertRow();total.append(n('th','Součet návrhu'));cell(total,fmt(s.area));cell(total,fmt(s.floorArea));cell(total,s.area?'100 %':'—');details.append(t);
+details.append(n('p','Podlažní plocha závislá na předpokladu NP: '+fmt(s.assumed)+' m² ('+pct(s.assumed,s.floorArea)+'). Doložené NP nepotvrzuje přesnost digitalizovaného půdorysu.','scene-balance-note'));
+if(s.missing)details.append(n('p',s.missing+' částí nemá platnou plochu nebo podlažnost; není započteno.','scene-balance-warning'));
+const link=n('button',s.sourceId+' / '+s.page+' · zdroj ↗','scene-balance-link');link.type='button';link.onclick=()=>DashboardUI.openSource(s.sourceId,s.page);const objects=n('button','Objekty a podrobné doklady ↗','scene-balance-link');objects.type='button';objects.onclick=()=>SceneBalanceData.details(s.id);details.append(link,objects);content.append(details);enhance(t);}
+content.append(n('p','Návrhy ani jejich varianty se mezi sebou nesčítají. Krytí ovlivňuje pouze vzhled; při 0 % se návrh v překryvném pohledu vynechá. Změny podlažnosti a volby „Zahrnout neznámá NP“ se promítají do výpočtu.','scene-balance-note'));
+}
+window.addEventListener('scenebalanceschange',render);window.addEventListener('workspaceview',e=>{if(e.detail==='scene'){render();SceneBalanceData.resize();}});
+window.SceneBalanceQA={show,inspect:()=>{const d=SceneBalanceData.read();return {...d,scenarios:d.scenarios.map(calculate),opened};}};show(opened);
+})();

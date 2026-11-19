@@ -1,0 +1,147 @@
+[
+  {
+    "source_layer": "s018_electric_proposal",
+    "cad_layer_id": "cad_s006_17",
+    "cad_layer": "A073_ELVED_L_NN_RZ",
+    "source_drawn_length_m": 1732.0869111005882,
+    "source_samples": 997,
+    "median_m": 343.7196141552526,
+    "p95_m": 459.33019293914776,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s018_electric_proposal",
+    "cad_layer_id": "cad_s006_18",
+    "cad_layer": "A073_ELVED_L_VN",
+    "source_drawn_length_m": 1732.0869111005882,
+    "source_samples": 997,
+    "median_m": 81.49075376294977,
+    "p95_m": 137.73160079302474,
+    "within_4m_fraction": 0.07021063189568706,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s018_electric_proposal",
+    "cad_layer_id": "cad_s006_19",
+    "cad_layer": "A073_ELVED_L_NN",
+    "source_drawn_length_m": 1732.0869111005882,
+    "source_samples": 997,
+    "median_m": 65.33726208445891,
+    "p95_m": 128.27866364157285,
+    "within_4m_fraction": 0.007021063189568706,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s018_electric_proposal",
+    "cad_layer_id": "cad_s006_20",
+    "cad_layer": "A073_ELVED_L",
+    "source_drawn_length_m": 1732.0869111005882,
+    "source_samples": 997,
+    "median_m": 598.2178193324713,
+    "p95_m": 731.5887679909478,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s018_electric_proposal",
+    "cad_layer_id": "cad_s006_21",
+    "cad_layer": "A073_ELVED_L_VVN",
+    "source_drawn_length_m": 1732.0869111005882,
+    "source_samples": 997,
+    "median_m": 263.10040833224315,
+    "p95_m": 473.29589117008226,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s016_gas_proposal",
+    "cad_layer_id": "cad_s006_23",
+    "cad_layer": "A075_PLYN_L_ST_RZ",
+    "source_drawn_length_m": 1125.4733268910547,
+    "source_samples": 641,
+    "median_m": 278.91475486355364,
+    "p95_m": 545.6206594258167,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s016_gas_proposal",
+    "cad_layer_id": "cad_s006_25",
+    "cad_layer": "A075_PLYN_L_ST",
+    "source_drawn_length_m": 1125.4733268910547,
+    "source_samples": 641,
+    "median_m": 60.54649499759139,
+    "p95_m": 124.05804854458822,
+    "within_4m_fraction": 0.0530421216848674,
+    "candidate_entities": [
+      {
+        "id": "S006:4B40",
+        "handle": "4B40",
+        "length_m": 7.18547126972786,
+        "share_within_4m": 1.0
+      },
+      {
+        "id": "S006:4BB1",
+        "handle": "4BB1",
+        "length_m": 7.169282884592172,
+        "share_within_4m": 1.0
+      }
+    ],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s016_gas_proposal",
+    "cad_layer_id": "cad_s006_26",
+    "cad_layer": "A075_PLYN_L_NT",
+    "source_drawn_length_m": 1125.4733268910547,
+    "source_samples": 641,
+    "median_m": 189.38504355814732,
+    "p95_m": 235.94456258887607,
+    "within_4m_fraction": 0.0093603744149766,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s016_gas_proposal",
+    "cad_layer_id": "cad_s006_27",
+    "cad_layer": "A075_PLYN_L_VT",
+    "source_drawn_length_m": 1125.4733268910547,
+    "source_samples": 641,
+    "median_m": 555.620546539559,
+    "p95_m": 840.9153193666149,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s016_gas_proposal",
+    "cad_layer_id": "cad_s006_29",
+    "cad_layer": "A075_PLYNKO_L",
+    "source_drawn_length_m": 1125.4733268910547,
+    "source_samples": 641,
+    "median_m": 230.6423174944487,
+    "p95_m": 413.5326305788191,
+    "within_4m_fraction": 0.0,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  },
+  {
+    "source_layer": "s018_lighting_proposal",
+    "cad_layer_id": "cad_s006_22",
+    "cad_layer": "A073_N_ELVEDVO_L",
+    "source_drawn_length_m": 2028.8626195708039,
+    "source_samples": 1268,
+    "median_m": 81.93666805255151,
+    "p95_m": 164.5311546314558,
+    "within_4m_fraction": 0.018138801261829655,
+    "candidate_entities": [],
+    "interpretation": "Kandidáti prostorové shody; 4 m je pracovní tolerance odvozená z přibližné registrace, nikoli přesnost sítí. Shoda sama nepotvrzuje identitu, převzatý návrh ani realizaci."
+  }
+]

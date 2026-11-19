@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:22BF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972658965808499,
+            50.51544029135091
+          ],
+          [
+            14.97266099598913,
+            50.51544009711999
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22BF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.146,
+        "cad_handle": "22BF",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97266099598913,
+            50.51544009711999
+          ],
+          [
+            14.972671611292819,
+            50.515489115863424
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C1",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.504,
+        "cad_handle": "22C1",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972671611292819,
+            50.515489115863424
+          ],
+          [
+            14.972669441293792,
+            50.51548929849759
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C2",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.155,
+        "cad_handle": "22C2",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972669441293792,
+            50.51548929849759
+          ],
+          [
+            14.972658965808499,
+            50.51544029135091
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C3",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.502,
+        "cad_handle": "22C3",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97273024191119,
+            50.5157641333492
+          ],
+          [
+            14.972732551739613,
+            50.515763962310864
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C4",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.165,
+        "cad_handle": "22C4",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C5",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972732551739613,
+            50.515763962310864
+          ],
+          [
+            14.972723087767951,
+            50.51571975318807
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C5",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 4.963,
+        "cad_handle": "22C5",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972723087767951,
+            50.51571975318807
+          ],
+          [
+            14.97272091775866,
+            50.515719935823164
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C6",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 0.155,
+        "cad_handle": "22C6",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:22C7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.97272091775866,
+            50.515719935823164
+          ],
+          [
+            14.97273024191119,
+            50.5157641333492
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A069_KANALOBJOST_L · 22C7",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A069_KANALOBJOST_L",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 4.961,
+        "cad_handle": "22C7",
+        "cad_layer": "A069_KANALOBJOST_L",
+        "cad_entity_type": "LINE"
+      }
+    }
+  ]
+}

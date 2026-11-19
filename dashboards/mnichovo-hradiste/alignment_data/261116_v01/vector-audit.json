@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-11-16T18:27:36.833074+01:00",
+  "layers": [
+    {
+      "id": "study_boundary",
+      "label": "Řešené území · P02",
+      "features": 1,
+      "status": "corrected",
+      "finding": "Dosavadní střed široké čáry P02 nesledoval parcely. Nahrazen explicitním sjednocením celých parcel; zdrojový obrys zachován.",
+      "source_fidelity_max_pixel_deviation": null,
+      "geometry_valid": true,
+      "source_overlay": "evidence/study_boundary-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "brief_parts",
+      "label": "Části A–D · zadání",
+      "features": 4,
+      "status": "source_faithful_schematic",
+      "finding": "Čtyři obrysy odpovídají ručním stopám bílých čar zdroje; nejsou parcelními zónami. Bez plošného přichytávání na katastr.",
+      "source_fidelity_max_pixel_deviation": 0.0009764849830623759,
+      "geometry_valid": true,
+      "source_overlay": "evidence/brief_parts-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "water_points",
+      "label": "Vodovod · souřadnicové body",
+      "features": 17,
+      "status": "source_coordinates_checked",
+      "finding": "17 bodů ověřeno proti číslům souřadnic v PDF a zpětnému převodu S-JTSK; bez posunu.",
+      "source_fidelity_max_pixel_deviation": null,
+      "geometry_valid": true,
+      "source_overlay": "evidence/water_points-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "water_route",
+      "label": "Vodovod · spojnice bodů",
+      "features": 1,
+      "status": "source_sequence_checked",
+      "finding": "Všech 17 vrcholů odpovídá zdrojovým bodům ve stejném pořadí; vedení se nepřichytává k parcelním hranicím.",
+      "source_fidelity_max_pixel_deviation": null,
+      "geometry_valid": true,
+      "source_overlay": "evidence/water_route-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "proposal_massing",
+      "label": "Návrh zástavby · S003 / 8",
+      "features": 96,
+      "status": "source_faithful_design",
+      "finding": "96 návrhových částí odpovídá stopám zdrojového výkresu. Registrace se opírá o existující okolní kresbu, nikoli návrhové domy.",
+      "source_fidelity_max_pixel_deviation": 2.283777672882127,
+      "geometry_valid": true,
+      "source_overlay": "evidence/proposal_massing-source.png",
+      "absolute_accuracy_m": null,
+      "source_fidelity_note": "M139 má původní zdokumentované odstranění odděleného rastrového fragmentu o 0,156 % plochy. Odchylka vůči surové stopě 2,284 px; po započtení této dřívější opravy je odchylka pod 0,02 px. Nejde o nový posun."
+    },
+    {
+      "id": "source_ownership",
+      "label": "Majetkové kategorie · S003 / 10",
+      "features": 21,
+      "status": "source_faithful_schematic",
+      "finding": "21 kontur odpovídá barevným kandidátům při opravené registraci. Tyto kontury zůstávají schematické a nemají nahrazovat parcelní vrstvu.",
+      "source_fidelity_max_pixel_deviation": 0.0019942406539405397,
+      "geometry_valid": true,
+      "source_overlay": "evidence/source_ownership-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "proposal_2021",
+      "label": "Varianta 2 · škola 2021 · S040 / 1",
+      "features": 79,
+      "status": "source_faithful_design",
+      "finding": "79 hmotových částí odpovídá vlastnímu zdroji a registraci varianty 2021. Samostatná varianta, nikoli posunutá kopie druhého návrhu.",
+      "source_fidelity_max_pixel_deviation": 0.0024529074132274655,
+      "geometry_valid": true,
+      "source_overlay": "evidence/proposal_2021-source.png",
+      "absolute_accuracy_m": null
+    },
+    {
+      "id": "parcel_ownership",
+      "label": "Vlastnictví dle zadání · parcely",
+      "features": 176,
+      "status": "native_geometry_exact",
+      "finding": "Všech 176 polygonů má shodné souřadnice s nativním exportem ČÚZK. Nejistota se týká přiřazené kategorie a zóny, nikoli přepsání parcelních obrysů.",
+      "source_fidelity_max_pixel_deviation": null,
+      "geometry_valid": true,
+      "source_overlay": "evidence/parcel_ownership-source.png",
+      "absolute_accuracy_m": null
+    }
+  ],
+  "total_original_features": 395,
+  "scope": "All 8 displayed vector datasets; full geometry validation, source fidelity and recorded registration review. Not independent geodetic surveying.",
+  "boundary_revision": "boundary-change.json",
+  "native_geometry_equal": true,
+  "gaps": [
+    "S005 native DWG is available but local ogrinfo execution was blocked by Application Control; parcel interpretation therefore remains a working scope, not a confirmation of the DWG boundary.",
+    "Manual zones, source contours and design outlines have source/thematic uncertainty.",
+    "No new independent survey control was acquired."
+  ],
+  "visual_review": {
+    "sources": [
+      "brief_parts-source.png",
+      "proposal_massing-source.png",
+      "proposal_2021-source.png",
+      "source_ownership-source.png",
+      "water_points-source.png"
+    ],
+    "browser": [
+      "boundary-north-browser.png",
+      "boundary-north-comparison.png"
+    ],
+    "reviewer": "Codex",
+    "human_review": null
+  }
+}

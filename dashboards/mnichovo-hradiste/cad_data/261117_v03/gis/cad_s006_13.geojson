@@ -1,0 +1,789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:22DF",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972773240081793,
+            50.51599660572492
+          ],
+          [
+            14.972766982600172,
+            50.51596943389985
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 22DF",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.055,
+        "cad_handle": "22DF",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 22DF",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2409",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96814510678728,
+            50.517136306935896
+          ],
+          [
+            14.968689870739528,
+            50.51688533580619
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 2409",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 47.667,
+        "cad_handle": "2409",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 2409",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2424",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.968689870739528,
+            50.51688533580619
+          ],
+          [
+            14.969234874086972,
+            50.516625498159065
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 2424",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 48.265,
+        "cad_handle": "2424",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 2424",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2429",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.969234874086972,
+            50.516625498159065
+          ],
+          [
+            14.969702374556704,
+            50.51640818260772
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 2429",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 41.033,
+        "cad_handle": "2429",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 2429",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2451",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965493399697872,
+            50.51554105969754
+          ],
+          [
+            14.965068405461697,
+            50.51576460765487
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 2451",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 39.076,
+        "cad_handle": "2451",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 2451",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2452",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965167409905408,
+            50.51571634658281
+          ],
+          [
+            14.965513167168549,
+            50.515981843123825
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 2452",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 38.387,
+        "cad_handle": "2452",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LINE",
+        "previous_name": "A070_KANAL_L_DEST · 2452",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35EA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972831905398541,
+            50.516198285332486
+          ],
+          [
+            14.972814977108339,
+            50.516200416846274
+          ],
+          [
+            14.972815891016271,
+            50.51620430019155
+          ],
+          [
+            14.97281755289321,
+            50.5162086988538
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 35EA",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 2.164,
+        "cad_handle": "35EA",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 35EA",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35EB",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972798867887665,
+            50.5161204821241
+          ],
+          [
+            14.972799934110236,
+            50.516125012693905
+          ],
+          [
+            14.972800920769146,
+            50.51612853945049
+          ],
+          [
+            14.972817442079293,
+            50.51612700877578
+          ],
+          [
+            14.972822969831252,
+            50.51615357613229
+          ],
+          [
+            14.972831905398541,
+            50.516198285332486
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 35EB",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 10.087,
+        "cad_handle": "35EB",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 35EB",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35F9",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972636718451716,
+            50.51539601910429
+          ],
+          [
+            14.97263545218831,
+            50.515392469151166
+          ],
+          [
+            14.972632527434419,
+            50.515390776063796
+          ],
+          [
+            14.972628126074559,
+            50.51539004836976
+          ],
+          [
+            14.972622710738527,
+            50.51539150296803
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 35F9",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 1.424,
+        "cad_handle": "35F9",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 35F9",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:35FD",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.972654387534757,
+            50.51550663432283
+          ],
+          [
+            14.97263846763843,
+            50.51541601782539
+          ],
+          [
+            14.972636718451716,
+            50.51539601910429
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 35FD",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.371,
+        "cad_handle": "35FD",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 35FD",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3821",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.969702374556704,
+            50.51640818260772
+          ],
+          [
+            14.969746663169154,
+            50.51639182211187
+          ],
+          [
+            14.969800633620256,
+            50.51637191337917
+          ],
+          [
+            14.96980777008648,
+            50.51637178022432
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 3821",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 8.559,
+        "cad_handle": "3821",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 3821",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:385C",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.967628973561174,
+            50.51450967092263
+          ],
+          [
+            14.967652858900713,
+            50.514529875159944
+          ],
+          [
+            14.967655200212002,
+            50.5145323358822
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 385C",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 3.135,
+        "cad_handle": "385C",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 385C",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:385D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965596961568309,
+            50.51550668452775
+          ],
+          [
+            14.965742317655288,
+            50.51563669454581
+          ],
+          [
+            14.965757142130228,
+            50.51564835059025
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Dešťová kanalizace · 385D",
+        "typology": "Kanalizace",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A070_KANAL_L_DEST",
+        "color": "#825337",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 19.43,
+        "cad_handle": "385D",
+        "cad_layer": "A070_KANAL_L_DEST",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A070_KANAL_L_DEST · 385D",
+        "display_label": "Dešťová kanalizace",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v03",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E04",
+          "E06",
+          "E09"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení.",
+          "Spárovat trasu BE DN400 z S080/S084 se S006. Odlišit původní funkci, provozní stav a budoucí dešťové využití; obě situace nepovažovat automaticky za rozpor ani za důkaz realizace."
+        ]
+      }
+    }
+  ]
+}

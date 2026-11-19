@@ -1,0 +1,516 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vodovod · souřadnicové body",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.970976331451038,
+          50.51236571917031
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P01",
+        "name": "Vodovod · bod 1",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 1,
+        "source_Y": 697721.16,
+        "source_X": 1001366.56,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.970336079821042,
+          50.51259236449535
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P02",
+        "name": "Vodovod · bod 2",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 2,
+        "source_Y": 697762.94,
+        "source_X": 1001335.7,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.966267351010247,
+          50.51432141665022
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P03",
+        "name": "Vodovod · bod 3",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 3,
+        "source_Y": 698024.29,
+        "source_X": 1001107.73,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965115090799976,
+          50.514894639204115
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P04",
+        "name": "Vodovod · bod 4",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 4,
+        "source_Y": 698097.1,
+        "source_X": 1001033.95,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965102143911112,
+          50.51496083204986
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P05",
+        "name": "Vodovod · bod 5",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 5,
+        "source_Y": 698097.06,
+        "source_X": 1001026.53,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.964790027976585,
+          50.515135728215235
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P06",
+        "name": "Vodovod · bod 6",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 6,
+        "source_Y": 698116.5,
+        "source_X": 1001004.38,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965163774956018,
+          50.515443076374034
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P07",
+        "name": "Vodovod · bod 7",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 7,
+        "source_Y": 698085.8,
+        "source_X": 1000973.9,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965157963358973,
+          50.51547432393697
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P08",
+        "name": "Vodovod · bod 8",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 8,
+        "source_Y": 698085.76,
+        "source_X": 1000970.4,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965541559467894,
+          50.515788471351016
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P09",
+        "name": "Vodovod · bod 9",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 9,
+        "source_Y": 698054.27,
+        "source_X": 1000939.26,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965638359153496,
+          50.51587147955831
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P10",
+        "name": "Vodovod · bod 10",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 10,
+        "source_Y": 698046.27,
+        "source_X": 1000930.99,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965642457630642,
+          50.51587508340235
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P11",
+        "name": "Vodovod · bod 11",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 11,
+        "source_Y": 698045.93,
+        "source_X": 1000930.63,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965930123637634,
+          50.51612496837831
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P12",
+        "name": "Vodovod · bod 12",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 12,
+        "source_Y": 698022.11,
+        "source_X": 1000905.7,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.965974848348438,
+          50.5161635835097
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P13",
+        "name": "Vodovod · bod 13",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 13,
+        "source_Y": 698018.41,
+        "source_X": 1000901.85,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.966038612211106,
+          50.516218283984855
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P14",
+        "name": "Vodovod · bod 14",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 14,
+        "source_Y": 698013.14,
+        "source_X": 1000896.4,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.966042814163098,
+          50.51622207771166
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P15",
+        "name": "Vodovod · bod 15",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 15,
+        "source_Y": 698012.79,
+        "source_X": 1000896.02,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.966458947879127,
+          50.516576090939424
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P16",
+        "name": "Vodovod · bod 16",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 16,
+        "source_Y": 697978.44,
+        "source_X": 1000860.78,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S062-P17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.966760516710293,
+          50.51683592066733
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S062-P17",
+        "name": "Vodovod · bod 17",
+        "source_id": "S062",
+        "source_page": 1,
+        "source_sha256": "3d4b415e4915dbba90f1a70b724efd64d5d5e049f471a9b9d368907472fe809e",
+        "source_pdf": "../../../sources/S062.pdf",
+        "source_markdown": "../../../documents/S062/261111_jihozapadni-mesto-s062-c4-souradnice_extraction_v01.md",
+        "method": "explicit printed S-JTSK coordinate transcription + pyproj EPSG5514 to WGS84",
+        "evidence_status": "EXPLICIT",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Přepis tabulky souřadnic, DSPS 11/2022. Neověřuje aktuální provoz ani kapacitu sítě.",
+        "point_number": 17,
+        "source_Y": 697953.5,
+        "source_X": 1000834.88,
+        "source_revision": "DSPS 11/2022",
+        "absolute_accuracy_m": null,
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:8C6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.965758554429263,
+              50.51601191163633
+            ],
+            [
+              14.965741595381054,
+              50.51599817463002
+            ],
+            [
+              14.96577629226998,
+              50.51598074742535
+            ],
+            [
+              14.965793251321868,
+              50.515994484426656
+            ],
+            [
+              14.965758554429263,
+              50.51601191163633
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8C6",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 6.092,
+        "cad_handle": "8C6",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8C6",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:8C8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.962366015967335,
+              50.516582631145695
+            ],
+            [
+              14.962390211361111,
+              50.51656859374739
+            ],
+            [
+              14.962439490976713,
+              50.51660160523279
+            ],
+            [
+              14.962416730169355,
+              50.51661558044151
+            ],
+            [
+              14.962366015967335,
+              50.516582631145695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8C8",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 11.633,
+        "cad_handle": "8C8",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8C8",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:8CA",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.959655828905177,
+              50.520327204573846
+            ],
+            [
+              14.959784425680999,
+              50.52033045028919
+            ],
+            [
+              14.959781824784482,
+              50.5204030325033
+            ],
+            [
+              14.959651294877442,
+              50.52040089546863
+            ],
+            [
+              14.959655828905177,
+              50.520327204573846
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8CA",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 74.827,
+        "cad_handle": "8CA",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8CA",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:8CF",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.968023945160693,
+              50.517879608733345
+            ],
+            [
+              14.968087408906358,
+              50.51784942825141
+            ],
+            [
+              14.968137360157154,
+              50.51789101432488
+            ],
+            [
+              14.968101683996112,
+              50.517908360999336
+            ],
+            [
+              14.968097792011763,
+              50.51790513703551
+            ],
+            [
+              14.968070612527047,
+              50.51791847461314
+            ],
+            [
+              14.968023945160693,
+              50.517879608733345
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8CF",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 31.797,
+        "cad_handle": "8CF",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8CF",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:8D0",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.972174289680881,
+              50.51532937740649
+            ],
+            [
+              14.972217099608638,
+              50.51532513202871
+            ],
+            [
+              14.972221771162499,
+              50.51534265350003
+            ],
+            [
+              14.972179484104178,
+              50.51534712356416
+            ],
+            [
+              14.972174289680881,
+              50.51532937740649
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8D0",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 6.089,
+        "cad_handle": "8D0",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8D0",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:8D1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.962458379027398,
+              50.51664279084595
+            ],
+            [
+              14.96173016468011,
+              50.51708583668973
+            ],
+            [
+              14.961216411510884,
+              50.516735120627004
+            ],
+            [
+              14.961939856601083,
+              50.51630219821673
+            ],
+            [
+              14.962458379027398,
+              50.51664279084595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Elektrické stanice · plochy · 8D1",
+        "typology": "Elektro",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A072_ELSTAN_P",
+        "color": "#c73a3c",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_area_m2": 3762.741,
+        "cad_handle": "8D1",
+        "cad_layer": "A072_ELSTAN_P",
+        "cad_entity_type": "HATCH",
+        "previous_name": "A072_ELSTAN_P · 8D1",
+        "display_label": "Elektrické stanice · plochy",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E03",
+          "E05"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    }
+  ]
+}

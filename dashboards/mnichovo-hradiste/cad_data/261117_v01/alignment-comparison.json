@@ -1,0 +1,72 @@
+{
+  "source_units_header": 4,
+  "source_units": "millimetres",
+  "unit_factor_to_m": 0.001,
+  "source_measurement_header": 0,
+  "measurement_note": "INSUNITS and reference match support mm; MEASUREMENT is a drawing preference, not overridden unit evidence.",
+  "crs": "EPSG:5514",
+  "transform": "scale 0.001, then EPSG:5514 to EPSG:4326; no fit/translation/snap",
+  "absolute_accuracy_m": null,
+  "parcel_reference": {
+    "path": "../../ownership_data/261116_v01/parcels.geojson",
+    "sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+    "snapshot_date": "2026-11-16",
+    "reused_at": "2026-11-17",
+    "count": 1814,
+    "freshness": "One-day-old local authoritative snapshot reused; no claim of live current geometry. Live WMS checked in browser separately.",
+    "metadata": "../../ownership_data/261116_v01/map-job.json"
+  },
+  "cad_parcel_control": {
+    "samples": 8387,
+    "median_m": 0.0,
+    "p95_m": 5.283133999531589e-11,
+    "max_m": 0.17387962011075647,
+    "within_005m": 0.9998807678550137,
+    "within_1m": 1.0
+  },
+  "boundary_to_parcels": {
+    "samples": 1443,
+    "median_m": 0.0014325432455539683,
+    "p95_m": 0.15999111304403077,
+    "max_m": 5.932290100703664,
+    "within_005m": 0.8232848232848233,
+    "within_1m": 0.988911988911989
+  },
+  "S005_vs_S006": {
+    "area_a_m2": 209489.96858974357,
+    "area_b_m2": 209489.96858974357,
+    "area_delta_m2": 0.0,
+    "symmetric_difference_m2": 0.0,
+    "intersection_over_union": 1.0,
+    "boundary_hausdorff_m": 0.0
+  },
+  "CAD_vs_raster": {
+    "area_a_m2": 209489.96858974357,
+    "area_b_m2": 209818.33392977642,
+    "area_delta_m2": -328.3653400328476,
+    "symmetric_difference_m2": 8309.279525723323,
+    "intersection_over_union": 0.9611368667958822,
+    "boundary_hausdorff_m": 15.080626456705774
+  },
+  "CAD_vs_parcel_interpretation": {
+    "area_a_m2": 209489.96858974357,
+    "area_b_m2": 208978.58017141244,
+    "area_delta_m2": 511.3884183311311,
+    "symmetric_difference_m2": 2411.5470065869936,
+    "intersection_over_union": 0.9885404559120914,
+    "boundary_hausdorff_m": 29.03781060036632
+  },
+  "boundary_source_handles": [
+    "FFB0",
+    "FFB2",
+    "FFB3",
+    "FFB4",
+    "FFB5",
+    "FFB6",
+    "FFB7",
+    "FFB8",
+    "FFB9",
+    "FFBA",
+    "FFBB"
+  ]
+}

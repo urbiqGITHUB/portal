@@ -1,0 +1,246 @@
+{
+  "source_id": "S041",
+  "source_sha256": "d9ecaa94f5f6d56cff181afd7b9d6544c296b33bf6dc01a4492a41b8636aede9",
+  "page": 4,
+  "source_space": "PDF points, top-left, x right, y down; rotation 0",
+  "target_crs": "EPSG:5514",
+  "matrix": [
+    [
+      0.17635439978031522,
+      1.5558426866846276e-05,
+      -697806.3844525568
+    ],
+    [
+      6.188800742606839e-06,
+      -0.17637135906306867,
+      -1000992.6783823018
+    ]
+  ],
+  "controls": [
+    {
+      "id": "S041-GCP-01",
+      "role": "fit",
+      "pdf_point": [
+        353.0006408691406,
+        507.4792175292969
+      ],
+      "target_epsg5514": [
+        -697744.1195984205,
+        -1001082.1787364347
+      ],
+      "source_locator": "PDF str. 4 / cesta 477, segment 0, konec 1",
+      "reference_parcel": "1992/213",
+      "reference_vertex": 0,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.004372135968367997
+    },
+    {
+      "id": "S041-GCP-02",
+      "role": "check",
+      "pdf_point": [
+        42.44063949584961,
+        241.79827880859375
+      ],
+      "target_epsg5514": [
+        -697798.8895985369,
+        -1001035.3187363282
+      ],
+      "source_locator": "PDF str. 4 / cesta 477, segment 0, konec 2",
+      "reference_parcel": "1992/213",
+      "reference_vertex": 1,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.008627233751159554
+    },
+    {
+      "id": "S041-GCP-03",
+      "role": "fit",
+      "pdf_point": [
+        795.6815795898438,
+        616.3192138671875
+      ],
+      "target_epsg5514": [
+        -697666.0495982602,
+        -1001101.3687364797
+      ],
+      "source_locator": "PDF str. 4 / cesta 476, segment 0, konec 1",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 0,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.006663647922982281
+    },
+    {
+      "id": "S041-GCP-04",
+      "role": "check",
+      "pdf_point": [
+        630.5615844726562,
+        507.71923828125
+      ],
+      "target_epsg5514": [
+        -697695.1695983195,
+        -1001082.2187364382
+      ],
+      "source_locator": "PDF str. 4 / cesta 476, segment 0, konec 2",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 18,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.005463170758039805
+    },
+    {
+      "id": "S041-GCP-05",
+      "role": "fit",
+      "pdf_point": [
+        362.0006408691406,
+        303.8382568359375
+      ],
+      "target_epsg5514": [
+        -697742.5395984206,
+        -1001046.2687363554
+      ],
+      "source_locator": "PDF str. 4 / cesta 476, segment 1, konec 2",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 17,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.00423729512260837
+    },
+    {
+      "id": "S041-GCP-06",
+      "role": "fit",
+      "pdf_point": [
+        117.68063354492188,
+        85.91827392578125
+      ],
+      "target_epsg5514": [
+        -697785.6295985136,
+        -1001007.8287362731
+      ],
+      "source_locator": "PDF str. 4 / cesta 476, segment 2, konec 2",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 16,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.0024405476432371423
+    },
+    {
+      "id": "S041-GCP-07",
+      "role": "fit",
+      "pdf_point": [
+        574.881591796875,
+        568.67919921875
+      ],
+      "target_epsg5514": [
+        -697704.9995983395,
+        -1001092.9787364523
+      ],
+      "source_locator": "PDF str. 4 / cesta 480, segment 0, konec 1",
+      "reference_parcel": "1992/214",
+      "reference_vertex": 0,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.00862654153677491
+    },
+    {
+      "id": "S041-GCP-08",
+      "role": "check",
+      "pdf_point": [
+        327.3206481933594,
+        378.959228515625
+      ],
+      "target_epsg5514": [
+        -697748.6595984314,
+        -1001059.5187363809
+      ],
+      "source_locator": "PDF str. 4 / cesta 480, segment 0, konec 2",
+      "reference_parcel": "1992/214",
+      "reference_vertex": 1,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.007300610086816904
+    },
+    {
+      "id": "S041-GCP-09",
+      "role": "check",
+      "pdf_point": [
+        62.96063995361328,
+        143.39825439453125
+      ],
+      "target_epsg5514": [
+        -697795.2795985299,
+        -1001017.9787362989
+      ],
+      "source_locator": "PDF str. 4 / cesta 480, segment 1, konec 2",
+      "reference_parcel": "1992/214",
+      "reference_vertex": 2,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.009429544463253286
+    },
+    {
+      "id": "S041-GCP-10",
+      "role": "fit",
+      "pdf_point": [
+        1100.4815673828125,
+        642.5992431640625
+      ],
+      "target_epsg5514": [
+        -697612.2995981508,
+        -1001106.0087364881
+      ],
+      "source_locator": "PDF str. 4 / cesta 478, segment 0, konec 1",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 3,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.0010668250995153775
+    },
+    {
+      "id": "S041-GCP-11",
+      "role": "check",
+      "pdf_point": [
+        1015.0415649414062,
+        592.5592041015625
+      ],
+      "target_epsg5514": [
+        -697627.3595981817,
+        -1001097.1887364651
+      ],
+      "source_locator": "PDF str. 4 / cesta 478, segment 0, konec 2",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 4,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.010571998179857925
+    },
+    {
+      "id": "S041-GCP-12",
+      "role": "check",
+      "pdf_point": [
+        867.5615844726562,
+        496.3192443847656
+      ],
+      "target_epsg5514": [
+        -697653.3695982386,
+        -1001080.2187364369
+      ],
+      "source_locator": "PDF str. 4 / cesta 478, segment 1, konec 2",
+      "reference_parcel": "1992/79",
+      "reference_vertex": 5,
+      "visual_review": "Correspondence checked on labelled source cadastral line extraction and native parcel outline.",
+      "residual_m": 0.012768794860982645
+    }
+  ],
+  "fit": {
+    "n": 6,
+    "rmse_m": 0.005211942280331026,
+    "median_m": 0.004304715545488183,
+    "p95_m": 0.008135818133326754,
+    "max_m": 0.00862654153677491
+  },
+  "check": {
+    "n": 6,
+    "rmse_m": 0.009321121901981786,
+    "median_m": 0.00902838910720642,
+    "p95_m": 0.012219595690701465,
+    "max_m": 0.012768794860982645
+  },
+  "reference": "ownership_data/261116_v01/parcels.geojson",
+  "reference_sha256": "5a94b45805d9cbcab28d1c62356eaad7d4021de4db7de43e057f29a88f157ca8",
+  "reference_snapshot": "2026-11-16",
+  "freshness": "Reused two-day-old reference for historical study registration; current legal parcel state not asserted.",
+  "check_independence": "Named parcel vertices held out before affine fit, same cadastral digital lineage; not independent surveying.",
+  "absolute_accuracy_m": null,
+  "status": "provisional_until_source_overlay_review"
+}

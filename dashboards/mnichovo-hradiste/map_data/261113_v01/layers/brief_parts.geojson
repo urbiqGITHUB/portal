@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "name": "Části A–D · zadání",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "JZM-S003-PART-A",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.961442154378915,
+              50.521825939136725
+            ],
+            [
+              14.961696125852418,
+              50.51879115218812
+            ],
+            [
+              14.960956397733467,
+              50.51824921713097
+            ],
+            [
+              14.962138400497947,
+              50.517669577349565
+            ],
+            [
+              14.965557841549877,
+              50.520232778813785
+            ],
+            [
+              14.96496600635171,
+              50.52047942182967
+            ],
+            [
+              14.964530392793414,
+              50.520529546436535
+            ],
+            [
+              14.963967480307518,
+              50.52072929619494
+            ],
+            [
+              14.963468209234641,
+              50.52099593242986
+            ],
+            [
+              14.9640600491853,
+              50.5213161058371
+            ],
+            [
+              14.963611197203972,
+              50.52152531517497
+            ],
+            [
+              14.963120186856923,
+              50.521657094295406
+            ],
+            [
+              14.96219189735529,
+              50.5217525966733
+            ],
+            [
+              14.961442154378915,
+              50.521825939136725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S003-PART-A",
+        "name": "A · Salabka",
+        "source_id": "S003",
+        "source_page": 6,
+        "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+        "source_pdf": "../../../sources/S003.pdf",
+        "source_markdown": "../../../documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+        "method": "manual schematic white-border trace + checked chained affine registration",
+        "evidence_status": "PROPOSED",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Orientační obrys ze schématu zadání. Výměra a podíl města jsou přepisem popisku zdroje; aktuální vlastnictví nebylo ověřeno.",
+        "registration_id": "REG-S003",
+        "part": "A",
+        "source_area_ha": 8.2,
+        "source_city_share_percent": 56,
+        "derived_area_m2": 76518,
+        "ownership_as_of": "Podle dodaného zadání; platnost k dnešnímu dni neověřena.",
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S003-PART-B",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.96237231734798,
+              50.5175657641932
+            ],
+            [
+              14.962831058237876,
+              50.51730809441678
+            ],
+            [
+              14.963270784009572,
+              50.51704884581208
+            ],
+            [
+              14.9637105050067,
+              50.51678959555197
+            ],
+            [
+              14.964166751467417,
+              50.51654403679508
+            ],
+            [
+              14.96476598097935,
+              50.516261048730726
+            ],
+            [
+              14.965414794588195,
+              50.51601913656585
+            ],
+            [
+              14.967026561659491,
+              50.51749589335492
+            ],
+            [
+              14.964066703409298,
+              50.51882762315719
+            ],
+            [
+              14.96237231734798,
+              50.5175657641932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S003-PART-B",
+        "name": "B · V Cestkách",
+        "source_id": "S003",
+        "source_page": 6,
+        "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+        "source_pdf": "../../../sources/S003.pdf",
+        "source_markdown": "../../../documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+        "method": "manual schematic white-border trace + checked chained affine registration",
+        "evidence_status": "PROPOSED",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Orientační obrys ze schématu zadání. Výměra a podíl města jsou přepisem popisku zdroje; aktuální vlastnictví nebylo ověřeno.",
+        "registration_id": "REG-S003",
+        "part": "B",
+        "source_area_ha": 6,
+        "source_city_share_percent": 100,
+        "derived_area_m2": 52713,
+        "ownership_as_of": "Podle dodaného zadání; platnost k dnešnímu dni neověřena.",
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S003-PART-C",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.9656462168709,
+              50.5159274331761
+            ],
+            [
+              14.96611649641115,
+              50.51570767608438
+            ],
+            [
+              14.9666603311612,
+              50.51550633939198
+            ],
+            [
+              14.967177714946578,
+              50.51533977279846
+            ],
+            [
+              14.967706668320943,
+              50.51521112929162
+            ],
+            [
+              14.968030651312874,
+              50.51513941909371
+            ],
+            [
+              14.96831827342904,
+              50.515150946327616
+            ],
+            [
+              14.968562100439263,
+              50.5152820603541
+            ],
+            [
+              14.968815024421014,
+              50.51546321548303
+            ],
+            [
+              14.969086960113303,
+              50.51564594614209
+            ],
+            [
+              14.969354758401149,
+              50.51575440182461
+            ],
+            [
+              14.969599408138734,
+              50.51578700656554
+            ],
+            [
+              14.969894469282778,
+              50.51576218077033
+            ],
+            [
+              14.968660535276092,
+              50.51631293733983
+            ],
+            [
+              14.967357147319763,
+              50.51691953351764
+            ],
+            [
+              14.967545607740195,
+              50.51713231113615
+            ],
+            [
+              14.967268725596659,
+              50.51725721447153
+            ],
+            [
+              14.9656462168709,
+              50.5159274331761
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S003-PART-C",
+        "name": "C · K Vořechu",
+        "source_id": "S003",
+        "source_page": 6,
+        "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+        "source_pdf": "../../../sources/S003.pdf",
+        "source_markdown": "../../../documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+        "method": "manual schematic white-border trace + checked chained affine registration",
+        "evidence_status": "PROPOSED",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Orientační obrys ze schématu zadání. Výměra a podíl města jsou přepisem popisku zdroje; aktuální vlastnictví nebylo ověřeno.",
+        "registration_id": "REG-S003",
+        "part": "C",
+        "source_area_ha": 3.7,
+        "source_city_share_percent": 0,
+        "derived_area_m2": 32474,
+        "ownership_as_of": "Podle dodaného zadání; platnost k dnešnímu dni neověřena.",
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "JZM-S003-PART-D",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.969283649826,
+              50.51544045994227
+            ],
+            [
+              14.969213385400936,
+              50.51531141581746
+            ],
+            [
+              14.969248082991257,
+              50.5151417864956
+            ],
+            [
+              14.969320799401792,
+              50.51497530926841
+            ],
+            [
+              14.969535677889136,
+              50.514869905783776
+            ],
+            [
+              14.969911727818905,
+              50.514827151229646
+            ],
+            [
+              14.97036629311402,
+              50.514778582636225
+            ],
+            [
+              14.970934914387822,
+              50.514739467102444
+            ],
+            [
+              14.971522544202687,
+              50.51470192451944
+            ],
+            [
+              14.972048189274254,
+              50.51468388505591
+            ],
+            [
+              14.971839938160693,
+              50.51485145094368
+            ],
+            [
+              14.971568036083003,
+              50.51495213156877
+            ],
+            [
+              14.97122752801316,
+              50.51501015933792
+            ],
+            [
+              14.970846521892444,
+              50.51507715092806
+            ],
+            [
+              14.970553128709522,
+              50.51518836981125
+            ],
+            [
+              14.970292797274798,
+              50.515326972561695
+            ],
+            [
+              14.969977913304787,
+              50.515448730510144
+            ],
+            [
+              14.969710960467738,
+              50.515525174050275
+            ],
+            [
+              14.969480365042884,
+              50.515518378330924
+            ],
+            [
+              14.969283649826,
+              50.51544045994227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_id": "JZM-S003-PART-D",
+        "name": "D · V Nájezdu",
+        "source_id": "S003",
+        "source_page": 6,
+        "source_sha256": "35a90ce76ee9fae0bc98acd4ace2d1906f6a4fc043d2ad7d34dd693302aef501",
+        "source_pdf": "../../../sources/S003.pdf",
+        "source_markdown": "../../../documents/S003/261111_jihozapadni-mesto-s003-2601014-zadani_extraction_v01.md",
+        "method": "manual schematic white-border trace + checked chained affine registration",
+        "evidence_status": "PROPOSED",
+        "review_state": "machine_checked_visual_review; human_review_pending",
+        "note": "Orientační obrys ze schématu zadání. Výměra a podíl města jsou přepisem popisku zdroje; aktuální vlastnictví nebylo ověřeno.",
+        "registration_id": "REG-S003",
+        "part": "D",
+        "source_area_ha": 1,
+        "source_city_share_percent": 0,
+        "derived_area_m2": 9057,
+        "ownership_as_of": "Podle dodaného zadání; platnost k dnešnímu dni neověřena.",
+        "source_path_base": "original layer file directory under map_data/261113_v01/layers; preserve bundle paths"
+      }
+    }
+  ]
+}

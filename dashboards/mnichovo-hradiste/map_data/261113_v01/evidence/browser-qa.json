@@ -1,0 +1,276 @@
+{
+  "createdAt": "2026-11-13T08:59:38.567Z",
+  "checks": [
+    {
+      "name": "file:// live ČÚZK tile images decoded",
+      "pass": true,
+      "details": [
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11039/17746",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11038/17746",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11039/17745",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11039/17747",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11040/17746",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11038/17745",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11038/17747",
+          "complete": false,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11040/17745",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11040/17747",
+          "complete": true,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11039/17744",
+          "complete": true,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11039/17748",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11038/17744",
+          "complete": false,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11038/17748",
+          "complete": true,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11040/17744",
+          "complete": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "https://ags.cuzk.cz/arcgis1/rest/services/ORTOFOTO_WM/MapServer/tile/15/11040/17748",
+          "complete": true,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "4 local layers / 23 features / offline raster loaded",
+      "pass": true,
+      "details": {
+        "initialized": true,
+        "selected": [
+          "study_boundary",
+          "brief_parts",
+          "water_points",
+          "water_route"
+        ],
+        "featureCount": 23,
+        "loaded": 4,
+        "failed": 0,
+        "source": null,
+        "center": {
+          "lat": 50.51717034601284,
+          "lng": 14.966574555088593
+        },
+        "zoom": 15,
+        "vectorFeatures": 23,
+        "basemapOpacity": 1,
+        "sourceImageLoaded": false,
+        "fallbackLoaded": true
+      }
+    },
+    {
+      "name": "Basemap stacking: fallback below live tiles, source above tiles",
+      "pass": true
+    },
+    {
+      "name": "Water point symbols are solid",
+      "pass": true
+    },
+    {
+      "name": "Desktop map fits viewport",
+      "pass": true,
+      "details": {
+        "width": 1118,
+        "height": 688.90625,
+        "bottom": 919,
+        "screenHeight": 1000,
+        "bodyOverflow": false
+      }
+    },
+    {
+      "name": "Zoom control changes zoom",
+      "pass": true
+    },
+    {
+      "name": "Keyboard pan changes center",
+      "pass": true
+    },
+    {
+      "name": "Layer toggle study_boundary",
+      "pass": true
+    },
+    {
+      "name": "Layer toggle brief_parts",
+      "pass": true
+    },
+    {
+      "name": "Layer toggle water_points",
+      "pass": true
+    },
+    {
+      "name": "Layer toggle water_route",
+      "pass": true
+    },
+    {
+      "name": "All-off state explicit / export disabled",
+      "pass": true
+    },
+    {
+      "name": "Download GeoJSON includes 23 unique sourced features",
+      "pass": true
+    },
+    {
+      "name": "Basemap opacity control",
+      "pass": true
+    },
+    {
+      "name": "Georeferenced source raster S004_ortho_source",
+      "pass": true
+    },
+    {
+      "name": "Georeferenced source raster S003_parts_source",
+      "pass": true
+    },
+    {
+      "name": "Georeferenced source raster S062_water_source",
+      "pass": true
+    },
+    {
+      "name": "Map source opens S003 page 6 PDF beside text",
+      "pass": true
+    },
+    {
+      "name": "Feature popup preserves source area / ownership qualifiers",
+      "pass": true
+    },
+    {
+      "name": "Popup source navigation",
+      "pass": true
+    },
+    {
+      "name": "Coverage lists all 93 sources",
+      "pass": true
+    },
+    {
+      "name": "Unresolved US7 registration disclosed",
+      "pass": true
+    },
+    {
+      "name": "Image library retained",
+      "pass": true
+    },
+    {
+      "name": "Research source cards retained",
+      "pass": true
+    },
+    {
+      "name": "Offer view retained",
+      "pass": true
+    },
+    {
+      "name": "Mobile map visible without horizontal overflow",
+      "pass": true,
+      "details": {
+        "width": 372,
+        "height": 586,
+        "bottom": 775,
+        "screenHeight": 844,
+        "bodyOverflow": false
+      }
+    },
+    {
+      "name": "Mobile control panel accessible",
+      "pass": true
+    },
+    {
+      "name": "Mobile feature popup hides panel",
+      "pass": true
+    },
+    {
+      "name": "Offline fallback and explicit status",
+      "pass": true
+    },
+    {
+      "name": "Live basemap can be disabled",
+      "pass": true
+    },
+    {
+      "name": "Local HTTP map and assets",
+      "pass": true
+    },
+    {
+      "name": "Remote requests limited to ČÚZK",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "remoteOrigins": [
+    "https://ags.cuzk.cz"
+  ],
+  "screenshots": [
+    "map-desktop.png",
+    "source-S004_ortho_source.png",
+    "source-S003_parts_source.png",
+    "source-S062_water_source.png",
+    "map-to-document.png",
+    "map-mobile.png",
+    "map-mobile-controls.png",
+    "map-offline.png"
+  ],
+  "passed": true
+}

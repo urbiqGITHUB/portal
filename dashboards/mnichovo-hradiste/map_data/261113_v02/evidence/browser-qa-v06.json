@@ -1,0 +1,249 @@
+{
+  "time": "2026-11-13T12:50:00.199Z",
+  "checks": [
+    {
+      "name": "Default 93 document table retained",
+      "pass": true
+    },
+    {
+      "name": "No external request before map/3D",
+      "pass": true
+    },
+    {
+      "name": "Every current table column has filter and sort",
+      "pass": true
+    },
+    {
+      "name": "Document header filter changes data and CSV",
+      "pass": true
+    },
+    {
+      "name": "Combined per-column filters",
+      "pass": true
+    },
+    {
+      "name": "Reset clears header filters",
+      "pass": true
+    },
+    {
+      "name": "Five mapped source panels listed",
+      "pass": true
+    },
+    {
+      "name": "Map inventory header filter",
+      "pass": true
+    },
+    {
+      "name": "Image library includes recovered legends",
+      "pass": true
+    },
+    {
+      "name": "Playground product images excluded by default",
+      "pass": true
+    },
+    {
+      "name": "Folder tree and document buttons populated",
+      "pass": true
+    },
+    {
+      "name": "Low relevance filter includes playgrounds",
+      "pass": true
+    },
+    {
+      "name": "Source document filter lists 15 playground assets",
+      "pass": true
+    },
+    {
+      "name": "Relevance can be overridden",
+      "pass": true
+    },
+    {
+      "name": "Relevance export contains original folder and human choice",
+      "pass": true
+    },
+    {
+      "name": "Relevance persists on reload",
+      "pass": true
+    },
+    {
+      "name": "Image table column filter by source",
+      "pass": true
+    },
+    {
+      "name": "Image table numeric ascending sort",
+      "pass": true
+    },
+    {
+      "name": "Image table numeric descending sort",
+      "pass": true
+    },
+    {
+      "name": "Image table combines document and page filters",
+      "pass": true
+    },
+    {
+      "name": "Image library map shows verified sheets only",
+      "pass": true
+    },
+    {
+      "name": "Unlocated playgrounds not given fake coordinates",
+      "pass": true
+    },
+    {
+      "name": "Ownership source and 21 features in map",
+      "pass": true
+    },
+    {
+      "name": "13 source ownership legend classes",
+      "pass": true
+    },
+    {
+      "name": "Proposal geometry and version isolated",
+      "pass": true
+    },
+    {
+      "name": "96 massing parts with explicit and unknown source floors",
+      "pass": true
+    },
+    {
+      "name": "Reader opens source page 8",
+      "pass": true
+    },
+    {
+      "name": "Live 3D ready with 96 extrusions and ČÚZK DMR 5G",
+      "pass": true,
+      "details": {
+        "ready": true,
+        "count": 96,
+        "terrain": true
+      }
+    },
+    {
+      "name": "Model footprint projects inside 3D viewport",
+      "pass": true,
+      "details": {
+        "screen": {
+          "x": 669.7833863854798,
+          "y": 489.2188229130306
+        },
+        "width": 1228,
+        "height": 733,
+        "center": {
+          "spatialReference": {
+            "wkid": 4326
+          },
+          "x": 14.966957198855589,
+          "y": 50.51742355052029
+        }
+      }
+    },
+    {
+      "name": "3D heights update from explicit parameter",
+      "pass": true
+    },
+    {
+      "name": "Unknown floor masses can be excluded",
+      "pass": true
+    },
+    {
+      "name": "3D GeoJSON export preserves original facts and assumptions",
+      "pass": true
+    },
+    {
+      "name": "Missing NP remain null in source after model edits",
+      "pass": true
+    },
+    {
+      "name": "3D links back to exact 2D source",
+      "pass": true
+    },
+    {
+      "name": "Research preserved",
+      "pass": true
+    },
+    {
+      "name": "Offer preserved",
+      "pass": true
+    },
+    {
+      "name": "Mobile library avoids page overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile table scroll stays inside panel",
+      "pass": true
+    },
+    {
+      "name": "Mobile 3D has usable viewport without page overflow",
+      "pass": true
+    },
+    {
+      "name": "Blocked 3D resources show explicit 2D fallback",
+      "pass": true
+    },
+    {
+      "name": "Local 2D source remains usable when network is blocked",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "screenshots": [
+    "library-cards-desktop.png",
+    "library-table-filtered.png",
+    "library-geographic-map.png",
+    "ownership-legend-map.png",
+    "proposal-source-map.png",
+    "live-3d-desktop.png",
+    "library-mobile.png",
+    "library-mobile-table.png",
+    "live-3d-mobile.png"
+  ],
+  "origins": [
+    "https://ags.cuzk.cz",
+    "https://js.arcgis.com",
+    "https://ags.cuzk.gov.cz"
+  ],
+  "scene": {
+    "ready": true,
+    "loading": false,
+    "featureCount": 96,
+    "terrainLoaded": true,
+    "terrainURL": "https://ags.cuzk.gov.cz/arcgis/rest/services/3D/dmr5g_wm/ImageServer",
+    "options": {
+      "floorHeight": 3.2,
+      "unknownFloors": 2,
+      "includeUnknown": true
+    },
+    "camera": {
+      "position": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "x": 1667287.6143849182,
+        "y": 6534077.732702985,
+        "z": 2183.3095398780697
+      },
+      "heading": 330.0000000000061,
+      "tilt": 58.00000000000407
+    },
+    "updating": false
+  },
+  "projection": {
+    "screen": {
+      "x": 669.7833863854798,
+      "y": 489.2188229130306
+    },
+    "width": 1228,
+    "height": 733,
+    "center": {
+      "spatialReference": {
+        "wkid": 4326
+      },
+      "x": 14.966957198855589,
+      "y": 50.51742355052029
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:2928",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96961600446088,
+            50.516506721859486
+          ],
+          [
+            14.969568447513042,
+            50.51646315928051
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A075_PLYN_L_ST_RZ · 2928",
+        "typology": "Plyn",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A075_PLYN_L_ST_RZ",
+        "color": "#a77b00",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 5.904,
+        "cad_handle": "2928",
+        "cad_layer": "A075_PLYN_L_ST_RZ",
+        "cad_entity_type": "LINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:292B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.968291605951576,
+            50.51422234138024
+          ],
+          [
+            14.96614365562905,
+            50.51245014276415
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "A075_PLYN_L_ST_RZ · 292B",
+        "typology": "Plyn",
+        "feature_role": "Vedení",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A075_PLYN_L_ST_RZ",
+        "color": "#a77b00",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 249.142,
+        "cad_handle": "292B",
+        "cad_layer": "A075_PLYN_L_ST_RZ",
+        "cad_entity_type": "LINE"
+      }
+    }
+  ]
+}

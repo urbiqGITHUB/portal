@@ -1,0 +1,2997 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S006:2FD5",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966317249261733,
+            50.52059348080933
+          ],
+          [
+            14.966373181193841,
+            50.52059812258899
+          ],
+          [
+            14.96638046201446,
+            50.52056246413636
+          ],
+          [
+            14.966324530123432,
+            50.520557822359976
+          ],
+          [
+            14.966317249261733,
+            50.52059348080933
+          ],
+          [
+            14.966352496067621,
+            50.52056014325151
+          ],
+          [
+            14.966373181193841,
+            50.52059812258899
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FD5",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FD5",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FD5",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FD6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966373181193841,
+            50.52059812258899
+          ],
+          [
+            14.966352496067621,
+            50.52056014325151
+          ],
+          [
+            14.966317249261733,
+            50.52059348080933
+          ],
+          [
+            14.966373181193841,
+            50.52059812258899
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FD6",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FD6",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FD6",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FD9",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966082462419898,
+            50.519257840423684
+          ],
+          [
+            14.966138392765155,
+            50.51926248232227
+          ],
+          [
+            14.96614567356516,
+            50.519226823866674
+          ],
+          [
+            14.966089743260996,
+            50.519222181971415
+          ],
+          [
+            14.966082462419898,
+            50.519257840423684
+          ],
+          [
+            14.966117708411737,
+            50.51922450292234
+          ],
+          [
+            14.966138392765155,
+            50.51926248232227
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FD9",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FD9",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FD9",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FDA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966138392765155,
+            50.51926248232227
+          ],
+          [
+            14.966117708411737,
+            50.51922450292234
+          ],
+          [
+            14.966082462419898,
+            50.519257840423684
+          ],
+          [
+            14.966138392765155,
+            50.51926248232227
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FDA",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FDA",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FDA",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FDB",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965391639086706,
+            50.52170852627322
+          ],
+          [
+            14.96544757223872,
+            50.52171316848773
+          ],
+          [
+            14.965454853914382,
+            50.521677510104354
+          ],
+          [
+            14.965398920803452,
+            50.52167286789315
+          ],
+          [
+            14.965391639086706,
+            50.52170852627322
+          ],
+          [
+            14.965426887357587,
+            50.52167518900209
+          ],
+          [
+            14.96544757223872,
+            50.52171316848773
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FDB",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FDB",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FDB",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FDC",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96544757223872,
+            50.52171316848773
+          ],
+          [
+            14.965426887357587,
+            50.52167518900209
+          ],
+          [
+            14.965391639086706,
+            50.52170852627322
+          ],
+          [
+            14.96544757223872,
+            50.52171316848773
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FDC",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FDC",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FDC",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FE1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966743822936973,
+            50.51891791785985
+          ],
+          [
+            14.966799752945867,
+            50.518922559445315
+          ],
+          [
+            14.966807033201965,
+            50.518886900946
+          ],
+          [
+            14.966751103234184,
+            50.518882259363856
+          ],
+          [
+            14.966743822936973,
+            50.51891791785985
+          ],
+          [
+            14.966779068216752,
+            50.518884580158264
+          ],
+          [
+            14.966799752945867,
+            50.518922559445315
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FE1",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FE1",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FE1",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FE2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966799752945867,
+            50.518922559445315
+          ],
+          [
+            14.966779068216752,
+            50.518884580158264
+          ],
+          [
+            14.966743822936973,
+            50.51891791785985
+          ],
+          [
+            14.966799752945867,
+            50.518922559445315
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FE2",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FE2",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FE2",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FE7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964418156529803,
+            50.51928732489337
+          ],
+          [
+            14.964474086753892,
+            50.5192919675844
+          ],
+          [
+            14.96448136880139,
+            50.51925630922849
+          ],
+          [
+            14.964425438618406,
+            50.51925166654073
+          ],
+          [
+            14.964418156529803,
+            50.51928732489337
+          ],
+          [
+            14.964453403708553,
+            50.51925398788793
+          ],
+          [
+            14.964474086753892,
+            50.5192919675844
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FE7",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FE7",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FE7",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FE8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964474086753892,
+            50.5192919675844
+          ],
+          [
+            14.964453403708553,
+            50.51925398788793
+          ],
+          [
+            14.964418156529803,
+            50.51928732489337
+          ],
+          [
+            14.964474086753892,
+            50.5192919675844
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FE8",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FE8",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FE8",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FEB",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961216642479425,
+            50.52177280136777
+          ],
+          [
+            14.961272575316064,
+            50.521777445570216
+          ],
+          [
+            14.961279860119916,
+            50.521741787436795
+          ],
+          [
+            14.96122392732439,
+            50.52173714323763
+          ],
+          [
+            14.961216642479425,
+            50.52177280136777
+          ],
+          [
+            14.961251893720824,
+            50.521739465340524
+          ],
+          [
+            14.961272575316064,
+            50.521777445570216
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FEB",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FEB",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FEB",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FEC",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961272575316064,
+            50.521777445570216
+          ],
+          [
+            14.961251893720824,
+            50.521739465340524
+          ],
+          [
+            14.961216642479425,
+            50.52177280136777
+          ],
+          [
+            14.961272575316064,
+            50.521777445570216
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FEC",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FEC",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FEC",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FED",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96129852961134,
+            50.52053460084606
+          ],
+          [
+            14.96135446100482,
+            50.52053924501607
+          ],
+          [
+            14.961361745565696,
+            50.520503586862084
+          ],
+          [
+            14.961305814213315,
+            50.52049894269529
+          ],
+          [
+            14.96129852961134,
+            50.52053460084606
+          ],
+          [
+            14.961333779888166,
+            50.52050126478203
+          ],
+          [
+            14.96135446100482,
+            50.52053924501607
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FED",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FED",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FED",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FEE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96135446100482,
+            50.52053924501607
+          ],
+          [
+            14.961333779888166,
+            50.52050126478203
+          ],
+          [
+            14.96129852961134,
+            50.52053460084606
+          ],
+          [
+            14.96135446100482,
+            50.52053924501607
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FEE",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FEE",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FEE",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FF3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966344658331074,
+            50.52058668981422
+          ],
+          [
+            14.966400590257807,
+            50.52059133158087
+          ],
+          [
+            14.96640787105694,
+            50.520555673126495
+          ],
+          [
+            14.966351939171316,
+            50.52055103136309
+          ],
+          [
+            14.966344658331074,
+            50.52058668981422
+          ],
+          [
+            14.966379905112808,
+            50.52055335224812
+          ],
+          [
+            14.966400590257807,
+            50.52059133158087
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FF3",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FF3",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FF3",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FF4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966400590257807,
+            50.52059133158087
+          ],
+          [
+            14.966379905112808,
+            50.52055335224812
+          ],
+          [
+            14.966344658331074,
+            50.52058668981422
+          ],
+          [
+            14.966400590257807,
+            50.52059133158087
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FF4",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FF4",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FF4",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FF7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965146725463445,
+            50.519744333734
+          ],
+          [
+            14.965202656291135,
+            50.519748976075604
+          ],
+          [
+            14.965209937861488,
+            50.51971331768202
+          ],
+          [
+            14.965154007074895,
+            50.51970867534369
+          ],
+          [
+            14.965146725463445,
+            50.519744333734
+          ],
+          [
+            14.965181972466869,
+            50.51971099651618
+          ],
+          [
+            14.965202656291135,
+            50.519748976075604
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FF7",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FF7",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FF7",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FF8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965202656291135,
+            50.519748976075604
+          ],
+          [
+            14.965181972466869,
+            50.51971099651618
+          ],
+          [
+            14.965146725463445,
+            50.519744333734
+          ],
+          [
+            14.965202656291135,
+            50.519748976075604
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FF8",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FF8",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FF8",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FFD",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964962691975948,
+            50.521329334873066
+          ],
+          [
+            14.965018624643518,
+            50.521333977293864
+          ],
+          [
+            14.965025906583966,
+            50.521298318931315
+          ],
+          [
+            14.964969973957498,
+            50.52129367651381
+          ],
+          [
+            14.964962691975948,
+            50.521329334873066
+          ],
+          [
+            14.964997940269395,
+            50.521295997725865
+          ],
+          [
+            14.965018624643518,
+            50.521333977293864
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FFD",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "2FFD",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FFD",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:2FFE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965018624643518,
+            50.521333977293864
+          ],
+          [
+            14.964997940269395,
+            50.521295997725865
+          ],
+          [
+            14.964962691975948,
+            50.521329334873066
+          ],
+          [
+            14.965018624643518,
+            50.521333977293864
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 2FFE",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "2FFE",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 2FFE",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3003",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.9658586597041,
+            50.52084207829384
+          ],
+          [
+            14.96591459188461,
+            50.52084672029056
+          ],
+          [
+            14.965921873084241,
+            50.52081106186839
+          ],
+          [
+            14.965865940944845,
+            50.52080641987496
+          ],
+          [
+            14.9658586597041,
+            50.52084207829384
+          ],
+          [
+            14.965893907013207,
+            50.520808740874976
+          ],
+          [
+            14.96591459188461,
+            50.52084672029056
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3003",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3003",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3003",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3004",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96591459188461,
+            50.52084672029056
+          ],
+          [
+            14.965893907013207,
+            50.520808740874976
+          ],
+          [
+            14.9658586597041,
+            50.52084207829384
+          ],
+          [
+            14.96591459188461,
+            50.52084672029056
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3004",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3004",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3004",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:300D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964166629915253,
+            50.521853707897655
+          ],
+          [
+            14.964222563122785,
+            50.52185835069481
+          ],
+          [
+            14.964229845734847,
+            50.52182269238637
+          ],
+          [
+            14.964173912568427,
+            50.521818049592554
+          ],
+          [
+            14.964166629915253,
+            50.521853707897655
+          ],
+          [
+            14.9642018791503,
+            50.52182037099278
+          ],
+          [
+            14.964222563122785,
+            50.52185835069481
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 300D",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "300D",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 300D",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:300E",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.964222563122785,
+            50.52185835069481
+          ],
+          [
+            14.9642018791503,
+            50.52182037099278
+          ],
+          [
+            14.964166629915253,
+            50.521853707897655
+          ],
+          [
+            14.964222563122785,
+            50.52185835069481
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 300E",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "300E",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 300E",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3011",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965410299642674,
+            50.52108164179816
+          ],
+          [
+            14.965466232061916,
+            50.52108628400713
+          ],
+          [
+            14.965473513631654,
+            50.52105062561473
+          ],
+          [
+            14.96541758125352,
+            50.521045983409046
+          ],
+          [
+            14.965410299642674,
+            50.52108164179816
+          ],
+          [
+            14.96544554744125,
+            50.52104830451524
+          ],
+          [
+            14.965466232061916,
+            50.52108628400713
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3011",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3011",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3011",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3012",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965466232061916,
+            50.52108628400713
+          ],
+          [
+            14.96544554744125,
+            50.52104830451524
+          ],
+          [
+            14.965410299642674,
+            50.52108164179816
+          ],
+          [
+            14.965466232061916,
+            50.52108628400713
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3012",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3012",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3012",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3013",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.968147026742319,
+            50.5182657745501
+          ],
+          [
+            14.968202956118432,
+            50.51827041547081
+          ],
+          [
+            14.968210235230748,
+            50.51823475687958
+          ],
+          [
+            14.968154305895725,
+            50.51823011596215
+          ],
+          [
+            14.968147026742319,
+            50.5182657745501
+          ],
+          [
+            14.96818227056191,
+            50.51823243642418
+          ],
+          [
+            14.968202956118432,
+            50.51827041547081
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3013",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3013",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3013",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3014",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.968202956118432,
+            50.51827041547081
+          ],
+          [
+            14.96818227056191,
+            50.51823243642418
+          ],
+          [
+            14.968147026742319,
+            50.5182657745501
+          ],
+          [
+            14.968202956118432,
+            50.51827041547081
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3014",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3014",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3014",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3033",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965732228170436,
+            50.5194284894222
+          ],
+          [
+            14.965788158682878,
+            50.51943313148667
+          ],
+          [
+            14.965795439769531,
+            50.51939747305417
+          ],
+          [
+            14.965739509298205,
+            50.51939283099298
+          ],
+          [
+            14.965732228170436,
+            50.5194284894222
+          ],
+          [
+            14.96576747453253,
+            50.51939515202693
+          ],
+          [
+            14.965788158682878,
+            50.51943313148667
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3033",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3033",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3033",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3034",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.965788158682878,
+            50.51943313148667
+          ],
+          [
+            14.96576747453253,
+            50.51939515202693
+          ],
+          [
+            14.965732228170436,
+            50.5194284894222
+          ],
+          [
+            14.965788158682878,
+            50.51943313148667
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3034",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3034",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3034",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3035",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.960883820063263,
+            50.518426552888016
+          ],
+          [
+            14.96093974894807,
+            50.51843119726681
+          ],
+          [
+            14.9609470335092,
+            50.518395539110934
+          ],
+          [
+            14.960891104665494,
+            50.51839089473548
+          ],
+          [
+            14.960883820063263,
+            50.518426552888016
+          ],
+          [
+            14.96091906908601,
+            50.51839321692655
+          ],
+          [
+            14.96093974894807,
+            50.51843119726681
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3035",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3035",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3035",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3036",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96093974894807,
+            50.51843119726681
+          ],
+          [
+            14.96091906908601,
+            50.51839321692655
+          ],
+          [
+            14.960883820063263,
+            50.518426552888016
+          ],
+          [
+            14.96093974894807,
+            50.51843119726681
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3036",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3036",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3036",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:303D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.962158143894618,
+            50.51766368686996
+          ],
+          [
+            14.962214072004985,
+            50.51766833064584
+          ],
+          [
+            14.96222135550225,
+            50.51763267240431
+          ],
+          [
+            14.962165427432979,
+            50.517628028631655
+          ],
+          [
+            14.962158143894618,
+            50.51766368686996
+          ],
+          [
+            14.962193391466279,
+            50.51763035052131
+          ],
+          [
+            14.962214072004985,
+            50.51766833064584
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 303D",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "303D",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 303D",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:303E",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.962214072004985,
+            50.51766833064584
+          ],
+          [
+            14.962193391466279,
+            50.51763035052131
+          ],
+          [
+            14.962158143894618,
+            50.51766368686996
+          ],
+          [
+            14.962214072004985,
+            50.51766833064584
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 303E",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "303E",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 303E",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3047",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961195789885195,
+            50.51901544259028
+          ],
+          [
+            14.961251719489121,
+            50.519020086817285
+          ],
+          [
+            14.9612590039037,
+            50.518984428650256
+          ],
+          [
+            14.961203074340848,
+            50.518979784426485
+          ],
+          [
+            14.961195789885195,
+            50.51901544259028
+          ],
+          [
+            14.96123103912093,
+            50.51898210654172
+          ],
+          [
+            14.961251719489121,
+            50.519020086817285
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3047",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3047",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3047",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3048",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961251719489121,
+            50.519020086817285
+          ],
+          [
+            14.96123103912093,
+            50.51898210654172
+          ],
+          [
+            14.961195789885195,
+            50.51901544259028
+          ],
+          [
+            14.961251719489121,
+            50.519020086817285
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3048",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3048",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3048",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:304D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961189919521619,
+            50.522172285936335
+          ],
+          [
+            14.961245852823867,
+            50.52217693014936
+          ],
+          [
+            14.961253137706345,
+            50.52214127202255
+          ],
+          [
+            14.961197204445204,
+            50.522136627812806
+          ],
+          [
+            14.961189919521619,
+            50.522172285936335
+          ],
+          [
+            14.961225171074448,
+            50.522138949921036
+          ],
+          [
+            14.961245852823867,
+            50.52217693014936
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 304D",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "304D",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 304D",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:304E",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961245852823867,
+            50.52217693014936
+          ],
+          [
+            14.961225171074448,
+            50.522138949921036
+          ],
+          [
+            14.961189919521619,
+            50.522172285936335
+          ],
+          [
+            14.961245852823867,
+            50.52217693014936
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 304E",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "304E",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 304E",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:305D",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961267145112803,
+            50.52126178803804
+          ],
+          [
+            14.961323077355397,
+            50.52126643221916
+          ],
+          [
+            14.961330362046489,
+            50.521230774076194
+          ],
+          [
+            14.961274429845012,
+            50.52122612989837
+          ],
+          [
+            14.961267145112803,
+            50.52126178803804
+          ],
+          [
+            14.961302395944422,
+            50.52122845199063
+          ],
+          [
+            14.961323077355397,
+            50.52126643221916
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 305D",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "305D",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 305D",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:305E",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.961323077355397,
+            50.52126643221916
+          ],
+          [
+            14.961302395944422,
+            50.52122845199063
+          ],
+          [
+            14.961267145112803,
+            50.52126178803804
+          ],
+          [
+            14.961323077355397,
+            50.52126643221916
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 305E",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "305E",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 305E",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3065",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.96821076596049,
+            50.51822519133017
+          ],
+          [
+            14.968266695295023,
+            50.5182298322207
+          ],
+          [
+            14.968273974353771,
+            50.518194173625126
+          ],
+          [
+            14.96821804506034,
+            50.51818953273786
+          ],
+          [
+            14.96821076596049,
+            50.51822519133017
+          ],
+          [
+            14.96824600970572,
+            50.518191853184824
+          ],
+          [
+            14.968266695295023,
+            50.5182298322207
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3065",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3065",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3065",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3066",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.968266695295023,
+            50.5182298322207
+          ],
+          [
+            14.96824600970572,
+            50.518191853184824
+          ],
+          [
+            14.96821076596049,
+            50.51822519133017
+          ],
+          [
+            14.968266695295023,
+            50.5182298322207
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3066",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3066",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3066",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3067",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966901626263324,
+            50.51886166139398
+          ],
+          [
+            14.966957556221073,
+            50.51886630290457
+          ],
+          [
+            14.966964836351051,
+            50.518830644395116
+          ],
+          [
+            14.966908906434409,
+            50.5188260028878
+          ],
+          [
+            14.966901626263324,
+            50.51886166139398
+          ],
+          [
+            14.9669368713914,
+            50.51882832364479
+          ],
+          [
+            14.966957556221073,
+            50.51886630290457
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3067",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 24.944,
+        "cad_handle": "3067",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3067",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S006:3068",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.966957556221073,
+            50.51886630290457
+          ],
+          [
+            14.9669368713914,
+            50.51882832364479
+          ],
+          [
+            14.966901626263324,
+            50.51886166139398
+          ],
+          [
+            14.966957556221073,
+            50.51886630290457
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "S006",
+        "source_page": null,
+        "source_sha256": "e9f9d403ad36092a55497619c8f81fb0af18cef6b1d232697da62c3092a7039f",
+        "dxf_sha256": "82d5a97cb63e084c9f9e9a85059655fb3f9d0f2586edc8be60b2e9ae0a5e39eb",
+        "source_units": "mm",
+        "source_crs": "EPSG:5514; verified by native parcel comparison",
+        "evidence_status": "DERIVED",
+        "name": "Vodovodní objekty · symboly · 3068",
+        "typology": "Vodovod",
+        "feature_role": "Objekt / symbol",
+        "semantic_status": "PROPOSED",
+        "mapping_rule": "exact-source-layer/A067_VODOVODOBJOST_B",
+        "color": "#0874bc",
+        "network_status": null,
+        "source_revision": null,
+        "source_area_m2": null,
+        "note": "Význam pracovně podle názvu CAD vrstvy; bez legendy není ověřen stav vedení ani právní platnost pásma. Symboly zachovány jako původní kresba, nikoli sloučené fyzické objekty.",
+        "derived_length_m": 12.944,
+        "cad_handle": "3068",
+        "cad_layer": "A067_VODOVODOBJOST_B",
+        "cad_entity_type": "LWPOLYLINE",
+        "previous_name": "A067_VODOVODOBJOST_B · 3068",
+        "display_label": "Vodovodní objekty · symboly",
+        "operational_status": "unknown",
+        "band_type": null,
+        "semantic_review": "S006-SEMANTICS-v02",
+        "evidence_ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "verification_needed": [
+          "Potvrdit datum a původ exportu S006 a propojit CAD handle s objektem v aktuálních datech správce; doložit, zda jde o stávající síť, návrh, přeložku nebo zrušené vedení."
+        ]
+      }
+    }
+  ]
+}

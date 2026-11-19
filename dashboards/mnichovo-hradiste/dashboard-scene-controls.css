@@ -1,0 +1,67 @@
+/* Scoped 3D controls; Fellix labels and Segoe UI body inherit local brand assets. */
+#sceneSettings{width:min(800px,calc(100vw - 24px))!important;height:auto!important;min-height:0!important;padding:0!important;border-radius:16px;background:#fff;overflow:hidden;box-shadow:0 16px 64px #0b3c1d33}
+#sceneSettings[open]{display:flex!important;flex-direction:column;height:fit-content!important;inset:0!important}
+#sceneSettings .scene-settings-head{flex:none}
+#sceneSettings .scene-settings-body{flex:0 1 auto;min-height:0}
+#sceneSettings .scene-settings-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-bottom:1px solid #dce3d6;background:white}
+#sceneSettings .scene-settings-head h2{margin:0;font-size:24px;line-height:1.2}
+#sceneSettings .scene-settings-head .dialog-close{position:static!important;float:none!important;margin:0!important;padding:0!important;flex:none;width:36px!important;height:36px!important;min-height:36px!important;border:0;border-radius:8px;background:#f0f4ed;font:24px 'Segoe UI',sans-serif}
+#sceneSettings .scene-settings-body{padding:20px 24px;max-height:calc(90dvh - 82px);overflow:auto;display:grid;gap:20px;font:14px/1.5 'Segoe UI',sans-serif;color:#173a20}
+#sceneSettings .compare-toolbar{display:flex!important;flex-direction:column;align-items:stretch;gap:18px;padding:0!important;margin:0!important;background:transparent!important}
+#sceneSettings .scene-setting-checks,#sceneSettings .project-checks,#sceneAdvanced .comparison-links{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px 24px}
+#sceneSettings .scene-setting-checks label,#sceneSettings .project-checks label,#sceneAdvanced .comparison-links label{display:inline-flex!important;align-items:flex-start;gap:8px;margin:0;padding:0;font-size:14px;line-height:1.4;flex:0 1 auto}
+#sceneSettings input[type=checkbox]{width:17px!important;height:17px!important;min-height:17px!important;flex:none;margin:2px 0 0!important;accent-color:#14642d}
+#sceneSettings .scene-setting-numbers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px;width:100%}
+#sceneSettings .scene-setting-numbers label{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:14px}
+#sceneSettings .scene-setting-numbers label:last-child{grid-column:1/-1}
+#sceneSettings input[type=number]{width:76px;min-height:36px;padding:6px 8px;border:1px solid #aabbab;border-radius:6px;margin:0}
+#sceneSettings summary{font-size:15px;cursor:pointer}#sceneSettings .project-checks{padding-top:12px}
+#sceneSettings fieldset{padding:16px;margin:0;border:1px solid #dce3d6;border-radius:10px;min-width:0}
+#sceneSettings legend{font-family:Fellix,'Segoe UI',sans-serif;font-weight:600;font-size:15px;padding:0 6px}
+#sceneSettings .scene-context-opacity{display:flex;align-items:center;gap:12px;max-width:440px;margin:16px 0;font-size:14px}
+#sceneSettings input[type=range]{flex:1;min-width:60px;width:100%;height:20px;padding:0;margin:0;accent-color:#14642d}
+#sceneSettings output{white-space:nowrap;min-width:40px;font-variant-numeric:tabular-nums}
+#sceneSettings .scene-context-settings p,#sceneSettings .scene-method-note p{font-size:13px;line-height:1.55;margin:8px 0 0;color:#5d6b5f}
+#sceneSettings .scene-method-note{border-top:1px solid #dce3d6;padding-top:14px}#sceneSettings .scene-method-note h3{font-size:15px;margin:0 0 8px}
+#scene .scene-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px!important;gap:16px}#scene .scene-heading h2{margin:0;font-size:24px}
+#scene.active{gap:0}#scene .proposal-cards{margin-top:0}
+#scene .scene-settings-trigger{margin-left:auto;width:38px;height:38px;padding:0;font-size:20px;border-radius:8px}
+#scene .scene-mode-switch{display:flex;gap:4px;flex:none;background:#eef2e8;border:1px solid #dce3d6;border-radius:9px;padding:4px;align-self:flex-start;margin-bottom:12px}
+#scene .scene-mode-switch button{border:0;border-radius:6px;background:transparent;min-height:36px;padding:8px 16px;font:600 14px Fellix,'Segoe UI',sans-serif}
+#scene .scene-mode-switch button[aria-pressed=true]{background:#14642d;color:#fff;box-shadow:0 1px 4px #0b3c1d20}
+#scene .proposal-cards{max-height:180px;flex:none;margin-bottom:8px}
+#scene .proposal-card{overflow-y:auto;min-width:260px}
+#scene .proposal-option{margin-bottom:9px}#scene .proposal-option:last-child{margin-bottom:0}
+#scene .proposal-opacity{display:flex;align-items:center;gap:8px;font-size:11px;margin:5px 0 0 19px}
+#scene .proposal-opacity input[type=range]{flex:1;min-width:64px;width:100%;height:18px;min-height:18px;padding:0;margin:0;accent-color:#14642d}
+#scene .proposal-opacity output{min-width:32px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+#scene #comparisonStatus{margin:0 0 8px;font-size:12px;flex:none}
+#scene .scene-stage-wrap{position:relative;min-height:0;flex:1}
+#scene .scene-corner-controls{position:absolute;display:flex;gap:6px;top:12px;right:12px;z-index:15}
+#scene .scene-icon{display:grid;place-items:center;width:38px;height:38px;min-height:38px;padding:8px;border:1px solid #cbd7c5;border-radius:8px;background:#fff;color:#173a20;box-shadow:0 2px 8px #0002}
+#scene .scene-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+#scene .scene-icon[aria-pressed=true]{background:#14642d;color:white;border-color:#14642d}
+#scene .touch-shield{display:block;position:absolute;inset:0;z-index:10;touch-action:pan-y;background:transparent}
+#scene .touch-active .touch-shield{display:none}
+#scene .scene-stage-wrap:not(.touch-active) .comparison-stage{pointer-events:none}
+#scene .scene-compact{display:flex;flex-direction:column;align-items:stretch;gap:5px;max-height:140px;overflow:auto;padding-top:7px;flex:none}
+#scene .scene-summary-row{display:flex;flex-wrap:wrap;align-items:center;gap:5px 12px;font-size:11px}
+#scene .scene-summary-row strong{font-family:Fellix,'Segoe UI',sans-serif;font-size:12px}
+#scene .scene-summary-row button{min-height:28px;font-size:11px;padding:3px 7px;margin-left:auto}
+#scene [hidden]{display:none!important}
+#scene button:focus-visible,#sceneSettings button:focus-visible,#scene input:focus-visible{outline:3px solid #ecc83f;outline-offset:2px}
+@media(max-width:1099px){
+ #scene .proposal-cards{max-height:142px}#scene .proposal-card{min-width:260px}
+ #scene .comparison-card{min-height:460px!important;height:460px}#scene .scene-stage-wrap{min-height:320px}
+ #scene .comparison-card-head h3{font-size:13px}
+ #scene[data-scene-mode=overlay] .comparison-windows{display:flex!important;overflow-y:auto}
+ #scene[data-scene-mode=overlay] .comparison-card{flex:1 0 480px;min-height:480px!important;height:100%}
+ #scene .scene-corner-controls{top:10px;right:10px}#scene .scene-icon{width:42px;height:42px}
+ #sceneSettings .scene-settings-body{padding:16px}#sceneSettings .scene-settings-head{padding:16px}
+}
+@media(max-width:560px){
+ #sceneSettings .scene-setting-numbers{grid-template-columns:1fr}#sceneSettings .scene-setting-numbers label:last-child{grid-column:auto}
+ #sceneSettings .scene-settings-head h2{font-size:21px}#sceneSettings .scene-setting-checks{gap:12px 18px}
+ #scene .scene-mode-switch{align-self:stretch}#scene .scene-mode-switch button{flex:1;font-size:12px;padding:8px}
+ #scene .scene-summary-row strong{width:100%}
+}

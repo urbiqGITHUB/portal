@@ -1,0 +1,42 @@
+{
+  "validator": "urbiq-map-geojson/1.0",
+  "generated_at": "2026-11-18T09:44:30.206952+00:00",
+  "status": "passed",
+  "limitation": "Checks structure, coordinates, extents and planar geometry only. Does not prove georeferencing accuracy, semantic classification, source completeness or network connectivity. Does not repair or rewrite source data. Validate combined exports separately from their individual layers to avoid expected duplicate IDs. Antimeridian topology is not normalized.",
+  "options": {
+    "expected_bbox": [
+      14.7,
+      50.3,
+      15.2,
+      50.7
+    ],
+    "required_properties": [
+      "feature_id",
+      "kod_rzv",
+      "stav"
+    ]
+  },
+  "summary": {
+    "files": 1,
+    "features": 62,
+    "errors": 0
+  },
+  "input_issues": [],
+  "files": [
+    {
+      "path": "C:\\Users\\kater\\repo\\urbiq\\datamart-product\\[LOCAL]\\261118_mnichovo-hradiste-uzemni-plan-geojson\\output\\261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+      "features": 62,
+      "geometry_types": {
+        "MultiPolygon": 56,
+        "Polygon": 6
+      },
+      "bbox": [
+        14.950034147507287,
+        50.483034893544215,
+        15.051401114504381,
+        50.56576504149315
+      ],
+      "issues": []
+    }
+  ]
+}

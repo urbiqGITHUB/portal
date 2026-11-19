@@ -1,0 +1,14 @@
+.eyebrow{text-transform:uppercase}
+.map-workspace .map-inspector{top:62px!important;max-height:calc(100% - 100px)}
+.map-workspace{--balance-width:470px}
+.map-balance-panel{position:absolute;right:0;top:0;bottom:0;width:var(--balance-width);max-width:calc(100% - 45px);background:white;border-left:1px solid #bac5bc;z-index:850;display:flex;flex-direction:column;padding:14px;gap:12px;box-sizing:border-box;color:#173a20}
+.map-balance-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:none}.map-balance-heading h3{font:700 19px/1.2 Fellix,'Segoe UI',sans-serif;margin:0}
+.balance-scope,.balance-note{font:12px/1.5 'Segoe UI',sans-serif;margin:0;color:#5d6b5f}.balance-scope{flex:none}.map-balance-content{overflow:auto;min-height:0;flex:1}.balance-layer{margin-bottom:18px}.balance-layer h4{font:700 14px/1.3 Fellix,'Segoe UI',sans-serif;margin:0 0 8px}.balance-table{width:100%;border-collapse:collapse;font:12px/1.4 'Segoe UI';table-layout:auto}.balance-table td{padding:8px 5px;border-bottom:1px solid #e0e6dc;text-align:right;font-variant-numeric:tabular-nums}.balance-table td:first-child{text-align:left;min-width:100px}.balance-table td:not(:first-child){white-space:nowrap}.balance-table th{background:#edf2e6;text-align:left;padding:6px}.balance-table tfoot{font-weight:700;border-top:2px solid #14642d}.balance-table td i{display:inline-block;width:9px;height:9px;margin-right:5px;border:1px solid #9da998}.balance-table .column-head{font-size:10px;padding:4px;min-height:35px;flex-wrap:wrap}.balance-table .column-head>span{min-width:40px;flex-basis:100%}.balance-table .column-head>button{min-width:18px!important;width:18px;font-size:12px!important}.balance-note{margin-top:8px}.balance-evidence{border:0;background:none;font:12px 'Segoe UI';padding:5px 0;color:#14642d;text-decoration:underline}
+/* Persistent right rail mirrors the layers rail; its icon is the only pointer toggle. */
+.map-balance-rail{position:absolute;z-index:860;right:0;top:0;bottom:0;width:32px;box-sizing:border-box;background:#fff;border-left:1px solid #e4e9df;border-right:1px solid #e4e9df}
+.balances-open .map-balance-rail{right:var(--balance-width)}
+#mapBalancesToggle{position:relative;top:8px;width:31px;height:38px;min-height:38px;padding:5px;background:#fff;border:0;border-radius:0;color:#14642d}
+#mapBalancesToggle svg{width:20px;height:20px;stroke-linecap:round;stroke-linejoin:round}
+.map-workspace .map-stage{margin-right:32px}
+@media(min-width:1100px){.balances-open .map-stage{margin-right:calc(var(--balance-width) + 32px)}.balances-open .map-inspector{right:10px!important}}
+@media(max-width:1099px){.map-workspace{--balance-width:min(470px,calc(100% - 64px))}.map-balance-panel{padding:10px}.balance-table{font-size:11px}.balance-table td{padding:7px 3px}.balance-table td:first-child{min-width:65px}.map-balance-heading h3{font-size:17px}}

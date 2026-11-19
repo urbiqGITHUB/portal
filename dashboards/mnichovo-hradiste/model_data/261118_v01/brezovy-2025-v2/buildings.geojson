@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "S041-V2-BUILDING-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.970467498293026,
+              50.515032001064
+            ],
+            [
+              14.969758097436106,
+              50.515325746962105
+            ],
+            [
+              14.9696658060541,
+              50.515235411203854
+            ],
+            [
+              14.969559295351566,
+              50.51527952166213
+            ],
+            [
+              14.969497892385723,
+              50.51521918012524
+            ],
+            [
+              14.970313838715683,
+              50.51488113586217
+            ],
+            [
+              14.970467498293026,
+              50.515032001064
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Březový háj · varianta 2 · navržený objekt",
+        "source_building_id": "S041-V2-OBJECT",
+        "source_id": "S041",
+        "source_page": 7,
+        "category": "civic",
+        "class_id": "civic",
+        "color": "#507e99",
+        "source_floor_count": 2,
+        "floor_evidence": "EXPLICIT",
+        "source_function": "1. NP prodejna; 2. NP administrativa",
+        "function_evidence": "EXPLICIT",
+        "source_area_m2": 1275,
+        "source_area_raw": "1275 m²",
+        "source_area_qualifier": "rounded",
+        "source_area_comparable": true,
+        "area_comparison_note": "Same variant footprint as S041 / 7 label; native fill vs rounded author value. Difference retained; no scaling to force agreement.",
+        "source_locator": "S041 / PDF str. 7 / navrhovaný objekt a jeho popis; souhrnné kapacity str. 3",
+        "evidence_image_ref": "../research/S041-p7-native-overlay.png",
+        "source_revision": "S041 / varianta 2 / 06/2025",
+        "field_evidence_ref": "../property-evidence.json",
+        "note": "Nativní půdorys situace. Modelová výška 3 m na podlaží, nikoli doložená stavební výška. Doložena funkce v 1. a 2. NP. Přesný rozsah horního podlaží ani nižšího zásobovacího přístavku není samostatně doložen; model jednotně extruduje celý půdorys do 2 NP.",
+        "evidence_status": "DERIVED",
+        "object_id": "S041-V2-BUILDING-01",
+        "kind": "building_part",
+        "scenario_id": "brezovy-2025-v2",
+        "parent_object_id": "S041-V2-OBJECT",
+        "category_evidence": "EXPLICIT",
+        "derived_area_m2": 1272.334744779423,
+        "original_area_m2": 1271.407930163511,
+        "geometry_review": "applied_reviewed",
+        "context_only": false,
+        "model_floor_count": 2,
+        "model_floor_basis": "EXPLICIT",
+        "model_floor_height_m": 3,
+        "model_height_m": 6,
+        "height_basis": "PROPOSED"
+      }
+    }
+  ]
+}

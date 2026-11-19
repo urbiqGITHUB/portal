@@ -1,0 +1,320 @@
+{
+  "source_id": "S003",
+  "page": 10,
+  "legend": "source-legend.png",
+  "classes": [
+    {
+      "id": "city",
+      "label": "město Mnichovo Hradiště",
+      "color": "#b13f35",
+      "legend_rgb": [
+        177,
+        63,
+        53
+      ],
+      "legend_hsv": [
+        2.0,
+        179.0,
+        177.0
+      ],
+      "map_sample_pixel": [
+        190,
+        100
+      ],
+      "map_sample_hsv": [
+        2.0,
+        207.0,
+        155.0
+      ]
+    },
+    {
+      "id": "region",
+      "label": "Středočeský kraj",
+      "color": "#86bdb3",
+      "legend_rgb": [
+        134,
+        189,
+        179
+      ],
+      "legend_hsv": [
+        85.0,
+        74.0,
+        189.0
+      ],
+      "map_sample_pixel": [
+        572,
+        625
+      ],
+      "map_sample_hsv": [
+        17.0,
+        73.0,
+        118.0
+      ]
+    },
+    {
+      "id": "stavokombinat",
+      "label": "Stavokombinát INVEST s.r.o",
+      "color": "#a768a7",
+      "legend_rgb": [
+        167,
+        104,
+        167
+      ],
+      "legend_hsv": [
+        150.0,
+        96.0,
+        167.0
+      ],
+      "map_sample_pixel": [
+        445,
+        570
+      ],
+      "map_sample_hsv": [
+        151.0,
+        122.0,
+        119.0
+      ]
+    },
+    {
+      "id": "state",
+      "label": "Česká republika",
+      "color": "#eb907b",
+      "legend_rgb": [
+        235,
+        144,
+        123
+      ],
+      "legend_hsv": [
+        6.0,
+        122.0,
+        235.0
+      ],
+      "map_sample_pixel": [
+        137,
+        375
+      ],
+      "map_sample_hsv": [
+        96.0,
+        255.0,
+        5.0
+      ]
+    },
+    {
+      "id": "lidl",
+      "label": "Lidl Česká Republika",
+      "color": "#bb9d90",
+      "legend_rgb": [
+        187,
+        157,
+        144
+      ],
+      "legend_hsv": [
+        9.0,
+        59.0,
+        187.0
+      ],
+      "map_sample_pixel": [
+        604,
+        648
+      ],
+      "map_sample_hsv": [
+        8.0,
+        95.0,
+        116.0
+      ]
+    },
+    {
+      "id": "lv867",
+      "label": "LV 867 - 2 vlastníci",
+      "color": "#b8b866",
+      "legend_rgb": [
+        184,
+        184,
+        102
+      ],
+      "legend_hsv": [
+        30.0,
+        114.0,
+        184.0
+      ],
+      "map_sample_pixel": [
+        225,
+        105
+      ],
+      "map_sample_hsv": [
+        29.0,
+        103.0,
+        141.0
+      ]
+    },
+    {
+      "id": "lv316",
+      "label": "LV 316 - 1 vlastník",
+      "color": "#ccdae6",
+      "legend_rgb": [
+        204,
+        218,
+        230
+      ],
+      "legend_hsv": [
+        104.0,
+        29.0,
+        230.0
+      ],
+      "map_sample_pixel": [
+        274,
+        112
+      ],
+      "map_sample_hsv": [
+        105.0,
+        30.0,
+        172.0
+      ]
+    },
+    {
+      "id": "lv3689",
+      "label": "LV 3689 - 5 vlastníků",
+      "color": "#abcbab",
+      "legend_rgb": [
+        171,
+        203,
+        171
+      ],
+      "legend_hsv": [
+        60.0,
+        40.0,
+        203.0
+      ],
+      "map_sample_pixel": [
+        200,
+        214
+      ],
+      "map_sample_hsv": [
+        59.0,
+        59.0,
+        138.0
+      ]
+    },
+    {
+      "id": "lv2460",
+      "label": "LV 2460 - 1 vlastník",
+      "color": "#e09462",
+      "legend_rgb": [
+        224,
+        148,
+        98
+      ],
+      "legend_hsv": [
+        12.0,
+        143.0,
+        224.0
+      ],
+      "map_sample_pixel": [
+        199,
+        286
+      ],
+      "map_sample_hsv": [
+        12.0,
+        172.0,
+        188.0
+      ]
+    },
+    {
+      "id": "lv3170",
+      "label": "LV 3170 - 1 vlastník",
+      "color": "#d4d4fe",
+      "legend_rgb": [
+        212,
+        212,
+        254
+      ],
+      "legend_hsv": [
+        120.0,
+        42.0,
+        254.0
+      ],
+      "map_sample_pixel": [
+        166,
+        373
+      ],
+      "map_sample_hsv": [
+        128.0,
+        52.0,
+        224.0
+      ]
+    },
+    {
+      "id": "lv115",
+      "label": "LV 115 - 1 vlastník",
+      "color": "#689cb4",
+      "legend_rgb": [
+        104,
+        156,
+        180
+      ],
+      "legend_hsv": [
+        99.0,
+        108.0,
+        180.0
+      ],
+      "map_sample_pixel": [
+        508,
+        565
+      ],
+      "map_sample_hsv": [
+        98.0,
+        171.0,
+        61.0
+      ]
+    },
+    {
+      "id": "lv623",
+      "label": "LV 623 - 1 vlastník",
+      "color": "#fefe80",
+      "legend_rgb": [
+        254,
+        254,
+        128
+      ],
+      "legend_hsv": [
+        30.0,
+        126.0,
+        254.0
+      ],
+      "map_sample_pixel": [
+        416,
+        601
+      ],
+      "map_sample_hsv": [
+        32.0,
+        226.0,
+        193.0
+      ]
+    },
+    {
+      "id": "lv2040",
+      "label": "LV 2040 - 3 vlastníci",
+      "color": "#e668a7",
+      "legend_rgb": [
+        230,
+        104,
+        167
+      ],
+      "legend_hsv": [
+        165.0,
+        140.0,
+        230.0
+      ],
+      "map_sample_pixel": [
+        391,
+        601
+      ],
+      "map_sample_hsv": [
+        162.0,
+        165.0,
+        186.0
+      ]
+    }
+  ],
+  "meaning": "Historical categories stated by source, not verified current owners."
+}

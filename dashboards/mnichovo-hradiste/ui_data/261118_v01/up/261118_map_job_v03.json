@@ -1,0 +1,1371 @@
+{
+  "contract_version": "urbiq-pdf-map-job/1.0",
+  "job_id": "mh-up-zm2-rzv-261118-v03",
+  "prior_job_id": null,
+  "calibration_cycle_ref": "261118_calibration_cycle_v03.json",
+  "area_evidence_ref": "261118_geojson_build_qa_v03.json",
+  "study_model_job_ref": null,
+  "created_at": "2026-11-18T10:50:00+01:00",
+  "timezone": "Europe/Prague",
+  "context": {
+    "title": "Územní plán Mnichovo Hradiště – plochy s rozdílným způsobem využití",
+    "locality": "Mnichovo Hradiště (kód obce 536326)",
+    "intended_use": "Nahrání do mapové aplikace jako pracovní vizualizační vrstva.",
+    "requested_scope": "Najít, získat a převést aktuální územní plán do GeoJSON.",
+    "document_revision": "Úplné znění po změně č. 2; účinnost od 2026-01-30",
+    "scenario_id": "up-zm2-effective-2026-01-30",
+    "semantic_package_ref": "../output/261118_mnichovo-hradiste-up-zm2-tridy_v03.json"
+  },
+  "readiness": {
+    "source_inventory": "complete",
+    "legend_interpretation": "provisional",
+    "local_geometry": "complete",
+    "georeferencing": "checked",
+    "cadastral_reference": "checked",
+    "layer_consistency": "checked_with_gaps",
+    "geojson_export": "validated",
+    "viewer": "preview_complete",
+    "schema_binding": "generic_rfc7946"
+  },
+  "quality_policy": {
+    "purpose_acceptance_criteria": "Valid RFC 7946 polygon layer, current official revision, cadastral placement check, explicit semantic uncertainty.",
+    "registration_review_ref": "261118_registration_record_v03.json",
+    "absolute_accuracy_m": 0.5,
+    "thematic_boundary_accuracy_m": 2.0,
+    "acceptance_status": "provisional_due_to_semantic_ambiguity"
+  },
+  "sources": [
+    {
+      "id": "261118_mnhradiste_up_official_page",
+      "url": "https://www.mnhradiste.cz/radnice/strategicke-dokumenty/prehled-stavu-up/mnichovo-hradiste",
+      "local_path": "../source/261118_mnhradiste_up_official_page.html",
+      "sha256": "438253ee3c536ce4692ae3d55892843756bc727df569f26ac62013eb9bf71f63",
+      "bytes": 83437,
+      "acquired_at": "2026-11-18T10:34:08.663874+01:00",
+      "role": "Oficiální identifikace platné revize, účinnosti a odkazů na dokumentaci.",
+      "authority": "Město Mnichovo Hradiště",
+      "limitation": null
+    },
+    {
+      "id": "261118_536326-v2-hlv",
+      "url": "https://www.mnhradiste.cz/data/soubory/2026/536326-v2-hlv.pdf",
+      "local_path": "../source/261118_536326-v2-hlv.pdf",
+      "sha256": "85968209634fea87e07e1d497c2a5af307851b8397ef7d7937aec2d3dddb8009",
+      "bytes": 6557070,
+      "acquired_at": "2026-11-18T09:13:52.757318+01:00",
+      "role": "Primární geometrický a legendový zdroj; hlavní výkres V2.",
+      "authority": "Oficiální zveřejněná územně plánovací dokumentace",
+      "limitation": "Vektorové PDF bez vloženého geospatial GPTS; geometrie je odvozena z PDF vrstev."
+    },
+    {
+      "id": "261118_536326-text",
+      "url": "https://www.mnhradiste.cz/data/soubory/2026/536326-text.pdf",
+      "local_path": "../source/261118_536326-text.pdf",
+      "sha256": "bcd0473556e427b5a6b029d654c2f7d9d71eb055b90fe0b3ff2fe8b337ba1d53",
+      "bytes": 1007612,
+      "acquired_at": "2026-11-18T09:13:52.642656+01:00",
+      "role": "Textová kontrola revize, terminologie a rozsahu dokumentace.",
+      "authority": "Oficiální zveřejněná územně plánovací dokumentace",
+      "limitation": null
+    }
+  ],
+  "panels": [
+    {
+      "id": "v2-main",
+      "source": "../source/261118_536326-v2-hlv.pdf",
+      "page": 1,
+      "role": "main_map"
+    },
+    {
+      "id": "v2-legend",
+      "source": "../source/261118_536326-v2-hlv.pdf",
+      "page": 1,
+      "role": "legend",
+      "evidence": "261118_legend_144dpi.png"
+    }
+  ],
+  "reference_sources": [
+    {
+      "id": "261118_cuzk_ruian_mapserver_metadata",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer?f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_mapserver_metadata.json",
+      "sha256": "be4753c855688e94ca4712b5f27fa5063fe5053db268b5a1395c6b9c08a8637c",
+      "bytes": 23621,
+      "acquired_at": "2026-11-18T09:36:54.895432+01:00",
+      "role": "Metadata autoritativní referenční služby.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_obec_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/12/query?where=kod%3D536326&outFields=*&returnGeometry=true&outSR=5514&f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_obec_536326_epsg5514.json",
+      "sha256": "0ea2bcac27e0a9e8f75b00bfdfde61ed2470b3b43ddce1fdde6acaeea313fcda",
+      "bytes": 108932,
+      "acquired_at": "2026-11-18T09:36:55.596006+01:00",
+      "role": "Registrační reference hranice obce v EPSG:5514.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_ku_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/7/query?where=obec%3D536326&outFields=kod%2Cnazev%2Cobec%2Cplatiod&returnGeometry=true&outSR=5514&f=pjson",
+      "local_path": "../source/261118_cuzk_ruian_ku_536326_epsg5514.json",
+      "sha256": "2b9f4d5bafdae95f0958c1bd9bc2a6de041f3000e8aefaa9ecbc5eb34e701ee2",
+      "bytes": 265083,
+      "acquired_at": "2026-11-18T09:37:49.074438+01:00",
+      "role": "Kontrola osmi katastrálních území obce.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": null
+    },
+    {
+      "id": "261118_cuzk_ruian_parcely_536326_epsg5514",
+      "url": "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/5/query",
+      "local_path": "../source/261118_cuzk_ruian_parcely_536326_epsg5514.json",
+      "sha256": "a7c495b69dddabecc4381271e898aa47607fd219537d1fdde407fb8c59dc26be",
+      "bytes": 16462732,
+      "acquired_at": "2026-11-18T10:07:20.722542+01:00",
+      "role": "Nezávislá kontrola polohy vůči 15 014 aktuálním parcelám.",
+      "authority": "ČÚZK / RÚIAN",
+      "limitation": "Aktuální stav se může lišit od katastrálního podkladu výkresu k 02.01.2025."
+    },
+    {
+      "id": "261118_gepro_layers",
+      "url": "https://mnichovo-hradiste.obce.gepro.cz/MACRO/JSON/LAYERS?r=1",
+      "local_path": "../source/261118_gepro_layers.json",
+      "sha256": "ee7607cd40b6ee2e4e2f114b71617b5e55962dababcaf758d125b3c5025f851f",
+      "bytes": 24471,
+      "acquired_at": "2026-11-18T10:34:08.914756+01:00",
+      "role": "Ověření typu veřejné vrstvy městského geoportálu.",
+      "authority": "Veřejný Geoportál Mnichova Hradiště / GEPRO",
+      "limitation": "Vrstva UP_MH je rastrové WMS, nikoli veřejný vektorový download."
+    },
+    {
+      "id": "261118_gepro_nodes",
+      "url": "https://mnichovo-hradiste.obce.gepro.cz/MACRO/JSON/NODES?r=1",
+      "local_path": "../source/261118_gepro_nodes.json",
+      "sha256": "071f39675bb271610a1e634f9ee18f979cf4e4272304c786595d6bcac85ab24c",
+      "bytes": 14272,
+      "acquired_at": "2026-11-18T10:34:09.025790+01:00",
+      "role": "Ověření katalogové větve Ostatní > Územní plán > Mnichovo Hradiště.",
+      "authority": "Veřejný Geoportál Mnichova Hradiště / GEPRO",
+      "limitation": null
+    }
+  ],
+  "registrations": [
+    "261118_registration_record_v03.json"
+  ],
+  "classes": [
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zp",
+      "kod_rzv": "ZP",
+      "kod_kandidati": [
+        "ZP"
+      ],
+      "nazev_rzv": "Zeleň parková a parkově upravená",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#648700",
+      "source_rgb": [
+        0.392,
+        0.529,
+        0.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-lu",
+      "kod_rzv": "LU",
+      "kod_kandidati": [
+        "LU"
+      ],
+      "nazev_rzv": "Lesní všeobecné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#6AB085",
+      "source_rgb": [
+        0.416,
+        0.69,
+        0.522
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-wt",
+      "kod_rzv": "WT",
+      "kod_kandidati": [
+        "WT"
+      ],
+      "nazev_rzv": "Vodní plochy a vodní toky",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#6BEBFF",
+      "source_rgb": [
+        0.42,
+        0.922,
+        1.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zk",
+      "kod_rzv": "ZK",
+      "kod_kandidati": [
+        "ZK"
+      ],
+      "nazev_rzv": "Zeleň krajinná",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#82AA00",
+      "source_rgb": [
+        0.51,
+        0.667,
+        0.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Mapová výplň je světlejší varianta oproti vzorku ZK v legendě; ostatní zelené třídy jsou barevně jednoznačné."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zs",
+      "kod_rzv": "ZS",
+      "kod_kandidati": [
+        "ZS"
+      ],
+      "nazev_rzv": "Zeleň sídelní ostatní",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#87BB55",
+      "source_rgb": [
+        0.529,
+        0.733,
+        0.333
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zo",
+      "kod_rzv": "ZO",
+      "kod_kandidati": [
+        "ZO"
+      ],
+      "nazev_rzv": "Zeleň ochranná a izolační",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#93FF93",
+      "source_rgb": [
+        0.576,
+        1.0,
+        0.576
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-wh",
+      "kod_rzv": "WH",
+      "kod_kandidati": [
+        "WH"
+      ],
+      "nazev_rzv": "Vodohospodářské",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#97F3FF",
+      "source_rgb": [
+        0.592,
+        0.953,
+        1.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Mapová výplň WH je světlejší varianta oproti shodnému vzorku WT/WH v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-hu",
+      "kod_rzv": "HU",
+      "kod_kandidati": [
+        "HU"
+      ],
+      "nazev_rzv": "Smíšené výrobní všeobecné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#A0A0B9",
+      "source_rgb": [
+        0.627,
+        0.627,
+        0.725
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-zz",
+      "kod_rzv": "ZZ",
+      "kod_kandidati": [
+        "ZZ"
+      ],
+      "nazev_rzv": "Zeleň zahradní a sadová",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#A0DC6E",
+      "source_rgb": [
+        0.627,
+        0.863,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vl",
+      "kod_rzv": "VL",
+      "kod_kandidati": [
+        "VL"
+      ],
+      "nazev_rzv": "Výroba lehká",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#AFB0B0",
+      "source_rgb": [
+        0.686,
+        0.69,
+        0.69
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-sc",
+      "kod_rzv": "SC",
+      "kod_kandidati": [
+        "SC"
+      ],
+      "nazev_rzv": "Smíšené obytné centrální",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#B4646E",
+      "source_rgb": [
+        0.706,
+        0.392,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-du-dd",
+      "kod_rzv": "DU|DD",
+      "kod_kandidati": [
+        "DU",
+        "DD"
+      ],
+      "nazev_rzv": "Doprava všeobecná nebo doprava drážní",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#B969AF",
+      "source_rgb": [
+        0.725,
+        0.412,
+        0.686
+      ],
+      "semantic_confidence": "ambiguous",
+      "note": "DU a DD jsou v mapové ploše vykresleny shodnou barvou; rezervy jsou rozlišeny samostatně podle legendy."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vz",
+      "kod_rzv": "VZ",
+      "kod_kandidati": [
+        "VZ"
+      ],
+      "nazev_rzv": "Výroba zemědělská a lesnická",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#BEB991",
+      "source_rgb": [
+        0.745,
+        0.725,
+        0.569
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-sm",
+      "kod_rzv": "SM",
+      "kod_kandidati": [
+        "SM"
+      ],
+      "nazev_rzv": "Smíšené obytné městské",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#C88C96",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-vd",
+      "kod_rzv": "VD",
+      "kod_kandidati": [
+        "VD"
+      ],
+      "nazev_rzv": "Výroba drobná a služby",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#CCD0D0",
+      "source_rgb": [
+        0.8,
+        0.816,
+        0.816
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-oh",
+      "kod_rzv": "OH",
+      "kod_kandidati": [
+        "OH"
+      ],
+      "nazev_rzv": "Občanské vybavení hřbitovy",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#CDC396",
+      "source_rgb": [
+        0.804,
+        0.765,
+        0.588
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ok",
+      "kod_rzv": "OK",
+      "kod_kandidati": [
+        "OK"
+      ],
+      "nazev_rzv": "Občanské vybavení komerční",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#D2286E",
+      "source_rgb": [
+        0.824,
+        0.157,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ox",
+      "kod_rzv": "OX",
+      "kod_kandidati": [
+        "OX"
+      ],
+      "nazev_rzv": "Občanské vybavení jiné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#D24678",
+      "source_rgb": [
+        0.824,
+        0.275,
+        0.471
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-tw-te",
+      "kod_rzv": "TW|TE",
+      "kod_kandidati": [
+        "TW",
+        "TE"
+      ],
+      "nazev_rzv": "Vodní hospodářství nebo energetika",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#D2BCD4",
+      "source_rgb": [
+        0.824,
+        0.737,
+        0.831
+      ],
+      "semantic_confidence": "ambiguous",
+      "note": "TW a TE používají ve zdrojovém výkresu shodnou výplň."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ov",
+      "kod_rzv": "OV",
+      "kod_kandidati": [
+        "OV"
+      ],
+      "nazev_rzv": "Občanské vybavení veřejné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#DC508C",
+      "source_rgb": [
+        0.863,
+        0.314,
+        0.549
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-bh",
+      "kod_rzv": "BH",
+      "kod_kandidati": [
+        "BH"
+      ],
+      "nazev_rzv": "Bydlení hromadné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#E01616",
+      "source_rgb": [
+        0.878,
+        0.086,
+        0.086
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-dx",
+      "kod_rzv": "DX",
+      "kod_kandidati": [
+        "DX"
+      ],
+      "nazev_rzv": "Doprava jiná",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#E4BDFF",
+      "source_rgb": [
+        0.894,
+        0.741,
+        1.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Mapová výplň je sytější varianta oproti vzorku v legendě; přiřazení podporuje prostorový kontext a oddělení areálu letiště DL."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-mu.r",
+      "kod_rzv": "MU.r",
+      "kod_kandidati": [
+        "MU.r"
+      ],
+      "nazev_rzv": "Rekreace nepobytová",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#E5FFB2",
+      "source_rgb": [
+        0.898,
+        1.0,
+        0.698
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-rz",
+      "kod_rzv": "RZ",
+      "kod_kandidati": [
+        "RZ"
+      ],
+      "nazev_rzv": "Rekreace v zahrádkářských osadách",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#EBE90F",
+      "source_rgb": [
+        0.922,
+        0.914,
+        0.059
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ro",
+      "kod_rzv": "RO",
+      "kod_kandidati": [
+        "RO"
+      ],
+      "nazev_rzv": "Rekreace na oddechových plochách",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#F0F005",
+      "source_rgb": [
+        0.941,
+        0.941,
+        0.02
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-dl",
+      "kod_rzv": "DL",
+      "kod_kandidati": [
+        "DL"
+      ],
+      "nazev_rzv": "Doprava letecká",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#F7EBFF",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Přiřazení podporuje souvislý areál letiště Hoškovice a barva rezervy R.2 v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-pu-px",
+      "kod_rzv": "PU|PX",
+      "kod_kandidati": [
+        "PU",
+        "PX"
+      ],
+      "nazev_rzv": "Veřejná prostranství všeobecná nebo jiná",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FAF5EB",
+      "source_rgb": [
+        0.98,
+        0.961,
+        0.922
+      ],
+      "semantic_confidence": "ambiguous",
+      "note": "PU a PX používají ve zdrojovém výkresu shodnou výplň; bez původních GIS atributů je nelze bezpečně rozlišit."
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-bv",
+      "kod_rzv": "BV",
+      "kod_kandidati": [
+        "BV"
+      ],
+      "nazev_rzv": "Bydlení venkovské",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FFAA0F",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ds",
+      "kod_rzv": "DS",
+      "kod_kandidati": [
+        "DS"
+      ],
+      "nazev_rzv": "Doprava silniční",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FFDCAF",
+      "source_rgb": [
+        1.0,
+        0.863,
+        0.686
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-ri",
+      "kod_rzv": "RI",
+      "kod_kandidati": [
+        "RI"
+      ],
+      "nazev_rzv": "Rekreace individuální",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FFE600",
+      "source_rgb": [
+        1.0,
+        0.902,
+        0.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-au",
+      "kod_rzv": "AU",
+      "kod_kandidati": [
+        "AU"
+      ],
+      "nazev_rzv": "Zemědělské všeobecné",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FFF9C6",
+      "source_rgb": [
+        1.0,
+        0.976,
+        0.776
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-stabilizovana-os",
+      "kod_rzv": "OS",
+      "kod_kandidati": [
+        "OS"
+      ],
+      "nazev_rzv": "Občanské vybavení sport",
+      "stav": "stabilizovana",
+      "rezerva_id": null,
+      "barva_hex": "#FFFF7D",
+      "source_rgb": [
+        1.0,
+        1.0,
+        0.49
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zp",
+      "kod_rzv": "ZP",
+      "kod_kandidati": [
+        "ZP"
+      ],
+      "nazev_rzv": "Zeleň parková a parkově upravená",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#648700",
+      "source_rgb": [
+        0.392,
+        0.529,
+        0.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-lu",
+      "kod_rzv": "LU",
+      "kod_kandidati": [
+        "LU"
+      ],
+      "nazev_rzv": "Lesní všeobecné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#6AB085",
+      "source_rgb": [
+        0.416,
+        0.69,
+        0.522
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-wt",
+      "kod_rzv": "WT",
+      "kod_kandidati": [
+        "WT"
+      ],
+      "nazev_rzv": "Vodní plochy a vodní toky",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#6BEBFF",
+      "source_rgb": [
+        0.42,
+        0.922,
+        1.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zo",
+      "kod_rzv": "ZO",
+      "kod_kandidati": [
+        "ZO"
+      ],
+      "nazev_rzv": "Zeleň ochranná a izolační",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#93FF93",
+      "source_rgb": [
+        0.576,
+        1.0,
+        0.576
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-hu",
+      "kod_rzv": "HU",
+      "kod_kandidati": [
+        "HU"
+      ],
+      "nazev_rzv": "Smíšené výrobní všeobecné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#A0A0B9",
+      "source_rgb": [
+        0.627,
+        0.627,
+        0.725
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-zz",
+      "kod_rzv": "ZZ",
+      "kod_kandidati": [
+        "ZZ"
+      ],
+      "nazev_rzv": "Zeleň zahradní a sadová",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#A0DC6E",
+      "source_rgb": [
+        0.627,
+        0.863,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vx",
+      "kod_rzv": "VX",
+      "kod_kandidati": [
+        "VX"
+      ],
+      "nazev_rzv": "Výroba a skladování jiné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#A7A7A7",
+      "source_rgb": [
+        0.655,
+        0.655,
+        0.655
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vl",
+      "kod_rzv": "VL",
+      "kod_kandidati": [
+        "VL"
+      ],
+      "nazev_rzv": "Výroba lehká",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#AFB0B0",
+      "source_rgb": [
+        0.686,
+        0.69,
+        0.69
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-sc",
+      "kod_rzv": "SC",
+      "kod_kandidati": [
+        "SC"
+      ],
+      "nazev_rzv": "Smíšené obytné centrální",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#B4646E",
+      "source_rgb": [
+        0.706,
+        0.392,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vz",
+      "kod_rzv": "VZ",
+      "kod_kandidati": [
+        "VZ"
+      ],
+      "nazev_rzv": "Výroba zemědělská a lesnická",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#BEB991",
+      "source_rgb": [
+        0.745,
+        0.725,
+        0.569
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-sm",
+      "kod_rzv": "SM",
+      "kod_kandidati": [
+        "SM"
+      ],
+      "nazev_rzv": "Smíšené obytné městské",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#C88C96",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-vd",
+      "kod_rzv": "VD",
+      "kod_kandidati": [
+        "VD"
+      ],
+      "nazev_rzv": "Výroba drobná a služby",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#CCD0D0",
+      "source_rgb": [
+        0.8,
+        0.816,
+        0.816
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ok",
+      "kod_rzv": "OK",
+      "kod_kandidati": [
+        "OK"
+      ],
+      "nazev_rzv": "Občanské vybavení komerční",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#D2286E",
+      "source_rgb": [
+        0.824,
+        0.157,
+        0.431
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ox",
+      "kod_rzv": "OX",
+      "kod_kandidati": [
+        "OX"
+      ],
+      "nazev_rzv": "Občanské vybavení jiné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#D24678",
+      "source_rgb": [
+        0.824,
+        0.275,
+        0.471
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-tw-te",
+      "kod_rzv": "TW|TE",
+      "kod_kandidati": [
+        "TW",
+        "TE"
+      ],
+      "nazev_rzv": "Vodní hospodářství nebo energetika",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#D2BCD4",
+      "source_rgb": [
+        0.824,
+        0.737,
+        0.831
+      ],
+      "semantic_confidence": "ambiguous",
+      "note": "TW a TE používají ve zdrojovém výkresu shodnou výplň."
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-ov",
+      "kod_rzv": "OV",
+      "kod_kandidati": [
+        "OV"
+      ],
+      "nazev_rzv": "Občanské vybavení veřejné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#DC508C",
+      "source_rgb": [
+        0.863,
+        0.314,
+        0.549
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-mu.r",
+      "kod_rzv": "MU.r",
+      "kod_kandidati": [
+        "MU.r"
+      ],
+      "nazev_rzv": "Rekreace nepobytová",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#E5FFB2",
+      "source_rgb": [
+        0.898,
+        1.0,
+        0.698
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-rz",
+      "kod_rzv": "RZ",
+      "kod_kandidati": [
+        "RZ"
+      ],
+      "nazev_rzv": "Rekreace v zahrádkářských osadách",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#EBE90F",
+      "source_rgb": [
+        0.922,
+        0.914,
+        0.059
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-dl",
+      "kod_rzv": "DL",
+      "kod_kandidati": [
+        "DL"
+      ],
+      "nazev_rzv": "Doprava letecká",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#F7EAFF",
+      "source_rgb": [
+        0.969,
+        0.918,
+        1.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Barevná odchylka vzniká v návrhové vrstvě stejné třídy."
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-dl-2",
+      "kod_rzv": "DL",
+      "kod_kandidati": [
+        "DL"
+      ],
+      "nazev_rzv": "Doprava letecká",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#F7EBFF",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "semantic_confidence": "medium",
+      "note": "Přiřazení podporuje souvislý areál letiště Hoškovice a barva rezervy R.2 v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-pu-px",
+      "kod_rzv": "PU|PX",
+      "kod_kandidati": [
+        "PU",
+        "PX"
+      ],
+      "nazev_rzv": "Veřejná prostranství všeobecná nebo jiná",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#FAF5EB",
+      "source_rgb": [
+        0.98,
+        0.961,
+        0.922
+      ],
+      "semantic_confidence": "ambiguous",
+      "note": "PU a PX používají ve zdrojovém výkresu shodnou výplň; bez původních GIS atributů je nelze bezpečně rozlišit."
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-bx",
+      "kod_rzv": "BX",
+      "kod_kandidati": [
+        "BX"
+      ],
+      "nazev_rzv": "Bydlení jiné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#FF0000",
+      "source_rgb": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-bv",
+      "kod_rzv": "BV",
+      "kod_kandidati": [
+        "BV"
+      ],
+      "nazev_rzv": "Bydlení venkovské",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#FFAA0F",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-au",
+      "kod_rzv": "AU",
+      "kod_kandidati": [
+        "AU"
+      ],
+      "nazev_rzv": "Zemědělské všeobecné",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#FFF9C6",
+      "source_rgb": [
+        1.0,
+        0.976,
+        0.776
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-navrhova-os",
+      "kod_rzv": "OS",
+      "kod_kandidati": [
+        "OS"
+      ],
+      "nazev_rzv": "Občanské vybavení sport",
+      "stav": "navrhova",
+      "rezerva_id": null,
+      "barva_hex": "#FFFF7D",
+      "source_rgb": [
+        1.0,
+        1.0,
+        0.49
+      ],
+      "semantic_confidence": "high",
+      "note": null
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-dd",
+      "kod_rzv": "DD",
+      "kod_kandidati": [
+        "DD"
+      ],
+      "nazev_rzv": "Doprava drážní",
+      "stav": "uzemni_rezerva",
+      "rezerva_id": "R.D604",
+      "barva_hex": "#B969AF",
+      "source_rgb": [
+        0.725,
+        0.412,
+        0.686
+      ],
+      "semantic_confidence": "high",
+      "note": "Kód a identifikátor rezervy jsou přímo uvedeny v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-sm",
+      "kod_rzv": "SM",
+      "kod_kandidati": [
+        "SM"
+      ],
+      "nazev_rzv": "Smíšené obytné městské",
+      "stav": "uzemni_rezerva",
+      "rezerva_id": "R.3",
+      "barva_hex": "#C88C96",
+      "source_rgb": [
+        0.784,
+        0.549,
+        0.588
+      ],
+      "semantic_confidence": "high",
+      "note": "Kód a identifikátor rezervy jsou přímo uvedeny v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-dl",
+      "kod_rzv": "DL",
+      "kod_kandidati": [
+        "DL"
+      ],
+      "nazev_rzv": "Doprava letecká",
+      "stav": "uzemni_rezerva",
+      "rezerva_id": "R.2",
+      "barva_hex": "#F7EBFF",
+      "source_rgb": [
+        0.969,
+        0.922,
+        1.0
+      ],
+      "semantic_confidence": "high",
+      "note": "Kód a identifikátor rezervy jsou přímo uvedeny v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-bv",
+      "kod_rzv": "BV",
+      "kod_kandidati": [
+        "BV"
+      ],
+      "nazev_rzv": "Bydlení venkovské",
+      "stav": "uzemni_rezerva",
+      "rezerva_id": "R.9",
+      "barva_hex": "#FFAA0F",
+      "source_rgb": [
+        1.0,
+        0.667,
+        0.059
+      ],
+      "semantic_confidence": "high",
+      "note": "Kód a identifikátor rezervy jsou přímo uvedeny v legendě."
+    },
+    {
+      "feature_id": "mh-up-z2-uzemni_rezerva-ds",
+      "kod_rzv": "DS",
+      "kod_kandidati": [
+        "DS"
+      ],
+      "nazev_rzv": "Doprava silniční",
+      "stav": "uzemni_rezerva",
+      "rezerva_id": "R.7",
+      "barva_hex": "#FFDCAF",
+      "source_rgb": [
+        1.0,
+        0.863,
+        0.686
+      ],
+      "semantic_confidence": "high",
+      "note": "Kód a identifikátor rezervy jsou přímo uvedeny v legendě."
+    }
+  ],
+  "processing_runs": [
+    {
+      "id": "pdf-vector-fill-reconstruction-v03",
+      "method": "Extract OCG fills, reconstruct tessellated polygons, affine-register at 1:5000, clip, remove <1 m² slivers, simplify 0.2 m, transform to OGC:CRS84.",
+      "qa_ref": "261118_geojson_build_qa_v03.json"
+    }
+  ],
+  "manual_corrections": [],
+  "layers": [
+    {
+      "id": "mnichovo-hradiste-up-zm2-rzv",
+      "title": "Plochy s rozdílným způsobem využití – ÚP Mnichovo Hradiště po změně č. 2",
+      "artifact_path": "../output/261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+      "sha256": "88396745a45ee197a4b7369cfef6ac1d707467c7e1e92f2e3e5e4db24395a22d",
+      "format": "GeoJSON RFC 7946",
+      "crs": "OGC:CRS84 (longitude, latitude)",
+      "bbox": [
+        14.950034147507287,
+        50.483034893544215,
+        15.051401114504381,
+        50.56576504149315
+      ],
+      "feature_count": 62,
+      "geometry_types": {
+        "MultiPolygon": 56,
+        "Polygon": 6
+      },
+      "status_feature_counts": {
+        "stabilizovana": 32,
+        "navrhova": 25,
+        "uzemni_rezerva": 5
+      },
+      "semantic_confidence_counts": {
+        "high": 51,
+        "medium": 6,
+        "ambiguous": 5
+      },
+      "coverage_pct": 99.35773068163351,
+      "fields": [
+        "feature_id",
+        "kod_rzv",
+        "kod_kandidati",
+        "nazev_rzv",
+        "stav",
+        "rezerva_id",
+        "barva_hex",
+        "source_rgb",
+        "semantic_confidence",
+        "review_state",
+        "semantic_note",
+        "area_m2",
+        "source_layer",
+        "source_document",
+        "source_effective_from",
+        "source_pdf_sha256",
+        "derivation",
+        "legal_note"
+      ],
+      "preview_path": "../output/261118_mnichovo-hradiste-up-zm2-preview_v03.png",
+      "class_catalog_path": "../output/261118_mnichovo-hradiste-up-zm2-tridy_v03.json"
+    }
+  ],
+  "coverage": [
+    {
+      "layer_id": "mnichovo-hradiste-up-zm2-rzv",
+      "coverage_pct": 99.35773068163351,
+      "gap_area_m2": 221083.16977545508,
+      "overlap_area_m2": 170887.40633948892
+    }
+  ],
+  "gaps": [
+    {
+      "type": "semantic",
+      "classes": [
+        "PU/PX",
+        "DU/DD",
+        "TW/TE"
+      ],
+      "area_pct": 2.0100592577625647
+    },
+    {
+      "type": "coverage",
+      "area_pct": 0.6422693183664876,
+      "reason": "Nezařazené bílé/hranové plochy a drobné mezery zdrojové kresby."
+    },
+    {
+      "type": "source",
+      "reason": "Původní autorská GIS databáze nebyla ve veřejných zdrojích nalezena; městský geoportál zveřejňuje UP_MH jako rastrové WMS."
+    }
+  ]
+}

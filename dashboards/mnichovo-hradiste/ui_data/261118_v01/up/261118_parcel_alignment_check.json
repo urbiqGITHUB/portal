@@ -1,0 +1,34 @@
+{
+  "method": "Midpoints of deterministic sample of PDF parcel-boundary segments to nearest current ČÚZK RÚIAN parcel ring.",
+  "source_pdf_segment_midpoints": 91740,
+  "sample_stride": 5,
+  "sample_count": 18348,
+  "target_parcel_features": 15014,
+  "target_rings": 16328,
+  "pdf_layer_path_counts": {
+    "KN  Dneboh 20250102|Hranice parcel": 2804,
+    "KN Hoškovice 20250102|Hranice parcel": 2995,
+    "KN Lhotice u Bosně 20250102|Hranice parcel": 7204,
+    "KN Mnichovo Hradiště 20250102|Hranice parcel": 12913,
+    "KN Olšina 20250102|Hranice parcel": 873,
+    "KN Podolí u Mnichova Hradiště 20250102|Hranice parcel": 2840,
+    "KN Sychrov nad Jizerou 2025|Hranice parcel": 3126,
+    "KN Veselá u Mnichova Hradiště 2025|Hranice parcel": 5133
+  },
+  "distance_summary": {
+    "count": 18348,
+    "mean_m": 0.06374700754530536,
+    "median_m": 0.04311750799320997,
+    "p75_m": 0.07263597121237407,
+    "p90_m": 0.10118466765197907,
+    "p95_m": 0.11825857752291309,
+    "p99_m": 0.14921946503056444,
+    "max_m": 116.39461514458382,
+    "rmse_m": 0.9127389165846617,
+    "within_0_5_m_pct": 99.78199258774798,
+    "within_1_m_pct": 99.81469369958579,
+    "within_2_m_pct": 99.8800959232614,
+    "within_5_m_pct": 99.9563985175496
+  },
+  "limitation": "Nearest-line distance is an independent placement check, not proof that 2025 and current parcel topology are identical."
+}

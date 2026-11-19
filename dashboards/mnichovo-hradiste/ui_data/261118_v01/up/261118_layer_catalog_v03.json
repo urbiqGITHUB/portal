@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "catalog_id": "mh-up-zm2-rzv-v03",
+  "created_at": "2026-11-18T10:50:00+01:00",
+  "layers": [
+    {
+      "id": "mnichovo-hradiste-up-zm2-rzv",
+      "title": "Plochy s rozdílným způsobem využití – ÚP Mnichovo Hradiště po změně č. 2",
+      "artifact_path": "../output/261118_mnichovo-hradiste-up-zm2-plochy-rzv_v03.geojson",
+      "sha256": "88396745a45ee197a4b7369cfef6ac1d707467c7e1e92f2e3e5e4db24395a22d",
+      "format": "GeoJSON RFC 7946",
+      "crs": "OGC:CRS84 (longitude, latitude)",
+      "bbox": [
+        14.950034147507287,
+        50.483034893544215,
+        15.051401114504381,
+        50.56576504149315
+      ],
+      "feature_count": 62,
+      "geometry_types": {
+        "MultiPolygon": 56,
+        "Polygon": 6
+      },
+      "status_feature_counts": {
+        "stabilizovana": 32,
+        "navrhova": 25,
+        "uzemni_rezerva": 5
+      },
+      "semantic_confidence_counts": {
+        "high": 51,
+        "medium": 6,
+        "ambiguous": 5
+      },
+      "coverage_pct": 99.35773068163351,
+      "fields": [
+        "feature_id",
+        "kod_rzv",
+        "kod_kandidati",
+        "nazev_rzv",
+        "stav",
+        "rezerva_id",
+        "barva_hex",
+        "source_rgb",
+        "semantic_confidence",
+        "review_state",
+        "semantic_note",
+        "area_m2",
+        "source_layer",
+        "source_document",
+        "source_effective_from",
+        "source_pdf_sha256",
+        "derivation",
+        "legal_note"
+      ],
+      "preview_path": "../output/261118_mnichovo-hradiste-up-zm2-preview_v03.png",
+      "class_catalog_path": "../output/261118_mnichovo-hradiste-up-zm2-tridy_v03.json"
+    }
+  ]
+}
