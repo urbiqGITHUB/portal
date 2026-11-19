@@ -1,9 +1,9 @@
 {
-  "builtAt": "2026-11-19T20:57:48.991Z",
+  "builtAt": "2026-11-19T21:20:55.177Z",
   "configSha256": "4fae593172a4560ba2602d05bc2c7e6cc62ec34bc95daac29aa0a9dc1221555b",
   "configFileSha256": "bacf1a00f8bf4ad129a6607b716927f5dc5bd6567489f06d56dcf4415c33310c",
   "cssSha256": "704ec122d81935654b5059c25d88e6ea754f3c5f4148c54ad2a573c56b97b674",
-  "entrySha256": "8119e2f62199e4a7badb2ef8df9974171e8df0cf23aebca62a79fe931a5a5f69",
+  "entrySha256": "550fc221f51bb183447adcb6eaabe16f50e37b0a52cdf22f8bef035ca02c0d14",
   "sourceCss": [
     {
       "path": "styles/source/workspace.css",
@@ -985,11 +985,6 @@
       "path": "cad_data/261117_v03/semantic-data.js",
       "size_bytes": 1306341,
       "sha256": "6ee15959b77a5d94995aa74ef47ec0889d9215dd123c0b7acff7462bf478c192"
-    },
-    {
-      "path": "catalog_data/261113_v01/catalog-data.js",
-      "size_bytes": 205553,
-      "sha256": "93e7c5d4fbc126a47131e27d8f9dcfefea9a129fe2317e981c7d9ea23243be83"
     },
     {
       "path": "catalog_data/261113_v02/catalog-data.js",
@@ -2800,11 +2795,6 @@
       "path": "map_data/261113_v01/layers/water_route.geojson",
       "size_bytes": 3279,
       "sha256": "796428be2f6aab69d0c1872e6a93930322135409e08c54f6c14a0907d69dee35"
-    },
-    {
-      "path": "map_data/261113_v01/map-data.js",
-      "size_bytes": 69690,
-      "sha256": "9a5e01ee69032073cf7215062be445801a6a309776123d7ddb0110a27e18e308"
     },
     {
       "path": "map_data/261113_v01/map-job.json",
@@ -6898,13 +6888,13 @@
     },
     {
       "path": "dashboard.html",
-      "size_bytes": 5830861,
-      "sha256": "8119e2f62199e4a7badb2ef8df9974171e8df0cf23aebca62a79fe931a5a5f69"
+      "size_bytes": 5830773,
+      "sha256": "550fc221f51bb183447adcb6eaabe16f50e37b0a52cdf22f8bef035ca02c0d14"
     },
     {
       "path": "dashboard-files.json",
-      "size_bytes": 246799,
-      "sha256": "bbcf932fbb1f67de821bde352cb77d4b1078300f8dd291309d343bbec65d0906"
+      "size_bytes": 246446,
+      "sha256": "bf81d13c66674a7789def1095c127e684b205b37c43eb9d917b5aa89eb0f3245"
     }
   ]
 }

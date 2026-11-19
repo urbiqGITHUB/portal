@@ -819,11 +819,6 @@
       "sha256": "6ee15959b77a5d94995aa74ef47ec0889d9215dd123c0b7acff7462bf478c192"
     },
     {
-      "path": "catalog_data/261113_v01/catalog-data.js",
-      "size_bytes": 205553,
-      "sha256": "93e7c5d4fbc126a47131e27d8f9dcfefea9a129fe2317e981c7d9ea23243be83"
-    },
-    {
       "path": "catalog_data/261113_v02/catalog-data.js",
       "size_bytes": 206518,
       "sha256": "b63bd31fee8f683aac4dda74939a9d16759dfa2f1530390ad30baf4ad4922003"
@@ -2632,11 +2627,6 @@
       "path": "map_data/261113_v01/layers/water_route.geojson",
       "size_bytes": 3279,
       "sha256": "796428be2f6aab69d0c1872e6a93930322135409e08c54f6c14a0907d69dee35"
-    },
-    {
-      "path": "map_data/261113_v01/map-data.js",
-      "size_bytes": 69690,
-      "sha256": "9a5e01ee69032073cf7215062be445801a6a309776123d7ddb0110a27e18e308"
     },
     {
       "path": "map_data/261113_v01/map-job.json",
