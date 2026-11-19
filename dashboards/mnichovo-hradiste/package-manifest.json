@@ -3,7 +3,7 @@
   "configSha256": "4fae593172a4560ba2602d05bc2c7e6cc62ec34bc95daac29aa0a9dc1221555b",
   "configFileSha256": "bacf1a00f8bf4ad129a6607b716927f5dc5bd6567489f06d56dcf4415c33310c",
   "cssSha256": "704ec122d81935654b5059c25d88e6ea754f3c5f4148c54ad2a573c56b97b674",
-  "entrySha256": "550fc221f51bb183447adcb6eaabe16f50e37b0a52cdf22f8bef035ca02c0d14",
+  "entrySha256": "fa1ea049b6a5ab75b234e498cb7867e866c80bf66304f57553b12622bf196922",
   "sourceCss": [
     {
       "path": "styles/source/workspace.css",
@@ -6888,8 +6888,8 @@
     },
     {
       "path": "dashboard.html",
-      "size_bytes": 5830773,
-      "sha256": "550fc221f51bb183447adcb6eaabe16f50e37b0a52cdf22f8bef035ca02c0d14"
+      "size_bytes": 5830771,
+      "sha256": "fa1ea049b6a5ab75b234e498cb7867e866c80bf66304f57553b12622bf196922"
     },
     {
       "path": "dashboard-files.json",
