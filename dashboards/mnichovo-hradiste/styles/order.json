@@ -1,0 +1,137 @@
+[
+  {
+    "path": "styles/source/workspace.css",
+    "assetBase": ".",
+    "source": "workspace.css"
+  },
+  {
+    "path": "styles/source/vendor/leaflet-1.9.4/leaflet.css",
+    "assetBase": "vendor/leaflet-1.9.4",
+    "source": "vendor/leaflet-1.9.4/leaflet.css"
+  },
+  {
+    "path": "styles/source/261113_project-map.css",
+    "assetBase": ".",
+    "source": "261113_project-map.css"
+  },
+  {
+    "path": "styles/source/261113_document-catalog_v05.css",
+    "assetBase": ".",
+    "source": "261113_document-catalog_v05.css"
+  },
+  {
+    "path": "styles/source/261113_workspace-extension_v06.css",
+    "assetBase": ".",
+    "source": "261113_workspace-extension_v06.css"
+  },
+  {
+    "path": "styles/source/261113_explorer-comparison_v09.css",
+    "assetBase": ".",
+    "source": "261113_explorer-comparison_v09.css"
+  },
+  {
+    "path": "styles/source/261114_folder-timeline_v10.css",
+    "assetBase": ".",
+    "source": "261114_folder-timeline_v10.css"
+  },
+  {
+    "path": "styles/source/inline-component-1.css",
+    "assetBase": ".",
+    "source": "inline-component-1.css"
+  },
+  {
+    "path": "styles/source/inline-component-2.css",
+    "assetBase": ".",
+    "source": "inline-component-2.css"
+  },
+  {
+    "path": "styles/source/261116_layer-workspace_v13.css",
+    "assetBase": ".",
+    "source": "261116_layer-workspace_v13.css"
+  },
+  {
+    "path": "styles/source/261117_layer-groups_v18.css",
+    "assetBase": ".",
+    "source": "261117_layer-groups_v18.css"
+  },
+  {
+    "path": "styles/source/dashboard-ui.css",
+    "assetBase": ".",
+    "source": "dashboard-ui.css"
+  },
+  {
+    "path": "styles/source/dashboard-map-refinements.css",
+    "assetBase": ".",
+    "source": "dashboard-map-refinements.css"
+  },
+  {
+    "path": "styles/source/dashboard-scene-controls.css",
+    "assetBase": ".",
+    "source": "dashboard-scene-controls.css"
+  },
+  {
+    "path": "styles/source/dashboard-documents.css",
+    "assetBase": ".",
+    "source": "dashboard-documents.css"
+  },
+  {
+    "path": "styles/source/dashboard-shared-ui.css",
+    "assetBase": ".",
+    "source": "dashboard-shared-ui.css"
+  },
+  {
+    "path": "styles/source/dashboard-offer.css",
+    "assetBase": ".",
+    "source": "dashboard-offer.css"
+  },
+  {
+    "path": "styles/source/dashboard-offer-multislider.css",
+    "assetBase": ".",
+    "source": "dashboard-offer-multislider.css"
+  },
+  {
+    "path": "styles/source/dashboard-overview.css",
+    "assetBase": ".",
+    "source": "dashboard-overview.css"
+  },
+  {
+    "path": "styles/source/dashboard-chapter-layout.css",
+    "assetBase": ".",
+    "source": "dashboard-chapter-layout.css"
+  },
+  {
+    "path": "styles/source/dashboard-map-balances.css",
+    "assetBase": ".",
+    "source": "dashboard-map-balances.css"
+  },
+  {
+    "path": "styles/source/dashboard-scene-balances.css",
+    "assetBase": ".",
+    "source": "dashboard-scene-balances.css"
+  },
+  {
+    "path": "styles/source/dashboard-offer-compact.css",
+    "assetBase": ".",
+    "source": "dashboard-offer-compact.css"
+  },
+  {
+    "path": "styles/source/dashboard-responsive-polish.css",
+    "assetBase": ".",
+    "source": "dashboard-responsive-polish.css"
+  },
+  {
+    "path": "styles/source/dashboard-ownership-zones.css",
+    "assetBase": ".",
+    "source": "dashboard-ownership-zones.css"
+  },
+  {
+    "path": "styles/source/dashboard-entry-polish.css",
+    "assetBase": ".",
+    "source": "dashboard-entry-polish.css"
+  },
+  {
+    "path": "styles/source/dashboard-overview-context.css",
+    "assetBase": ".",
+    "source": "dashboard-overview-context.css"
+  }
+]

@@ -10,7 +10,7 @@ provenance.steps=provenance.steps.filter(s=>!s.startsWith('Česká republika'));
 provenance.steps.push('Česká republika a LV 2460 jsou sjednoceny podle upřesnění Kateřiny Kováříkové z 19. 11. 2026. Nejde o nově ověřený údaj ČÚZK. Původní legenda i původní přiřazení jsou uchována.',
  '156 částí parcel bylo geometricky protnuto s pracovními Zónami v EPSG:5514. Každá část leží právě v jedné pracovní Zóně; hranice parcel ani S005 se nemění. Filtr ovlivňuje mapu, soupis a bilance vlastnictví.',
  'Kontrola ČÚZK: parcela 2446/16 má LV 2478, ale leží mimo aktuální S005, proto není doplněna do mapy ani bilancí. Další kontrolu parcely 1992/365 zastavila CAPTCHA. Zbývajících 114 nezařazených částí nemá ověřené LV; přímé odkazy jsou v detailu a soupisu parcel.');
-const zoneNames={A:'Zóna A',B:'Zóna B',C:'Zóna C',D:'Zóna D',roads:'Nezařazeno – komunikace'},key='urbiq-mh-ownership-zones-v1';
+const zoneNames={A:'Zóna A',B:'Zóna B',C:'Zóna C',D:'Zóna D',roads:'Nezařazeno – komunikace'},key=ProjectConfig.storageKey("urbiq-mh-ownership-zones-v1");
 let selected=new Set(Object.keys(zoneNames));try{const v=JSON.parse(sessionStorage.getItem(key));if(Array.isArray(v))selected=new Set(v.filter(k=>k in zoneNames));}catch{}
 function matches(f){return selected.has(f.properties.working_zone_id);}
 function visible(f){return matches(f)&&!window.MapLayers?.inspect(layer.id).appearance.hiddenCategories?.includes(f.properties.class_id);}

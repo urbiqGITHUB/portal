@@ -1,208 +1,90 @@
 {
   "entrypoint": "dashboard.html",
-  "map_ui_revision": "2026-11-18-v02",
-  "map_ui_checks": "ui_data/261118_v02/checks.json",
-  "map_ui_modules": [
-    "dashboard-plan-functions.js",
-    "dashboard-map-refinements.js",
-    "dashboard-map-refinements.css"
-  ],
-  "historical_input": "261118_urbiq_jihozapadni_mesto_dashboard_v20.html",
-  "purpose": "Local document/GIS/3D comparison; not economic or legal certification",
-  "local_data": [
-    "corpus embedded in HTML",
+  "configuration": "project.json",
+  "configuration_loading": {
+    "http": "fetch no-store; fail closed if missing or invalid",
+    "file": "generated inline snapshot; run node rebuild_project.cjs after editing"
+  },
+  "styles": "dashboard.css",
+  "editable_styles": "styles/order.json",
+  "scripts": [
+    "dashboard-workspace.js",
+    "vendor/leaflet-1.9.4/leaflet.js",
+    "comparison_data/261113_v01/map-data.js",
+    "ownership_data/261116_v01/cadastre-data.js",
+    "ownership_data/261116_v03/layer-data.js",
+    "alignment_data/261116_v01/alignment-data.js",
+    "model_data/261116_v01/model-data.js",
+    "cad_data/261117_v01/cad-map-data.js",
+    "cad_data/261117_v03/semantic-data.js",
+    "model_data/261118_v01/model-extension-data.js",
+    "model_data/261118_v02/model-extension-data.js",
     "ui_data/261118_v01/layers-data.js",
-    "context_data/261118_v01/context-data.js",
-    "existing comparison, ownership, CAD and model data packages",
     "model_data/261118_v03/model-extension-data.js",
-    "model_data/261118_v03/scenario-extension.js",
     "model_data/261118_v04/model-extension-data.js",
+    "zone_data/261119_v01/zone-balance-data.js",
+    "dashboard-zone-revision.js",
+    "dashboard-data.js",
+    "ownership_data/261119_v01/ownership-revision-data.js",
+    "dashboard-ownership-revision.js",
+    "ownership_data/261119_v02/ownership-zone-data.js",
+    "dashboard-ownership-zones.js",
+    "dashboard-plan-functions.js",
+    "dashboard-parcels.js",
+    "dashboard-map.js",
+    "261116_cadastral-panel_v13.js",
+    "comparison_data/261113_v01/catalog-data.js",
+    "dashboard-shared-tables.js",
+    "comparison_data/261113_v01/explorer-data.js",
+    "model_data/261118_v01/scenario-extension.js",
+    "model_data/261118_v02/scenario-extension.js",
+    "ui_data/261118_v01/document-data.js",
+    "dashboard-document-explorer.js",
+    "dashboard-document-catalog.js",
+    "dashboard-library.js",
+    "context_data/261118_v01/context-data.js",
+    "dashboard-ui.js",
+    "dashboard-scene-controls.js",
+    "model_data/261118_v03/scenario-extension.js",
     "model_data/261118_v04/scenario-extension.js",
-    "model_data/261118_v04/evidence-ui.js"
+    "dashboard-model-panel.js",
+    "dashboard-offline-scene.js",
+    "model_data/261118_v04/evidence-ui.js",
+    "dashboard-scene.js",
+    "dashboard-cad-evidence.js",
+    "dashboard-layer-controls.js",
+    "dashboard-map-refinements.js",
+    "dashboard-documents.js",
+    "offer-allocation.js",
+    "dashboard-offer-multislider.js",
+    "dashboard-shared-ui.js",
+    "dashboard-overview.js",
+    "dashboard-chapter-layout.js",
+    "dashboard-ownership-balances.js",
+    "dashboard-map-balances.js",
+    "dashboard-scene-balances.js",
+    "dashboard-bundle-info.js"
+  ],
+  "local_data": [
+    "inline corpus",
+    "documents/",
+    "sources/",
+    "previews/",
+    "map_data/",
+    "model_data/",
+    "ownership_data/",
+    "zone_data/",
+    "comparison_data/",
+    "cad_data/",
+    "context_data/",
+    "ui_data/"
   ],
   "external_runtime": [
     "https://js.arcgis.com/4.34/",
-    "ČÚZK public orthophoto, transparent cadastre and terrain services"
+    "ČÚZK orthophoto, cadastral and terrain services"
   ],
-  "offline": "Leaflet and data are local; original PDF previews available; 3D falls back to local orthographic massing with flat terrain if SDK/services cannot load.",
-  "storage": "localStorage document/image relevance; sessionStorage draft fee allocation and phase selection; no server writes",
+  "offline": "Local source files and raster context retained; 3D fallback if ArcGIS fails.",
+  "storage": "Per-project namespaced preferences; fee state additionally keyed by fee configuration and validated against its complete signature. Compatible original fee state read only.",
   "uploads": false,
-  "fonts": "Fellix/Segoe UI font stacks, installed-font fallbacks; no bundled font download introduced",
-  "technical_pipeline_in_main_ui": false,
-  "controls": [
-    "Scoped map/3D table filters",
-    "Explicit category visibility and colors",
-    "Default single 3D scene with multiple proposals and independent 0–100% opacity",
-    "Second mode: up to three synchronized comparison scenes",
-    "Rotation enabled by default; lock and fit icons inside every scene",
-    "Mobile comparison scenes stacked vertically; lock to scroll over scene",
-    "Shared separate subview buttons and collapsible filters",
-    "Common checkbox table filters and typed sorting; excludes source transcriptions",
-    "Sequential full-phase timeline; three boundaries divide each fixed phase budget into four shares totaling 100%; selected-phase weighted totals"
-  ],
-  "model_revision": "2026-11-18-cerny-2010-v01",
-  "model_checks": "model_data/261118_v04/browser-qa.json",
-  "model_report": "model_data/261118_v04/261118_cerny-2010-3d-doklady-a-kontroly_v01.md",
-  "scene_ui_revision": "2026-11-18-v03",
-  "scene_ui_checks": "ui_data/261118_v03/checks.json",
-  "scene_ui_modules": [
-    "dashboard-scene.js",
-    "dashboard-offline-scene.js",
-    "dashboard-scene-controls.js",
-    "dashboard-scene-controls.css"
-  ],
-  "scene_ui_report": "ui_data/261118_v03/261118_3d-prekryv-a-ovladani_v01.md",
-  "document_ui_revision": "2026-11-18-v04",
-  "document_ui_checks": "ui_data/261118_v04/checks.json",
-  "document_ui_modules": [
-    "dashboard-documents.js",
-    "dashboard-documents.css",
-    "dashboard-document-catalog.js",
-    "dashboard-document-explorer.js"
-  ],
-  "document_ui_report": "ui_data/261118_v04/261118_dokumenty-ui-kontroly_v01.md",
-  "shared_ui_revision": "2026-11-18-v05",
-  "shared_ui_modules": [
-    "dashboard-shared-tables.js",
-    "dashboard-shared-ui.js",
-    "dashboard-shared-ui.css",
-    "dashboard-offer.css",
-    "dashboard-library.js"
-  ],
-  "shared_ui_checks": [
-    "ui_data/261118_v05/checks.json",
-    "ui_data/261118_v05/live-checks.json"
-  ],
-  "shared_ui_report": "ui_data/261118_v05/261118_ui-nabidka-harmonogram-kontroly_v01.md",
-  "startup_fallback": {
-    "revision": "2026-11-18-v06",
-    "scope": "Inline styled explanation when sibling assets or JavaScript are unavailable; does not make the dashboard a standalone mobile attachment",
-    "browser_verification": "not_run: browser launch permission declined",
-    "static_audit": "ui_data/261118_v06/html-audit.json"
-  },
-  "offer_ui_revision": "2026-11-18-v07",
-  "offer_ui_modules": [
-    "offer-allocation.js",
-    "dashboard-offer-multislider.js",
-    "dashboard-offer-multislider.css"
-  ],
-  "offer_ui_checks": "ui_data/261118_v07/checks.json",
-  "offer_ui_report": "ui_data/261118_v07/261118_nabidka-multislider-kontroly_v01.md",
-  "offer_ui_storage": "sessionStorage urbiq-mh-fee-allocation-v2; cumulative integer CZK boundaries, selection and subtab; migrates and normalizes v1 allocations",
-  "overview_ui": {
-    "revision": "2026-11-19-v01",
-    "modules": [
-      "dashboard-overview.css",
-      "dashboard-overview.js"
-    ],
-    "checks": "ui_data/261119_v01/checks.json",
-    "report": "ui_data/261119_v01/261119_uvodni-prehled-kontroly_v01.md",
-    "scope": "Viewport overview and default entry view only; live counts from existing catalogs; no new network calls or persistence",
-    "superseded_by": "chapter_ui"
-  },
-  "chapter_ui": {
-    "revision": "2026-11-19-v02",
-    "modules": [
-      "dashboard-chapter-layout.js",
-      "dashboard-chapter-layout.css"
-    ],
-    "checks": "ui_data/261119_v02/checks.json",
-    "report": "ui_data/261119_v02/261119_zahlavi-prehled-casova-osa_v01.md",
-    "storage": "sessionStorage urbiq-mh-timeline-split; ratio only; no uploads"
-  },
-  "zone_balances": {
-    "revision": "2026-11-19-v01",
-    "modules": [
-      "dashboard-zone-revision.js",
-      "dashboard-map-balances.js",
-      "dashboard-map-balances.css"
-    ],
-    "data": "zone_data/261119_v01/zone-balance-data.js",
-    "provenance": "zone_data/261119_v01/calibration-cycle.json",
-    "checks": "zone_data/261119_v01/browser-checks.json",
-    "network": "No additional requests; local metric results. Existing live map providers unchanged.",
-    "status": "provisional spatial interpretation; UI verified",
-    "drawer_ui": {
-      "revision": "2026-11-19-rail-v01",
-      "description": "Persistent right white rail with chart toggle at top, no close button; desktop map reserves rail width.",
-      "checks": "ui_data/261119_balance_rail_v01/browser-checks.json"
-    }
-  },
-  "scene_balances": {
-    "revision": "2026-11-19-v01",
-    "modules": [
-      "dashboard-scene-balances.js",
-      "dashboard-scene-balances.css"
-    ],
-    "data": "Read-only SceneBalanceData API from existing dashboard-scene.js model parts",
-    "storage": "sessionStorage urbiq-mh-scene-balances; drawer open/closed only",
-    "network": "No new services. Optional ArcGIS runtime failure falls back to existing local model.",
-    "checks": "ui_data/261119_scene_balances_v01/checks.json",
-    "live_checks": "ui_data/261119_scene_balances_v01/live-checks.json",
-    "report": "ui_data/261119_scene_balances_v01/261119_3d-bilance_v01.md"
-  },
-  "offer_compact": {
-    "revision": "2026-11-19-v03",
-    "modules": [
-      "dashboard-offer-multislider.js",
-      "dashboard-offer-compact.css"
-    ],
-    "storage": "sessionStorage urbiq-mh-fee-allocation-v3; new screenshot defaults replace financial initialization once; prior v2 data retained, selection/tab/extension carried over.",
-    "checks": "ui_data/261119_offer_compact_v03/checks.json",
-    "report": "ui_data/261119_offer_compact_v03/261119_zahlavi-deadliny-budget_v01.md",
-    "network": "No new external resources",
-    "schedule": "Optional first-phase extension by one month, no gap; original milestones remain in source notes. Existing delayMonths storage field reused."
-  },
-  "ownership_revision": {
-    "data": "ownership_data/261119_v01/ownership-revision-data.js",
-    "module": "dashboard-ownership-revision.js",
-    "source": "S003 / 10",
-    "evidence": "ownership_data/261119_v01/map-job.json",
-    "checks": "ui_data/261119_ownership_v01/browser-checks.json"
-  },
-  "offer_budget_step": {
-    "step_czk": 10000,
-    "session_key": "urbiq-mh-fee-allocation-v4",
-    "migration": "Round v3 working shares, preserve selection/delay and original storage",
-    "checks": "ui_data/261119_offer_step_v01/checks.json"
-  },
-  "responsive_lv_ui": {
-    "revision": "2026-11-19-v01",
-    "modules": [
-      "dashboard-responsive-polish.css",
-      "dashboard-ownership-balances.js",
-      "dashboard-map-balances.js"
-    ],
-    "checks": "ui_data/261119_responsive_lv_v01/checks.json",
-    "behavior": "Header stays visible, allocation rows use spare height, ownership tree groups source/candidate LV. Selected map balances independent of opacity.",
-    "data": "Existing clipped ownership revision unchanged",
-    "network": "No new requests",
-    "storage": "No new storage; expanded LV IDs kept in memory"
-  },
-  "ownership_zone_view": {
-    "revision": "2026-11-19-v02",
-    "modules": [
-      "dashboard-ownership-zones.js",
-      "dashboard-ownership-zones.css"
-    ],
-    "data": "ownership_data/261119_v02/ownership-zone-data.js",
-    "checks": "ui_data/261119_ownership_zones_v01/checks.json",
-    "evidence": "ownership_data/261119_v02/calibration-cycle.json",
-    "storage": "sessionStorage urbiq-mh-ownership-zones-v1; selected working zone IDs only",
-    "network": "No new background requests; explicit parcel links to official Nahlížení do KN",
-    "legal_verification": "No new in-scope LV verified. State/LV2460 identity is user-provided."
-  },
-  "entry_polish": {
-    "revision": "2026-11-19-v01",
-    "modules": [
-      "dashboard-entry-polish.css",
-      "dashboard-bundle-info.js"
-    ],
-    "checks": "ui_data/261119_entry_polish_v01/checks.json",
-    "report": "ui_data/261119_entry_polish_v01/261119_prehled-nabidka-nacitani_v01.md",
-    "companion_inventory": "dashboard-files.json",
-    "storage": "Existing allocation storage unchanged; no new persistence",
-    "network": "No new runtime services; external providers remain optional map/3D dependencies",
-    "boot": "Neutral loading; attachment guidance only for multi-file builds with failed initialization or disabled JavaScript"
-  }
+  "status": "local migrated package; not archived or published"
 }

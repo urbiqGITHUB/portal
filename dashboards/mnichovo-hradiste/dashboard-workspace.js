@@ -6,7 +6,7 @@
 const DATA=JSON.parse(document.getElementById('corpus').textContent);
 const DOCS=DATA.documents, byId=new Map(DOCS.map(d=>[d.id,d]));
 const $=id=>document.getElementById(id);
-const state={doc:'S003',page:11,view:'documents',documentMode:'table',image:null};
+const state={doc:ProjectConfig.value.project.defaultDocument.id,page:ProjectConfig.value.project.defaultDocument.page,view:'documents',documentMode:'table',image:null};
 const statusLabels={complete:'Dokončeno',complete_with_review:'Dokončeno s revizí',partial:'Částečný přepis',failed:'Nepřevedeno',unprocessed:'MD nezpracován'};
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
@@ -29,12 +29,7 @@ const CLAIMS=[
  {id:'R10',title:'P09 je zmíněna, ale není dodána',fact:'P01 odkazuje na ekonomickou analýzu P09. V evidovaných 92 položkách archivu P01–P06 ani v samostatné výzvě takový zdroj není.',quote:'udržitelné minimum je odhadnuto v ekonomické analýze (P 09)',refs:[['S003',11]],meaning:'Chybí vstup pro srovnání ekonomických předpokladů města. Absence v balíčku neznamená, že dokument neexistuje jinde.',output:'Vyžádání P09 a následné porovnání metod, vstupů a citlivostí.'},
  {id:'R11',title:'Předání a průběžné projednání',fact:'Smlouva předpokládá pravidelné projednávání a předání čistopisu ve třech vyhotoveních, digitálně ve formátech PDF, DWG a XLS.',quote:'digitálně ve formátu pdf, dwg a xls.',refs:[['S002',3],['S003',14]],meaning:'Editovatelná bilanční data odpovídají doloženému požadavku. Hosting a dlouhodobý provoz aplikace je nutné sjednat samostatně.',output:'XLS bilance, dokumentovaná metodika, zdrojový registr a ekonomické podklady pro projednání.'}
 ];
-const OFFERS=[
- {title:'Datová a důkazní základna',output:'Registr podkladů, objektů a omezení; každý klíčový vstup se zdrojem, stranou, datem a mírou úplnosti.',need:'Zajištění podkladů, kapacit sítí a projednání cílových kapacit.',refs:[['S002',2],['S003',12]],bounds:'Technické kapacity a aktuální stav potvrdí příslušní správci a odborníci. Chybějící data zůstanou označená.'},
- {title:'Prostorové bilance a investiční celky',output:'Společná tabulka objektů, funkcí, HPP, investičních celků a etap; kontrola změn mezi návrhy.',need:'Bilance v měřítku objektů a 3–6 investičních celků v Zóně B.',refs:[['S002',2],['S003',11]],bounds:'Urbanistická řešení a jejich kapacity dodávají a potvrzují autoři návrhu. Historické studie se vedou odděleně.'},
- {title:'Ekonomický model a scénáře',output:'Model investic, výnosů, příjmů města a nákladů infrastruktury; časové cash flow a porovnání citlivostí.',need:'Ekonomické zhodnocení a časová prioritizace celků.',refs:[['S002',2],['S003',12]],bounds:'Počet scénářů, sazby, financování a přesnost rozpočtů se musí dohodnout. Konkrétní finanční výsledek zatím není známý.'},
- {title:'Interaktivní výstupy a podklady pro jednání',output:'Interaktivní webový dashboard s možností vložení na veřejný web, přehled nákladů a přínosů po aktérech, podklady pro jednání a finální komunikační výstupy; editovatelná XLS bilance a metodika.',need:'Proces shody v území, majetkové vypořádání a průběžné projednání.',refs:[['S003',14],['S002',3]],bounds:'Dva roky hostingu a technické údržby od předání jsou zahrnuty, s možností prodloužení. Obsahové změny nad dohodnuté iterace a prodloužení se oceňují zvlášť. Právní znění dohod připravují právní specialisté.'}
-];
+const OFFERS=ProjectConfig.value.offer.cards.map(c=>({...c,bounds:ProjectConfig.template(c.bounds)}));
 
 function sourceButton(id,page){return button(`${id} · strana ${page} ↗`,()=>openDoc(id,page));}
 function showView(view,updateHash=true){

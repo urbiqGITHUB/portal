@@ -1,0 +1,32 @@
+/* Scoped viewport overview. No source data or other panel layout changes. */
+#overview.active{display:grid;grid-template-rows:minmax(180px,.85fr) minmax(260px,1.2fr) auto;gap:16px;max-width:1600px;margin:0 auto;padding:18px 24px!important;overflow:auto;line-height:1.45}
+#overview .overview-lead{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);gap:30px;min-height:0}
+#overview .overview-intro{display:flex;flex-direction:column;justify-content:center;min-width:0}
+#overview h2{font-size:clamp(25px,2.8vw,40px);line-height:1.1;margin:7px 0 12px;max-width:700px}
+#overview p{font:15px/1.5 'Segoe UI',sans-serif;margin:0;max-width:680px}
+#overview .eyebrow{font-size:10px;margin:0}
+#overview .overview-facts{display:flex;gap:24px;margin-top:16px}
+#overview .overview-facts button{display:flex;gap:8px;align-items:baseline;padding:0;min-height:30px;border:0;background:none;text-align:left}
+#overview .overview-facts strong{font:700 22px Fellix,'Segoe UI',sans-serif;color:#14642d}
+#overview .overview-facts span{font-size:12px;color:#526952}
+#overview .overview-map{display:flex;flex-direction:column;min-height:0;margin:0;border:1px solid #d2dccb;background:white;border-radius:8px;overflow:hidden}
+#overview .overview-map img{flex:1;min-height:0;width:100%;height:0;object-fit:contain;padding:8px}
+#overview .overview-map figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#edf2e6;border-top:1px solid #d2dccb;padding:5px 10px;font-size:11px}
+#overview .overview-map button{font-size:11px;min-height:28px;padding:3px 6px;background:none;border:0}
+#overview .overview-destinations{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:12px;min-height:0}
+#overview .overview-tile{display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:8px;text-align:left;min-width:0;padding:16px 18px;border:1px solid #cbd7c4;border-radius:8px;background:#fff;color:#173a20;white-space:normal;font-family:'Segoe UI',sans-serif;transition:border-color .15s,background .15s}
+#overview .overview-tile:hover{border-color:#14642d;background:#f4f7ed}
+#overview button:focus-visible{outline:3px solid #14642d;outline-offset:3px}
+#overview .overview-tile-top{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:12px;color:#526952}
+#overview .overview-tile strong{font:700 21px/1.15 Fellix,'Segoe UI',sans-serif}
+#overview .overview-tile-copy{font-size:13px;line-height:1.45}
+#overview .overview-tile-offer{background:#edf3df;border-color:#9cb883}
+#overview .overview-tile-offer .overview-count{color:#14642d}
+#overview .overview-next{display:flex;align-items:center;gap:18px;padding:10px 14px;border-left:3px solid #14642d;background:#edf2e6;font-size:12px}
+#overview .overview-next>div{flex:1;display:flex;flex-direction:column;gap:2px}
+#overview .overview-next strong{font-family:Fellix,'Segoe UI',sans-serif;font-size:13px}
+#overview .overview-next button{font-size:12px;padding:6px 10px;flex:none;min-height:32px}
+@media(max-height:800px) and (min-width:761px){#overview.active{padding:10px 18px!important;gap:10px;grid-template-rows:minmax(150px,.8fr) minmax(240px,1.2fr) auto}#overview h2{font-size:30px;margin:5px 0 8px}#overview p{font-size:14px}#overview .overview-facts{margin-top:10px}#overview .overview-tile{padding:10px 14px;gap:5px}#overview .overview-tile strong{font-size:19px}#overview .overview-tile-copy{font-size:12px}#overview .overview-next{padding:8px 12px}}
+@media(max-width:760px){#overview.active{padding:8px!important;grid-template-rows:auto minmax(310px,1fr) auto;gap:10px}#overview .overview-lead{grid-template-columns:1fr;gap:0}#overview .overview-map{display:none}#overview h2{font-size:25px;margin:5px 0 8px}#overview .eyebrow{font-size:9px}#overview p{font-size:12px;line-height:1.4}#overview .overview-facts{gap:14px;margin-top:8px}#overview .overview-facts button{display:flex;flex-direction:column;gap:0}#overview .overview-facts strong{font-size:18px}#overview .overview-facts span{font-size:10px}#overview .overview-destinations{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:8px}#overview .overview-tile{padding:9px 10px;gap:5px}#overview .overview-tile strong{font-size:17px}#overview .overview-tile-top{font-size:10px;line-height:1.25}#overview .overview-tile-copy{font-size:11px;line-height:1.35}#overview .overview-next{padding:8px 10px;gap:5px;flex-wrap:wrap;font-size:11px}#overview .overview-next>div{flex-basis:100%}#overview .overview-next button{font-size:11px;min-height:28px;padding:3px 0;background:none;border:0}}
+@media(max-height:670px) and (max-width:760px){#overview.active{grid-template-rows:auto minmax(300px,1fr) auto}#overview h2{font-size:22px}#overview .overview-next{font-size:10px}}
+@media print{#overview.active{height:auto;display:block;overflow:visible}#overview .overview-lead,#overview .overview-destinations{display:grid;grid-template-rows:auto;margin-bottom:16px}#overview .overview-map{min-height:200px}}

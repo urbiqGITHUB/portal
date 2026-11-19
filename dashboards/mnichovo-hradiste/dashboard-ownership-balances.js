@@ -5,11 +5,31 @@ function groups(layer){const visible=new Set(layer.rows.map(r=>r.id)),items=new 
  if(!items.has(key))items.set(key,{id:key,lv,label:OwnershipSelection.label(p),features:[],area:0,candidateArea:0});const g=items.get(key);g.features.push(f);g.area+=p.derived_area_m2;g.candidateArea+=p.display_candidate?p.derived_area_m2:0;}
  return [...items.values()].sort((a,b)=>a.lv&&b.lv?Number(a.lv)-Number(b.lv):a.lv?-1:b.lv?1:a.label.localeCompare(b.label,'cs'));
 }
-function render(section,layer){const heading=n('div');heading.className='ownership-balance-head';['LV / vlastník dle zdroje','m² v S005','% výběru','% území'].forEach(x=>heading.append(n('span',x)));section.append(heading);
- for(const g of groups(layer)){const d=n('details');d.className='ownership-balance-group';d.dataset.balanceLv=g.id;d.open=opened.has(g.id);const s=n('summary'),label=n('span',g.label);label.className='ownership-balance-name';label.append(n('small',g.features.length+' parcelních částí'+(g.candidateArea>0?' · včetně kandidátů':'')));s.append(label,n('span',fmt(g.area)),n('span',pct(g.area,layer.total)),n('span',pct(g.area,layer.scope)));d.append(s);
+const sorting={column:null,direction:1};
+function sortRows(section,layer){
+ const total=section.querySelector('.ownership-balance-total');
+ if(!total||sorting.column===null)return;
+ const value=g=>sorting.column===0?g.label:sorting.column===1?g.area:sorting.column===2?(layer.total?g.area/layer.total:0):(layer.scope?g.area/layer.scope:0);
+ [...section.querySelectorAll(':scope > .ownership-balance-group')].sort((a,b)=>{
+  const av=value(a.balanceGroup),bv=value(b.balanceGroup);
+  const diff=sorting.column===0?av.localeCompare(bv,'cs',{numeric:true}):av-bv;
+  return sorting.direction*diff||a.balanceGroup.id.localeCompare(b.balanceGroup.id,'cs',{numeric:true});
+ }).forEach(row=>section.insertBefore(row,total));
+ section.querySelectorAll('.ownership-balance-head button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.column)===sorting.column&&Number(b.dataset.direction)===sorting.direction)));
+}
+function render(section,layer){const heading=n('div');heading.className='ownership-balance-head';['LV / vlastník dle zdroje','m² v S005','% výběru','% území'].forEach((x,i)=>{
+ const cell=n('div');cell.className='column-head';cell.append(n('span',x));
+ for(const [symbol,direction] of [['↑',1],['↓',-1]]){
+  const b=n('button',symbol);b.type='button';b.dataset.column=i;b.dataset.direction=direction;
+  b.setAttribute('aria-label',x+' · Řadit '+(direction===1?'vzestupně':'sestupně'));b.title=b.getAttribute('aria-label');b.setAttribute('aria-pressed','false');
+  b.onclick=()=>{sorting.column=i;sorting.direction=direction;sortRows(section,layer);};cell.append(b);
+ }
+ heading.append(cell);
+});section.append(heading);
+ for(const g of groups(layer)){const d=n('details');d.className='ownership-balance-group';d.dataset.balanceLv=g.id;d.balanceGroup=g;d.open=opened.has(g.id);const s=n('summary'),label=n('span',g.label);label.className='ownership-balance-name';label.append(n('small',g.features.length+' parcelních částí'+(g.candidateArea>0?' · včetně kandidátů':'')));s.append(label,n('span',fmt(g.area)),n('span',pct(g.area,layer.total)),n('span',pct(g.area,layer.scope)));d.append(s);
  const scroll=n('div');scroll.className='ownership-parcel-scroll';const t=n('table');t.className='balance-table';const head=t.createTHead().insertRow();['Parcela','Zóna','m² v S005','% LV','Stav'].forEach(x=>head.append(n('th',x)));const body=t.createTBody();for(const f of g.features.slice().sort((a,b)=>a.properties.parcel_number.localeCompare(b.properties.parcel_number,'cs',{numeric:true}))){const p=f.properties,tr=body.insertRow(),td=n('td'),b=n('button',p.parcel_number);b.type='button';b.className='parcel-balance-link';b.title='Zobrazit parcelu '+p.parcel_number+' v mapě';b.onclick=()=>ProjectMapQA.focusFeature(f.id);td.append(b);tr.append(td,n('td',p.working_zone),n('td',fmt(p.derived_area_m2)),n('td',pct(p.derived_area_m2,g.area)),n('td',OwnershipSelection.status(p)));tr.tableSortValues=[p.parcel_number,p.working_zone,p.derived_area_m2,p.derived_area_m2/g.area*100,p.assignment_status];}
  scroll.append(t);d.append(scroll);d.addEventListener('toggle',()=>{if(d.isConnected){d.open?opened.add(g.id):opened.delete(g.id);if(d.open)DashboardTables.enhance(t);}});section.append(d);}
- const total=n('div');total.className='ownership-balance-total';['Součet výběru',fmt(layer.total),pct(layer.total,layer.total),pct(layer.total,layer.scope)].forEach(x=>total.append(n('span',x)));section.append(total);
+ const total=n('div');total.className='ownership-balance-total';['Součet výběru',fmt(layer.total),pct(layer.total,layer.total),pct(layer.total,layer.scope)].forEach(x=>total.append(n('span',x)));section.append(total);sortRows(section,layer);
  const candidates=layer.rows.reduce((sum,r)=>sum+(r.candidate_area_m2||0),0);const note=n('p','LV pocházejí z historického zadání; dnešní právní stav není ověřen. Česká republika · LV 2460 je upřesnění uživatelky. U názvů bez LV číslo není doloženo.'+(candidates?' Z toho '+fmt(candidates)+' m² připadá na kandidátní přiřazení.':''));note.className='balance-note';section.append(note);
 }
 window.OwnershipBalances={render,groups};})();

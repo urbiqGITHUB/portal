@@ -30,6 +30,11 @@
 /* LV groups are a tree; each expanded group contains a sortable parcel table. */
 .ownership-balance-head,.ownership-balance-group>summary,.ownership-balance-total{display:grid;grid-template-columns:minmax(130px,1.6fr) minmax(72px,1fr) 60px 60px;align-items:start;gap:8px;padding:9px 6px;font:11px/1.4 'Segoe UI',sans-serif}
 .ownership-balance-head{background:#e7eddf;border:1px solid #c8d3bf;font-weight:600}
+.ownership-balance-head .column-head{min-width:0;min-height:0;padding:0;flex-wrap:wrap;gap:0;font:600 11px/1.4 'Segoe UI',sans-serif}
+.ownership-balance-head .column-head>span{flex-basis:100%;min-width:0;margin-bottom:3px;overflow-wrap:anywhere}
+.ownership-balance-head .column-head>button{font-size:12px!important}
+.ownership-balance-head .column-head>button[aria-pressed=true]{background:#cfdfc4;color:#123e21}
+
 .ownership-balance-head>span:not(:first-child),.ownership-balance-group>summary>span:not(:first-child),.ownership-balance-total>span:not(:first-child){text-align:right;font-variant-numeric:tabular-nums}
 .ownership-balance-group{border-bottom:1px solid #d6dfd0}
 .ownership-balance-group>summary{cursor:pointer;list-style:none;min-height:44px}

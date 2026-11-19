@@ -20,10 +20,10 @@
 .fee-allocation-card[hidden]{display:none}
 .fee-allocation-title{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}.fee-allocation-title h4{font:600 16px var(--heading);margin:0}.fee-allocation-title>span{font:11px 'Segoe UI',sans-serif;color:#58715d}.fee-allocation-title>strong{margin-left:auto;font:600 15px var(--heading)}
 .multi-budget{position:relative;height:74px;margin:2px 0;touch-action:pan-y}
-.multi-budget-rail{position:absolute;left:0;right:0;top:28px;height:18px;display:flex;border-radius:5px;overflow:hidden;background:#e9ede5}
+.multi-budget-rail{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:18px;display:flex;border-radius:5px;overflow:hidden;background:#e9ede5}
 .budget-segment{display:block;height:100%;background:var(--actor);flex:none}
-.budget-handle{position:absolute;top:37px;transform:translate(-50%,-50%);width:28px;height:40px;min-height:40px;padding:0!important;border:2px solid #fff;border-radius:6px;background:#173a20;color:white;cursor:ew-resize;touch-action:none;box-shadow:0 1px 5px #173a2050;z-index:2;display:grid;place-items:center;font:18px 'Segoe UI',sans-serif}
-.budget-handle:hover,.budget-handle:focus-visible,.budget-handle.dragging{background:#0b3c1d;border-color:#c6d92b;color:white;z-index:5}.budget-handle:focus-visible{outline:2px solid #e58a2b;outline-offset:2px}
+.budget-handle{position:absolute;top:50%;transform:translate(-50%,-50%);width:28px;height:40px;min-height:40px;padding:0!important;border:2px solid #fff;border-radius:6px;background:#173a20;color:white;cursor:ew-resize;touch-action:none;box-shadow:0 1px 5px #173a2050;z-index:2;display:grid;place-items:center;font:18px 'Segoe UI',sans-serif}
+.budget-handle:hover,.budget-handle:focus,.budget-handle.dragging{background:#0b3c1d;border-color:#c6d92b;color:white;z-index:5}.budget-handle:focus-visible{outline:2px solid #e58a2b;outline-offset:2px}
 .fee-partner-values{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .fee-partner-value{border-top:3px solid var(--actor);padding:9px 10px;background:#f6f8f2;border-radius:0 0 4px 4px;min-width:0}
 .fee-partner-value>span{display:block;font:12px var(--heading);margin-bottom:4px}.fee-partner-value strong{display:block;font:600 19px var(--heading);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.fee-partner-value small{display:block;font:13px 'Segoe UI',sans-serif;margin-top:4px;color:#52654c}

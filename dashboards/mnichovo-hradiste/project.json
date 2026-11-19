@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "mnichovo-hradiste",
+    "title": "Jihozápadní město",
+    "municipality": "Mnichovo Hradiště",
+    "headerContext": "PARTNERSKÁ PŘÍPRAVA",
+    "status": "Interní pracovní verze",
+    "pageTitle": "Jihozápadní město | urbiq · dokumentová pracovna",
+    "locale": "cs-CZ",
+    "defaultDocument": {
+      "id": "S003",
+      "page": 11
+    },
+    "overview": {
+      "eyebrow": "ZADÁNÍ → PODKLAD → ROZHODNUTÍ",
+      "heading": "Každý závěr má svůj zdroj.",
+      "description": "Společné místo pro čtení podkladů, kontrolu přepisů a přípravu nabídky urbiq pro rozvoj Jihozápadního města."
+    }
+  },
+  "fee": {
+    "currency": "CZK",
+    "taxLabel": "bez DPH",
+    "stepCzk": 10000,
+    "primaryActorId": "urbiq",
+    "envelopeCzk": [
+      600000,
+      800000
+    ],
+    "actors": [
+      {
+        "id": "urbiq",
+        "label": "urbiq"
+      },
+      {
+        "id": "tecka",
+        "label": "Tečka"
+      },
+      {
+        "id": "perspektiv",
+        "label": "Perspektiv"
+      },
+      {
+        "id": "specialists",
+        "label": "Specialisté"
+      }
+    ],
+    "phases": [
+      {
+        "id": "a",
+        "label": "Průzkumy a rozbory",
+        "budgetCzk": 460000,
+        "deadlineMonth": "2027-02",
+        "allocations": {
+          "urbiq": 170000,
+          "tecka": 130000,
+          "perspektiv": 110000,
+          "specialists": 50000
+        }
+      },
+      {
+        "id": "b",
+        "label": "Koncept",
+        "budgetCzk": 880000,
+        "deadlineMonth": "2027-04",
+        "allocations": {
+          "urbiq": 170000,
+          "tecka": 270000,
+          "perspektiv": 230000,
+          "specialists": 210000
+        }
+      },
+      {
+        "id": "c",
+        "label": "Hrubopis",
+        "budgetCzk": 800000,
+        "deadlineMonth": "2027-06",
+        "allocations": {
+          "urbiq": 170000,
+          "tecka": 270000,
+          "perspektiv": 230000,
+          "specialists": 130000
+        }
+      },
+      {
+        "id": "d",
+        "label": "Čistopis",
+        "budgetCzk": 380000,
+        "deadlineMonth": "2027-09",
+        "allocations": {
+          "urbiq": 110000,
+          "tecka": 120000,
+          "perspektiv": 90000,
+          "specialists": 60000
+        }
+      }
+    ],
+    "schedule": {
+      "startMonth": "2026-12",
+      "extensionMonths": 1,
+      "defaultExtended": false,
+      "interpretation": "Začátky a délky fází jsou pracovní rozvržení, nikoli potvrzené smluvní termíny ani data plateb.",
+      "conflict": "Rozpor: S003 / 15 uvádí analýzy v březnu. S002 / 3 stanoví průzkumy do 60 dnů a koncept do 120 dnů od podpisu; hrubopis do 75 dnů od schválení konceptu a čistopis do 30 dnů od schválení hrubopisu.",
+      "sources": [
+        {
+          "documentId": "S001",
+          "page": 1
+        },
+        {
+          "documentId": "S003",
+          "page": 15
+        },
+        {
+          "documentId": "S002",
+          "page": 3
+        }
+      ]
+    },
+    "provenance": {
+      "budget": "Rozpočty fází jsou převzaty z přiložené cenové nabídky.",
+      "allocation": "Pracovní návrh podle upřesnění uživatelky a dodaného snímku; zaokrouhleno při zachování rozpočtů. Nejde o potvrzenou dohodu partnerů."
+    },
+    "phasePrefix": "4.1"
+  },
+  "offer": {
+    "partnerContext": "Pracovní vymezení role urbiq. Rozdělení odpovědností s Perspektiv a Atelierem Tečka zatím není potvrzené.",
+    "heading": "Datová základna, ekonomický model a interaktivní výstupy",
+    "eyebrow": "NABÍDKA URBIQ · PRACOVNÍ ROZSAH K DOHODĚ",
+    "hostingYears": 2,
+    "descriptionTemplate": "Cena závisí na rozsahu analytické části a počtu iterací ekonomického modelu a komunikačních výstupů. Zahrnuje interaktivní webový dashboard s možností vložení na veřejný web a {hostingDuration} hostingu a technické údržby od předání, s možností prodloužení.",
+    "conditionsTemplate": "Obsahové aktualizace jsou zahrnuty v dohodnutých iteracích. Další aktualizace a prodloužení provozu se oceňují zvlášť. Část {primaryActor} je součástí celkové nabídky {total} {tax}.",
+    "additionalTemplate": "Obsahové změny nad dohodnuté iterace a prodloužení provozu po {hostingAfter}. Energetické simulace, právní servis, detailní stavební rozpočty a dotační žádosti vyžadují samostatné odborné zadání.",
+    "cards": [
+      {
+        "title": "Datová a důkazní základna",
+        "output": "Registr podkladů, objektů a omezení; každý klíčový vstup se zdrojem, stranou, datem a mírou úplnosti.",
+        "need": "Zajištění podkladů, kapacit sítí a projednání cílových kapacit.",
+        "refs": [
+          [
+            "S002",
+            2
+          ],
+          [
+            "S003",
+            12
+          ]
+        ],
+        "bounds": "Technické kapacity a aktuální stav potvrdí příslušní správci a odborníci. Chybějící data zůstanou označená."
+      },
+      {
+        "title": "Prostorové bilance a investiční celky",
+        "output": "Společná tabulka objektů, funkcí, HPP, investičních celků a etap; kontrola změn mezi návrhy.",
+        "need": "Bilance v měřítku objektů a 3–6 investičních celků v Zóně B.",
+        "refs": [
+          [
+            "S002",
+            2
+          ],
+          [
+            "S003",
+            11
+          ]
+        ],
+        "bounds": "Urbanistická řešení a jejich kapacity dodávají a potvrzují autoři návrhu. Historické studie se vedou odděleně."
+      },
+      {
+        "title": "Ekonomický model a scénáře",
+        "output": "Model investic, výnosů, příjmů města a nákladů infrastruktury; časové cash flow a porovnání citlivostí.",
+        "need": "Ekonomické zhodnocení a časová prioritizace celků.",
+        "refs": [
+          [
+            "S002",
+            2
+          ],
+          [
+            "S003",
+            12
+          ]
+        ],
+        "bounds": "Počet scénářů, sazby, financování a přesnost rozpočtů se musí dohodnout. Konkrétní finanční výsledek zatím není známý."
+      },
+      {
+        "title": "Interaktivní výstupy a podklady pro jednání",
+        "output": "Interaktivní webový dashboard s možností vložení na veřejný web, přehled nákladů a přínosů po aktérech, podklady pro jednání a finální komunikační výstupy; editovatelná XLS bilance a metodika.",
+        "need": "Proces shody v území, majetkové vypořádání a průběžné projednání.",
+        "refs": [
+          [
+            "S003",
+            14
+          ],
+          [
+            "S002",
+            3
+          ]
+        ],
+        "bounds": "{hostingDurationCapitalized} hostingu a technické údržby od předání jsou zahrnuty, s možností prodloužení. Obsahové změny nad dohodnuté iterace a prodloužení se oceňují zvlášť. Právní znění dohod připravují právní specialisté."
+      }
+    ]
+  },
+  "storage": {
+    "namespace": "urbiq-project-v1",
+    "legacyFeeKey": "urbiq-mh-fee-allocation-v4",
+    "legacyFeeConfigHash": "f54fde116b512b46f9d7b3a92aad73d6ea3e200136690e4b84c5e3a2c57fd34b",
+    "legacyProjectId": "mnichovo-hradiste"
+  }
+}

@@ -1,47 +1,12 @@
 {
   "entrypoint": "dashboard.html",
   "package_mode": "bundle",
-  "scope": "Transfer package for an existing Macaly project. Root historical dashboards/controllers excluded; source documents and linked data retained.",
+  "scope": "Runtime dependencies of the migrated project; styles/source and verification are editable/evidence resources, not runtime assets.",
   "files": [
-    {
-      "path": "261113_document-catalog_v05.css",
-      "size_bytes": 7663,
-      "sha256": "cb89a5ef261dc0ed5d146a95940cd49be28c1140eeb18927e7c9c7263723b732"
-    },
-    {
-      "path": "261113_explorer-comparison_v09.css",
-      "size_bytes": 7982,
-      "sha256": "6b8e0ccaa6728982bc18822c920dc2c8fa956bdcfc7a10307a04ea0cd86b59c4"
-    },
-    {
-      "path": "261113_project-map.css",
-      "size_bytes": 6995,
-      "sha256": "ebbaa5af3153967aec233509bbefb71268eff8c01da0159a9d44391a9c410eb6"
-    },
-    {
-      "path": "261113_workspace-extension_v06.css",
-      "size_bytes": 7489,
-      "sha256": "9ab15fe7198cf5e9ddd059b6e90560c1275367ad20289172dc32c4faa7c508e0"
-    },
-    {
-      "path": "261114_folder-timeline_v10.css",
-      "size_bytes": 3468,
-      "sha256": "2c1240331586d4ed2ee5a71ab0d03cf853ebbf7165e69ca3cd9a41763c5d448e"
-    },
     {
       "path": "261116_cadastral-panel_v13.js",
       "size_bytes": 2826,
       "sha256": "4331a0f5c1c4352a6bacf79b7646194f71070648fcb38da1d5df93ea0b53fdad"
-    },
-    {
-      "path": "261116_layer-workspace_v13.css",
-      "size_bytes": 2380,
-      "sha256": "24aa6850388972a6a50148101e5035d8d982848d3894e581dae8fe643cb563b4"
-    },
-    {
-      "path": "261117_layer-groups_v18.css",
-      "size_bytes": 4054,
-      "sha256": "26f9acd0e4883a181e207a5089b1029043d9b17ea8406b4bdd17461e4177d7e5"
     },
     {
       "path": "alignment_data/261116_v01/alignment-data.js",
@@ -979,14 +944,9 @@
       "sha256": "342a3adeb48df139930dedb303ac956c3db23794a339f1cf534bcc08047f6b29"
     },
     {
-      "path": "dashboard-chapter-layout.css",
-      "size_bytes": 7798,
-      "sha256": "231f44cba3b064b7d744b1157425e28dd6f7373a431e13da2f82a44a92ffb45c"
-    },
-    {
       "path": "dashboard-chapter-layout.js",
-      "size_bytes": 7848,
-      "sha256": "57d12261121a1c1c485e7575a3cd9e912371b704c41ed45f9d532543c8987816"
+      "size_bytes": 7931,
+      "sha256": "7ec76bd0b8aebc6ab529e48cd6eb835ad24463b36bc90a435566b5be79325290"
     },
     {
       "path": "dashboard-data.js",
@@ -1000,23 +960,13 @@
     },
     {
       "path": "dashboard-document-explorer.js",
-      "size_bytes": 11820,
-      "sha256": "0b011f9949066a1675629b7b587f0963dba24ee5d07fe73100e26e627e41c5bc"
-    },
-    {
-      "path": "dashboard-documents.css",
-      "size_bytes": 5597,
-      "sha256": "5174c810a876eb8b226006a91983f7d9289528065b4809f3229582f4c7196ebc"
+      "size_bytes": 11846,
+      "sha256": "eb943a4075f5d9939294c5cada41678421f07674be3710d3cdd1a7d75ee9f209"
     },
     {
       "path": "dashboard-documents.js",
       "size_bytes": 5352,
       "sha256": "95f6104dc31f6c72b955d1823b2b85c33ec1edd772be441c21e6ef210c2cefa7"
-    },
-    {
-      "path": "dashboard-entry-polish.css",
-      "size_bytes": 3337,
-      "sha256": "dad55e63dfa2908108e76ea9fa1f5f54b5c9757236ac93917ee4ea2ec28dab38"
     },
     {
       "path": "dashboard-layer-controls.js",
@@ -1025,23 +975,13 @@
     },
     {
       "path": "dashboard-library.js",
-      "size_bytes": 9648,
-      "sha256": "78d1c404469aa0dc425caa441b83bb48e784e13c75e0fc097cc099c23e7a34f3"
-    },
-    {
-      "path": "dashboard-map-balances.css",
-      "size_bytes": 2894,
-      "sha256": "946388dc048637f736b70021734d60abbdc927525b6387e8c8d32fa3c0004d40"
+      "size_bytes": 9674,
+      "sha256": "7cb4a19e8794d883d4a88e4fa8a43602cefd29b0941496ced913375110c7e449"
     },
     {
       "path": "dashboard-map-balances.js",
       "size_bytes": 6721,
       "sha256": "3df412dd4327e673265740713bc219bbcb680e18a9c07c784811e78036d7fef9"
-    },
-    {
-      "path": "dashboard-map-refinements.css",
-      "size_bytes": 8328,
-      "sha256": "c13dc22e69356f9abda843ba7bcf632b698e94795c474afbd52a04a262ba4984"
     },
     {
       "path": "dashboard-map-refinements.js",
@@ -1059,39 +999,14 @@
       "sha256": "e01997bb87e7e44fc3d0125d50e8a7c991f5a23a97352bbdd81f82673d3368e9"
     },
     {
-      "path": "dashboard-offer-compact.css",
-      "size_bytes": 7528,
-      "sha256": "cf7ebc3639a243af072c1248bbd21296aca36b9ad621bad92b10563f7611c76b"
-    },
-    {
-      "path": "dashboard-offer-multislider.css",
-      "size_bytes": 4922,
-      "sha256": "2bed97256bca5a46671cc353063caa2c1c2fdec6ddfcbc51f6c77047ab166d4d"
-    },
-    {
       "path": "dashboard-offer-multislider.js",
-      "size_bytes": 16461,
-      "sha256": "9c7e06f1d6e0faf6436a4f9442612918d368102256f2abdd72bcf937cb553eb2"
-    },
-    {
-      "path": "dashboard-offer.css",
-      "size_bytes": 3730,
-      "sha256": "ac1a243d39c2a4ecee824a4c1060bea863357860160583c007d3c507cb7cc111"
+      "size_bytes": 16232,
+      "sha256": "56c8604338f9858920fd28bdc4a13a03647e41473069535d14cde795958725a7"
     },
     {
       "path": "dashboard-offline-scene.js",
       "size_bytes": 4603,
       "sha256": "dd51fb221f943f1caa8f01b23bc9809c3f919a86645cc5102c7e960e303f6c11"
-    },
-    {
-      "path": "dashboard-overview-context.css",
-      "size_bytes": 4298,
-      "sha256": "e51d1a48c88068b4903359d1525c3043b3d0a7943963a6e42d33ba34887fb0c2"
-    },
-    {
-      "path": "dashboard-overview.css",
-      "size_bytes": 5068,
-      "sha256": "fad2a0c415c68588bbd8af770788e166d7b8d4e6be4918d91e8381dae8f897b0"
     },
     {
       "path": "dashboard-overview.js",
@@ -1100,8 +1015,8 @@
     },
     {
       "path": "dashboard-ownership-balances.js",
-      "size_bytes": 3693,
-      "sha256": "c4304d3621b1f4adcf1445e46542c2763c22916f44433ce3a039362251f15c89"
+      "size_bytes": 5145,
+      "sha256": "bd8b80a0d8903dd72c0435b21eb0fae39ff3f39fc10bd2d1f7f7b6252744b186"
     },
     {
       "path": "dashboard-ownership-revision.js",
@@ -1109,14 +1024,9 @@
       "sha256": "1d9699cbfc4452a7d142fe1c809616c9416d0d3565d045ccfa9b180ef9f93a44"
     },
     {
-      "path": "dashboard-ownership-zones.css",
-      "size_bytes": 1750,
-      "sha256": "e21bbdfe849cc6d898ced4199d0107ef87d57a18ef9d0f5ed6751c5c37593df6"
-    },
-    {
       "path": "dashboard-ownership-zones.js",
-      "size_bytes": 3034,
-      "sha256": "70d8ea21be44d38b5eaa898efc0c6baab13450d565d498aa24d6fad5a7e12401"
+      "size_bytes": 3082,
+      "sha256": "dbbeac560ca13433bd2031ce410ac0cae7a75e710377858ef8c7a514fd4144cf"
     },
     {
       "path": "dashboard-parcels.js",
@@ -1130,28 +1040,13 @@
     },
     {
       "path": "dashboard-resources.json",
-      "size_bytes": 9908,
-      "sha256": "e344029b2e8ad87144fa2165b376ee7ceb1c599ce7efac4db606a1b3602937d5"
-    },
-    {
-      "path": "dashboard-responsive-polish.css",
-      "size_bytes": 3685,
-      "sha256": "1c1ce39ca512311571df740fa094c750b646389024ffdd4add9075a702a237db"
-    },
-    {
-      "path": "dashboard-scene-balances.css",
-      "size_bytes": 3345,
-      "sha256": "4ba867b1098850ac7611eacb70f0909606f030b9217ec2c39118a0da03067011"
+      "size_bytes": 3307,
+      "sha256": "90a73466af7563c8612fb31b8040d00ca85caa75161845ac6aa0952aac12dc95"
     },
     {
       "path": "dashboard-scene-balances.js",
-      "size_bytes": 6620,
-      "sha256": "0aab99de271b591585b40d4e30d4fa4dfdab1d85f5f65c38a52ece8a92291eaf"
-    },
-    {
-      "path": "dashboard-scene-controls.css",
-      "size_bytes": 7354,
-      "sha256": "1e191d660eb25ce4e1176960b3864753a9bcf4cc1108067fc710051308d092c2"
+      "size_bytes": 6704,
+      "sha256": "bdcd80bb780d16211238d1c8e84d675f04101349d91d097d1ce56ceae5fdbed3"
     },
     {
       "path": "dashboard-scene-controls.js",
@@ -1169,19 +1064,9 @@
       "sha256": "1de8ae3234413b497870bfec607097826b04e65979892739e699502bda435257"
     },
     {
-      "path": "dashboard-shared-ui.css",
-      "size_bytes": 5485,
-      "sha256": "2e01651fa808405c5b3ba109c036cccc605599ac1a52211e4bea4c8cf55e759e"
-    },
-    {
       "path": "dashboard-shared-ui.js",
       "size_bytes": 6226,
       "sha256": "d5d1121e53ae7f27f15249997ea179255cd4f0321f97fb293ce31290d2189bc3"
-    },
-    {
-      "path": "dashboard-ui.css",
-      "size_bytes": 10205,
-      "sha256": "712158145017c676c4bab6102541a93469fa48c884f83ce88dd1eb07134bf24c"
     },
     {
       "path": "dashboard-ui.js",
@@ -1190,13 +1075,18 @@
     },
     {
       "path": "dashboard-workspace.js",
-      "size_bytes": 25962,
-      "sha256": "1e52c053f0dd3bb1b6fa00d77e0ca9915f8d24eee63aa897df871119d8226992"
+      "size_bytes": 24261,
+      "sha256": "d8829b56e56a43fc228e39f20396fd073fe3710f99fae3bd8cc082a43d8570eb"
     },
     {
       "path": "dashboard-zone-revision.js",
       "size_bytes": 397,
       "sha256": "0adb4d3bb6039e5a7031a3dcc04f4919a34e019fb7e25860920a423516355f1c"
+    },
+    {
+      "path": "dashboard.css",
+      "size_bytes": 162035,
+      "sha256": "704ec122d81935654b5059c25d88e6ea754f3c5f4148c54ad2a573c56b97b674"
     },
     {
       "path": "documents/S001/261111_jihozapadni-mesto-s001-vyzva-k-podani-nabidky-jihozapadni-mesto_extraction_v01.md",
@@ -4685,8 +4575,8 @@
     },
     {
       "path": "offer-allocation.js",
-      "size_bytes": 2108,
-      "sha256": "7aea11436e2babfd241d79a8f5bcf379913004fd838e75fb409b4eee64a379c8"
+      "size_bytes": 1592,
+      "sha256": "078f9b9e33095fbd9fcff5eeb51a9962b3e902df510df39a728cde7b726ec3ac"
     },
     {
       "path": "ownership_data/261116_v01/automatic-controls-review.png",
@@ -6209,6 +6099,21 @@
       "sha256": "b3176474083357a921ba9e02598cb54fd922a1682def68565ef22893b160783e"
     },
     {
+      "path": "project-bootstrap.js",
+      "size_bytes": 2613,
+      "sha256": "6cae9846b49d3ad85108eec10271102a22209d4b02b65222a05a8a24553fc2e3"
+    },
+    {
+      "path": "project-config.js",
+      "size_bytes": 9434,
+      "sha256": "d2a218796283838dc7727eb7426ef317b54916ede8f2c9e0b2cd968ecb260c95"
+    },
+    {
+      "path": "project.json",
+      "size_bytes": 7554,
+      "sha256": "bacf1a00f8bf4ad129a6607b716927f5dc5bd6567489f06d56dcf4415c33310c"
+    },
+    {
       "path": "sources/261111_urbiq_jihozapadni_mesto_dashboard_v02.html",
       "size_bytes": 100341,
       "sha256": "a02cde261fdd0bc45bedc023e1e3ce97f46f01e3b097d9946357cde962d7e4c6"
@@ -6809,19 +6714,9 @@
       "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
     },
     {
-      "path": "vendor/leaflet-1.9.4/leaflet.css",
-      "size_bytes": 14806,
-      "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
-    },
-    {
       "path": "vendor/leaflet-1.9.4/leaflet.js",
       "size_bytes": 147552,
       "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
-    },
-    {
-      "path": "workspace.css",
-      "size_bytes": 16644,
-      "sha256": "9465031c2127506764e362e1a92eeb3a7e6270b77b333cf7af4f2f714c2ba05d"
     },
     {
       "path": "zone_data/261119_v01/zone-balance-data.js",
@@ -6834,29 +6729,8 @@
       "sha256": "d5b46009b00d60836e37272b45d9dbbf3b5666e4d236b29a083ea199da7003ec"
     }
   ],
-  "excluded_root_files": [
-    "261111_urbiq_jihozapadni_mesto_dashboard_v03.html",
-    "261113_document-catalog_v05.js",
-    "261113_document-catalog_v06.js",
-    "261113_library-panel_v06.js",
-    "261113_project-map.js",
-    "261113_project-map_v05.js",
-    "261113_project-map_v06.js",
-    "261113_scene-panel_v06.js",
-    "261113_table-headers_v06.js",
-    "261113_urbiq_jihozapadni_mesto_dashboard_v04.html",
-    "261113_urbiq_jihozapadni_mesto_dashboard_v05.html",
-    "261113_urbiq_jihozapadni_mesto_dashboard_v06.html",
-    "261113_workspace_v04.js",
-    "261113_workspace_v05.js",
-    "261113_workspace_v06.js",
-    "workspace.js"
-  ],
   "external_services": [
-    "https://services.cuzk.gov.cz",
-    "https://ags.cuzk.cz",
-    "https://ags.cuzk.gov.cz",
-    "https://js.arcgis.com/4.34/ (and SDK resources, loaded on 3D visit)"
-  ],
-  "data_transmission": "No source-document uploads. Live basemaps and 3D request public provider resources."
+    "https://js.arcgis.com/4.34/",
+    "ČÚZK orthophoto, cadastral and terrain services"
+  ]
 }

@@ -1,7 +1,7 @@
 /* Local source folders, editable classification and evidence-aware timeline. No uploads. */
 (()=>{'use strict';
 const E=window.JZM_EXPLORER,el=id=>document.getElementById(id),n=(tag,value,cls)=>{const a=document.createElement(tag);if(value!==undefined)a.textContent=value;if(cls)a.className=cls;return a;},b=(label,fn)=>{const a=n('button',label);a.type='button';a.onclick=fn;return a;};
-const key='urbiq-mh-document-classification-v1';let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}');}catch{}if(!saved||Array.isArray(saved)||typeof saved!=='object')saved={};
+const key=ProjectConfig.storageKey("urbiq-mh-document-classification-v1");let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}');}catch{}if(!saved||Array.isArray(saved)||typeof saved!=='object')saved={};
 const categories={brief:'Zadání',study:'Studie / design',technical:'Technický podklad',regulation:'Územní plán / regulace',administrative:'Smluvní / organizační',reference:'Referenční vybavení',photo:'Fotodokumentace'};
 const relevance={high:'Vysoká',medium:'Podpůrná',low:'Nízká',unknown:'K posouzení'};
 const meta=id=>{const d=E.documents[id],o=saved[id]||{};return {...d,category:categories[o.category]?o.category:d.category,relevance:relevance[o.relevance]?o.relevance:d.relevance,user_override:!!(categories[o.category]||relevance[o.relevance])};};

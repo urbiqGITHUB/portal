@@ -1,5 +1,5 @@
 /* Image navigation by archive tree, relevance and verified geographic registration. */
-(()=>{'use strict';const C=window.JZM_CATALOG,D=window.JZM_MAP_DATA,el=id=>document.getElementById(id),norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(),key='urbiq-mh-image-relevance-v1';
+(()=>{'use strict';const C=window.JZM_CATALOG,D=window.JZM_MAP_DATA,el=id=>document.getElementById(id),norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(),key=ProjectConfig.storageKey("urbiq-mh-image-relevance-v1");
 const names={high:'Vysoká',medium:'Podpůrná',low:'Nízká',unknown:'K posouzení'};let overrides={},mode='cards',folder='',map,geoGroup;
 try{const saved=JSON.parse(localStorage.getItem(key)||'{}');for(const [k,v] of Object.entries(saved))if(Object.hasOwn(names,v))overrides[k]=v;}catch{}
 const mk=(tag,value,cls)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(cls)n.className=cls;return n;},button=(txt,fn)=>{const b=mk('button',txt);b.addEventListener('click',fn);return b;};
